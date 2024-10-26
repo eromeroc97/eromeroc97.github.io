@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de Inteligencia Artificial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        button {
+            margin-top: 20px;
+        }
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .correct {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Preguntas Test Examen 2</h1>
+    <div id="quiz"></div>
+    <button onclick="checkAnswers()">Corregir examen</button>
+    <div id="result"></div>
+
+    <script>
+        const questions = [
+            {
+                question: "¿Cuál de las siguientes sentencias define correctamente el espacio de estados en un sistema de inteligencia artificial?",
+                answers: [
+                    "Puede definirse como un estado multivaluado que existe en un entorno",
+                    "Puede definirse como la colección de todos los estados del problema",
+                    "Puede definirse como el espacio completo disponible para el agente en el estado",
+                    "Ninguna de las respuestas anteriores es correcta."
+                ],
+                correct: 1
+            },
+            {
+                question: "¿Qué método de búsqueda consume menos memoria?",
+                answers: [
+                    "Búsqueda Voraz",
+                    "Primero en profundidad",
+                    "Primero en anchura",
+                    "Búsqueda óptima"
+                ],
+                correct: 1
+            },
+            {
+                question: "¿Qué cuestión es verdadera con respecto?",
+                answers: [
+                    "El árbol completo generado debe almacenarse",
+                    "No es nada más que una búsqueda binaria",
+                    "No garantiza que se encuentre una solución, aunque exista",
+                    "Puede quedarse atrapado explorando un camino sencillo"
+                ],
+                correct: 0
+            },
+            {
+                question: "Una heurística es una forma de intentar",
+                answers: [
+                    "Comparar dos nodos en un árbol de búsqueda para ver si uno es mejor que otro",
+                    "Descubrir algo o de embeber una idea en un programa",
+                    "Buscar y medir como de lejos está un nodo en un árbol de búsqueda del objetivo",
+                    "Todas las respuestas anteriores son correctas"
+                ],
+                correct: 3
+            },
+            {
+                question: "¿Cuál de las siguientes búsquedas se consideran informadas?",
+                answers: [
+                    "Primero en profundidad ya que la información recopilada de nodos a mayor profundidad permite la poda informada en otras ramas",
+                    "Iterativa incremental ya que dispone de información de las iteraciones previas",
+                    "Primero en anchura ya que dispone de información de los sucesores",
+                    "Ninguna de las respuestas anteriores es correcta"
+                ],
+                correct: 3
+            },
+            {
+                question: "Un algoritmo se considera completo si",
+                answers: [
+                    "Completa el vaciado de la frontera y finaliza por esto",
+                    "Se ejecuta según un bucle completo",
+                    "Termina con una solución cuando esta existe",
+                    "No termina con una solución"
+                ],
+                correct: 2
+            },
+            {
+                question: "¿Qué es la inteligencia artificial?",
+                answers: [
+                    "Representar tu inteligencia en el computador",
+                    "Hacer una máquina inteligente",
+                    "Programar con tu propia inteligencia",
+                    "Ninguna de las respuestas anteriores es correcta"
+                ],
+                correct: 1
+            },
+            {
+                question: "¿Qué es una función heurística?",
+                answers: [
+                    "Una función que mapea de descripciones de estados a medidas de deseabilidad",
+                    "Retornan un objeto de tipo \"estado deseable\"",
+                    "Son funciones que toman como entrada un entero y devuelven un real",
+                    "Una función que permite la resolución de un problema de búsqueda"
+                ],
+                correct: 0
+            },
+            {
+                question: "¿Cuál de las siguientes agentes es mejor en el contexto de la I.A.?",
+                answers: [
+                    "Un agente que necesita aprender de un problema similar definido en su propia base de conocimiento para resolver un problema real",
+                    "Un agente que pude resolver un problema sin intervención humana",
+                    "Un agente que necesitas de entradas de usuario para resolver un problema",
+                    "Todas las respuestas anteriores son correctas"
+                ],
+                correct: 1
+            },
+            {
+                question: "¿Cuál de las siguientes características de los entornos son equivalentes?",
+                answers: [
+                    "Cerrado y discreto",
+                    "Abierto y secuencial",
+                    "No observable y Parcialmente Observable",
+                    "Todas las respuestas son correctas"
+                ],
+                correct: 2
+            }
+        ];
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        function displayQuestions() {
+            const quizContainer = document.getElementById('quiz');
+            quizContainer.innerHTML = '';
+            questions.forEach((q, qIndex) => {
+                const questionDiv = document.createElement('div');
+                questionDiv.className = 'question';
+                
+                questionDiv.innerHTML = `<p>${qIndex + 1}. ${q.question}</p>`;
+                
+                const shuffledAnswers = [...q.answers];
+                shuffleArray(shuffledAnswers);
+                
+                shuffledAnswers.forEach((answer) => {
+                    const answerIndex = q.answers.indexOf(answer);
+                    questionDiv.innerHTML += `
+                        <input type="radio" name="q${qIndex}" value="${answerIndex}" id="q${qIndex}a${answerIndex}">
+                        <label for="q${qIndex}a${answerIndex}">${answer}</label><br>
+                    `;
+                });
+                
+                quizContainer.appendChild(questionDiv);
+            });
+        }
+
+        function checkAnswers() {
+            let score = 0;
+            questions.forEach((q, qIndex) => {
+                const selectedAnswer = document.querySelector(`input[name="q${qIndex}"]:checked`);
+                
+                if (selectedAnswer) {
+                    const answerIndex = parseInt(selectedAnswer.value);
+                    
+                    if (answerIndex === q.correct) {
+                        selectedAnswer.nextElementSibling.classList.add('correct');
+                        score++;
+                    } else {
+                        const correctAnswerLabel = document.querySelector(`input[name="q${qIndex}"][value="${q.correct}"]`).nextElementSibling;
+                        correctAnswerLabel.classList.add('correct');
+                    }
+                } else {
+                    const correctAnswerLabel = document.querySelector(`input[name="q${qIndex}"][value="${q.correct}"]`).nextElementSibling;
+                    correctAnswerLabel.classList.add('correct');
+                }
+            });
+            document.getElementById('result').textContent = `Tu puntuación es: ${score} de ${questions.length}`;
+        }
+
+        displayQuestions();
+    </script>
+</body>
+</html>
