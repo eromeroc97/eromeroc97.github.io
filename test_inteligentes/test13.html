@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de Inteligencia Artificial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        button {
+            margin-top: 20px;
+        }
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .correct {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Examen de Inteligencia Artificial</h1>
+    <div id="quiz"></div>
+    <button onclick="checkAnswers()">Corregir examen</button>
+    <div id="result"></div>
+
+    <script>
+        const questions = [
+            {
+                question: "¿Cuál de las siguientes afirmaciones es falsa?",
+                answers: [
+                    "La racionalidad requiere en la mayoría de los casos omnisciencia, ya que se puede diseñar un agente que siempre actúe de la mejor manera posible.",
+                    "Tener autonomía significa no tomar decisiones solo en función del conocimiento proporcionado por el diseñador, sino también por conocimiento adquirido con el tiempo del entorno.",
+                    "Para poder modificar percepciones futuras un agente podría hacerlo a través de la exploración siendo método de recopilación de información.",
+                    "La racionalidad depende exclusivamente del conocimiento del medio en el que habita."
+                ],
+                correct: 0
+            },
+            {
+                question: "¿Qué afirmación es correcta con respecto a las búsquedas primero en anchura y primero en profundidad iterativa? Siendo b factor de ramificación y d la profundidad.",
+                answers: [
+                    "La profundidad iterativa es mejor con respecto a la complejidad espacial.",
+                    "Las dos son completas si el árbol es infinito.",
+                    "Las dos tienen complejidad temporal O(b*d)",
+                    "Son óptimas en cualquier circunstancia."
+                ],
+                correct: 0
+            },
+            {
+                question: "¿Mediante que parámetros podemos especificar un problema del mundo real?",
+                answers: [
+                    "Estados, estado inicial, función sucesor, test objetivo y costo.",
+                    "Estados, estado inicial, estado final, función sucesor, test objetivo y costo.",
+                    "Estados, estado inicial, función sucesor y test objetivo.",
+                    "Ninguna es correcta, depende del problema."
+                ],
+                correct: 0
+            },
+            {
+                question: "La búsqueda voraz primero el mejor …",
+                answers: [
+                    "Expande el nodo más profundo en la frontera actual.",
+                    "Explora de forma aleatoria hasta dar con el objetivo.",
+                    "Trata de expandir el nodo más cercano al objetivo, alegando que probablemente conduzca rápidamente a una solución.",
+                    "Evalúa los nodos combinando g(n), el coste para alcanzar el nodo, y h(n)."
+                ],
+                correct: 2
+            },
+            {
+                question: "Cuando hablamos de agentes basados en utilidad nos referimos a:",
+                answers: [
+                    "Agentes que necesitan información sobre su meta que describa las situaciones que son deseables.",
+                    "Agentes que emplean una función que permite tomar decisiones racionales donde las metas son inadecuadas.",
+                    "Agentes que mantienen un estado interno que les permite seguir el rastro de aspectos del mundo que no son evidentes según las percepciones actuales.",
+                    "Agentes que seleccionan las acciones sobre la base de las percepciones actuales ignorando el resto de las percepciones históricas."
+                ],
+                correct: 1
+            },
+            {
+                question: "Dado un problema con cuatro variables A,B,C y D. De las que A y B pueden tomar dos valores y C y D pueden tomar 4 valores cada una. ¿Cuántos estados tiene el problema?",
+                answers: [
+                    "20",
+                    "128",
+                    "64",
+                    "32"
+                ],
+                correct: 2
+            },
+            {
+                question: "Un problema …… es un problema con menos restricciones en las acciones",
+                answers: [
+                    "Consistente",
+                    "Dominante",
+                    "Relajado",
+                    "Inductivo."
+                ],
+                correct: 2
+            },
+            {
+                question: "Competitivo y Cooperativo son dos tipos de entorno",
+                answers: [
+                    "Individual",
+                    "Secuencial",
+                    "Estocástico",
+                    "Multiagente"
+                ],
+                correct: 3
+            },
+            {
+                question: "¿Cómo se define una función heurística h(n)?",
+                answers: [
+                    "Se define como el coste estimado del camino más caro desde el nodo n a un nodo objetivo.",
+                    "Se define como el coste estimado del camino más barato desde el nodo n a un objetivo.",
+                    "Se define como el tiempo estimado del camino más corto desde el nodo objetivo a un nodo final.",
+                    "Se define como el tiempo estimado del camino más largo desde el nodo objetivo a un nodo final."
+                ],
+                correct: 1
+            },
+            {
+                question: "¿Qué es un agente racional?",
+                answers: [
+                    "Es aquel que hace lo correcto en todo momento para poder obtener los mejores resultados.",
+                    "Un agente racional es aquel que está diseñado para ir aprendiendo cosas de su entorno.",
+                    "Es aquel que realiza sus acciones sin que nadie se lo diga.",
+                    "Un agente racional es aquel que está diseñado para ser totalmente independiente y poder ir aprendiendo cosas de su entorno, para poder ir mejorando."
+                ],
+                correct: 0
+            }
+        ];
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        function displayQuestions() {
+            const quizContainer = document.getElementById('quiz');
+            quizContainer.innerHTML = '';
+            questions.forEach((q, qIndex) => {
+                const questionDiv = document.createElement('div');
+                questionDiv.className = 'question';
+                
+                questionDiv.innerHTML = `<p>${qIndex + 62}. ${q.question}</p>`;
+                
+                const shuffledAnswers = [...q.answers];
+                shuffleArray(shuffledAnswers);
+                
+                shuffledAnswers.forEach((answer) => {
+                    const answerIndex = q.answers.indexOf(answer);
+                    questionDiv.innerHTML += `
+                        <input type="radio" name="q${qIndex}" value="${answerIndex}" id="q${qIndex}a${answerIndex}">
+                        <label for="q${qIndex}a${answerIndex}">${answer}</label><br>
+                    `;
+                });
+                
+                quizContainer.appendChild(questionDiv);
+            });
+        }
+
+        function checkAnswers() {
+            let score = 0;
+            questions.forEach((q, qIndex) => {
+                const selectedAnswer = document.querySelector(`input[name="q${qIndex}"]:checked`);
+                
+                if (selectedAnswer) {
+                    const answerIndex = parseInt(selectedAnswer.value);
+                    
+                    if (answerIndex === q.correct) {
+                        selectedAnswer.nextElementSibling.classList.add('correct');
+                        score++;
+                    } else {
+                        const correctAnswerLabel = document.querySelector(`input[name="q${qIndex}"][value="${q.correct}"]`).nextElementSibling;
+                        correctAnswerLabel.classList.add('correct');
+                    }
+                } else {
+                    const correctAnswerLabel = document.querySelector(`input[name="q${qIndex}"][value="${q.correct}"]`).nextElementSibling;
+                    correctAnswerLabel.classList.add('correct');
+                }
+            });
+            document.getElementById('result').textContent = `Tu puntuación es: ${score} de ${questions.length}`;
+        }
+
+        displayQuestions();
+    </script>
+</body>
+</html>
