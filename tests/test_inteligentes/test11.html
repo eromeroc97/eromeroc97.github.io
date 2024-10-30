@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Examen Enero 2015</title>
+    <title>Examen Noviembre 2016</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -28,7 +28,7 @@
     </style>
 </head>
 <body>
-    <h1>Examen Enero 2015</h1>
+    <h1>Examen Noviembre 2016</h1>
     <div id="quiz"></div>
     <button onclick="checkAnswers()">Corregir examen</button>
     <div id="result"></div>
@@ -36,82 +36,72 @@
     <script>
         const questions = [
             {
-                question: "¿Cuáles son propiedades de un entorno de trabajo?",
+                question: "La complejidad espacial de una estrategia en profundidad es:",
                 answers: [
-                    "Totalmente observable, Episódico, Estático y Serializadle.",
-                    "Episódico, Estático, Discreto y Determinista.",
-                    "Estocástico, Serializable, Paralelizable y Continuo.",
-                    "Estático, Episódico, Parcialmente Observable y Paralelizadle."
-                ],
-                correct: 1
-            },
-            {
-                question: "¿Podremos decir que una heurística es admisible siempre que?",
-                answers: [
-                    "La estimación contenga menos nodos que el camino real para alcanzar el objetivo.",
-                    "La estimación sea igual al coste de alcanzar el nodo objetivo.",
-                    "La estimación sea mayor que el coste real de alcanzar el objetivo.",
-                    "La estimación sea menor que el coste real de alcanzar el objetivo."
-                ],
-                correct: 3
-            },
-            {
-                question: "¿Qué devuelve la función heurística?",
-                answers: [
-                    "El coste que supone expandir el nodo n",
-                    "El coste estimado del camino desde un nodo n a un nodo objetivo.",
-                    "El coste acumulado del recorrido desde el nodo origen hasta el nodo n.",
-                    "El siguiente nodo a expandir."
-                ],
-                correct: 1
-            },
-            {
-                question: "Señala la opción que consideres correcta",
-                answers: [
-                    "A es no informado y A* es heurístico",
-                    "El algoritmo A* es una mezcla entre primero en anchura y primero en profundidad",
-                    "El algoritmo A* es no completo",
-                    "A no tiene bucles, A* podría tenerlos"
-                ],
-                correct: 1
-            },
-            {
-                question: "La siguiente secuencia lógica es típica de: Obtención de información (sensores), revisión de estado interno, actualización de estado interno, deducción del mundo actual, toma de decisión",
-                answers: [
-                    "Agentes basados en utilidad.",
-                    "Agente reactivo simple.",
-                    "Agente basado en modelos.",
-                    "Agente basado en objetivos"
-                ],
-                correct: 2
-            },
-            {
-                question: "Se define agente racional como:",
-                answers: [
-                    "Programa que resuelve un problema",
-                    "Ente con la capacidad de obtener un resultado",
-                    "Agente con la capacidad de actuar con la intención de alcanzar el mejor resultado o al menos en casos de incertidumbre el mejor resultado esperado",
-                    "Conjunto de elementos capaces de realizar un cálculo matemático complejo"
-                ],
-                correct: 2
-            },
-            {
-                question: "¿Cuál es el significado de un entorno de trabajo 'REAS'?",
-                answers: [
-                    "Rendimiento, Entorno, Actuadores y Sensores",
-                    "Retorno, Entorno, Actuadores y Sensores",
-                    "Ninguna de las anteriores",
-                    "Rendimiento, Entorno, Actuadores y Sencillos"
+                    "b*d",
+                    "b",
+                    "log(b) * d",
+                    "b^d"
                 ],
                 correct: 0
             },
             {
-                question: "En la búsqueda primero el mejor (voraz), el nodo que se expande… (Selecciona la correcta)",
+                question: "¿Cuál de los siguientes conceptos no corresponde a los factores de los que depende la racionalidad?",
                 answers: [
-                    "siempre es el que tiene menor heurística",
-                    "siempre es el que tiene menor costo.",
-                    "siempre es el que tiene mayor distancia al objetivo.",
-                    "siempre es el que tiene mayor costo."
+                    "La medida de rendimiento que define el criterio del éxito.",
+                    "El conocimiento del medio en el que habita acumulado por el agente.",
+                    "Las acciones que el agente puede llevar a cabo.",
+                    "El rendimiento del medio que acumula el agente."
+                ],
+                correct: 3
+            },
+            {
+                question: "Una heurística consistente garantiza:",
+                answers: [
+                    "La solución esta acotada en complejidad",
+                    "Que es una heurística admisible.",
+                    "Sobrestima a cualquier heurística",
+                    "Un algoritmo con esta heurística obtiene soluciones subóptimas."
+                ],
+                correct: 1
+            },
+            {
+                question: "Se denomina solución a:",
+                answers: [
+                    "Una secuencia de acciones que dirigen el sistema desde un estado inicial a un estado objetivo que verifique el test de objetivo-meta",
+                    "Un nodo de la frontera del árbol de búsqueda del problema, donde se cumple el test objetivo-meta",
+                    "Un estado del espacio de estados que verifique el test de objetivo-meta",
+                    "El conjunto de estados por los que pasa el sistema desde un estado inicial a un estado objetivo que verifique el test de objetivo-meta"
+                ],
+                correct: 0
+            },
+            {
+                question: "¿Cuáles de los siguientes elementos son los componentes necesarios para definir un problema?",
+                answers: [
+                    "Estado inicial, Test Objetivo, Acciones, Función sucesor, Costo del camino.",
+                    "Estado Inicial, Función Sucesor, Test Objetivo, Costo del Camino,",
+                    "Solamente sus estados y sus Sucesores Solución.",
+                    "Test objetivo, Acciones de Búsqueda, Solución."
+                ],
+                correct: 1
+            },
+            {
+                question: "¿Cuáles de las siguientes búsquedas NO garantiza que el algoritmo encuentre una solución cuando esta exista (Completitud)?",
+                answers: [
+                    "Primero en anchura.",
+                    "Costo Uniforme.",
+                    "Primero en Profundidad.",
+                    "Bidireccional."
+                ],
+                correct: 2
+            },
+            {
+                question: "Según Jennings y Wooldridge, un agente es una entidad autónoma que cumple estas propiedades:",
+                answers: [
+                    "Autonomía, adaptabilidad, racionalidad y sociabilidad.",
+                    "Simplicidad, autonomía, sociabilidad y veracidad.",
+                    "Autonomía, veracidad, racionalidad y simplicidad.",
+                    "Autonomía, adaptabilidad, reactividad y complejo."
                 ],
                 correct: 0
             }
@@ -131,7 +121,7 @@
                 const questionDiv = document.createElement('div');
                 questionDiv.className = 'question';
                 
-                questionDiv.innerHTML = `<p>${qIndex + 21}. ${q.question}</p>`;
+                questionDiv.innerHTML = `<p>${qIndex + 49}. ${q.question}</p>`;
                 
                 const shuffledAnswers = [...q.answers];
                 shuffleArray(shuffledAnswers);
