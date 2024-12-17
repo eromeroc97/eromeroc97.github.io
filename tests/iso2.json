@@ -2012,17 +2012,7 @@
                     "solucion": "Control de acceso al sistema para todos los usuarios."
                 },
                 {
-                    "enunciado": "What describes the concept of 'Branching' better?",
-                    "opciones": [
-                        "It is the elimination of all previous versions.",
-                        "Create a new baseline independent of an existing version.",
-                        "A process of internal audit to eliminate errors.",
-                        "Controls access for developers."
-                    ],
-                    "solucion": "Create a new baseline independent of an existing version."
-                },
-                {
-                    "enunciado": "¿Cuál es el objetivo principal del proceso 'liberalización' en el contexto del software?",
+                    "enunciado": "¿Cuál es el objetivo principal del proceso liberalización en el contexto del software?",
                     "opciones": [
                         "La realización un cambio sin autorización previa.",
                         "La distribución una versión del software a los clientes.",
@@ -2030,7 +2020,929 @@
                         "Ninguna anterior es correcta."
                     ],
                     "solucion": "La distribución una versión del software a los clientes."
+                },
+                {
+                    "enunciado": "¿Qué describe mejor el concepto de Branching?",
+                    "opciones": [
+                        "Es la eliminación de todas las versiones anteriores.",
+                        "Crear una nueva línea base independiente de una versión existente.",
+                        "Un proceso de auditoría interna para eliminar errores.",
+                        "Controla el acceso para los desarrolladores."
+                    ],
+                    "solucion": "Crear una nueva línea base independiente de una versión existente."
                 }
+            ]
+        },
+        "Tema 3: Calidad de Producto y Procesos Software": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Cuál de los siguientes NO es un estándar para evaluar la calidad del proceso?",
+                    "opciones": [
+                        "ISO 12207.",
+                        "CMMI.",
+                        "ISO 33000.",
+                        "ISO 25010."
+                    ],
+                    "solucion": "ISO 25010."
+                },
+                {
+                    "enunciado": "¿Qué nivel de madurez indica que una organización implementa procesos definidos y adaptables según el proyecto?",
+                    "opciones": [
+                        "Básica.",
+                        "Gestionada.",
+                        "Establecida.",
+                        "Predecible."
+                    ],
+                    "solucion": "Establecida."
+                },
+                {
+                    "enunciado": "¿Qué concepto se refiere a la aptitud de un producto para cumplir con los requisitos funcionales?",
+                    "opciones": [
+                        "Fiabilidad.",
+                        "Compatibilidad.",
+                        "Adecuación funcional.",
+                        "Seguridad."
+                    ],
+                    "solucion": "Adecuación funcional."
+                },
+                {
+                    "enunciado": "En el modelo ISO 25010, ¿qué característica pertenece a la categoría de Seguridad?",
+                    "opciones": [
+                        "Modularidad.",
+                        "Confidencialidad.",
+                        "Interoperabilidad.",
+                        "Mantenibilidad."
+                    ],
+                    "solucion": "Confidencialidad."
+                },
+                {
+                    "enunciado": "Según el modelo MMIS 2.0, ¿qué nivel requiere realizar un análisis estadístico de todos los procesos?",
+                    "opciones": [
+                        "Nivel 2.",
+                        "Nivel 3.",
+                        "Nivel 4.",
+                        "Nivel 5."
+                    ],
+                    "solucion": "Nivel 4."
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes NO es un proceso de la gestión de calidad de acuerdo con el ciclo de Deming?",
+                    "opciones": [
+                        "Plan.",
+                        "Do.",
+                        "Evaluate.",
+                        "Act."
+                    ],
+                    "solucion": "Evaluate."
+                },
+                {
+                    "enunciado": "Según el modelo de calidad ISO 25010, la Capacidad de Uso incluye:",
+                    "opciones": [
+                        "Modularidad.",
+                        "Comportamiento temporal.",
+                        "Accesibilidad.",
+                        "Confidencialidad."
+                    ],
+                    "solucion": "Accesibilidad."
+                },
+                {
+                    "enunciado": "¿En el contexto de calidad de procesos, qué es el modelo CMMI-DEV?",
+                    "opciones": [
+                        "Un modelo para evaluar la adquisición de software.",
+                        "Un modelo para mejorar los procesos de desarrollo.",
+                        "Un estándar de evaluación de software para pequeñas empresas.",
+                        "Un modelo para evaluar la seguridad en redes."
+                    ],
+                    "solucion": "Un modelo para mejorar los procesos de desarrollo."
+                },
+                {
+                    "enunciado": "¿Cuál es el enfoque principal del estándar ISO 33000?",
+                    "opciones": [
+                        "Evaluar y mejorar la seguridad del software.",
+                        "Evaluar y mejorar los procesos organizacionales.",
+                        "Certificar productos de software.",
+                        "Mejorar la adaptabilidad del software."
+                    ],
+                    "solucion": "Evaluar y mejorar los procesos organizacionales."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes NO es una característica de la Fiabilidad según el modelo ISO 25010?",
+                    "opciones": [
+                        "Madurez.",
+                        "Capacidad de recuperación.",
+                        "Integridad.",
+                        "Tolerancia a fallos."
+                    ],
+                    "solucion": "Integridad."
+                },
+                {
+                    "enunciado": "Según ISO 33000, ¿qué nivel de madurez corresponde a una organización que gestiona cuantitativamente sus procesos?",
+                    "opciones": [
+                        "Básica.",
+                        "Gestionada.",
+                        "Predecible.",
+                        "Innovada."
+                    ],
+                    "solucion": "Gestionada."
+                },
+                {
+                    "enunciado": "La Planificación de la calidad se enfoca en:",
+                    "opciones": [
+                        "Asegurar la calidad de productos existentes.",
+                        "Definir objetivos de calidad y procesos necesarios.",
+                        "Controlar las etapas de desarrollo del software.",
+                        "Identificar los errores en productos finales."
+                    ],
+                    "solucion": "Definir objetivos de calidad y procesos necesarios."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes se considera una Acción Correctiva en la gestión de calidad?",
+                    "opciones": [
+                        "Prevenir fallos potenciales.",
+                        "Eliminar la causa de una no conformidad detectada.",
+                        "Ajustar los objetivos de calidad.",
+                        "Implementar mejoras futuras."
+                    ],
+                    "solucion": "Eliminar la causa de una no conformidad detectada."
+                },
+                {
+                    "enunciado": "En el modelo de madurez de CMMI, el nivel Gestionada indica que:",
+                    "opciones": [
+                        "Los procesos están definidos y son adaptables.",
+                        "La organización maneja los procesos y productos de manera controlada.",
+                        "Se realiza un control estadístico de los procesos.",
+                        "Los procesos no están formalmente establecidos."
+                    ],
+                    "solucion": "La organización maneja los procesos y productos de manera controlada."
+                },
+                {
+                    "enunciado": "¿Qué modelo se utiliza principalmente para evaluar la madurez en pequeñas y medianas empresas de software?",
+                    "opciones": [
+                        "CMMI.",
+                        "MMIS 2.0.",
+                        "ISO 25010.",
+                        "SCAMPI."
+                    ],
+                    "solucion": "MMIS 2.0."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes afirmaciones describe el concepto de madurez en un proceso?",
+                    "opciones": [
+                        "Capacidad de responder rápidamente a errores.",
+                        "Grado de optimización del proceso en función de su práctica acumulada.",
+                        "Cumplimiento estricto de los objetivos de calidad.",
+                        "Flexibilidad para adaptarse a cambios."
+                    ],
+                    "solucion": "Grado de optimización del proceso en función de su práctica acumulada."
+                },
+                {
+                    "enunciado": "¿Qué nivel de madurez requiere una organización que realiza mejoras continuas basadas en predicciones?",
+                    "opciones": [
+                        "Nivel 2.",
+                        "Nivel 3.",
+                        "Nivel 4.",
+                        "Nivel 5."
+                    ],
+                    "solucion": "Nivel 5."
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes NO es un nivel de capacidad en el modelo CMMI?",
+                    "opciones": [
+                        "Establecida.",
+                        "Innovadora.",
+                        "Gestionada.",
+                        "Predecible."
+                    ],
+                    "solucion": "Innovadora."
+                },
+                {
+                    "enunciado": "En el modelo MMIS, el nivel 1 incluye:",
+                    "opciones": [
+                        "Planificación y control de calidad.",
+                        "Implementación de proyectos y planificación.",
+                        "Control estadístico de procesos.",
+                        "Mejora continua."
+                    ],
+                    "solucion": "Implementación de proyectos y planificación."
+                },
+                {
+                    "enunciado": "La Portabilidad en ISO 25010 incluye:",
+                    "opciones": [
+                        "Adaptabilidad.",
+                        "Modularidad.",
+                        "Capacidad para ser modificado.",
+                        "Capacidad de recuperación."
+                    ],
+                    "solucion": "Adaptabilidad."
+                },
+                {
+                    "enunciado": "¿Qué modelo de referencia se recomienda en la norma ISO 33000 para evaluar procesos?:",
+                    "opciones": [
+                        "SCAMPI.",
+                        "MMIS 2.0.",
+                        "ISO 12207.",
+                        "CMMI-DEV."
+                    ],
+                    "solucion": "ISO 12207."
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes NO es un tipo de evaluación en el modelo de calidad de procesos?:",
+                    "opciones": [
+                        "Evaluación del desempeño.",
+                        "Evaluación por capacidad.",
+                        "Evaluación por madurez.",
+                        "Evaluación estándares."
+                    ],
+                    "solucion": "Evaluación del desempeño."
+                },
+                {
+                    "enunciado": "¿Qué principio establece que la calidad del producto depende del proceso?",
+                    "opciones": [
+                        "Humphrey.",
+                        "Deming.",
+                        "Crosby.",
+                        "Taguchi."
+                    ],
+                    "solucion": "Humphrey."
+                },
+                {
+                    "enunciado": "En el ciclo mejora continua, fase Act implica:",
+                    "opciones": [
+                        "Definir objetivos.",
+                        "Realizar cambios necesarios para mejorar proceso.",
+                        "Evaluar rendimiento proceso.",
+                        "Documentar actividades proceso."
+                    ],
+                    "solucion": "Realizar cambios necesarios para mejorar proceso."
+                },
+                {
+                    "enunciado": "En modelo ISO 25010, ¿cuál es característica Compatibilidad?:",
+                    "opciones": [
+                        "Modularidad.",
+                        "No repudio.",
+                        "Coexistencia.",
+                        "Capacidad recuperación."
+                    ],
+                    "solucion": "Coexistencia."
+                },
+                {
+                    "enunciado": "¿Cuál es objetivo principal proceso Control Calidad?:",
+                    "opciones": [
+                        "Asegurar calidad producto antes entrega.",
+                        "Eliminar defectos encontrados fase desarrollo.",
+                        "Proveer confianza cumplir requisitos calidad.",
+                        "Mejorar capacidad procesos cumplir calidad."
+                    ],
+                    "solucion": "Asegurar calidad producto antes entrega."
+                },
+                {
+                    "enunciado": "La Evaluación calidad ISO 25040 incluye:",
+                    "opciones": [
+                        "Determinación umbrales seguridad.",
+                        "Especificación criterios evaluación.",
+                        "Monitoreo cambios proceso.",
+                        "Certificación proveedores."
+                    ],
+                    "solucion": "Especificación criterios evaluación."
+                },
+                {
+                    "enunciado": "¿Cuál es nivel básico madurez modelo MMIS 2.0?:",
+                    "opciones": [
+                        "Controlado.",
+                        "Planificación proyectos.",
+                        "Evaluación cuantitativa.",
+                        "Optimización."
+                    ],
+                    "solucion": "Planificación proyectos."
+                },
+                {
+                    "enunciado": "¿Qué estándar se centra en Evaluación Procesos dentro desarrollo software?:",
+                    "opciones": [
+                        "ISO 33000.",
+                        "ISO 25010.",
+                        "ISO 14000.",
+                        "CMMI-ACQ."
+                    ],
+                    "solucion": "ISO 33000."
+                },
+                {
+                    "enunciado": "La Mejora calidad gestión procesos se define como:",
+                    "opciones": [
+                        "Eliminar errores producto.",
+                        "Aumentar capacidad procesos cumplir requisitos.",
+                        "Evaluar producto antes lanzarlo.",
+                        "Asegurar cumplan requisitos mínimos."
+                    ],
+                    "solucion": "Aumentar capacidad procesos cumplir requisitos."
+                }
+            ]
+        },
+        "Tema 4: Gestión de Pruebas": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Cuál de los siguientes NO es un tipo de prueba?",
+                    "opciones": [
+                        "Pruebas unitarias.",
+                        "Pruebas de integración.",
+                        "Pruebas funcionales.",
+                        "Pruebas económicas."
+                    ],
+                    "solucion": "Pruebas económicas."
+                },
+                {
+                    "enunciado": "¿Qué nivel de prueba verifica los módulos individuales?",
+                    "opciones": [
+                        "Pruebas unitarias.",
+                        "Pruebas de aceptación.",
+                        "Pruebas de sistema.",
+                        "Pruebas de integración."
+                    ],
+                    "solucion": "Pruebas unitarias."
+                },
+                {
+                    "enunciado": "¿Qué tipo de cobertura mide qué líneas de código se ejecutan?",
+                    "opciones": [
+                        "Cobertura de decisiones.",
+                        "Cobertura de sentencias.",
+                        "Cobertura múltiple.",
+                        "Cobertura modificada."
+                    ],
+                    "solucion": "Cobertura de sentencias."
+                },
+                {
+                    "enunciado": "¿Cuál es el objetivo principal de las pruebas?",
+                    "opciones": [
+                        "Encontrar defectos.",
+                        "Validar el diseño.",
+                        "Automatizar casos de prueba.",
+                        "Reducir costos de desarrollo."
+                    ],
+                    "solucion": "Encontrar defectos."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes técnicas usa valores límites para las pruebas?",
+                    "opciones": [
+                        "Clases de equivalencia.",
+                        "Valores límite.",
+                        "Conjetura de errores.",
+                        "Cobertura de decisiones."
+                    ],
+                    "solucion": "Valores límite."
+                },
+                {
+                    "enunciado": "¿Qué metodología parte de la escritura de un test que falla?",
+                    "opciones": [
+                        "BDD.",
+                        "TDD.",
+                        "ABDD.",
+                        "Pruebas de regresión."
+                    ],
+                    "solucion": "TDD."
+                },
+                {
+                    "enunciado": "¿Qué cobertura se satisface cuando cada condición se evalúa a true y false al menos una vez?",
+                    "opciones": [
+                        "Cobertura de sentencias.",
+                        "Cobertura de decisiones.",
+                        "Cobertura de condiciones.",
+                        "Cobertura de condiciones/decisiones."
+                    ],
+                    "solucion": "Cobertura de condiciones."
+                },
+                {
+                    "enunciado": "¿Qué tipo de pruebas se realizan para verificar la interacción entre módulos?",
+                    "opciones": [
+                        "Pruebas de unidad.",
+                        "Pruebas de integración.",
+                        "Pruebas de aceptación.",
+                        "Pruebas de sistema."
+                    ],
+                    "solucion": "Pruebas de integración."
+                },
+                {
+                    "enunciado": "¿Qué tipo de prueba NO suele automatizarse?",
+                    "opciones": [
+                        "Pruebas unitarias.",
+                        "Pruebas de integración.",
+                        "Pruebas de aceptación.",
+                        "Pruebas de sistema."
+                    ],
+                    "solucion": "Pruebas de aceptación."
+                },
+                {
+                    "enunciado": "¿Qué estrategia de combinación busca recorrer todos los pares posibles?",
+                    "opciones": [
+                        "Each use.",
+                        "Pairwise.",
+                        "N-wise.",
+                        "Cartesiano."
+                    ],
+                    "solucion": "Pairwise."
+                },
+                {
+                    "enunciado": "¿Qué metodología usa el patrón Given-When-Then?",
+                    "opciones": [
+                        "TDD.",
+                        "BBD.",
+                        "ABDD.",
+                        "Test regresión."
+                    ],
+                    "solucion": "BDD."
+                },
+                {
+                    "enunciado": "¿Qué cobertura implica recorrer toda la tabla completa?",
+                    "opciones": [
+                        "Cobertura sentencias.",
+                        "Cobertura múltiple condiciones.",
+                        "Cobertura decisiones.",
+                        "Cobertura modificada."
+                    ],
+                    "solucion": "Cobertura múltiple condiciones."
+                },
+                {
+                    "enunciado": "¿Qué pruebas son utilizadas para verificar rendimiento bajo estrés?",
+                    "opciones": [
+                        "Pruebas regresión.",
+                        "Pruebas sistema.",
+                        "Pruebas unitarias.",
+                        "Pruebas aceptación."
+                    ],
+                    "solucion": "Pruebas sistema."
+                },
+                {
+                    "enunciado": "¿Cuál es el principal objetivo pruebas mutación?",
+                    "opciones": [
+                        "Mejorar cobertura.",
+                        "Evaluar casos prueba.",
+                        "Reducir costos.",
+                        "Optimizar tiempo desarrollo."
+                    ],
+                    "solucion": "Evaluar casos prueba."
+                },
+                {
+                    "enunciado": "¿Qué tipo cobertura es exigida a menudo por contrato?",
+                    "opciones": [
+                        "Cobertura sentencias.",
+                        "Cobertura condiciones.",
+                        "Cobertura decisiones.",
+                        "Cobertura condiciones/decisiones."
+                    ],
+                    "solucion": "Cobertura sentencias."
+                },
+                {
+                    "enunciado": "¿Qué tipo pruebas realiza cliente al final desarrollo?",
+                    "opciones": [
+                        "Pruebas unitarias.",
+                        "Pruebas aceptación.",
+                        "Pruebas integración.",
+                        "Pruebas sistema."
+                    ],
+                    "solucion": "Pruebas aceptación."
+                },
+                {
+                    "enunciado": "¿Qué pruebas verifican que sistema interactúe bien con entorno?",
+                    "opciones": [
+                        "Pruebas integración.",
+                        "Pruebas unitarias.",
+                        "Pruebas aceptación.",
+                        "Pruebas sistema."
+                    ],
+                    "solucion": "Pruebas sistema."
+                },
+                {
+                    "enunciado": "¿Qué estrategia automatiza generación casos criterios pairwise?:",
+                    "opciones": [
+                        "Random.",
+                        "Antirandom.",
+                        "AETG.",
+                        "PROW."
+                    ],
+                    "solucion": "AETG."
+                },
+                {
+                    "enunciado": "¿Qué término se refiere a conjuntos entradas comportamiento esperado similar?:",
+                    "opciones": [
+                        "Clases equivalencia.",
+                        "Valores límites.",
+                        "Conjetura errores.",
+                        "Cobertura múltiple."
+                    ],
+                    "solucion": "Clases equivalencia."
+                },
+                {
+                    "enunciado": "¿Qué estrategia minimiza número casos prueba seleccionando más diferentes?:",
+                    "opciones": [
+                        "Each use.",
+                        "Pairwise.",
+                        "Antirandom.",
+                        "Random."
+                    ],
+                    "solucion": "Antirandom."
+                },
+                {
+                    "enunciado": "¿Qué pruebas son más frecuentes en metodologías ágiles?:",
+                    "opciones": [
+                        "TDD.",
+                        "Pruebas regresión.",
+                        "Pruebas aceptación.",
+                        "Pruebas mutación."
+                    ],
+                    "solucion": "TDD."
+                },
+                {
+                    "enunciado": "¿Qué pruebas detectan defectos en condiciones extremas?:",
+                    "opciones": [
+                        "Pruebas recuperación.",
+                        "Pruebas rendimiento.",
+                        "Pruebas resistencia.",
+                        "Pruebas unitarias."
+                    ],
+                    "solucion": "Pruebas resistencia."
+                },
+                {
+                    "enunciado": "¿Qué cobertura considera todas combinaciones valores entrada?:",
+                    "opciones": [
+                        "Cobertura decisiones.",
+                        "Cobertura sentencias.",
+                        "Cobertura modificada.",
+                        "Cobertura múltiple condiciones."
+                    ],
+                    "solucion": "Cobertura múltiple condiciones."
+                },
+                {
+                    "enunciado": "¿Qué tipo pruebas NO se basa en conocer estructura interna?:",
+                    "opciones": [
+                        "Caja negra.",
+                        "Caja blanca.",
+                        "Pruebas mutación.",
+                        "Pruebas integración."
+                    ],
+                    "solucion": "Caja negra."
+                },
+                {
+                    "enunciado": "¿Qué metodología define primero pruebas aceptación?:",
+                    "opciones": [
+                        "TDD.",
+                        "BDD.",
+                        "ABDD.",
+                        "Pairwise."
+                    ],
+                    "solucion": "ABDD."
+                },
+                {
+                    "enunciado": "¿Qué pruebas automatizan scripts para verificar clases o métodos?",
+                    "opciones": [
+                        "Pruebas unitarias.",
+                        "Pruebas aceptación.",
+                        "Pruebas sistema.",
+                        "Pruebas regresión."
+                    ],
+                    "solucion": "Pruebas unitarias."
+                },
+                {
+                    "enunciado": "¿Qué tipo cobertura incluye evaluar sentencias condicionales?",
+                    "opciones": [
+                        "Cobertura sentencias.",
+                        "Cobertura condiciones.",
+                        "Cobertura decisiones.",
+                        "Cobertura condiciones/decisiones."
+                    ],
+                    "solucion": "Cobertura condiciones/decisiones."
+                },
+                {
+                    "enunciado": "¿Qué pruebas verifican que cliente acepte sistema?",
+                    "opciones": [
+                        "Pruebas unitarias.",
+                        "Pruebas aceptación.",
+                        "Pruebas integración.",
+                        "Pruebas regresión."
+                    ],
+                    "solucion": "Pruebas aceptación."
+                },
+                {
+                    "enunciado": "¿Qué técnica se basa en intuición ingeniero para encontrar defectos?",
+                    "opciones": [
+                        "Clases equivalencia.",
+                        "Conjetura errores.",
+                        "Valores límites.",
+                        "Cobertura modificada."
+                    ],
+                    "solucion": "Conjetura errores."
+                },
+                {
+                    "enunciado": "¿Qué tipo pruebas tienen subtipos recuperación y seguridad?",
+                    "opciones": [
+                        "Pruebas aceptación.",
+                        "Pruebas sistema.",
+                        "Pruebas unitarias.",
+                        "Pruebas regresión."
+                    ],
+                    "solucion": "Pruebas sistema."
+                }
+            ]
+        },
+        "Tema 5: Gestión del Mantenimiento": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Cuál de los siguientes NO es un tipo de mantenimiento según la ISO 12207?",
+                    "opciones": [
+                        "Correctivo.",
+                        "Adaptativo.",
+                        "Evolutivo.",
+                        "Financiero."
+                    ],
+                    "solucion": "Financiero."
+                },
+                {
+                    "enunciado": "¿Qué objetivo persigue el mantenimiento correctivo?",
+                    "opciones": [
+                        "Adaptarse a un nuevo entorno legal.",
+                        "Añadir nuevas funcionalidades.",
+                        "Localizar y eliminar defectos.",
+                        "Mejorar la eficiencia del sistema."
+                    ],
+                    "solucion": "Localizar y eliminar defectos."
+                },
+                {
+                    "enunciado": "¿Qué tipo de mantenimiento busca prevenir defectos futuros sin cambiar la funcionalidad?",
+                    "opciones": [
+                        "Correctivo.",
+                        "Preventivo.",
+                        "Perfectivo.",
+                        "Adaptativo."
+                    ],
+                    "solucion": "Preventivo."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes actividades pertenece al mantenimiento preventivo?",
+                    "opciones": [
+                        "Añadir comentarios al código para facilitar su comprensión.",
+                        "Implementar nuevas funcionalidades.",
+                        "Adaptar el software a un nuevo sistema operativo.",
+                        "Corregir errores de salida de un programa."
+                    ],
+                    "solucion": "Añadir comentarios al código para facilitar su comprensión."
+                },
+                {
+                    "enunciado": "¿Qué mantenimiento se enfoca en los cambios derivados de requisitos de negocio?",
+                    "opciones": [
+                        "Correctivo.",
+                        "Perfectivo.",
+                        "Preventivo.",
+                        "Adaptativo."
+                    ],
+                    "solucion": "Perfectivo."
+                },
+                {
+                    "enunciado": "¿Qué característica describe la modularidad en la ISO 25010?",
+                    "opciones": [
+                        "Código documentado de manera extensiva.",
+                        "Uso de dependencias cíclicas.",
+                        "Mínimo impacto al cambiar un componente.",
+                        "Reusabilidad de componentes entre proyectos."
+                    ],
+                    "solucion": "Mínimo impacto al cambiar un componente."
+                },
+                {
+                    "enunciado": "¿Qué principio fomenta evitar duplicación de código?",
+                    "opciones": [
+                        "KISS.",
+                        "DRY.",
+                        "YAGNI.",
+                        "Boy Scout."
+                    ],
+                    "solucion": "DRY."
+                },
+                {
+                    "enunciado": "¿Qué se evalúa mediante pruebas de regresión?",
+                    "opciones": [
+                        "Nuevas funcionalidades integradas.",
+                        "Funcionamiento del sistema tras modificaciones.",
+                        "Rendimiento del sistema bajo carga.",
+                        "Eficiencia de la ejecución de pruebas."
+                    ],
+                    "solucion": "Funcionamiento del sistema tras modificaciones."
+                },
+                {
+                  "enunciado": "¿Qué porcentaje de esfuerzo en mantenimiento se dedica a pruebas?:",
+                    "opciones": [
+                        "13%.",
+                        "16%.",
+                        "24%.",
+                        "29%."
+                    ],
+                    "solucion": "24%."
+                },
+                {
+                    "enunciado": "¿Qué tipo de mantenimiento responde a cambios legales?:",
+                    "opciones": [
+                        "Perfectivo.",
+                        "Correctivo.",
+                        "Adaptativo.",
+                        "Preventivo."
+                    ],
+                    "solucion": "Adaptativo."
+                },
+                {
+                    "enunciado": "Según la ISO 12207, el mantenimiento es un proceso que:",
+                    "opciones": [
+                        "Inicia con la retirada del producto.",
+                        "Sólo incluye actividades de codificación.",
+                        "Busca preservar la integridad del software tras modificaciones.",
+                        "Excluye la documentación del sistema."
+                    ],
+                    "solucion": "Busca preservar la integridad del software tras modificaciones."
+                },
+                {
+                    "enunciado": "¿Qué principio del Clean Code enfatiza simplicidad?:",     
+                    "opciones": [    
+                    "DRY.",    
+                    "KISS.",    
+                    "YAGNI.",    
+                    "Boy Scout."    
+                    ],    
+                    "solucion": "KISS."    
+               },    
+               {     
+                    "enunciado": "¿Qué estándar se enfoca exclusivamente en el mantenimiento?:",     
+                    "opciones": [    
+                    "ISO 12207.",    
+                    "ISO 14764.",    
+                    "ISO 25010.",    
+                    "ISO 9001."    
+                    ],     
+                    "solucion": "ISO 14764."    
+               },     
+               {     
+                    "enunciado": "¿Qué implica la ingeniería inversa en reingeniería?:",     
+                    "opciones": [    
+                    "Introducir nuevas funcionalidades.",    
+                    "Analizar y abstraer componentes de un sistema existente.",    
+                    "Refactorizar código fuente.",    
+                    "Optimizar diagramas UML."    
+                    ],     
+                    "solucion": "Analizar y abstraer componentes de un sistema existente."   
+               },   
+               {     
+                     "enunciado": "Según la teoría de las ventanas rotas, un pequeño defecto no corregido:",     
+                     "opciones": [      
+                     "Motiva el esfuerzo colectivo por arreglarlo.",      
+                     "Aumenta la calidad del equipo.",      
+                     "Puede derivar en defectos mayores.",      
+                     "No afecta la calidad del software."      
+                      ],       
+                             "solucion": "Puede derivar en defectos mayores."   
+                 },   
+                 {     
+                     "enunciado": "¿Qué principio sugiere que las clases deben tener una sola razón para cambiar?:",     
+                     "opciones": [      
+                     "Open Closed.",      
+                     "Single Responsibility.",      
+                     "DRY.",      
+                     "FIRST."
+                      ],       
+                             "solucion": "Single Responsibility."
+                 },   
+                 {     
+                     "enunciado": "¿Qué tipo de pruebas se centran en verificar cada componente modificado?:",     
+                     "opciones": [      
+                     "Regresión.",      
+                     "Aceptación.",      
+                     "Unitarias.",      
+                     "Integración."
+                             ],       
+                             "solucion": "Unitarias."
+                 },   
+                 {     
+                         "enunciado": "¿Qué técnica aumenta exponencialmente la mantenibilidad?:",     
+                         "opciones": [      
+                                 "Código limpio.",      
+                                 "Duplicación de código.",      
+                                 "Uso dependencias cíclicas.",      
+                                 "Introducción complejidad ciclomática."
+                               ],       
+                               "solucion": "Código limpio."
+                 },   
+                 {     
+                         "enunciado": "¿Qué característica mantenibilidad se relaciona con minimizar defectos al modificar?:",       
+                          "opciones": [       
+                              "Modularidad.",       
+                              "Reusabilidad.",       
+                              "Modificabilidad.",       
+                              "Testabilidad."
+                          ],       
+                          "solucion": "Modificabilidad."
+                 },   
+                 {     
+                       "enunciado": "¿Qué actividad NO es parte diseño cambio en mantenimiento?:",       
+                       "opciones": [       
+                           "Planificación costos.",       
+                           "Rediseño sistema.",       
+                           "Propuestas implementación.",       
+                           "Codificación componentes."
+                       ],       
+                       "solucion": "Planificación costos."
+                 },   
+                 {     
+                       "enunciado": "¿Qué implica principio Open Closed?:",       
+                       "opciones": [       
+                           "Clases abiertas modificaciones frecuentes.",       
+                           "Clases abiertas extensiones cerradas modificaciones.",       
+                           "Métodos limitados funcionalidad específica.",       
+                           "Separar código módulos independientes."
+                       ],       
+                       "solucion": "Clases abiertas extensiones cerradas modificaciones."
+                 },   
+                 {     
+                       "enunciado": "¿Cuál es un ejemplo mantenimiento preventivo?:",       
+                       "opciones": [       
+                           "Reescribir módulo adaptarlo nuevo hardware.",       
+                           "Implementar funcionalidad solicitada usuarios.",       
+                           "Eliminar código no utilizado facilitar mantenimiento futuro.",
+                           "Corregir error función crítica."
+                       ],       
+                       "solucion": "Eliminar código no utilizado facilitar mantenimiento futuro."
+                 },   
+                 {     
+                       "enunciado": "¿Qué principio Clean Code sugiere dejar código mejor encontrado?:",       
+                       "opciones": [       
+                           "DRY.",       
+                           "Boy Scout.",
+                           "KISS.",
+                           "YAGNI."
+                       ],        
+                       "solucion": "Boy Scout."
+                 },   
+                 {     
+                       "enunciado": "¿Qué característica mantenibilidad mide facilidad evaluar impactos cambio?:",        
+                       "opciones": [        
+                           "Testabilidad.",
+                           "Reusabilidad.",
+                           "Analizabilidad.",
+                           "Modularidad."
+                       ],        
+                       "solucion": "Analizabilidad."
+                 },   
+                 {     
+                       "enunciado": "¿Qué describe ingeniería directa reingeniería?:",        
+                       "opciones": [        
+                           "Análisis código binario.",
+                           "Abstracción modelos conceptuales.",
+                           "Implementación mejoras sistema reformado.",
+                           "Conversión bytecode diagramas UML."
+                       ],        
+                       "solucion": "Implementación mejoras sistema reformado."
+                 },   
+                 {     
+                         "enunciado": "¿Qué factor no afecta directamente a la mantenibilidad?:",         
+                         "opciones": [         
+                             "Documentación del sistema.",         
+                             "Modularidad del código.",         
+                             "Complejidad ciclomática.",         
+                             "Tiempo de respuesta al cliente."         
+                         ],         
+                         "solucion": "Tiempo de respuesta al cliente."         
+                 },         
+                 {         
+                         "enunciado": "¿Qué actividad incluye las pruebas de aceptación?:",         
+                         "opciones": [         
+                             "Verificar integración entre módulos modificados.",         
+                             "Validar adecuación cambio junto usuario.",         
+                             "Asegurar partes críticas no se vean afectadas.",         
+                             "Testear individualmente cada unidad modificada."         
+                         ],         
+                         "solucion": "Validar adecuación cambio junto usuario."         
+                 },         
+                 {         
+                         "enunciado": "¿Cuál de las siguientes prácticas es considerada una métrica de mantenibilidad?:",         
+                         "opciones": [         
+                             "Tamaño paquetes despliegue.",         
+                             "Código duplicado.",         
+                             "Número usuarios simultáneos.",         
+                             "Frecuencia actualizaciones software."         
+                         ],         
+                         "solucion": "Código duplicado."         
+                 },          
+                 {          
+                         "enunciado": "¿Qué actividad mantenimiento está orientada evaluar alternativas implementación?:",          
+                         "opciones": [          
+                             "Codificación.",          
+                             "Pruebas unitarias.",          
+                             "Análisis impacto costes/beneficios.",          
+                             "Inspección cambio."          
+                         ],          
+                         "solucion": "Análisis impacto costes/beneficios."          
+                 },          
+                 {          
+                         "enunciado": "¿Qué principio enfatiza evitar implementar funciones innecesarias?:",          
+                         "opciones": [          
+                             "DRY.",          
+                             "KISS.",          
+                             "YAGNI.",          
+                             "Boy Scout."          
+                         ],          
+                         "solucion": "YAGNI."          
+                 } 
             ]
         }
     }
