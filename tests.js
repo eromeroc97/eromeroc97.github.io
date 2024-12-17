@@ -158,8 +158,15 @@ function corregirTest() {
         }
     });
 
+    // Eliminar resultados previos si existen
+    const resultadosPrevios = document.getElementById('resultados');
+    if (resultadosPrevios) {
+        resultadosPrevios.remove();
+    }
+
     // Mostrar resultados
     const resultadosDiv = document.createElement('div');
+    resultadosDiv.id = 'resultados';
     resultadosDiv.innerHTML = `
         <p>Aciertos: ${aciertos}</p>
         <p>Fallos: ${fallos}</p>
