@@ -22,7 +22,8 @@ function cargarAsignaturas() {
 
 // Función para cargar los temas de una asignatura
 function cargarTemas(asignatura) {
-    fetch(`tests/${asignatura}.json`)
+    const nombreArchivo = asignatura.toLowerCase()
+    fetch(`tests/${nombreArchivo}.json`)
         .then(response => response.json())
         .then(data => {
             asignaturaActual = data;
