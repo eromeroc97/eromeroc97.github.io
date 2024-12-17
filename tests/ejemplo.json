@@ -1,61 +1,41 @@
 {
     "nombre": "Ejemplo",
     "temas": {
-        "Tema 1: Introducción a Ejemplo": {
+        "Tema 1: Introducción al Ejemplo": {
             "preguntas": [
                 {
                     "enunciado": "¿Qué es un ejemplo?",
                     "opciones": [
-                        "Una demostración de un concepto",
-                        "Un tipo de documento",
-                        "Una herramienta de programación",
-                        "Un lenguaje de marcado"
+                        "Una ilustración de un concepto",
+                        "Una definición exacta",
+                        "Una teoría compleja",
+                        "Una pregunta sin respuesta"
                     ],
-                    "solucion": "Una demostración de un concepto"
+                    "solucion": "Una ilustración de un concepto"
                 },
                 {
-                    "enunciado": "¿Cuál es la finalidad de un ejemplo?",
+                    "enunciado": "¿Por qué son importantes los ejemplos?",
                     "opciones": [
-                        "Confundir al lector",
-                        "Ilustrar una idea",
-                        "Describir un proceso",
-                        "Crear un nuevo concepto"
+                        "Porque llenan espacio",
+                        "Porque ilustran puntos clave",
+                        "Porque hacen más ruido",
+                        "Porque complican el mensaje"
                     ],
-                    "solucion": "Ilustrar una idea"
-                },
-                {
-                    "enunciado": "¿Dónde se utilizan ejemplos comúnmente?",
-                    "opciones": [
-                        "En la teoría pura",
-                        "En la práctica y la enseñanza",
-                        "En la investigación científica",
-                        "En las redes sociales"
-                    ],
-                    "solucion": "En la práctica y la enseñanza"
+                    "solucion": "Porque ilustran puntos clave"
                 }
             ]
         },
-        "Tema 2: Aplicaciones del Ejemplo": {
+        "Tema 2: Uso de Ejemplos en Presentaciones": {
             "preguntas": [
                 {
-                    "enunciado": "¿Cuál es una aplicación común del ejemplo?",
+                    "enunciado": "¿Cómo se deben usar los ejemplos en presentaciones?",
                     "opciones": [
-                        "Crear teorías complejas",
-                        "Facilitar el aprendizaje",
-                        "Reducir el tiempo de estudio",
-                        "Aumentar la confusión"
+                        "De manera aleatoria",
+                        "Con ejemplos irrelevantes",
+                        "Con ejemplos concretos y relevantes",
+                        "Sin ejemplos"
                     ],
-                    "solucion": "Facilitar el aprendizaje"
-                },
-                {
-                    "enunciado": "¿Qué tipo de ejemplos son más efectivos en la enseñanza?",
-                    "opciones": [
-                        "Ejemplos abstractos",
-                        "Ejemplos concretos y relevantes",
-                        "Ejemplos irrelevantes",
-                        "Ejemplos teóricos"
-                    ],
-                    "solucion": "Ejemplos concretos y relevantes"
+                    "solucion": "Con ejemplos concretos y relevantes"
                 },
                 {
                     "enunciado": "¿Por qué se utilizan ejemplos en presentaciones?",
