@@ -75,9 +75,8 @@ function generarTest() {
     const totalPreguntasASeleccionar = Math.min(numPreguntas, todasLasPreguntas.length);
     
     // Seleccionar preguntas aleatorias según la cantidad determinada
-    const preguntasSeleccionadas = seleccionarPreguntasAleatorias(todasLasPreguntas, totalPreguntasASeleccionar);
-    
     preguntasSeleccionadas = seleccionarPreguntasAleatorias(todasLasPreguntas, totalPreguntasASeleccionar);
+    
     // Mostrar el test generado
     mostrarTest(preguntasSeleccionadas);
 }
