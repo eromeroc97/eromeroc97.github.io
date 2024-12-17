@@ -412,6 +412,106 @@
                         "Ignorar los comentarios de los usuarios sobre el sistema"
                     ],
                     "solucion": "Realizar actualizaciones y correcciones basadas en retroalimentación del usuario"
+                },
+                {
+                    "enunciado": "¿Cuál es la función básica de la Ingeniería del Software?",
+                    "opciones": [
+                        "Crear bases de datos para las empresas.",
+                        "Generar una solución que dé respuesta a los procesos de negocio.",
+                        "Crear páginas web para clientes.",
+                        "Desarrollar videojuegos."
+                    ],
+                    "solucion": "Generar una solución que dé respuesta a los procesos de negocio."
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes modelos de ciclo de vida permite iteraciones, vuelta atrás y finalizaciones rápidas?",
+                    "opciones": [
+                        "Modelo en Cascada.",
+                        "Modelo Incremental.",
+                        "Modelo Espiral.",
+                        "Modelo Secuencial."
+                    ],
+                    "solucion": "Modelo Espiral."
+                },
+                {
+                    "enunciado": "¿Cuál es una de las ventajas del Modelo Incremental?",
+                    "opciones": [
+                        "Se adapta bien cuando el equipo de desarrollo no está cualificado.",
+                        "Permite la entrega frecuente de algo de valor a los usuarios.",
+                        "Impone una estructura de gestión rígida.",
+                        "No refleja realmente el proceso de desarrollo del software."
+                    ],
+                    "solucion": "Permite la entrega frecuente de algo de valor a los usuarios."
+                },
+                {
+                    "enunciado": "Según la ISO 12207-1, el ciclo de vida es un marco de referencia que incluye:",
+                    "opciones": [
+                        "Solamente el desarrollo de software.",
+                        "La definición de los requisitos hasta el diseño del software.",
+                        "Los procesos, actividades y tareas desde la definición de los requisitos hasta la finalización de su uso.",
+                        "Solo las pruebas del software."
+                    ],
+                    "solucion": "Los procesos, actividades y tareas desde la definición de los requisitos hasta la finalización de su uso."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes fases pertenece al ciclo de vida del software según el modelo en cascada?",
+                    "opciones": [
+                        "Requisitos, Análisis, Diseño, Implementación, Pruebas.",
+                        "Diseño, Desarrollo, Integración, Soporte.",
+                        "Planificación, Ejecución, Cierre.",
+                        "Análisis, Programación, Despliegue, Mantenimiento."
+                    ],
+                    "solucion": "Requisitos, Análisis, Diseño, Implementación, Pruebas."
+                },
+                {
+                    "enunciado": "¿Qué modelo de ciclo de vida es conocido por permitir la entrega de incrementos de valor durante el desarrollo?",
+                    "opciones": [
+                        "Modelo en Cascada.",
+                        "Modelo Espiral.",
+                        "Modelo Incremental.",
+                        "Modelo Prototipo."
+                    ],
+                    "solucion": "Modelo Incremental."
+                },
+                {
+                    "enunciado": "¿Qué característica destaca del Modelo en Espiral?",
+                    "opciones": [
+                        "No permite retrocesos ni iteraciones.",
+                        "Se adapta a proyectos con bajo riesgo.",
+                        "Incorpora gestión de riesgos en cada ciclo.",
+                        "No ofrece resultados parciales hasta la fase final."
+                    ],
+                    "solucion": "Incorpora gestión de riesgos en cada ciclo."
+                },
+                {
+                    "enunciado": "¿Qué ventaja tiene el Modelo Incremental respecto al Modelo en Cascada?",
+                    "opciones": [
+                        "Los errores se detectan al final del proceso.",
+                        "Permite entregas frecuentes a los usuarios.",
+                        "Facilita la gestión de proyectos grandes.",
+                        "Es menos flexible para los cambios."
+                    ],
+                    "solucion": "Permite entregas frecuentes a los usuarios."
+                },
+                {
+                    "enunciado": "¿Cuál es una de las principales características del Modelo Espiral?",
+                    "opciones": [
+                        "El sistema se desarrolla en incrementos de valor.",
+                        "Se revisa el ciclo anterior y se planifica el siguiente en cada iteración.",
+                        "Cada fase del ciclo es independiente de las demás.",
+                        "No incorpora la gestión de riesgos."
+                    ],
+                    "solucion": "Se revisa el ciclo anterior y se planifica el siguiente en cada iteración."
+                },
+                {
+                    "enunciado": "¿Qué modelo de ciclo de vida es más adecuado para proyectos grandes y complejos que requieren constante revisión y evaluación?",
+                    "opciones": [
+                        "Modelo en Cascada.",
+                        "Modelo Espiral.",
+                        "Modelo Prototipo.",
+                        "Modelo Incremental."
+                    ],
+                    "solucion": "Modelo Espiral."
                 }
             ]
         },
@@ -1016,6 +1116,216 @@
                         "Predicciones exactas sobre costos y plazos"
                     ],
                     "solucion": "Flexibilidad para adaptarse a cambios en los requisitos"
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes afirmaciones es una característica del Proceso Unificado de Desarrollo (PUD)?",
+                    "opciones": [
+                        "El PUD sigue un ciclo de vida predictivo y no iterativo.",
+                        "El PUD está dirigido por casos de uso y centrado en la arquitectura.",
+                        "El PUD solo es incremental y no iterativo.",
+                        "El PUD no está centrado en la arquitectura del sistema."
+                    ],
+                    "solucion": "El PUD está dirigido por casos de uso y centrado en la arquitectura."
+                },
+                {
+                    "enunciado": "¿Qué caracteriza la fase de elaboración en el Proceso Unificado de Desarrollo (PUD)?",
+                    "opciones": [
+                        "Se completa la implementación de todos los casos de uso.",
+                        "Se desarrolla una línea base de la arquitectura y los casos de uso más críticos.",
+                        "Se despliega el sistema en el entorno de producción.",
+                        "Se entregan los resultados finales al cliente."
+                    ],
+                    "solucion": "Se desarrolla una línea base de la arquitectura y los casos de uso más críticos."
+                },
+                {
+                    "enunciado": "¿Qué criterio se sigue para determinar la fase de construcción en PUD?",
+                    "opciones": [
+                        "Que el sistema cubra completamente las necesidades del usuario.",
+                        "Que se haya completado la documentación del sistema.",
+                        "Que el producto contenga todos los casos de uso acordados para esa versión.",
+                        "Que se haya desplegado la versión final en el entorno de producción."
+                    ],
+                    "solucion": "Que el producto contenga todos los casos de uso acordados para esa versión."
+                },
+                {
+                    "enunciado": "¿Qué ocurre en la fase de transición del Proceso Unificado de Desarrollo (PUD)?",
+                    "opciones": [
+                        "Se define la línea base de la arquitectura.",
+                        "Se implementan los casos de uso más críticos.",
+                        "Se corrigen defectos y se despliega la versión final del producto.",
+                        "Se planifican las actividades del siguiente ciclo de iteración."
+                    ],
+                    "solucion": "Se corrigen defectos y se despliega la versión final del producto."
+                },
+                {
+                    "enunciado": "¿Cuál es el objetivo principal de las iteraciones en el Proceso Unificado de Desarrollo (PUD)?",
+                    "opciones": [
+                        "Completar la totalidad del sistema en una sola iteración.",
+                        "Generar incrementos que puedan ser aditivos o no.",
+                        "Priorizar las tareas más simples para cada iteración.",
+                        "Realizar iteraciones sin control ni planificación."
+                    ],
+                    "solucion": "Generar incrementos que puedan ser aditivos o no."
+                },
+                {
+                    "enunciado": "¿Qué errores se pueden cometer a la hora de estimar?",
+                    "opciones": [
+                        "Calendario pesimista.",
+                        "Expectativas no realistas.",
+                        "Confundir estimaciones con objetivos.",
+                        "Omisión de estimar tareas necesarias."
+                    ],
+                    "solucion": "Calendario pesimista."
+                },
+                {
+                    "enunciado": "¿Qué significan las siglas MoSCoW a la hora de asignar valor?",
+                    "opciones": [
+                        "Must, Scheduling, Complete, Work.",
+                        "Mustn't, Should, Could, Won't.",
+                        "Merge, Selling, Couldn't, Would.",
+                        "Must, Shouldn't, Couldn't, Would."
+                    ],
+                    "solucion": "Mustn't, Should, Could, Won't."
+                },
+                {
+                    "enunciado": "¿Qué debe contener una historia de usuario?",
+                    "opciones": [
+                        "La parte del código correspondiente.",
+                        "Cuánto cuesta el proyecto y su justificación.",
+                        "Cuántas personas van a trabajar.",
+                        "Una descripción breve de una funcionalidad software tal y como la percibe el usuario."
+                    ],
+                    "solucion": "Una descripción breve de una funcionalidad software tal y como la percibe el usuario."
+                },
+                {
+                    "enunciado": "¿Qué tipo de metodología es mejor?",
+                    "opciones": [
+                        "Depende del tipo del proyecto al que nos estemos refiriendo.",
+                        "Metodología ágil.",
+                        "Metodología tradicional.",
+                        "Ninguna de las anteriores es correcta."
+                    ],
+                    "solucion": "Depende del tipo del proyecto al que nos estemos refiriendo."
+                },
+                {
+                    "enunciado": "¿Cuál NO es una malinterpretación sobre el manifiesto ágil?",
+                    "opciones": [
+                        "Ausencia total de documentación.",
+                        "Ausencia total de planificación.",
+                        "El cliente no participa para nada en el proyecto.",
+                        "El equipo puede modificar la metodología sin justificación."
+                    ],
+                    "solucion": "El cliente no participa para nada en el proyecto."
+                },
+                {
+                    "enunciado": "¿Cuáles son las características del Proceso Unificado de Desarrollo?",
+                    "opciones": [
+                        "Dirigido por casos de uso, centrado en la arquitectura, iterativo y secuencial.",
+                        "Dirigido por casos de uso, centrado en la arquitectura, iterativo e incremental.",
+                        "Dirigido por requisitos, centrado en el diseño, iterativo y secuencial.",
+                        "Dirigido por requisitos, centrado en el diseño, iterativo e incremental."
+                    ],
+                    "solucion": "Dirigido por casos de uso, centrado en la arquitectura, iterativo e incremental."
+                },
+                {
+                    "enunciado": "¿Cuál es la relación entre los Casos de Uso y la arquitectura en PUD?",
+                    "opciones": [
+                        "Los casos de uso definen la arquitectura sin influencia mutua.",
+                        "La arquitectura determina los casos de uso sin retroalimentación.",
+                        "Los casos de uso y la arquitectura se desarrollan de forma independiente.",
+                        "Los casos de uso y la arquitectura se desarrollan en paralelo, influyéndose mutuamente."
+                    ],
+                    "solucion": "Los casos de uso y la arquitectura se desarrollan en paralelo, influyéndose mutuamente."
+                },
+                {
+                    "enunciado": "¿Qué se busca lograr con la fase de inicio en el Proceso Unificado de Desarrollo (PUD)?",
+                    "opciones": [
+                        "Definir los casos de uso más críticos y elaborar el diseño detallado del sistema.",
+                        "Planificar todas las iteraciones y asegurar la entrega final del producto.",
+                        "Establecer un plan del proyecto, definir los casos de uso iniciales y analizar los riesgos.",
+                        "Implementar y probar la arquitectura final del sistema."
+                    ],
+                    "solucion": "Establecer un plan del proyecto, definir los casos de uso iniciales y analizar los riesgos."
+                },
+                {
+                    "enunciado": "¿Cuál es la estructura de un ciclo en PUD?",
+                    "opciones": [
+                        "Fases, donde cada fase tiene una única iteración.",
+                        "Iteraciones, donde cada iteración tiene múltiples fases.",
+                        "Fases, donde cada fase puede tener una o varias iteraciones.",
+                        "Disciplinas, donde cada disciplina tiene múltiples fases."
+                    ],
+                    "solucion": "Fases, donde cada fase puede tener una o varias iteraciones."
+                },
+                {
+                    "enunciado": "¿Cuál es el enfoque de PUD para la captura de requisitos?",
+                    "opciones": [
+                        "Centrado en documentación exhaustiva.",
+                        "Basado únicamente en entrevistas con usuarios.",
+                        "Dirigido por casos de uso que representan requisitos funcionales.",
+                        "Enfocado exclusivamente en requisitos no funcionales."
+                    ],
+                    "solucion": "Dirigido por casos de uso que representan requisitos funcionales."
+                },
+                {
+                    "enunciado": "¿Qué relación existe entre el Proceso de Software y la Metodología de Desarrollo?",
+                    "opciones": [
+                        "No existe relación entre ambos.",
+                        "El Proceso de Software es independiente de la metodología.",
+                        "El Proceso de Software se apoya en las metodologías de desarrollo.",
+                        "El Proceso de Software se apoya solo en modelos de referencia."
+                    ],
+                    "solucion": "El Proceso de Software se apoya en las metodologías de desarrollo."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes es una característica del Proceso Unificado de Desarrollo (PUD)?",
+                    "opciones": [
+                        "Se centra en la documentación.",
+                        "Es iterativo e incremental.",
+                        "No utiliza casos de uso.",
+                        "Se basa en metodologías ágiles."
+                    ],
+                    "solucion": "Es iterativo e incremental."
+                },
+                {
+                    "enunciado": "¿Qué se prioriza durante las iteraciones en el PUD?",
+                    "opciones": [
+                        "Los casos de uso que representen menos valor para el usuario.",
+                        "Los casos de uso que introduzcan más riesgos en el desarrollo.",
+                        "Las funcionalidades que ya han sido completadas previamente.",
+                        "Las tareas más simples para agilizar la entrega del sistema."
+                    ],
+                    "solucion": "Los casos de uso que introduzcan más riesgos en el desarrollo."
+                },
+                {
+                    "enunciado": "¿Qué fase del ciclo del PUD genera la capacidad operacional inicial del sistema?",
+                    "opciones": [
+                        "Fase de inicio.",
+                        "Fase de elaboración.",
+                        "Fase de construcción.",
+                        "Fase de transición."
+                    ],
+                    "solucion": "Fase de construcción."
+                },
+                {
+                    "enunciado": "¿Qué es una Historia de Usuario en metodologías ágiles?",
+                    "opciones": [
+                        "Un documento que especifica todos los detalles del proyecto.",
+                        "Una breve descripción de una funcionalidad desde la perspectiva del usuario.",
+                        "Un manual de usuario.",
+                        "Un plan de desarrollo detallado."
+                    ],
+                    "solucion": "Una breve descripción de una funcionalidad desde la perspectiva del usuario."
+                },
+                {
+                    "enunciado": "¿Qué enfoque tiene un proyecto ágil según Ambler (2008)?",
+                    "opciones": [
+                        "Planificación rigurosa.",
+                        "Enfoque iterativo e incremental.",
+                        "Enfoque predictivo.",
+                        "Basado únicamente en documentación."
+                    ],
+                    "solucion": "Enfoque iterativo e incremental."
                 }
             ]
         },
@@ -1510,6 +1820,216 @@
                         "Branching para nuevas características"
                     ],
                     "solucion": "Seguimiento de cambios, almacenamiento de versiones y construcción de sistemas"
+                },
+                {
+                    "enunciado": "¿Cuál NO es una rama del proceso de ramificación?",
+                    "opciones": [
+                        "Rama de desarrollo.",
+                        "Rama de características.",
+                        "Rama de diseño.",
+                        "Rama de release."
+                    ],
+                    "solucion": "Rama de diseño."
+                },
+                {
+                    "enunciado": "¿Qué aportan las herramientas de gestión de versiones?",
+                    "opciones": [
+                        "Gestión de almacenamiento.",
+                        "Registro del historial de cambios.",
+                        "Soporte al proyecto.",
+                        "Todas las anteriores son correctas."
+                    ],
+                    "solucion": "Todas las anteriores son correctas."
+                },
+                {
+                    "enunciado": "Selecciona la correcta respecto a M.m.p:",
+                    "opciones": [
+                        "Los cambios y adiciones que rompen la compatibilidad incrementan el minor.",
+                        "Los arreglos de fallos que no cambian la interfaz de una clase se representan incrementando el patch.",
+                        "Los arreglos de fallos que no cambian la interfaz de una clase se representan incrementando el minor.",
+                        "Los cambios y adiciones que rompen la compatibilidad incrementan el patch."
+                    ],
+                    "solucion": "Los arreglos de fallos que no cambian la interfaz de una clase se representan incrementando el patch."
+                },
+                {
+                    "enunciado": "¿A qué se refiere la release alpha?",
+                    "opciones": [
+                        "Es la primera fase para comenzar las pruebas de software.",
+                        "Es una fase secundaria para comenzar las pruebas después de que estén todas las características completas.",
+                        "Es un plan que describe qué funcionalidades serán implementadas en cada release.",
+                        "Ninguna de las anteriores es correcta."
+                    ],
+                    "solucion": "Es la primera fase para comenzar las pruebas de software."
+                },
+                {
+                    "enunciado": "¿Cuál NO pertenece a las 4 actividades básicas de la gestión de la configuración?",
+                    "opciones": [
+                        "Gestión del cambio.",
+                        "Gestión de versiones.",
+                        "Gestión del sistema.",
+                        "Gestión de personal."
+                    ],
+                    "solucion": "Gestión de personal."
+                },
+                {
+                    "enunciado": "¿Se deben realizar cambios en la documentación si cambiamos algo en nuestro proyecto?",
+                    "opciones": [
+                        "No haría falta, ya que somos capaces de entender dichos cambios sin explicación.",
+                        "Sí, hay que identificar formalmente cada cambio y trazar su estado desde su nacimiento hasta su incorporación.",
+                        "No es necesario, ya que los cambios en el proyecto son evidentes y fáciles de recordar para el equipo.",
+                        "Solo si el cambio es muy significativo, de lo contrario, los detalles menores no requieren documentación."
+                    ],
+                    "solucion": "Sí, hay que identificar formalmente cada cambio y trazar su estado desde su nacimiento hasta su incorporación."
+                },
+                {
+                    "enunciado": "¿Cuál es el objetivo de la gestión de la configuración?",
+                    "opciones": [
+                        "Reducir la cantidad de documentación generada en el proyecto para agilizar el trabajo.",
+                        "Permitir que cada miembro del equipo gestione su propia configuración sin un control centralizado.",
+                        "Gestionar y controlar los elementos y configuraciones del sistema durante el ciclo de vida.",
+                        "Evitar cualquier tipo de cambio en el proyecto una vez que ha sido aprobado."
+                    ],
+                    "solucion": "Gestionar y controlar los elementos y configuraciones del sistema durante el ciclo de vida."
+                },
+                {
+                    "enunciado": "¿Cuáles son las 4 actividades básicas de la gestión de la configuración?",
+                    "opciones": [
+                        "Creación de nuevos módulos, diseño de interfaz, actualización automática y documentación de recursos externos.",
+                        "Monitoreo de usuarios, configuración de hardware, respaldo de datos y auditoría de seguridad.",
+                        "Revisión de presupuesto, aprobación de usuarios, pruebas de diseño y eliminación de versiones anteriores.",
+                        "Gestión del cambio, gestión de versiones, construcción del sistema y gestión de liberaciones/entregas."
+                    ],
+                    "solucion": "Gestión del cambio, gestión de versiones, construcción del sistema y gestión de liberaciones/entregas."
+                },
+                {
+                    "enunciado": "¿Qué es la Baseline (línea base)?",
+                    "opciones": [
+                        "Un producto que ha sido formalmente revisado y sobre el que se ha alcanzado un acuerdo, y que por tanto sirve de base para futuros desarrollos.",
+                        "Un conjunto de requisitos opcionales que pueden añadirse al proyecto en cualquier momento sin seguimiento formal.",
+                        "Un informe mensual que detalla los avances financieros y administrativos del proyecto.",
+                        "Un documento preliminar que contiene ideas iniciales sin necesidad de aprobación ni revisión."
+                    ],
+                    "solucion": "Un producto que ha sido formalmente revisado y sobre el que se ha alcanzado un acuerdo, y que por tanto sirve de base para futuros desarrollos."
+                },
+                {
+                    "enunciado": "¿Qué es un Release Plan (Plan de liberación/publicación)?",
+                    "opciones": [
+                        "Un calendario de reuniones internas que organiza la disponibilidad del equipo durante el desarrollo del proyecto.",
+                        "Un plan que describe qué porciones de las funcionalidades de un sistema serán implementadas en cada release y fundamentos de cada release.",
+                        "Un documento que describe únicamente los aspectos técnicos del sistema sin establecer fechas ni funcionalidades.",
+                        "Una lista de todos los recursos financieros asignados al proyecto para su implementación inicial."
+                    ],
+                    "solucion": "Un plan que describe qué porciones de las funcionalidades de un sistema serán implementadas en cada release y fundamentos de cada release."
+                },
+                {
+                    "enunciado": "¿Cuál NO es una herramienta asociada a la construcción del sistema?",
+                    "opciones": [
+                        "Generación de scripts de construcción automática.",
+                        "Sistema de control de versiones.",
+                        "Revisión de código en equipo.",
+                        "Pruebas unitarias automáticas."
+                    ],
+                    "solucion": "Revisión de código en equipo."
+                },
+                {
+                    "enunciado": "¿Cuál es el propósito principal de la gestión de versiones?",
+                    "opciones": [
+                        "Establecer y proteger la integridad de un producto.",
+                        "Hacer un seguimiento de las versiones de componentes.",
+                        "Asegurar la calidad del producto.",
+                        "Implementar nuevas características."
+                    ],
+                    "solucion": "Hacer un seguimiento de las versiones de componentes."
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes términos describe una colección de versiones controladas de componentes?",
+                    "opciones": [
+                        "Línea de código.",
+                        "Línea base.",
+                        "Versión de prueba.",
+                        "Documento de configuración."
+                    ],
+                    "solucion": "Línea base."
+                },
+                {
+                    "enunciado": "¿Qué elemento NO forma parte de la gestión de la configuración según el documento?",
+                    "opciones": [
+                        "Plan de gestión de configuración.",
+                        "Informe de evaluación de configuración.",
+                        "Sistema de tickets de soporte.",
+                        "Línea base de configuración."
+                    ],
+                    "solucion": "Sistema de tickets de soporte."
+                },
+                {
+                    "enunciado": "¿Cuál es el objetivo del proceso de ramificación en la gestión de configuración?",
+                    "opciones": [
+                        "Facilitar el desarrollo de características en paralelo.",
+                        "Consolidar versiones de producción.",
+                        "Documentar el historial de cambios.",
+                        "Crear versiones para pruebas internas."
+                    ],
+                    "solucion": "Facilitar el desarrollo de características en paralelo."
+                },
+                {
+                    "enunciado": "¿Cuál es el propósito de la gestión de la configuración?",
+                    "opciones": [
+                        "Minimizar los cambios en el sistema.",
+                        "Controlar y mantener la coherencia entre el producto y su configuración a lo largo del ciclo de vida.",
+                        "Evitar la creación de nuevas versiones.",
+                        "Permitir cambios sin necesidad de registro."
+                    ],
+                    "solucion": "Controlar y mantener la coherencia entre el producto y su configuración a lo largo del ciclo de vida."
+                },
+                {
+                    "enunciado": "¿Qué describe mejor la función del Consejo de Control de Configuración (CCB)?",
+                    "opciones": [
+                        "Aprobar y realizar todos los cambios solicitados.",
+                        "Revisar, aprobar o rechazar peticiones de cambios para garantizar la integridad del sistema.",
+                        "Controlar la documentación de todos los usuarios.",
+                        "Eliminar versiones previas de forma automática."
+                    ],
+                    "solucion": "Revisar, aprobar o rechazar peticiones de cambios para garantizar la integridad del sistema."
+                },
+                {
+                    "enunciado": "¿Cuál es una de las principales funciones de una base de datos de gestión de configuración (CMDB)?",
+                    "opciones": [
+                        "Almacenar exclusivamente los cambios de código fuente.",
+                        "Controlar la estabilidad del sistema operativo.",
+                        "Mantener la información sobre los elementos de configuración y su relación a lo largo del ciclo de vida.",
+                        "Crear automáticamente versiones de los componentes."
+                    ],
+                    "solucion": "Mantener la información sobre los elementos de configuración y su relación a lo largo del ciclo de vida."
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes no es un resultado de la gestión de configuración?",
+                    "opciones": [
+                        "Control y gestión de los elementos de configuración.",
+                        "Línea base de configuración.",
+                        "Control de acceso al sistema para todos los usuarios.",
+                        "Auditoría de configuración."
+                    ],
+                    "solucion": "Control de acceso al sistema para todos los usuarios."
+                },
+                {
+                    "enunciado": "What describes the concept of 'Branching' better?",
+                    "opciones": [
+                        "It is the elimination of all previous versions.",
+                        "Create a new baseline independent of an existing version.",
+                        "A process of internal audit to eliminate errors.",
+                        "Controls access for developers."
+                    ],
+                    "solucion": "Create a new baseline independent of an existing version."
+                },
+                {
+                    "enunciado": "¿Cuál es el objetivo principal del proceso 'liberalización' en el contexto del software?",
+                    "opciones": [
+                        "La realización un cambio sin autorización previa.",
+                        "La distribución una versión del software a los clientes.",
+                        "La creación una nueva base datos sin seguridad.",
+                        "Ninguna anterior es correcta."
+                    ],
+                    "solucion": "La distribución una versión del software a los clientes."
                 }
             ]
         }
