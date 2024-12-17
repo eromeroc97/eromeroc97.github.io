@@ -79,7 +79,7 @@ button:hover {
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 10px;
-    max-height: 400px;
+    max-height: 600px;
     overflow-y: auto;
 }
 
