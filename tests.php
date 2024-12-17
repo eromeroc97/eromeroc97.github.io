@@ -40,18 +40,5 @@
     <script src="test_theme.js"></script>
     <script src="tests.js"></script>
 
-    <style>
-        #last-update {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background-color: #f0f0f0;
-            padding: 5px;
-            text-align: center;
-            font-size: 14px;
-            z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
-        }
-    </style>
 </body>
 </html>

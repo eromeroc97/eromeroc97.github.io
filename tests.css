@@ -167,3 +167,21 @@ em {
     margin-left: 10px;
     font-size: 1rem;
 }
+
+#last-update {
+    position: fixed; /* Fija el elemento en la parte superior */
+    top: 0; /* Posición desde la parte superior */
+    left: 0; /* Posición desde la izquierda */
+    width: 100%; /* Ancho completo */
+    background-color: rgba(240, 240, 240, 0.9); /* Fondo semitransparente */
+    padding: 5px; /* Espaciado interior */
+    text-align: center; /* Centrar el texto */
+    font-size: 14px; /* Tamaño de fuente */
+    z-index: 1000; /* Asegurarse de que esté por encima de otros elementos */
+}
+
+/* Estilos para modo oscuro */
+[data-theme="dark"] #last-update {
+    background-color: rgba(30, 30, 30, 0.9); /* Fondo oscuro en modo oscuro */
+    color: white; /* Texto blanco en modo oscuro */
+}
