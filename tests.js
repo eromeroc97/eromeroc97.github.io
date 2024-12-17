@@ -1,6 +1,7 @@
 // Variables globales
 let asignaturas = [];
 let asignaturaActual = null;
+let preguntasSeleccionadas = [];
 
 // Función para cargar las asignaturas disponibles
 function cargarAsignaturas() {
@@ -76,6 +77,7 @@ function generarTest() {
     // Seleccionar preguntas aleatorias según la cantidad determinada
     const preguntasSeleccionadas = seleccionarPreguntasAleatorias(todasLasPreguntas, totalPreguntasASeleccionar);
     
+    preguntasSeleccionadas = seleccionarPreguntasAleatorias(todasLasPreguntas, totalPreguntasASeleccionar);
     // Mostrar el test generado
     mostrarTest(preguntasSeleccionadas);
 }
@@ -124,7 +126,51 @@ function mostrarTest(preguntas) {
     });
 }
 
+// Función para corregir el test
+function corregirTest() {
+    const preguntas = preguntasSeleccionadas;
+    let aciertos = 0;
+    let fallos = 0;
+    let sinContestar = 0;
+
+    preguntas.forEach((pregunta, index) => {
+        const opciones = document.getElementsByName(`pregunta${index}`);
+        let contestada = false;
+        opciones.forEach(opcion => {
+            if (opcion.checked) {
+                contestada = true;
+                if (opcion.value === pregunta.solucion) {
+                    aciertos++;
+                    opcion.nextElementSibling.style.color = 'green'; // Marca la opción correcta en verde
+                } else {
+                    fallos++;
+                    opcion.nextElementSibling.style.color = 'red'; // Marca la opción incorrecta en rojo
+                    // Marca la opción correcta en verde
+                    opciones.forEach(op => {
+                        if (op.value === pregunta.solucion) {
+                            op.nextElementSibling.style.color = 'green';
+                        }
+                    });
+                }
+            }
+        });
+        if (!contestada) {
+            sinContestar++;
+        }
+    });
+
+    // Mostrar resultados
+    const resultadosDiv = document.createElement('div');
+    resultadosDiv.innerHTML = `
+        <p>Aciertos: ${aciertos}</p>
+        <p>Fallos: ${fallos}</p>
+        <p>Sin contestar: ${sinContestar}</p>
+    `;
+    document.getElementById('test-container').appendChild(resultadosDiv);
+}
+
 // Event Listeners
 document.addEventListener('DOMContentLoaded', cargarAsignaturas);
 document.getElementById('asignatura-select').addEventListener('change', (e) => cargarTemas(e.target.value));
 document.getElementById('generar-test').addEventListener('click', generarTest);
+document.getElementById('corregir-test').addEventListener('click', corregirTest);
