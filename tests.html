@@ -37,29 +37,6 @@
 
     <script src="test_theme.js"></script>
     <script src="tests.js"></script>
-
-    <script>
-        // Función para mostrar la fecha de última actualización
-        function mostrarUltimaActualizacion() {
-            const cfecha = document.lastModified; // Obtener la fecha de última modificación
-            const meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
-            
-            const fecha = new Date(cfecha); // Convertir a objeto Date
-            const dia = fecha.getDate();
-            const mes = meses[fecha.getMonth()];
-            const anio = fecha.getFullYear();
-            const hora = fecha.getHours();
-            const minutos = String(fecha.getMinutes()).padStart(2, '0'); // Asegurar que los minutos tengan dos dígitos
-            
-            // Formatear la cadena de salida
-            const ultimaActualizacion = `Última actualización: ${dia} de ${mes} de ${anio} a las ${hora}:${minutos}`;
-            
-            // Mostrar en el contenedor
-            document.getElementById('last-update').textContent = ultimaActualizacion;
-        }
-
-        // Llamar a la función al cargar la página
-        window.onload = mostrarUltimaActualizacion;
-    </script>
+    <script src="last_modify.js"></script> <!-- Incluir el script aquí -->
 </body>
 </html>
