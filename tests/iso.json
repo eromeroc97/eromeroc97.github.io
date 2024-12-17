@@ -24,7 +24,7 @@
                     "solucion": "Requisitos funcionales"
                 },
                 {
-                    "enunciado": "¿Cuál es una desventaja del método 'Code & Fix'?",
+                    "enunciado": "¿Cuál es una desventaja del método Code & Fix?",
                     "opciones": [
                         "Es rápido para prototipos simples",
                         "No hay planificación formal",
@@ -64,54 +64,54 @@
                     "solucion": "Permite entregas frecuentes y retroalimentación continua"
                 },
                 {
-                    "enunciado": "'El ciclo de vida' se refiere a:",
+                    "enunciado": "El ciclo de vida se refiere a:",
                     "opciones": [
-                        "'El tiempo que toma desarrollar un software desde su inicio hasta su finalización.'",
-                        "'Un marco de referencia que contiene procesos, actividades y tareas involucradas en el desarrollo.'",
-                        "'La cantidad de recursos necesarios para completar un proyecto.'",
-                        "'Los métodos utilizados para probar software antes de su lanzamiento.'"
+                        "El tiempo que toma desarrollar un software desde su inicio hasta su finalización.",
+                        "Un marco de referencia que contiene procesos, actividades y tareas involucradas en el desarrollo.",
+                        "La cantidad de recursos necesarios para completar un proyecto.",
+                        "Los métodos utilizados para probar software antes de su lanzamiento."
                     ],
-                    "solucion": "'Un marco de referencia que contiene procesos, actividades y tareas involucradas en el desarrollo.'"
+                    "solucion": "Un marco de referencia que contiene procesos, actividades y tareas involucradas en el desarrollo."
                 },
                 {
-                    "enunciado": "'¿Cuál es uno de los beneficios del uso de ejemplos?'",
+                    "enunciado": "¿Cuál es uno de los beneficios del uso de ejemplos?",
                     "opciones": [
-                        "'Aumenta la confusión en los estudiantes'",
-                        "'Facilita la comprensión de conceptos complejos'",
-                        "'Reduce el interés en el tema'",
-                        "'Elimina la necesidad de estudio adicional'"
+                        "Aumenta la confusión en los estudiantes",
+                        "Facilita la comprensión de conceptos complejos",
+                        "Reduce el interés en el tema",
+                        "Elimina la necesidad de estudio adicional"
                     ],
-                    "solucion": "'Facilita la comprensión de conceptos complejos'"
+                    "solucion": "Facilita la comprensión de conceptos complejos"
                 },
                 {
-                    "enunciado": "'¿Qué caracteriza al modelo en espiral?'",
+                    "enunciado": "¿Qué caracteriza al modelo en espiral?",
                     "opciones": [
-                        "'Es un enfoque lineal y secuencial'",
-                        "'Combina diseño iterativo con análisis de riesgos'",
-                        "'No permite revisiones durante el desarrollo'",
-                        "'Se basa únicamente en prototipos'"
+                        "Es un enfoque lineal y secuencial",
+                        "Combina diseño iterativo con análisis de riesgos",
+                        "No permite revisiones durante el desarrollo",
+                        "Se basa únicamente en prototipos"
                     ],
-                    "solucion": "'Combina diseño iterativo con análisis de riesgos'"
+                    "solucion": "Combina diseño iterativo con análisis de riesgos"
                 },
                 {
-                    "enunciado": "'¿Qué se busca lograr al seguir un proceso estructurado para el desarrollo de software?'",
+                    "enunciado": "¿Qué se busca lograr al seguir un proceso estructurado para el desarrollo de software?",
                     "opciones": [
-                        "'Aumentar la complejidad del software'",
-                        "'Mejorar el rendimiento organizacional y la calidad del producto final'",
-                        "'Reducir la comunicación entre equipos'",
-                        "'Eliminar la necesidad de pruebas'"
+                        "Aumentar la complejidad del software",
+                        "Mejorar el rendimiento organizacional y la calidad del producto final",
+                        "Reducir la comunicación entre equipos",
+                        "Eliminar la necesidad de pruebas"
                     ],
-                    "solucion": "'Mejorar el rendimiento organizacional y la calidad del producto final'"
+                    "solucion": "Mejorar el rendimiento organizacional y la calidad del producto final"
                 },
                 {
-                    "enunciado": "'En un equipo de desarrollo, ¿cuál es la importancia de tener roles claramente definidos?'",
+                    "enunciado": "En un equipo de desarrollo, ¿cuál es la importancia de tener roles claramente definidos?",
                     "opciones": [
-                        "'Aumenta la confusión entre los miembros del equipo'",
-                        "'Facilita la distribución de tareas y mejora la eficiencia'",
-                        "'Reduce la responsabilidad compartida'",
-                        "'Permite que una sola persona maneje todo el proyecto'"
+                        "Aumenta la confusión entre los miembros del equipo",
+                        "Facilita la distribución de tareas y mejora la eficiencia",
+                        "Reduce la responsabilidad compartida",
+                        "Permite que una sola persona maneje todo el proyecto"
                     ],
-                    "solucion": "'Facilita la distribución de tareas y mejora la eficiencia'"
+                    "solucion": "Facilita la distribución de tareas y mejora la eficiencia"
                 },
                 {
                     "enunciado": "¿Cuál es el objetivo principal de un sistema de información en una empresa?",
@@ -144,7 +144,7 @@
                     "solucion": "Análisis"
                 },
                 {
-                    "enunciado": "¿Cuál es una característica del modelo 'Code & Fix'?",
+                    "enunciado": "¿Cuál es una característica del modelo Code & Fix?",
                     "opciones": [
                         "Se basa en una planificación detallada",
                         "Se inicia con la codificación sin un diseño formal",
@@ -154,64 +154,64 @@
                     "solucion": "Se inicia con la codificación sin un diseño formal"
                 },
                 {
-                    "enunciado": "'¿Qué describe mejor el modelo en cascada?'",
+                    "enunciado": "¿Qué describe mejor el modelo en cascada?",
                     "opciones": [
-                        "'Un enfoque iterativo y flexible'",
-                        "'Una secuencia lineal de fases sin retrocesos'",
-                        "'Un modelo que permite cambios frecuentes'",
-                        "'Un enfoque ágil para el desarrollo'"
+                        "Un enfoque iterativo y flexible",
+                        "Una secuencia lineal de fases sin retrocesos",
+                        "Un modelo que permite cambios frecuentes",
+                        "Un enfoque ágil para el desarrollo"
                     ],
-                    "solucion": "'Una secuencia lineal de fases sin retrocesos'"
+                    "solucion": "Una secuencia lineal de fases sin retrocesos"
                 },
                 {
-                    "enunciado": "'¿Cuál es una ventaja del modelo incremental?'",
+                    "enunciado": "¿Cuál es una ventaja del modelo incremental?",
                     "opciones": [
-                        "'No requiere pruebas hasta el final'",
-                        "'Permite entregas frecuentes y retroalimentación continua'",
-                        "'Es más fácil de entender que otros modelos'",
-                        "'No requiere planificación previa'"
+                        "No requiere pruebas hasta el final",
+                        "Permite entregas frecuentes y retroalimentación continua",
+                        "Es más fácil de entender que otros modelos",
+                        "No requiere planificación previa"
                     ],
-                    "solucion": "'Permite entregas frecuentes y retroalimentación continua'"
+                    "solucion": "Permite entregas frecuentes y retroalimentación continua"
                 },
                 {
-                    "enunciado": "'¿Qué caracteriza al modelo en espiral?'",
+                    "enunciado": "¿Qué caracteriza al modelo en espiral?",
                     "opciones": [
-                        "'Es un enfoque lineal y secuencial'",
-                        "'Combina diseño iterativo con análisis de riesgos'",
-                        "'No permite revisiones durante el desarrollo'",
-                        "'Se basa únicamente en prototipos'"
+                        "Es un enfoque lineal y secuencial",
+                        "Combina diseño iterativo con análisis de riesgos",
+                        "No permite revisiones durante el desarrollo",
+                        "Se basa únicamente en prototipos"
                     ],
-                    "solucion": "'Combina diseño iterativo con análisis de riesgos'"
+                    "solucion": "Combina diseño iterativo con análisis de riesgos"
                 },
                 {
-                    "enunciado": "'¿Qué es un artefacto en el contexto del desarrollo de software?'",
+                    "enunciado": "¿Qué es un artefacto en el contexto del desarrollo de software?",
                     "opciones": [
-                        "'Cualquier documento o producto generado durante el desarrollo'",
-                        "'Un tipo específico de software'",
-                        "'Un error encontrado durante las pruebas'",
-                        "'Una herramienta utilizada para programar'"
+                        "Cualquier documento o producto generado durante el desarrollo",
+                        "Un tipo específico de software",
+                        "Un error encontrado durante las pruebas",
+                        "Una herramienta utilizada para programar"
                     ],
-                    "solucion": "'Cualquier documento o producto generado durante el desarrollo'"
+                    "solucion": "Cualquier documento o producto generado durante el desarrollo"
                 },
                 {
-                    "enunciado": "'¿Cuál es la importancia de tener roles claramente definidos en un equipo de desarrollo?'",
+                    "enunciado": "¿Cuál es la importancia de tener roles claramente definidos en un equipo de desarrollo?",
                     "opciones": [
-                        "'Aumenta la confusión entre los miembros del equipo'",
-                        "'Facilita la distribución de tareas y mejora la eficiencia'",
-                        "'Reduce la responsabilidad compartida'",
-                        "'Permite que una sola persona maneje todo el proyecto'"
+                        "Aumenta la confusión entre los miembros del equipo",
+                        "Facilita la distribución de tareas y mejora la eficiencia",
+                        "Reduce la responsabilidad compartida",
+                        "Permite que una sola persona maneje todo el proyecto"
                     ],
-                    "solucion": "'Facilita la distribución de tareas y mejora la eficiencia'"
+                    "solucion": "Facilita la distribución de tareas y mejora la eficiencia"
                 },
                 {
-                    "enunciado": "'¿Qué se busca lograr al seguir un proceso estructurado para el desarrollo de software?'",
+                    "enunciado": "¿Qué se busca lograr al seguir un proceso estructurado para el desarrollo de software?",
                     "opciones": [
-                        "'Aumentar la complejidad del software'",
-                        "'Mejorar el rendimiento organizacional y la calidad del producto final'",
-                        "'Reducir la comunicación entre equipos'",
-                        "'Eliminar la necesidad de pruebas'"
+                        "Aumentar la complejidad del software",
+                        "Mejorar el rendimiento organizacional y la calidad del producto final",
+                        "Reducir la comunicación entre equipos",
+                        "Eliminar la necesidad de pruebas"
                     ],
-                    "solucion": "'Mejorar el rendimiento organizacional y la calidad del producto final'"
+                    "solucion": "Mejorar el rendimiento organizacional y la calidad del producto final"
                 },
                 {
                     "enunciado": "¿Qué describe mejor el ciclo de vida del software según ISO 12207?",
@@ -254,7 +254,7 @@
                     "solucion": "La validación y comprensión clara de las necesidades del cliente"
                 },
                 {
-                    "enunciado": "¿Cuál es uno de los riesgos asociados al método 'Code & Fix'?",
+                    "enunciado": "¿Cuál es uno de los riesgos asociados al método Code & Fix?",
                     "opciones": [
                         "Alta calidad del producto final",
                         "Dificultad para escalar el software a largo plazo",
@@ -264,54 +264,54 @@
                     "solucion": "Dificultad para escalar el software a largo plazo"
                 },
                 {
-                    "enunciado": "'¿Qué se busca lograr al seguir un proceso estructurado en el desarrollo de software?'",
+                    "enunciado": "¿Qué se busca lograr al seguir un proceso estructurado en el desarrollo de software?",
                     "opciones": [
-                        "'Aumentar la complejidad del software'",
-                        "'Mejorar la calidad y eficiencia del producto final'",
-                        "'Reducir la comunicación entre equipos'",
-                        "'Eliminar la necesidad de pruebas'"
+                        "Aumentar la complejidad del software",
+                        "Mejorar la calidad y eficiencia del producto final",
+                        "Reducir la comunicación entre equipos",
+                        "Eliminar la necesidad de pruebas"
                     ],
-                    "solucion": "'Mejorar la calidad y eficiencia del producto final'"
+                    "solucion": "Mejorar la calidad y eficiencia del producto final"
                 },
                 {
-                    "enunciado": "'¿Qué caracteriza al modelo en espiral?'",
+                    "enunciado": "¿Qué caracteriza al modelo en espiral?",
                     "opciones": [
-                        "'Un enfoque lineal y secuencial'",
-                        "'Iteraciones que combinan diseño e implementación con análisis de riesgos'",
-                        "'No permite revisiones durante el desarrollo'",
-                        "'Se basa únicamente en prototipos'"
+                        "Un enfoque lineal y secuencial",
+                        "Iteraciones que combinan diseño e implementación con análisis de riesgos",
+                        "No permite revisiones durante el desarrollo",
+                        "Se basa únicamente en prototipos"
                     ],
-                    "solucion": "'Iteraciones que combinan diseño e implementación con análisis de riesgos'"
+                    "solucion": "Iteraciones que combinan diseño e implementación con análisis de riesgos"
                 },
                 {
-                    "enunciado": "'¿Qué rol desempeña un ingeniero de software en el desarrollo?'",
+                    "enunciado": "¿Qué rol desempeña un ingeniero de software en el desarrollo?",
                     "opciones": [
-                        "'Codificar sin necesidad de requisitos claros'",
-                        "'Identificar, comprender y formalizar las necesidades empresariales'",
-                        "'Realizar únicamente pruebas del software'",
-                        "'Gestionar todos los aspectos financieros del proyecto'"
+                        "Codificar sin necesidad de requisitos claros",
+                        "Identificar, comprender y formalizar las necesidades empresariales",
+                        "Realizar únicamente pruebas del software",
+                        "Gestionar todos los aspectos financieros del proyecto"
                     ],
-                    "solucion": "'Identificar, comprender y formalizar las necesidades empresariales'"
+                    "solucion": "Identificar, comprender y formalizar las necesidades empresariales"
                 },
                 {
-                    "enunciado": "'¿Cuál es una característica clave del proceso productivo en una empresa desarrolladora?'",
+                    "enunciado": "¿Cuál es una característica clave del proceso productivo en una empresa desarrolladora?",
                     "opciones": [
-                        "'Cada miembro puede hacer cualquier tarea sin especialización'",
-                        "'Distribución clara de roles y responsabilidades'",
-                        "'El trabajo se realiza sin planificación previa'",
-                        "'No se requiere colaboración entre los miembros del equipo'"
+                        "Cada miembro puede hacer cualquier tarea sin especialización",
+                        "Distribución clara de roles y responsabilidades",
+                        "El trabajo se realiza sin planificación previa",
+                        "No se requiere colaboración entre los miembros del equipo"
                     ],
-                    "solucion": "'Distribución clara de roles y responsabilidades'"
+                    "solucion": "Distribución clara de roles y responsabilidades"
                 },
                 {
-                    "enunciado": "'¿Qué se entiende por artefacto en el contexto del desarrollo de software?'",
+                    "enunciado": "¿Qué se entiende por artefacto en el contexto del desarrollo de software?",
                     "opciones": [
-                        "'Cualquier documento o producto generado durante el desarrollo'",
-                        "'Un tipo específico de software'",
-                        "'Un error encontrado durante las pruebas'",
-                        "'Una herramienta utilizada para programar'"
+                        "Cualquier documento o producto generado durante el desarrollo",
+                        "Un tipo específico de software",
+                        "Un error encontrado durante las pruebas",
+                        "Una herramienta utilizada para programar"
                     ],
-                    "solucion": "'Cualquier documento o producto generado durante el desarrollo'"
+                    "solucion": "Cualquier documento o producto generado durante el desarrollo"
                 },
                 {
                     "enunciado": "¿Cuál es el propósito principal de un análisis de requisitos?",
@@ -334,84 +334,84 @@
                     "solucion": "Gestión de cambios"
                 },
                 {
-                    "enunciado": "'¿Cuál es una desventaja del modelo en espiral?'",
+                    "enunciado": "¿Cuál es una desventaja del modelo en espiral?",
                     "opciones": [
-                        "'Es fácil de entender y seguir'",
-                        "'Puede ser costoso y requiere mucho tiempo'",
-                        "'No permite la retroalimentación del cliente'",
-                        "'Se adapta bien a proyectos pequeños'"
+                        "Es fácil de entender y seguir",
+                        "Puede ser costoso y requiere mucho tiempo",
+                        "No permite la retroalimentación del cliente",
+                        "Se adapta bien a proyectos pequeños"
                     ],
-                    "solucion": "'Puede ser costoso y requiere mucho tiempo'"
+                    "solucion": "Puede ser costoso y requiere mucho tiempo"
                 },
                 {
-                    "enunciado": "'¿Qué se entiende por 'artefacto' en el desarrollo de software?'",
+                    "enunciado": "¿Qué se entiende por artefacto en el desarrollo de software?",
                     "opciones": [
-                        "'Un producto utilizado como entrada o generado como salida'",
-                        "'Un tipo específico de software'",
-                        "'Un error encontrado durante las pruebas'",
-                        "'Una herramienta utilizada para programar'"
+                        "Un producto utilizado como entrada o generado como salida",
+                        "Un tipo específico de software",
+                        "Un error encontrado durante las pruebas",
+                        "Una herramienta utilizada para programar"
                     ],
-                    "solucion": "'Un producto utilizado como entrada o generado como salida'"
+                    "solucion": "Un producto utilizado como entrada o generado como salida"
                 },
                 {
-                    "enunciado": "'¿Cuál es la función de un plan de pruebas en el desarrollo de software?'",
+                    "enunciado": "¿Cuál es la función de un plan de pruebas en el desarrollo de software?",
                     "opciones": [
-                        "'Definir cómo se realizará la codificación'",
-                        "'Detallar cómo se evaluará la calidad del software'",
-                        "'Establecer los requisitos del sistema'",
-                        "'Planificar la implementación del software'"
+                        "Definir cómo se realizará la codificación",
+                        "Detallar cómo se evaluará la calidad del software",
+                        "Establecer los requisitos del sistema",
+                        "Planificar la implementación del software"
                     ],
-                    "solucion": "'Detallar cómo se evaluará la calidad del software'"
+                    "solucion": "Detallar cómo se evaluará la calidad del software"
                 },
                 {
-                    "enunciado": "'¿Qué rol tiene un gerente de proyecto en un equipo de desarrollo?'",
+                    "enunciado": "¿Qué rol tiene un gerente de proyecto en un equipo de desarrollo?",
                     "opciones": [
-                        "'Codificar el software directamente'",
-                        "'Supervisar el progreso y coordinar al equipo'",
-                        "'Realizar pruebas exhaustivas del producto final'",
-                        "'Definir los requisitos técnicos del software'"
+                        "Codificar el software directamente",
+                        "Supervisar el progreso y coordinar al equipo",
+                        "Realizar pruebas exhaustivas del producto final",
+                        "Definir los requisitos técnicos del software"
                     ],
-                    "solucion": "'Supervisar el progreso y coordinar al equipo'"
+                    "solucion": "Supervisar el progreso y coordinar al equipo"
                 },
                 {
-                    "enunciado": "'¿Qué es un prototipo en el contexto del desarrollo de software?'",
+                    "enunciado": "¿Qué es un prototipo en el contexto del desarrollo de software?",
                     "opciones": [
-                        "'Una versión preliminar del software para evaluar ideas o requisitos'",
-                        "'El producto final entregado al cliente'",
-                        "'Un documento que describe los requisitos del sistema'",
-                        "'Una herramienta utilizada para programar'"
+                        "Una versión preliminar del software para evaluar ideas o requisitos",
+                        "El producto final entregado al cliente",
+                        "Un documento que describe los requisitos del sistema",
+                        "Una herramienta utilizada para programar"
                     ],
-                    "solucion": "'Una versión preliminar del software para evaluar ideas o requisitos'"
+                    "solucion": "Una versión preliminar del software para evaluar ideas o requisitos"
                 },
                 {
-                    "enunciado": "'¿Cuál es uno de los principales beneficios de utilizar metodologías ágiles?'",
+                    "enunciado": "¿Cuál es uno de los principales beneficios de utilizar metodologías ágiles?",
                     "opciones": [
-                        "'Permiten cambios frecuentes y adaptación a nuevas necesidades'",
-                        "'Son inflexibles y siguen un plan estricto'",
-                        "'No requieren interacción con el cliente durante el desarrollo'",
-                        "'Son adecuadas solo para proyectos grandes'"
+                        "Permiten cambios frecuentes y adaptación a nuevas necesidades",
+                        "Son inflexibles y siguen un plan estricto",
+                        "No requieren interacción con el cliente durante el desarrollo",
+                        "Son adecuadas solo para proyectos grandes"
                     ],
-                    "solucion": "'Permiten cambios frecuentes y adaptación a nuevas necesidades'"
+                    "solucion": "Permiten cambios frecuentes y adaptación a nuevas necesidades"
                 },
                 {
-                    "enunciado": "'En el ciclo de vida del desarrollo, ¿qué fase sigue a la implementación?'",
+                    "enunciado": "En el ciclo de vida del desarrollo, ¿qué fase sigue a la implementación?",
                     "opciones": [
-                        "'Análisis de requisitos'",
-                        "'Diseño'",
-                        "'Pruebas'",
-                        "'Despliegue'"
+                        "Análisis de requisitos",
+                        "Diseño",
+                        "Pruebas",
+                        "Despliegue"
                     ],
-                    "solucion": "'Pruebas'"
+                    "solucion": "Pruebas"
                 },
                 {
-                    "enunciado": "'¿Qué aspecto es crítico en la fase de mantenimiento del software?'",
+                    "enunciado": "¿Qué aspecto es crítico en la fase de mantenimiento del software?",
                     "opciones": [
-                        "'Eliminar todos los errores encontrados durante las pruebas iniciales'",
-                        "'Realizar actualizaciones y correcciones basadas en retroalimentación del usuario'",
-                        "'Desarrollar nuevas funcionalidades sin planificación previa'",
-                        "'Ignorar los comentarios de los usuarios sobre el sistema'"
+                        "Eliminar todos los errores encontrados durante las pruebas iniciales",
+                        "Realizar actualizaciones y correcciones basadas en retroalimentación del usuario",
+                        "Desarrollar nuevas funcionalidades sin planificación previa",
+                        "Ignorar los comentarios de los usuarios sobre el sistema"
                     ],
-                    "solucion": "'Realizar actualizaciones y correcciones basadas en retroalimentación del usuario'"
+                    "solucion": "Realizar actualizaciones y correcciones basadas en retroalimentación del usuario"
                 }
                                                 
             ]
