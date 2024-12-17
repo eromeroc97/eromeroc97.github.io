@@ -22,10 +22,7 @@ function cargarAsignaturas() {
 
 // Función para cargar los temas de una asignatura
 function cargarTemas(asignatura) {
-    // Convertir el nombre de la asignatura al formato correcto para el nombre del archivo
-    const nombreArchivo = asignatura.toLowerCase().replace(/ /g, '_').normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-    
-    fetch(`tests/${nombreArchivo}.json`)
+    fetch(`tests/${asignatura}.json`)
         .then(response => response.json())
         .then(data => {
             asignaturaActual = data;
@@ -41,9 +38,7 @@ function cargarTemas(asignatura) {
 
                 const label = document.createElement('label');
                 label.htmlFor = `tema-${nombreTema}`;
-                // Convertir el nombre del tema a un formato más legible para la etiqueta
-                label.textContent = nombreTema.replace(/_/g, ' ')
-                                             .replace(/\b\w/g, l => l.toUpperCase());
+                label.textContent = nombreTema;
 
                 const div = document.createElement('div');
                 div.className = 'tema-checkbox';
@@ -58,7 +53,6 @@ function cargarTemas(asignatura) {
             alert(`No se pudieron cargar los temas para la asignatura ${asignatura}`);
         });
 }
-
 
 // Función para generar el test
 function generarTest() {
