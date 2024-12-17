@@ -329,9 +329,9 @@
                         "Modelo en cascada",
                         "Modelo incremental",
                         "Gestión de cambios",
-                        "Modelo en espiral"
+                        "Code & Fix"
                     ],
-                    "solucion": "Gestión de cambios"
+                    "solucion": "Modelo incremental"
                 },
                 {
                     "enunciado": "¿Cuál es una desventaja del modelo en espiral?",
