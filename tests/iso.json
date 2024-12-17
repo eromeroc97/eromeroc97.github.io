@@ -415,6 +415,610 @@
                 }
                                                 
             ]
+        },
+        "Tema 1.2: Metodologías de Desarrollo": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Cuál es el principal objetivo del mantenimiento correctivo en el software?",
+                    "opciones": [
+                        "Mejorar la usabilidad del software",
+                        "Corregir errores que afectan el funcionamiento",
+                        "Agregar nuevas funcionalidades",
+                        "Actualizar la documentación"
+                    ],
+                    "solucion": "Corregir errores que afectan el funcionamiento"
+                },
+                {
+                    "enunciado": "¿Qué tipo de mantenimiento se enfoca en adaptar el software a cambios en el entorno operativo?",
+                    "opciones": [
+                        "Mantenimiento adaptativo",
+                        "Mantenimiento perfectivo",
+                        "Mantenimiento correctivo",
+                        "Mantenimiento preventivo"
+                    ],
+                    "solucion": "Mantenimiento adaptativo"
+                },
+                {
+                    "enunciado": "¿Qué actividad es esencial durante la fase de mantenimiento para asegurar la calidad del software?",
+                    "opciones": [
+                        "Realizar pruebas de regresión",
+                        "Desarrollar nuevas funciones sin pruebas",
+                        "Eliminar la documentación existente",
+                        "Aumentar la complejidad del código"
+                    ],
+                    "solucion": "Realizar pruebas de regresión"
+                },
+                {
+                    "enunciado": "¿Cuál es un riesgo asociado al mantenimiento del software?",
+                    "opciones": [
+                        "Mejora continua del sistema",
+                        "Incremento de la deuda técnica",
+                        "Reducción de costos operativos",
+                        "Aumento de la satisfacción del usuario"
+                    ],
+                    "solucion": "Incremento de la deuda técnica"
+                },
+                {
+                    "enunciado": "¿Qué se debe considerar al planificar el mantenimiento del software?",
+                    "opciones": [
+                        "La obsolescencia de las tecnologías utilizadas",
+                        "La falta de documentación previa",
+                        "La resistencia al cambio por parte del equipo",
+                        "La disponibilidad de recursos humanos"
+                    ],
+                    "solucion": "La obsolescencia de las tecnologías utilizadas"
+                },
+                {
+                    "enunciado": "¿Qué es el mantenimiento perfectivo?",
+                    "opciones": [
+                        "Es una mejora que se realiza para optimizar el rendimiento",
+                        "Es la corrección de errores críticos",
+                        "Es la adaptación a nuevos entornos tecnológicos",
+                        "Es el proceso de eliminar funcionalidades obsoletas"
+                    ],
+                    "solucion": "Es una mejora que se realiza para optimizar el rendimiento"
+                },
+                {
+                    "enunciado": "Durante el mantenimiento, ¿qué aspecto debe priorizarse para mantener la satisfacción del usuario?",
+                    "opciones": [
+                        "Cambiar completamente la interfaz de usuario",
+                        "Implementar cambios sin consultar a los usuarios",
+                        "Escuchar y aplicar las sugerencias de los usuarios",
+                        "Reducir los tiempos de respuesta sin pruebas"
+                    ],
+                    "solucion": "Escuchar y aplicar las sugerencias de los usuarios"
+                },
+                {
+                    "enunciado": "¿Qué herramienta puede ser útil para gestionar el mantenimiento del software?",
+                    "opciones": [
+                        "Sistemas de gestión de proyectos",
+                        "Herramientas de diseño gráfico",
+                        "Software antivirus",
+                        "Plataformas de redes sociales"
+                    ],
+                    "solucion": "Sistemas de gestión de proyectos"
+                },
+                {
+                    "enunciado": "¿Cuál es una práctica recomendada para documentar cambios durante el mantenimiento?",
+                    "opciones": [
+                        "No documentar cambios para ahorrar tiempo",
+                        "Registrar todos los cambios realizados y sus razones",
+                        "Mantener un registro solo si se presentan problemas",
+                        "Utilizar un lenguaje técnico complejo en la documentación"
+                    ],
+                    "solucion": "Registrar todos los cambios realizados y sus razones"
+                },
+                {
+                    "enunciado": "¿Qué tipo de mantenimiento implica realizar mejoras basadas en nuevas tecnologías?",
+                    "opciones": [
+                        "Mantenimiento correctivo",
+                        "Mantenimiento perfectivo",
+                        "Mantenimiento adaptativo",
+                        "Mantenimiento preventivo"
+                    ],
+                    "solucion": "Mantenimiento perfectivo"
+                },
+                {
+                    "enunciado": "¿Qué caracteriza a las metodologías ágiles en comparación con las tradicionales?",
+                    "opciones": [
+                        "Son más rígidas y predecibles",
+                        "Se centran en la flexibilidad y adaptación al cambio",
+                        "Requieren una planificación a largo plazo",
+                        "Se basan en fases secuenciales estrictas"
+                    ],
+                    "solucion": "Se centran en la flexibilidad y adaptación al cambio"
+                },
+                {
+                    "enunciado": "En el Proceso Unificado de Desarrollo (PUD), ¿qué representa un caso de uso?",
+                    "opciones": [
+                        "Un error en el sistema",
+                        "Un requisito funcional del usuario",
+                        "Una fase del desarrollo",
+                        "Un componente del software"
+                    ],
+                    "solucion": "Un requisito funcional del usuario"
+                },
+                {
+                    "enunciado": "¿Cuál es la primera fase del Proceso Unificado de Desarrollo (PUD)?",
+                    "opciones": [
+                        "Construcción",
+                        "Transición",
+                        "Elaboración",
+                        "Inicio"
+                    ],
+                    "solucion": "Inicio"
+                },
+                {
+                    "enunciado": "¿Qué se busca lograr con un enfoque iterativo e incremental en el desarrollo de software?",
+                    "opciones": [
+                        "Entregar todo el software al final del proyecto",
+                        "Reducir riesgos mediante entregas frecuentes",
+                        "Mantener un plan rígido sin cambios",
+                        "Aumentar la complejidad del sistema"
+                    ],
+                    "solucion": "Reducir riesgos mediante entregas frecuentes"
+                },
+                {
+                    "enunciado": "¿Qué actividad se realiza durante la fase de elaboración en PUD?",
+                    "opciones": [
+                        "Desplegar el sistema en producción",
+                        "Identificar y priorizar los casos de uso críticos",
+                        "Crear la versión final del producto",
+                        "Definir el plan de proyecto"
+                    ],
+                    "solucion": "Identificar y priorizar los casos de uso críticos"
+                },
+                {
+                    "enunciado": "En un proyecto ágil, ¿qué son los sprints?",
+                    "opciones": [
+                        "Fases largas de desarrollo sin interrupciones",
+                        "Ciclos cortos de trabajo para entregar incrementos del producto",
+                        "Documentos que definen requisitos detallados",
+                        "Revisiones finales antes del lanzamiento"
+                    ],
+                    "solucion": "Ciclos cortos de trabajo para entregar incrementos del producto"
+                },
+                {
+                    "enunciado": "¿Cuál es un beneficio clave de utilizar metodologías ágiles?",
+                    "opciones": [
+                        "Menor necesidad de comunicación entre equipos",
+                        "Mayor capacidad para responder a cambios en los requisitos",
+                        "Planificación detallada y estricta desde el inicio",
+                        "Reducción de la colaboración con el cliente"
+                    ],
+                    "solucion": "Mayor capacidad para responder a cambios en los requisitos"
+                },
+                {
+                    "enunciado": "Durante la fase de transición, ¿qué actividad es crucial?",
+                    "opciones": [
+                        "Definir nuevos requisitos funcionales",
+                        "Realizar pruebas unitarias exhaustivas",
+                        "Desplegar el sistema y corregir defectos encontrados",
+                        "Planificar las siguientes iteraciones"
+                    ],
+                    "solucion": "Desplegar el sistema y corregir defectos encontrados"
+                },
+                {
+                    "enunciado": "¿Qué se debe hacer al finalizar cada iteración en un enfoque ágil?",
+                    "opciones": [
+                        "Iniciar una nueva iteración sin revisión",
+                        "Evaluar los resultados y ajustar según sea necesario",
+                        "Completar todos los requisitos pendientes antes de continuar",
+                        "Eliminar la documentación existente"
+                    ],
+                    "solucion": "Evaluar los resultados y ajustar según sea necesario"
+                },
+                {
+                    "enunciado": "Centrado en la arquitectura es una característica fundamental de qué metodología?",
+                    "opciones": [
+                        "Modelo en cascada",
+                        "Scrum",
+                        "Proceso Unificado de Desarrollo (PUD)",
+                        "Extreme Programming (XP)"
+                    ],
+                    "solucion": "Proceso Unificado de Desarrollo (PUD)"
+                },
+                {
+                    "enunciado": "¿Qué es un sprint en el contexto de metodologías ágiles?",
+                    "opciones": [
+                        "Una fase de planificación a largo plazo",
+                        "Un ciclo corto de desarrollo para entregar incrementos del producto",
+                        "Una revisión final del proyecto",
+                        "Un documento que detalla los requisitos"
+                    ],
+                    "solucion": "Un ciclo corto de desarrollo para entregar incrementos del producto"
+                },
+                {
+                    "enunciado": "¿Cuál es el propósito principal de la fase de inicio en el Proceso Unificado de Desarrollo (PUD)?",
+                    "opciones": [
+                        "Desarrollar la arquitectura del sistema",
+                        "Definir los casos de uso más críticos",
+                        "Identificar y priorizar riesgos importantes y planificar la fase de elaboración",
+                        "Crear la versión beta del producto"
+                    ],
+                    "solucion": "Identificar y priorizar riesgos importantes y planificar la fase de elaboración"
+                },
+                {
+                    "enunciado": "En el contexto del PUD, ¿qué se entiende por línea base de la arquitectura?",
+                    "opciones": [
+                        "La versión final del software",
+                        "Un diseño inicial que guía el desarrollo posterior",
+                        "Un conjunto de pruebas realizadas al sistema",
+                        "La documentación técnica del proyecto"
+                    ],
+                    "solucion": "Un diseño inicial que guía el desarrollo posterior"
+                },
+                {
+                    "enunciado": "¿Qué rol es responsable de encontrar actores y casos de uso en un proyecto de desarrollo?",
+                    "opciones": [
+                        "Ingeniero de pruebas",
+                        "Analista de sistemas",
+                        "Desarrollador senior",
+                        "Gerente de proyecto"
+                    ],
+                    "solucion": "Analista de sistemas"
+                },
+                {
+                    "enunciado": "¿Cuál es un beneficio clave del enfoque iterativo e incremental en el desarrollo de software?",
+                    "opciones": [
+                        "Menor necesidad de comunicación entre equipos",
+                        "Reducción del riesgo al permitir ajustes frecuentes basados en feedback",
+                        "Incremento en la duración total del proyecto",
+                        "Eliminación completa de pruebas hasta el final"
+                    ],
+                    "solucion": "Reducción del riesgo al permitir ajustes frecuentes basados en feedback"
+                },
+                {
+                    "enunciado": "Centrado en la arquitectura implica que:",
+                    "opciones": [
+                        "La arquitectura se define solo al final del proyecto",
+                        "La arquitectura guía tanto el desarrollo como la selección de casos de uso",
+                        "No es necesario considerar la arquitectura durante el desarrollo",
+                        "La arquitectura debe ser estática y no cambiar durante el ciclo de vida"
+                    ],
+                    "solucion": "La arquitectura guía tanto el desarrollo como la selección de casos de uso"
+                },
+                {
+                    "enunciado": "Gestión del cambio en un proyecto implica:",
+                    "opciones": [
+                        "Ignorar las solicitudes de cambios durante el desarrollo",
+                        "Controlar y clasificar las peticiones de cambios según su estado",
+                        "Realizar cambios sin consultar al cliente",
+                        "Documentar todos los cambios después del despliegue"
+                    ],
+                    "solucion": "Controlar y clasificar las peticiones de cambios según su estado"
+                },
+                {
+                    "enunciado": "Modelo en cascada se considera un enfoque:",
+                    "opciones": [
+                        "Iterativo y flexible",
+                        "Predictivo y secuencial",
+                        "Adaptativo y colaborativo",
+                        "Rápido y ágil"
+                    ],
+                    "solucion": "Predictivo y secuencial"
+                },
+                {
+                    "enunciado": "Despliegue en el contexto del desarrollo software se refiere a:",
+                    "opciones": [
+                        "La creación inicial del software",
+                        "La entrega final del producto al cliente después de pruebas",
+                        "La documentación técnica del sistema",
+                        "El análisis de requisitos funcionales"
+                    ],
+                    "solucion": "La entrega final del producto al cliente después de pruebas"
+                },
+                {
+                    "enunciado": "Iteraciones controladas permiten:",
+                    "opciones": [
+                        "Aumentar la complejidad sin control",
+                        "Revisar decisiones previas y ajustar según resultados",
+                        "Evitar cualquier tipo de retroalimentación",
+                        "Completar todas las fases antes de comenzar nuevas iteraciones"
+                    ],
+                    "solucion": "Revisar decisiones previas y ajustar según resultados"
+                },
+                {
+                    "enunciado": "¿Qué documento se elabora durante la fase de inicio del PUD?",
+                    "opciones": [
+                        "El plan de proyecto",
+                        "La línea base de la arquitectura",
+                        "El informe de pruebas",
+                        "El manual del usuario"
+                    ],
+                    "solucion": "El plan de proyecto"
+                },
+                {
+                    "enunciado": "En el contexto del PUD, ¿qué se entiende por macroarquitectura?",
+                    "opciones": [
+                        "La estructura interna del código",
+                        "La disposición general de los componentes del sistema",
+                        "Los casos de uso del sistema",
+                        "Los prototipos de diseño"
+                    ],
+                    "solucion": "La disposición general de los componentes del sistema"
+                },
+                {
+                    "enunciado": "¿Cuál es el objetivo principal de la fase de construcción en el PUD?",
+                    "opciones": [
+                        "Definir los requisitos funcionales",
+                        "Crear una versión inicial del sistema con capacidad operacional",
+                        "Realizar pruebas exhaustivas",
+                        "Desplegar el sistema en producción"
+                    ],
+                    "solucion": "Crear una versión inicial del sistema con capacidad operacional"
+                },
+                {
+                    "enunciado": "¿Qué rol es responsable de diseñar y planificar pruebas en un proyecto de desarrollo?",
+                    "opciones": [
+                        "Analista de sistemas",
+                        "Gerente de proyecto",
+                        "Ingeniero de pruebas",
+                        "Desarrollador"
+                    ],
+                    "solucion": "Ingeniero de pruebas"
+                },
+                {
+                    "enunciado": "Gestión de cambios se refiere a:",
+                    "opciones": [
+                        "La implementación de nuevas tecnologías sin control",
+                        "El proceso para manejar solicitudes y modificaciones durante el desarrollo",
+                        "La eliminación de errores en el software",
+                        "La planificación a largo plazo del proyecto"
+                    ],
+                    "solucion": "El proceso para manejar solicitudes y modificaciones durante el desarrollo"
+                },
+                {
+                    "enunciado": "Iteración controlada significa:",
+                    "opciones": [
+                        "Las iteraciones se realizan sin seguimiento",
+                        "Cada iteración tiene objetivos claros y es revisada antes de continuar",
+                        "No se permite realizar cambios durante las iteraciones",
+                        "Las iteraciones son siempre aditivas"
+                    ],
+                    "solucion": "Cada iteración tiene objetivos claros y es revisada antes de continuar"
+                },
+                {
+                    "enunciado": "Scrum se caracteriza por:",
+                    "opciones": [
+                        "Un enfoque secuencial y rígido",
+                        "Ciclos cortos llamados sprints y reuniones diarias",
+                        "Un enfoque exclusivo en la documentación",
+                        "Una planificación detallada desde el inicio"
+                    ],
+                    "solucion": "Ciclos cortos llamados sprints y reuniones diarias"
+                },
+                {
+                    "enunciado": "Prototipo en el desarrollo ágil se utiliza para:",
+                    "opciones": [
+                        "Crear un producto final sin revisiones",
+                        "Recoger feedback temprano y ajustar requisitos",
+                        "Evitar la documentación completa",
+                        "Acelerar la entrega final sin pruebas"
+                    ],
+                    "solucion": "Recoger feedback temprano y ajustar requisitos"
+                },
+                {
+                    "enunciado": "Despliegue en un proyecto ágil implica:",
+                    "opciones": [
+                        "Lanzar el producto final sin pruebas previas",
+                        "Entregar versiones incrementales al cliente para su evaluación",
+                        "Documentar todos los requisitos antes del lanzamiento",
+                        "Realizar cambios sin consultar al cliente"
+                    ],
+                    "solucion": "Entregar versiones incrementales al cliente para su evaluación"
+                },
+                {
+                    "enunciado": "Iterativo significa que:",
+                    "opciones": [
+                        "Se realizan todas las fases una sola vez",
+                        "Se repiten ciclos de desarrollo para mejorar continuamente",
+                        "No se permite realizar ajustes una vez comenzada la fase",
+                        "Los resultados son siempre finales e inalterables"
+                    ],
+                    "solucion": "Se repiten ciclos de desarrollo para mejorar continuamente"
+                },
+                {
+                    "enunciado": "¿Cuál es el enfoque principal de las metodologías ágiles?",
+                    "opciones": [
+                        "Planificación detallada y control riguroso",
+                        "Flexibilidad y adaptación a cambios",
+                        "Desarrollo secuencial y predecible",
+                        "Eliminación de pruebas hasta el final"
+                    ],
+                    "solucion": "Flexibilidad y adaptación a cambios"
+                },
+                {
+                    "enunciado": "En el Proceso Unificado de Desarrollo (PUD), ¿qué se busca en la fase de elaboración?",
+                    "opciones": [
+                        "Definir el plan de proyecto",
+                        "Establecer la línea base de la arquitectura",
+                        "Desplegar el sistema en producción",
+                        "Crear la versión final del producto"
+                    ],
+                    "solucion": "Establecer la línea base de la arquitectura"
+                },
+                {
+                    "enunciado": "¿Qué se entiende por macroarquitectura en el contexto del desarrollo de software?",
+                    "opciones": [
+                        "La estructura interna del código fuente",
+                        "La disposición general de los componentes del sistema",
+                        "Los casos de uso del sistema",
+                        "Los prototipos visuales"
+                    ],
+                    "solucion": "La disposición general de los componentes del sistema"
+                },
+                {
+                    "enunciado": "Iterativo e incremental implica que:",
+                    "opciones": [
+                        "Se desarrollan todas las funcionalidades al mismo tiempo",
+                        "Se realizan entregas frecuentes y se ajustan según feedback",
+                        "No se permite realizar cambios durante el desarrollo",
+                        "Cada fase debe completarse antes de comenzar la siguiente"
+                    ],
+                    "solucion": "Se realizan entregas frecuentes y se ajustan según feedback"
+                },
+                {
+                    "enunciado": "¿Cuál es una característica del enfoque predictivo en el desarrollo de software?",
+                    "opciones": [
+                        "Adaptabilidad a los cambios en los requisitos",
+                        "Planificación a largo plazo y estimaciones detalladas",
+                        "Ciclos cortos de desarrollo",
+                        "Feedback continuo del cliente"
+                    ],
+                    "solucion": "Planificación a largo plazo y estimaciones detalladas"
+                },
+                {
+                    "enunciado": "Scrum se basa en ciclos cortos llamados:",
+                    "opciones": [
+                        "Fases",
+                        "Sprints",
+                        "Iteraciones",
+                        "Prototipos"
+                    ],
+                    "solucion": "Sprints"
+                },
+                {
+                    "enunciado": "Gestión de cambios es crucial para:",
+                    "opciones": [
+                        "Evitar cualquier modificación durante el desarrollo",
+                        "Controlar y clasificar las solicitudes de cambios",
+                        "Reducir la comunicación entre equipos",
+                        "Documentar solo al final del proyecto"
+                    ],
+                    "solucion": "Controlar y clasificar las solicitudes de cambios"
+                },
+                {
+                    "enunciado": "Centrado en la arquitectura significa que:",
+                    "opciones": [
+                        "La arquitectura se define solo al final del proyecto",
+                        "La arquitectura guía tanto el desarrollo como la selección de casos de uso",
+                        "No es necesario considerar la arquitectura durante el desarrollo",
+                        "La arquitectura debe ser estática y no cambiar durante el ciclo de vida"
+                    ],
+                    "solucion": "La arquitectura guía tanto el desarrollo como la selección de casos de uso"
+                },
+                {
+                    "enunciado": "Fase de transición en PUD implica:",
+                    "opciones": [
+                        "Desplegar el sistema en producción sin pruebas",
+                        "Integrar, desplegar y corregir defectos encontrados",
+                        "Definir los requisitos funcionales finales",
+                        "Crear un prototipo inicial del sistema"
+                    ],
+                    "solucion": "Integrar, desplegar y corregir defectos encontrados"
+                },
+                {
+                    "enunciado": "Análisis y diseño son disciplinas que se centran en:",
+                    "opciones": [
+                        "Definir los requisitos funcionales",
+                        "Plasmar un modelo de análisis y un modelo de diseño",
+                        "Implementar pruebas exhaustivas",
+                        "Gestionar los cambios en el proyecto"
+                    ],
+                    "solucion": "Plasmar un modelo de análisis y un modelo de diseño"
+                },
+                {
+                    "enunciado": "¿Cuál es el principal problema de organizar empresas en torno a individuos altamente cualificados?",
+                    "opciones": [
+                        "Falta de innovación",
+                        "Dependencia de personas clave que pueden fallar o irse",
+                        "Dificultad para escalar operaciones",
+                        "Costos elevados de formación"
+                    ],
+                    "solucion": "Dependencia de personas clave que pueden fallar o irse"
+                },
+                {
+                    "enunciado": "¿Qué es el proceso software en el contexto del desarrollo de software?",
+                    "opciones": [
+                        "El conjunto de herramientas utilizadas para programar",
+                        "El proceso productivo para desarrollar productos o servicios de software",
+                        "La documentación técnica del proyecto",
+                        "La fase de pruebas del software"
+                    ],
+                    "solucion": "El proceso productivo para desarrollar productos o servicios de software"
+                },
+                {
+                    "enunciado": "¿Qué caracteriza a las metodologías tradicionales en comparación con las ágiles?",
+                    "opciones": [
+                        "Son más flexibles y adaptativas",
+                        "Siguen un enfoque secuencial y predictivo",
+                        "Se centran en la colaboración continua con el cliente",
+                        "Permiten cambios frecuentes en los requisitos"
+                    ],
+                    "solucion": "Siguen un enfoque secuencial y predictivo"
+                },
+                {
+                    "enunciado": "En el Proceso Unificado de Desarrollo (PUD), ¿qué se busca identificar en la fase de inicio?",
+                    "opciones": [
+                        "Los casos de uso más críticos y los riesgos importantes",
+                        "La línea base de la arquitectura del sistema",
+                        "El manual del usuario final",
+                        "La documentación técnica del proyecto"
+                    ],
+                    "solucion": "Los casos de uso más críticos y los riesgos importantes"
+                },
+                {
+                    "enunciado": "Centrado en la arquitectura implica que:",
+                    "opciones": [
+                        "La arquitectura se define solo al final del proyecto",
+                        "La arquitectura guía el desarrollo y debe ser considerada desde el inicio",
+                        "No es necesario considerar la arquitectura durante el desarrollo",
+                        "La arquitectura debe ser estática y no cambiar durante el ciclo de vida"
+                    ],
+                    "solucion": "La arquitectura guía el desarrollo y debe ser considerada desde el inicio"
+                },
+                {
+                    "enunciado": "Iterativo e incremental significa que:",
+                    "opciones": [
+                        "Se desarrollan todas las funcionalidades al mismo tiempo",
+                        "Se realizan entregas frecuentes y se ajustan según feedback",
+                        "No se permite realizar cambios durante el desarrollo",
+                        "Cada fase debe completarse antes de comenzar la siguiente"
+                    ],
+                    "solucion": "Se realizan entregas frecuentes y se ajustan según feedback"
+                },
+                {
+                    "enunciado": "Gestión de configuración y cambios se refiere a:",
+                    "opciones": [
+                        "Controlar las versiones del software y gestionar solicitudes de cambio",
+                        "Eliminar errores después del despliegue",
+                        "Planificar las fases del proyecto sin cambios",
+                        "Desarrollar nuevas funcionalidades sin control"
+                    ],
+                    "solucion": "Controlar las versiones del software y gestionar solicitudes de cambio"
+                },
+                {
+                    "enunciado": "Fase de transición implica:",
+                    "opciones": [
+                        "Desplegar el sistema en producción sin pruebas",
+                        "Integrar, desplegar y corregir defectos encontrados",
+                        "Definir los requisitos funcionales finales",
+                        "Crear un prototipo inicial del sistema"
+                    ],
+                    "solucion": "Integrar, desplegar y corregir defectos encontrados"
+                },
+                {
+                    "enunciado": "Análisis y diseño son disciplinas que se centran en:",
+                    "opciones": [
+                        "Definir los requisitos funcionales",
+                        "Plasmar un modelo de análisis y un modelo de diseño",
+                        "Implementar pruebas exhaustivas",
+                        "Gestionar los cambios en el proyecto"
+                    ],
+                    "solucion": "Plasmar un modelo de análisis y un modelo de diseño"
+                },
+                {
+                    "enunciado": "Proyectos adaptativos se caracterizan por:",
+                    "opciones": [
+                        "Un enfoque rígido hacia los requisitos",
+                        "Flexibilidad para adaptarse a cambios en los requisitos",
+                        "Un enfoque secuencial sin iteraciones",
+                        "Predicciones exactas sobre costos y plazos"
+                    ],
+                    "solucion": "Flexibilidad para adaptarse a cambios en los requisitos"
+                }
+            ]            
         }
     }
 }
