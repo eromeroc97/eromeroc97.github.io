@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test de Asignaturas</title>
-    <link rel="icon" href="tests.ico" type="image/x-icon">
+    <link rel="icon" href="test.ico" type="image/x-icon"> <!-- Añadir favicon -->
     <link rel="stylesheet" href="tests.css">
 </head>
 <body>
+    <div id="last-update">
+        Última actualización: <?php include 'last_update.php'; ?>
+    </div>
+
     <div class="container">
         <div class="theme-switch-wrapper">
             <label class="theme-switch" for="checkbox">
@@ -32,7 +36,22 @@
             <!-- Aquí se generará el test dinámicamente -->
         </div>
     </div>
+
     <script src="test_theme.js"></script>
     <script src="tests.js"></script>
+
+    <style>
+        #last-update {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f0f0f0;
+            padding: 5px;
+            text-align: center;
+            font-size: 14px;
+            z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+        }
+    </style>
 </body>
 </html>
