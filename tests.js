@@ -168,8 +168,16 @@ function corregirTest() {
     document.getElementById('test-container').appendChild(resultadosDiv);
 }
 
+// Función para terminar el test
+function terminarTest() {
+    // Limpiar el contenedor del test
+    const testContainer = document.getElementById('test-container');
+    testContainer.innerHTML = '';
+}
+
 // Event Listeners
 document.addEventListener('DOMContentLoaded', cargarAsignaturas);
 document.getElementById('asignatura-select').addEventListener('change', (e) => cargarTemas(e.target.value));
 document.getElementById('generar-test').addEventListener('click', generarTest);
 document.getElementById('corregir-test').addEventListener('click', corregirTest);
+document.getElementById('terminar-test').addEventListener('click', terminarTest);
