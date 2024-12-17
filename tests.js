@@ -76,9 +76,12 @@ function generarTest() {
     
     // Seleccionar preguntas aleatorias según la cantidad determinada
     preguntasSeleccionadas = seleccionarPreguntasAleatorias(todasLasPreguntas, totalPreguntasASeleccionar);
-    
+
     // Mostrar el test generado
     mostrarTest(preguntasSeleccionadas);
+
+    // Mostrar el botón "Corregir Test"
+    document.getElementById('corregir-test').style.display = 'block';
 }
 
 // Función para seleccionar preguntas aleatorias sin repetición
