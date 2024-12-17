@@ -107,7 +107,7 @@ function mostrarTest(preguntas) {
         const opcionesDiv = document.createElement('div');
         opcionesDiv.className = 'opciones';
         
-        const opciones = [...pregunta.opciones, pregunta.solucion];
+        const opciones = [...pregunta.opciones];
         opciones.sort(() => 0.5 - Math.random());
 
         opciones.forEach(opcion => {
