@@ -152,7 +152,6 @@ function corregirTest() {
                     });
                 }
             }else{
-                sinContestar++;
                 // Marca la opción correcta en verde
                 opciones.forEach(op => {
                     if (op.value === pregunta.solucion) {
@@ -161,6 +160,9 @@ function corregirTest() {
                 });
             }
         });
+        if (!contestada) {
+            sinContestar++;
+        }
     });
 
     // Eliminar resultados previos si existen
