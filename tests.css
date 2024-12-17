@@ -52,7 +52,7 @@ h1 {
 }
 
 select, input[type="number"], button {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid var(--input-border);
