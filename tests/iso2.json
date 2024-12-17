@@ -413,7 +413,6 @@
                     ],
                     "solucion": "Realizar actualizaciones y correcciones basadas en retroalimentación del usuario"
                 }
-                                                
             ]
         },
         "Tema 1.2: Metodologías de Desarrollo": {
@@ -1018,7 +1017,501 @@
                     ],
                     "solucion": "Flexibilidad para adaptarse a cambios en los requisitos"
                 }
-            ]            
+            ]
+        },
+        "Tema 2: Gestión de la Configuración": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Cuál es el objetivo principal de la gestión de la configuración?",
+                    "opciones": [
+                        "Asegurar la calidad del software",
+                        "Establecer y proteger la integridad del producto software",
+                        "Incrementar la velocidad de desarrollo",
+                        "Reducir costos de producción"
+                    ],
+                    "solucion": "Establecer y proteger la integridad del producto software"
+                },
+                {
+                    "enunciado": "¿Qué actividad no forma parte de las cuatro básicas de la gestión de la configuración?",
+                    "opciones": [
+                        "Gestión del cambio",
+                        "Gestión de versiones",
+                        "Construcción del sistema",
+                        "Análisis de requisitos"
+                    ],
+                    "solucion": "Análisis de requisitos"
+                },
+                {
+                    "enunciado": "La gestión del cambio incluye varias actividades, ¿cuál es una de ellas?",
+                    "opciones": [
+                        "Desarrollo de nuevas funcionalidades",
+                        "Seguimiento de peticiones de cambios",
+                        "Pruebas de software",
+                        "Documentación técnica"
+                    ],
+                    "solucion": "Seguimiento de peticiones de cambios"
+                },
+                {
+                    "enunciado": "¿Cuál es el propósito del Plan de Gestión de la Configuración?",
+                    "opciones": [
+                        "Definir cómo se gestionará la configuración del proyecto",
+                        "Controlar los cambios en el código fuente",
+                        "Crear un sistema ejecutable",
+                        "Evaluar el rendimiento del software"
+                    ],
+                    "solucion": "Definir cómo se gestionará la configuración del proyecto"
+                },
+                {
+                    "enunciado": "¿Qué significa Baseline en gestión de configuración?",
+                    "opciones": [
+                        "Un documento que describe el proceso de desarrollo",
+                        "Una versión aprobada y revisada que sirve como base para futuros desarrollos",
+                        "Un conjunto de errores identificados en el software",
+                        "Un tipo de herramienta para gestión de versiones"
+                    ],
+                    "solucion": "Una versión aprobada y revisada que sirve como base para futuros desarrollos"
+                },
+                {
+                    "enunciado": "Semantic Versioning se refiere a:",
+                    "opciones": [
+                        "Un método para gestionar cambios en el hardware",
+                        "Un sistema para asignar números de versión a software con reglas claras",
+                        "Una técnica para mejorar la documentación técnica",
+                        "Un enfoque para aumentar la velocidad del desarrollo"
+                    ],
+                    "solucion": "Un sistema para asignar números de versión a software con reglas claras"
+                },
+                {
+                    "enunciado": "El Consejo de Control de Configuración (CCB) tiene como función principal:",
+                    "opciones": [
+                        "Desarrollar nuevas características del software",
+                        "Analizar los costes y beneficios de los cambios propuestos",
+                        "Realizar auditorías del sistema",
+                        "Gestionar el equipo de desarrollo"
+                    ],
+                    "solucion": "Analizar los costes y beneficios de los cambios propuestos"
+                },
+                {
+                    "enunciado": "Branching en Git permite:",
+                    "opciones": [
+                        "Crear copias completas del código fuente",
+                        "Trabajar independientemente en diferentes líneas sin conflictos",
+                        "Eliminar versiones antiguas del software",
+                        "Integrar automáticamente todos los cambios realizados"
+                    ],
+                    "solucion": "Trabajar independientemente en diferentes líneas sin conflictos"
+                },
+                {
+                    "enunciado": "Release Plan se refiere a:",
+                    "opciones": [
+                        "El proceso de prueba final antes del lanzamiento",
+                        "Un plan que describe las funcionalidades a implementar en cada versión",
+                        "Hotfixes aplicados en producción",
+                        "Feature branches en el desarrollo"
+                    ],
+                    "solucion": "Un plan que describe las funcionalidades a implementar en cada versión"
+                },
+                {
+                    "enunciado": "Versioning implica:",
+                    "opciones": [
+                        "Tagging versiones estables del software",
+                        "Branching para nuevas características",
+                        "Deltas entre versiones consecutivas",
+                        "Hotfixes para errores críticos"
+                    ],
+                    "solucion": "Deltas entre versiones consecutivas"
+                },
+                {
+                    "enunciado": "¿Cuál es el objetivo de la gestión de versiones?",
+                    "opciones": [
+                        "Mantener la integridad de los componentes del sistema a lo largo del tiempo",
+                        "Crear un sistema ejecutable a partir de sus componentes",
+                        "Controlar y supervisar las modificaciones al software",
+                        "Preparar y controlar las versiones del software para uso interno"
+                    ],
+                    "solucion": "Mantener la integridad de los componentes del sistema a lo largo del tiempo"
+                },
+                {
+                    "enunciado": "¿Qué actividad está relacionada con la construcción del sistema?",
+                    "opciones": [
+                        "Seguimiento de versiones",
+                        "Compilación y vinculación para crear el sistema ejecutable",
+                        "Evaluación de cambios propuestos",
+                        "Auditorías de configuración"
+                    ],
+                    "solucion": "Compilación y vinculación para crear el sistema ejecutable"
+                },
+                {
+                    "enunciado": "¿Qué documento establece los elementos necesarios para la gestión de configuración?",
+                    "opciones": [
+                        "Plan de Gestión de Configuración",
+                        "Registro de gestión de configuración",
+                        "Informe de entrega del sistema",
+                        "Descripción de tareas de gestión de configuración"
+                    ],
+                    "solucion": "Plan de Gestión de Configuración"
+                },
+                {
+                    "enunciado": "Change Request se refiere a:",
+                    "opciones": [
+                        "Una solicitud para modificar la línea base de la configuración",
+                        "Un informe sobre el estado del sistema",
+                        "Una auditoría de configuración realizada",
+                        "Un plan detallado para futuras versiones"
+                    ],
+                    "solucion": "Una solicitud para modificar la línea base de la configuración"
+                },
+                {
+                    "enunciado": "Hotfix se utiliza para:",
+                    "opciones": [
+                        "Corregir defectos graves en producción",
+                        "Desarrollar nuevas funcionalidades",
+                        "Crear una nueva línea base",
+                        "Realizar auditorías del sistema"
+                    ],
+                    "solucion": "Corregir defectos graves en producción"
+                },
+                {
+                    "enunciado": "Semantic Versioning define un formato básico para versiones como:",
+                    "opciones": [
+                        "MAJOR.MINOR.PATCH",
+                        "VERSION.MAJOR.MINOR",
+                        "PATCH.MAJOR.MINOR",
+                        "MINOR.PATCH.MAJOR"
+                    ],
+                    "solucion": "MAJOR.MINOR.PATCH"
+                },
+                {
+                    "enunciado": "Configuration Control Board (CCB) es responsable de:",
+                    "opciones": [
+                        "Desarrollar nuevas características del software",
+                        "Evaluar y gestionar cambios propuestos",
+                        "Realizar auditorías del sistema",
+                        "Crear líneas base para el software"
+                    ],
+                    "solucion": "Evaluar y gestionar cambios propuestos"
+                },
+                {
+                    "enunciado": "Release Plan describe:",
+                    "opciones": [
+                        "Las funcionalidades a implementar en cada versión",
+                        "Hotfixes aplicados en producción",
+                        "La estructura organizativa del equipo de desarrollo",
+                        "Branching en el desarrollo"
+                    ],
+                    "solucion": "Las funcionalidades a implementar en cada versión"
+                },
+                {
+                    "enunciado": "Configuration Management Database (CMDB) se utiliza para:",
+                    "opciones": [
+                        "Almacenar información sobre gestión de configuración",
+                        "Registrar peticiones de cambio y variaciones",
+                        "Controlar los cambios a los elementos bajo gestión",
+                        "Realizar auditorías sobre el estado del software"
+                    ],
+                    "solucion": "Almacenar información sobre gestión de configuración"
+                },
+                {
+                    "enunciado": "Versioning implica:",
+                    "opciones": [
+                        "Tagging versiones estables del software",
+                        "Branching para nuevas características",
+                        "Asociar identificadores únicos a estados específicos de elementos de configuración",
+                        "Crear copias completas del código fuente"
+                    ],
+                    "solucion": "Asociar identificadores únicos a estados específicos de elementos de configuración"
+                },
+                {
+                    "enunciado": "¿Qué se entiende por Configuration Item en gestión de configuración?",
+                    "opciones": [
+                        "Un componente de software que se gestiona y controla",
+                        "Un documento que describe el proceso de gestión de configuración",
+                        "Una herramienta utilizada para seguimiento de cambios",
+                        "Un tipo de auditoría realizada durante el ciclo de vida del software"
+                    ],
+                    "solucion": "Un componente de software que se gestiona y controla"
+                },
+                {
+                    "enunciado": "¿Cuál es la función principal del Configuration Management Database (CMDB)?",
+                    "opciones": [
+                        "Almacenar información sobre los elementos de configuración",
+                        "Registrar cambios en el código fuente",
+                        "Controlar versiones del software",
+                        "Realizar auditorías del sistema"
+                    ],
+                    "solucion": "Almacenar información sobre los elementos de configuración"
+                },
+                {
+                    "enunciado": "Release Alpha se refiere a:",
+                    "opciones": [
+                        "La primera fase de pruebas de software, potencialmente inestable",
+                        "Una versión final lista para producción",
+                        "Una versión con correcciones menores",
+                        "Una fase de desarrollo inicial sin pruebas"
+                    ],
+                    "solucion": "La primera fase de pruebas de software, potencialmente inestable"
+                },
+                {
+                    "enunciado": "Change Request incluye qué tipo de solicitud?",
+                    "opciones": [
+                        "Una solicitud para modificar la línea base de la configuración",
+                        "Una petición para añadir nuevas funcionalidades",
+                        "Una demanda para eliminar un componente del sistema",
+                        "Una consulta sobre el estado del proyecto"
+                    ],
+                    "solucion": "Una solicitud para modificar la línea base de la configuración"
+                },
+                {
+                    "enunciado": "Tagging en control de versiones se utiliza para:",
+                    "opciones": [
+                        "Identificar y marcar versiones específicas del software",
+                        "Crear copias completas del código fuente",
+                        "Registrar errores encontrados en producción",
+                        "Establecer nuevas líneas base"
+                    ],
+                    "solucion": "Identificar y marcar versiones específicas del software"
+                },
+                {
+                    "enunciado": "Build se refiere a:",
+                    "opciones": [
+                        "La versión operativa del sistema con capacidades específicas",
+                        "El proceso de documentación técnica del software",
+                        "La creación de un plan de gestión de configuración",
+                        "La evaluación de riesgos en el desarrollo"
+                    ],
+                    "solucion": "La versión operativa del sistema con capacidades específicas"
+                },
+                {
+                    "enunciado": "Minimum Viable Product (MVP) es:",
+                    "opciones": [
+                        "Una versión con características mínimas pero suficientes para satisfacer requisitos clave",
+                        "Un producto final listo para el mercado",
+                        "Un prototipo sin funcionalidad real",
+                        "Un producto que ha pasado todas las pruebas necesarias"
+                    ],
+                    "solucion": "Una versión con características mínimas pero suficientes para satisfacer requisitos clave"
+                },
+                {
+                    "enunciado": "Deltas en gestión de versiones se refieren a:",
+                    "opciones": [
+                        "Las diferencias entre versiones consecutivas en lugar de copias completas",
+                        "Hotfixes aplicados en producción",
+                        "Versiones estables del software",
+                        "Feature branches en el desarrollo"
+                    ],
+                    "solucion": "Las diferencias entre versiones consecutivas en lugar de copias completas"
+                },
+                {
+                    "enunciado": "Configuration Control implica:",
+                    "opciones": [
+                        "Evaluación, coordinación y aplicación de cambios a los elementos de configuración",
+                        "Branching para nuevas características",
+                        "Tagging versiones estables del software",
+                        "Hotfixes para errores críticos"
+                    ],
+                    "solucion": "Evaluación, coordinación y aplicación de cambios a los elementos de configuración"
+                },
+                {
+                    "enunciado": "Release Plan es crucial porque:",
+                    "opciones": [
+                        "Describe las funcionalidades a implementar en cada versión liberada",
+                        "Controla los cambios realizados en el código fuente",
+                        "Hotfixes aplicados en producción",
+                        "Registra errores encontrados durante las pruebas"
+                    ],
+                    "solucion": "Describe las funcionalidades a implementar en cada versión liberada"
+                },
+                {
+                    "enunciado": "¿Qué se entiende por Release Beta en el proceso de gestión de versiones?",
+                    "opciones": [
+                        "Fase de pruebas después de corregir errores de la versión Alpha",
+                        "Una versión final lista para producción",
+                        "La primera fase de pruebas de software, potencialmente inestable",
+                        "Una versión con correcciones menores"
+                    ],
+                    "solucion": "Fase de pruebas después de corregir errores de la versión Alpha"
+                },
+                {
+                    "enunciado": "¿Cuál es el propósito del Plan de Gestión de la Configuración?",
+                    "opciones": [
+                        "Definir cómo se gestionará la configuración del proyecto",
+                        "Controlar los cambios en el código fuente",
+                        "Crear un sistema ejecutable",
+                        "Evaluar el rendimiento del software"
+                    ],
+                    "solucion": "Definir cómo se gestionará la configuración del proyecto"
+                },
+                {
+                    "enunciado": "Configuration Management Authority se refiere a:",
+                    "opciones": [
+                        "El grupo responsable de planificar y ejecutar actividades de gestión de configuración",
+                        "El documento que establece los elementos necesarios para la gestión de configuración",
+                        "Una herramienta utilizada para seguimiento de cambios",
+                        "Un tipo de auditoría realizada durante el ciclo de vida del software"
+                    ],
+                    "solucion": "El grupo responsable de planificar y ejecutar actividades de gestión de configuración"
+                },
+                {
+                    "enunciado": "Configuration Control Board (CCB) es responsable de:",
+                    "opciones": [
+                        "Evaluar y gestionar cambios propuestos",
+                        "Desarrollar nuevas características del software",
+                        "Crear líneas base para el software",
+                        "Realizar auditorías del sistema"
+                    ],
+                    "solucion": "Evaluar y gestionar cambios propuestos"
+                },
+                {
+                    "enunciado": "Increment en el contexto del desarrollo se refiere a:",
+                    "opciones": [
+                        "Un aumento en las funcionalidades del software tras una iteración",
+                        "Una versión estable del sistema lista para producción",
+                        "Un documento que describe el proceso de gestión de configuración",
+                        "Un tipo de herramienta para gestión de versiones"
+                    ],
+                    "solucion": "Un aumento en las funcionalidades del software tras una iteración"
+                },
+                {
+                    "enunciado": "Codeline se define como:",
+                    "opciones": [
+                        "Conjunto de versiones de un componente de software y sus dependencias",
+                        "Tagging versiones estables del software",
+                        "Branching para nuevas características",
+                        "Hotfixes para errores críticos"
+                    ],
+                    "solucion": "Conjunto de versiones de un componente de software y sus dependencias"
+                },
+                {
+                    "enunciado": "Semantic Versioning establece que un incremento mayor indica:",
+                    "opciones": [
+                        "Cambios incompatibles con versiones anteriores",
+                        "Correcciones compatibles con versiones anteriores",
+                        "Nuevas funcionalidades compatibles con versiones anteriores",
+                        "Desarrollo inicial inestable"
+                    ],
+                    "solucion": "Cambios incompatibles con versiones anteriores"
+                },
+                {
+                    "enunciado": "Hotfix se utiliza para:",
+                    "opciones": [
+                        "Corregir defectos graves en producción rápidamente",
+                        "Branching para nuevas características",
+                        "Tagging versiones estables del software",
+                        "Deltas entre versiones consecutivas"
+                    ],
+                    "solucion": "Corregir defectos graves en producción rápidamente"
+                },
+                {
+                    "enunciado": "Branching en Git permite:",
+                    "opciones": [
+                        "Crear copias completas del código fuente sin conflictos",
+                        "Trabajar independientemente en diferentes líneas sin interferencias entre desarrolladores",
+                        "Hotfixes aplicados en producción",
+                        "Tagging versiones estables del software"
+                    ],
+                    "solucion": "Trabajar independientemente en diferentes líneas sin interferencias entre desarrolladores"
+                },
+                {
+                    "enunciado": "Auditoría de configuración tiene como objetivo:",
+                    "opciones": [
+                        "Verificar que los elementos bajo gestión cumplen con los requisitos establecidos",
+                        "Branching para nuevas características",
+                        "Hotfixes aplicados en producción",
+                        "Tagging versiones estables del software"
+                    ],
+                    "solucion": "Verificar que los elementos bajo gestión cumplen con los requisitos establecidos"
+                },
+                {
+                    "enunciado": "¿Cuál es el objetivo principal de la gestión de la configuración?",
+                    "opciones": [
+                        "Establecer y proteger la integridad del producto software",
+                        "Incrementar la velocidad de desarrollo",
+                        "Minimizar los costos de producción",
+                        "Aumentar el número de funcionalidades del software"
+                    ],
+                    "solucion": "Establecer y proteger la integridad del producto software"
+                },
+                {
+                    "enunciado": "¿Qué actividad se incluye en la gestión de versiones?",
+                    "opciones": [
+                        "Seguimiento de diferentes versiones de los componentes",
+                        "Desarrollo de nuevas características",
+                        "Auditorías de configuración",
+                        "Pruebas de aceptación del usuario"
+                    ],
+                    "solucion": "Seguimiento de diferentes versiones de los componentes"
+                },
+                {
+                    "enunciado": "Construcción del sistema se refiere a:",
+                    "opciones": [
+                        "Crear un sistema ejecutable a partir de sus componentes",
+                        "Desarrollar la documentación técnica del software",
+                        "Realizar auditorías del sistema",
+                        "Gestionar los cambios en el código fuente"
+                    ],
+                    "solucion": "Crear un sistema ejecutable a partir de sus componentes"
+                },
+                {
+                    "enunciado": "Gestión de Liberaciones tiene como objetivo:",
+                    "opciones": [
+                        "Preparar y controlar las versiones del software para uso externo",
+                        "Desarrollar nuevas funcionalidades",
+                        "Realizar pruebas unitarias",
+                        "Controlar el acceso al código fuente"
+                    ],
+                    "solucion": "Preparar y controlar las versiones del software para uso externo"
+                },
+                {
+                    "enunciado": "Línea base se define como:",
+                    "opciones": [
+                        "Una versión aprobada y revisada que sirve como base para futuros desarrollos",
+                        "Un conjunto de errores identificados en el software",
+                        "Hotfixes aplicados en producción",
+                        "Feature branches en el desarrollo"
+                    ],
+                    "solucion": "Una versión aprobada y revisada que sirve como base para futuros desarrollos"
+                },
+                {
+                    "enunciado": "Registro de gestión de configuración se utiliza para:",
+                    "opciones": [
+                        "Documentar los cambios realizados en los elementos bajo gestión",
+                        "Registrar errores encontrados durante las pruebas",
+                        "Tagging versiones estables del software",
+                        "Branching para nuevas características"
+                    ],
+                    "solucion": "Documentar los cambios realizados en los elementos bajo gestión"
+                },
+                {
+                    "enunciado": "Plan de gestión de la configuración incluye:",
+                    "opciones": [
+                        "Definición de cómo se gestionará la configuración del proyecto",
+                        "Hotfixes aplicados en producción",
+                        "Deltas entre versiones consecutivas",
+                        "Tagging versiones estables del software"
+                    ],
+                    "solucion": "Definición de cómo se gestionará la configuración del proyecto"
+                },
+                {
+                    "enunciado": "Auditorías de configuración son importantes porque:",
+                    "opciones": [
+                        "Verifican que los elementos bajo gestión cumplen con los requisitos establecidos",
+                        "Branching para nuevas características",
+                        "Hotfixes aplicados en producción",
+                        "Tagging versiones estables del software"
+                    ],
+                    "solucion": "Verifican que los elementos bajo gestión cumplen con los requisitos establecidos"
+                },
+                {
+                    "enunciado": "Herramientas de Gestión de Configuración (CM Tools) son utilizadas para:",
+                    "opciones": [
+                        "Seguimiento de cambios, almacenamiento de versiones y construcción de sistemas",
+                        "Hotfixes aplicados en producción",
+                        "Tagging versiones estables del software",
+                        "Branching para nuevas características"
+                    ],
+                    "solucion": "Seguimiento de cambios, almacenamiento de versiones y construcción de sistemas"
+                }
+            ]
         }
     }
 }
