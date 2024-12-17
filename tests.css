@@ -1,22 +1,49 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --font-color: #333;
+    --bg-color: #f4f4f4;
+    --heading-color: #2c3e50;
+    --container-bg: #fff;
+    --input-bg: #fff;
+    --input-border: #ddd;
+    --button-hover: #2980b9;
+    --test-bg: #ecf0f1;
+}
+
+[data-theme="dark"] {
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #e1e1ff;
+    --bg-color: #161625;
+    --heading-color: #818cab;
+    --container-bg: #242526;
+    --input-bg: #3a3b3c;
+    --input-border: #5a5b5c;
+    --button-hover: #7a77d3;
+    --test-bg: #2c2d2f;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: var(--font-color);
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: var(--bg-color);
+    transition: all 0.3s ease-in-out;
 }
 
 .container {
-    background-color: #fff;
+    background-color: var(--container-bg);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 h1 {
-    color: #2c3e50;
+    color: var(--heading-color);
     text-align: center;
 }
 
@@ -28,12 +55,14 @@ select, input[type="number"], button {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--input-border);
     border-radius: 4px;
+    background-color: var(--input-bg);
+    color: var(--font-color);
 }
 
 button {
-    background-color: #3498db;
+    background-color: var(--primary-color);
     color: white;
     border: none;
     cursor: pointer;
@@ -41,7 +70,7 @@ button {
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: var(--button-hover);
 }
 
 #temas-container {
@@ -61,7 +90,7 @@ button:hover {
 }
 
 #test-container {
-    background-color: #ecf0f1;
+    background-color: var(--test-bg);
     padding: 15px;
     border-radius: 5px;
 }
@@ -76,4 +105,64 @@ button:hover {
 
 .opcion {
     margin-bottom: 5px;
+}
+
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+}
+
+.theme-switch input {
+    display: none;
+}
+
+.slider {
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+}
+
+.slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 26px;
+}
+
+input:checked + .slider {
+    background-color: var(--primary-color);
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+em {
+    margin-left: 10px;
+    font-size: 1rem;
 }
