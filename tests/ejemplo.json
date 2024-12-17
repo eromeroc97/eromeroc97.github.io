@@ -1,0 +1,107 @@
+{
+    "nombre": "Ejemplo",
+    "temas": {
+        "Tema 1: Introducción a Ejemplo": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Qué es un ejemplo?",
+                    "opciones": [
+                        "Una demostración de un concepto",
+                        "Un tipo de documento",
+                        "Una herramienta de programación",
+                        "Un lenguaje de marcado"
+                    ],
+                    "solucion": "Una demostración de un concepto"
+                },
+                {
+                    "enunciado": "¿Cuál es la finalidad de un ejemplo?",
+                    "opciones": [
+                        "Confundir al lector",
+                        "Ilustrar una idea",
+                        "Describir un proceso",
+                        "Crear un nuevo concepto"
+                    ],
+                    "solucion": "Ilustrar una idea"
+                },
+                {
+                    "enunciado": "¿Dónde se utilizan ejemplos comúnmente?",
+                    "opciones": [
+                        "En la teoría pura",
+                        "En la práctica y la enseñanza",
+                        "En la investigación científica",
+                        "En las redes sociales"
+                    ],
+                    "solucion": "En la práctica y la enseñanza"
+                }
+            ]
+        },
+        "Tema 2: Aplicaciones del Ejemplo": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Cuál es una aplicación común del ejemplo?",
+                    "opciones": [
+                        "Crear teorías complejas",
+                        "Facilitar el aprendizaje",
+                        "Reducir el tiempo de estudio",
+                        "Aumentar la confusión"
+                    ],
+                    "solucion": "Facilitar el aprendizaje"
+                },
+                {
+                    "enunciado": "¿Qué tipo de ejemplos son más efectivos en la enseñanza?",
+                    "opciones": [
+                        "Ejemplos abstractos",
+                        "Ejemplos concretos y relevantes",
+                        "Ejemplos irrelevantes",
+                        "Ejemplos teóricos"
+                    ],
+                    "solucion": "Ejemplos concretos y relevantes"
+                },
+                {
+                    "enunciado": "¿Por qué se utilizan ejemplos en presentaciones?",
+                    "opciones": [
+                        "Para llenar espacio",
+                        "Para ilustrar puntos clave",
+                        "Para hacer más ruido",
+                        "Para complicar el mensaje"
+                    ],
+                    "solucion": "Para ilustrar puntos clave"
+                }
+            ]
+        },
+        "Tema 3: Beneficios del Ejemplo": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Cuál es uno de los beneficios del uso de ejemplos?",
+                    "opciones": [
+                        "Aumenta la confusión en los estudiantes",
+                        "Facilita la comprensión de conceptos complejos",
+                        "Reduce el interés en el tema",
+                        "Elimina la necesidad de estudio adicional"
+                    ],
+                    "solucion": "Facilita la comprensión de conceptos complejos"
+                },
+                {
+                    "enunciado": "¿Cómo pueden los ejemplos mejorar la retención del conocimiento?",
+                    "opciones": [
+                        "Haciendo que el contenido sea más aburrido",
+                        "Conectando información nueva con experiencias previas",
+                        "Eliminando información innecesaria",
+                        "Aumentando el volumen de información"
+                    ],
+                    "solucion": "Conectando información nueva con experiencias previas"
+                },
+                {
+                    "enunciado": "¿Qué efecto tienen los ejemplos en el aprendizaje activo?",
+                    "opciones": [
+                        "Disminuyen la participación del estudiante",
+                        "Fomentan la interacción y el compromiso",
+                        "No tienen efecto alguno",
+                        "Solo son útiles en contextos formales"
+                    ],
+                    "solucion":  "Fomentan la interacción y el compromiso"
+                }
+            ]
+        }
+    }
+}
