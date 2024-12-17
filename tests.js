@@ -70,14 +70,19 @@ function generarTest() {
         todasLasPreguntas = todasLasPreguntas.concat(asignaturaActual.temas[tema].preguntas);
     });
 
-    const preguntasSeleccionadas = seleccionarPreguntasAleatorias(todasLasPreguntas, numPreguntas);
+    // Seleccionar todas las preguntas disponibles sin repetición
+    const preguntasSeleccionadas = seleccionarPreguntasAleatorias(todasLasPreguntas, todasLasPreguntas.length);
     mostrarTest(preguntasSeleccionadas);
 }
 
-// Función para seleccionar preguntas aleatorias
+// Función para seleccionar preguntas aleatorias sin repetición
 function seleccionarPreguntasAleatorias(preguntas, n) {
-    const shuffled = preguntas.sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, n);
+    const shuffled = [...preguntas];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled.slice(0, Math.min(n, shuffled.length));
 }
 
 // Función para mostrar el test generado
