@@ -73,7 +73,7 @@ function generarTest() {
 
     // Determinar cuántas preguntas seleccionar
     const totalPreguntasASeleccionar = Math.min(numPreguntas, todasLasPreguntas.length);
-    
+
     // Seleccionar preguntas aleatorias según la cantidad determinada
     preguntasSeleccionadas = seleccionarPreguntasAleatorias(todasLasPreguntas, totalPreguntasASeleccionar);
 
@@ -84,13 +84,13 @@ function generarTest() {
 // Función para seleccionar preguntas aleatorias sin repetición
 function seleccionarPreguntasAleatorias(preguntas, n) {
     const shuffled = [...preguntas];
-    
+
     // Usar Fisher-Yates shuffle para mezclar las preguntas
     for (let i = shuffled.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
-    
+
     return shuffled.slice(0, n); // Devuelve solo las n preguntas seleccionadas
 }
 
@@ -103,10 +103,10 @@ function mostrarTest(preguntas) {
         const preguntaDiv = document.createElement('div');
         preguntaDiv.className = 'pregunta';
         preguntaDiv.innerHTML = `<p><strong>Pregunta ${index + 1}:</strong> ${pregunta.enunciado}</p>`;
-        
+
         const opcionesDiv = document.createElement('div');
         opcionesDiv.className = 'opciones';
-        
+
         const opciones = [...pregunta.opciones];
         opciones.sort(() => 0.5 - Math.random());
 
@@ -151,11 +151,16 @@ function corregirTest() {
                         }
                     });
                 }
+            }else{
+                sinContestar++;
+                // Marca la opción correcta en verde
+                opciones.forEach(op => {
+                    if (op.value === pregunta.solucion) {
+                        op.nextElementSibling.style.color = 'green';
+                    }
+                });
             }
         });
-        if (!contestada) {
-            sinContestar++;
-        }
     });
 
     // Eliminar resultados previos si existen
