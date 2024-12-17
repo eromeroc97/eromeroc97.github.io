@@ -1,5 +1,3 @@
-// tests.js
-
 // Variables globales
 let asignaturas = [];
 let asignaturaActual = null;
@@ -11,6 +9,7 @@ function cargarAsignaturas() {
         .then(data => {
             asignaturas = data;
             const select = document.getElementById('asignatura-select');
+            select.innerHTML = '<option value="">Selecciona una asignatura</option>';
             asignaturas.forEach(asignatura => {
                 const option = document.createElement('option');
                 option.value = asignatura;
@@ -28,23 +27,31 @@ function cargarTemas(asignatura) {
         .then(data => {
             asignaturaActual = data;
             const temasContainer = document.getElementById('temas-container');
-            temasContainer.innerHTML = '';
-            Object.keys(data.temas).forEach(tema => {
+            temasContainer.innerHTML = ''; // Limpiar temas anteriores
+
+            // Iterar sobre los temas de la asignatura
+            Object.keys(data.temas).forEach(nombreTema => {
                 const checkbox = document.createElement('input');
                 checkbox.type = 'checkbox';
-                checkbox.id = `tema-${tema}`;
-                checkbox.value = tema;
+                checkbox.id = `tema-${nombreTema}`;
+                checkbox.value = nombreTema;
+
                 const label = document.createElement('label');
-                label.htmlFor = `tema-${tema}`;
-                label.textContent = tema;
+                label.htmlFor = `tema-${nombreTema}`;
+                label.textContent = nombreTema;
+
                 const div = document.createElement('div');
                 div.className = 'tema-checkbox';
                 div.appendChild(checkbox);
                 div.appendChild(label);
+
                 temasContainer.appendChild(div);
             });
         })
-        .catch(error => console.error('Error al cargar temas:', error));
+        .catch(error => {
+            console.error('Error al cargar temas:', error);
+            alert(`No se pudieron cargar los temas para la asignatura ${asignatura}`);
+        });
 }
 
 // Función para generar el test
