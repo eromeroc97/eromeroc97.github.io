@@ -60,8 +60,8 @@ function generarTest() {
     const temasSeleccionados = Array.from(document.querySelectorAll('#temas-container input:checked')).map(cb => cb.value);
     const numPreguntas = parseInt(document.getElementById('num-preguntas').value);
 
-    if (temasSeleccionados.length === 0 || isNaN(numPreguntas)) {
-        alert('Por favor, selecciona al menos un tema y especifica el número de preguntas.');
+    if (temasSeleccionados.length === 0 || isNaN(numPreguntas) || numPreguntas <= 0) {
+        alert('Por favor, selecciona al menos un tema y especifica un número válido de preguntas.');
         return;
     }
 
@@ -70,20 +70,29 @@ function generarTest() {
         todasLasPreguntas = todasLasPreguntas.concat(asignaturaActual.temas[tema].preguntas);
     });
 
-    // Seleccionar todas las preguntas disponibles sin repetición
-    const preguntasSeleccionadas = seleccionarPreguntasAleatorias(todasLasPreguntas, todasLasPreguntas.length);
+    // Determinar cuántas preguntas seleccionar
+    const totalPreguntasASeleccionar = Math.min(numPreguntas, todasLasPreguntas.length);
+    
+    // Seleccionar preguntas aleatorias según la cantidad determinada
+    const preguntasSeleccionadas = seleccionarPreguntasAleatorias(todasLasPreguntas, totalPreguntasASeleccionar);
+    
+    // Mostrar el test generado
     mostrarTest(preguntasSeleccionadas);
 }
 
 // Función para seleccionar preguntas aleatorias sin repetición
 function seleccionarPreguntasAleatorias(preguntas, n) {
     const shuffled = [...preguntas];
+    
+    // Usar Fisher-Yates shuffle para mezclar las preguntas
     for (let i = shuffled.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
-    return shuffled.slice(0, Math.min(n, shuffled.length));
+    
+    return shuffled.slice(0, n); // Devuelve solo las n preguntas seleccionadas
 }
+
 
 // Función para mostrar el test generado
 function mostrarTest(preguntas) {
