@@ -1,7 +1,7 @@
 async function obtenerArchivoMasReciente() {
     try {
         // Permitir al usuario seleccionar una carpeta
-        const directorio = await window.showDirectoryPicker();
+        const directorio = "./tests/";
         let archivoMasReciente = null;
 
         // Iterar sobre los archivos en el directorio
