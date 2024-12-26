@@ -1,5 +1,5 @@
 {
-    "nombre": "ISO",
+    "nombre": "ISO2",
     "temas": {
         "Tema 1.1: Procesos de Ingeniería del Software": {
             "preguntas": [
@@ -66,12 +66,22 @@
                 {
                     "enunciado": "El ciclo de vida se refiere a:",
                     "opciones": [
-                        "El tiempo que toma desarrollar un software desde su inicio hasta el fin de su uso.",
+                        "El tiempo que toma desarrollar un software desde su inicio hasta su finalización.",
                         "Un marco de referencia que contiene procesos, actividades y tareas involucradas en el desarrollo.",
                         "La cantidad de recursos necesarios para completar un proyecto.",
                         "Los métodos utilizados para probar software antes de su lanzamiento."
                     ],
-                    "solucion": "El tiempo que toma desarrollar un software desde su inicio hasta el fin de su uso."
+                    "solucion": "Un marco de referencia que contiene procesos, actividades y tareas involucradas en el desarrollo."
+                },
+                {
+                    "enunciado": "¿Cuál es uno de los beneficios del uso de ejemplos?",
+                    "opciones": [
+                        "Aumenta la confusión en los estudiantes",
+                        "Facilita la comprensión de conceptos complejos",
+                        "Reduce el interés en el tema",
+                        "Elimina la necesidad de estudio adicional"
+                    ],
+                    "solucion": "Facilita la comprensión de conceptos complejos"
                 },
                 {
                     "enunciado": "¿Qué caracteriza al modelo en espiral?",
