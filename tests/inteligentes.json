@@ -698,14 +698,374 @@
         "Segundo Parcial (Temas 3.2 a 6)": {
             "preguntas": [
                 {
-                    "enunciado": "NO HAY PREGUNTAS AÚN",
+                    "enunciado": "La probabilidad de intercambiar una solución por otra peor en el enfriamiento simulado…",
                     "opciones": [
-                        "NO HAY PREGUNTAS AÚN",
-                        "NO HAY PREGUNTAS AÚN",
-                        "NO HAY PREGUNTAS AÚN",
-                        "NO HAY PREGUNTAS AÚN"
+                        "Aumenta proporcional al empeoramiento.",
+                        "Aumenta conforme avanza el algoritmo.",
+                        "Disminuye con la precisión de T.",
+                        "Disminuye conforme pasa el tiempo y empeora la solución alternativa."
                     ],
-                    "solucion": "NO HAY PREGUNTAS AÚN"
+                    "solucion": "Disminuye conforme pasa el tiempo y empeora la solución alternativa."
+                },
+                {
+                    "enunciado": "A la técnica de búsqueda de ascensión de colinas se le suele llamar:",
+                    "opciones": [
+                        "Búsqueda de mínimos.",
+                        "Búsqueda de máximos.",
+                        "Búsqueda local voraz",
+                        "Búsqueda por haz."
+                    ],
+                    "solucion": "Búsqueda local voraz"
+                },
+                {
+                    "enunciado": "Para minimizar el costo en el temple simulado la solución local es intercambiada por una vecina si:",
+                    "opciones": [
+                        "Incremento de coste es positivo.",
+                        "Cuando T es cercana a 0.",
+                        "Si el valor de e(-ΔE/T) es menor que un valor aleatorio uniforme U.",
+                        "Si el valor de e(-ΔE/T) es mayor que un valor aleatorio uniforme U."
+                    ],
+                    "solucion": "Si el valor de e(-ΔE/T) es mayor que un valor aleatorio uniforme U."
+                },
+                {
+                    "enunciado": "Se denomina heurística de mínimos valores restantes (MVR) a",
+                    "opciones": [
+                        "La heurística de elegir la variable de menor compromiso.",
+                        "La estrategia de elegir la variable con menor número de valores legales.",
+                        "La estrategia de elegir a la variable con mayor número de restricciones.",
+                        "La heurística de elegir la variable con menor número de valores posibles."
+                    ],
+                    "solucion": "La estrategia de elegir la variable con menor número de valores legales."
+                },
+                {
+                    "enunciado": "En un algoritmo genético las etapas que se han de realizar para la obtención de una nueva generación son las siguientes y se han de realizar en el orden establecido.",
+                    "opciones": [
+                        "Selección, cruce y mutación.",
+                        "Elegir al mejor, duplicación y mutación.",
+                        "Selección y cruce.",
+                        "Cruce y Selección."
+                    ],
+                    "solucion": "Selección, cruce y mutación."
+                },
+                {
+                    "enunciado": "La idea del arco consistente proporciona un mecanismo rápido para…",
+                    "opciones": [
+                        "La propagación de restricciones.",
+                        "Satisfacer precondiciones abiertas",
+                        "La búsqueda en profundidad en PSR.",
+                        "La resolución de problemas de PSR."
+                    ],
+                    "solucion": "La propagación de restricciones."
+                },
+                {
+                    "enunciado": "En árbol mini-max la complejidad temporal es equivalente al de una búsqueda…",
+                    "opciones": [
+                        "Anchura de profundidad acotada",
+                        "La cota factorial",
+                        "A la profundidad de la cota",
+                        "Intermedia entre la profundidad de la cota y la de anchura acotada."
+                    ],
+                    "solucion": "Anchura de profundidad acotada"
+                },
+                {
+                    "enunciado": "Un problema de satisfacción de restricciones viene definido por",
+                    "opciones": [
+                        "Un conjunto de dominios de variables y restricciones de relaciones entre ellas.",
+                        "Un conjunto de restricciones de posibles valores para la solución del problema.",
+                        "Un conjunto de valores válidos y relaciones entre ellos.",
+                        "Un conjunto de variables y un conjunto de restricciones de valores válidos de dichas variables."
+                    ],
+                    "solucion": "Un conjunto de variables y un conjunto de restricciones de valores válidos de dichas variables."
+                },
+                {
+                    "enunciado": "Nos encontramos en un nodo MIN con Alpha = 3, beta = 1000, v = 1000, y los sucesores 2,4,6 (el orden en el cual se exponen anteriormente no tiene por qué equivaler al orden de exploración). ¿Cuál de las siguientes afirmaciones es cierta?",
+                    "opciones": [
+                        "El orden de exploración no es conocido con los datos proporcionados, pero lo óptimo para esta situación sería 2,4,6.",
+                        "El orden de exploración será 2,4,6.",
+                        "El orden no implica ninguna mejora en la eficiencia.",
+                        "El orden de exploración será 6,4,2."
+                    ],
+                    "solucion": "El orden de exploración no es conocido con los datos proporcionados, pero lo óptimo para esta situación sería 2,4,6."
+                },
+                {
+                    "enunciado": "Un arco consistente…",
+                    "opciones": [
+                        "Se caracteriza porque el arco inverso también consistente",
+                        "Es un arco no dirigido",
+                        "Proporciona un método rápido de programación de restricciones considerablemente más potente que la comprobación hacia delante.",
+                        "Proporciona un método rápido de propagación de restricciones considerablemente menos eficaz que la comprobación hacia delante."
+                    ],
+                    "solucion": "Proporciona un método rápido de programación de restricciones considerablemente más potente que la comprobación hacia delante."
+                },
+                {
+                    "enunciado": "Qué entendemos por 'solución' en un problema de satisfacción de restricciones (PSR)?",
+                    "opciones": [
+                        "Una asignación completa.",
+                        "La definición de un dominio D no vació de valores posibles.",
+                        "Camino que lleva a la asignación de un nodo del problema.",
+                        "Un nodo asignado correctamente que permite llegar a la asignación completa de todos los nodos restantes."
+                    ],
+                    "solucion": "Una asignación completa."
+                },
+                {
+                    "enunciado": "En el dominio de los PSR, ¿qué entendemos por una asignación consistente?",
+                    "opciones": [
+                        "Una asignación que no viola ninguna restricción.",
+                        "Una asignación de valores a un conjunto mínimo de variables.",
+                        "Una asignación que satisface todas las restricciones",
+                        "Una asignación de valores a todas las variables."
+                    ],
+                    "solucion": "Una asignación que no viola ninguna restricción."
+                },
+                {
+                    "enunciado": "Nos proponemos enseñar a nuestro robot a conducir, para ello en primer lugar le enseñamos a cambiar de marcha. Contando con que el coche está arrancado y el robot está sentado como conductor, seleccione la opción correcta que corresponda con un enlace causal correcto:",
+                    "opciones": [
+                        "Embrague - EmbraguePisado - Marcha",
+                        "PisarEmbrague",
+                        "PisarEmbrague - MeterMarcha - MarchaMetida",
+                        "Ninguna de las anteriores"
+                    ],
+                    "solucion": "Embrague - EmbraguePisado - Marcha"
+                },
+                {
+                    "enunciado": "Una condición abierta…",
+                    "opciones": [
+                        "Es aquella que establece enlaces de etapas anteriores con precondiciones de etapas temporales posteriores.",
+                        "Finaliza un plan",
+                        "Es una precondición de una etapa que no está ligada a ningún enlace causal.",
+                        "Determina si un plan está completo."
+                    ],
+                    "solucion": "Es una precondición de una etapa que no está ligada a ningún enlace causal."
+                },
+                {
+                    "enunciado": "En qué partes se divide un esquema de acción?",
+                    "opciones": [
+                        "acción, efecto y nombre.",
+                        "precondición, efecto y parámetros.",
+                        "precondición, parámetros y acción.",
+                        "precondición, efecto y acción."
+                    ],
+                    "solucion": "precondición, efecto y acción."
+                },
+                {
+                    "enunciado": "De las heurísticas estudiadas en el tema, que nos ayudan a mejorar la eficiencia del Backtracking (Mínimos Valores Restantes, Grado Heurístico y Valor Más Restringido), marca la opción verdadera",
+                    "opciones": [
+                        "Grado Heurístico nos ayuda a decidir el orden para examinar los valores que asignar a una variable una vez elegida.",
+                        "MVR es por lo general una guía poderosa a la hora de elegir la siguiente variable, pero el Grado Heurístico puede ser útil como desempate en caso de que las variables tengan el mismo número de valores legales.",
+                        "MVR siempre nos ayuda en la elección de variable, puesto que su funcionamiento se basa en elegir la variable más restringida es decir con menos valores legales posibles para asignar.",
+                        "VMR nos ayuda en la elección de variable, puesto que su funcionamiento se basa en elegir la variable más restringida es decir con menos valores legales posibles para asignar."
+                    ],
+                    "solucion": "MVR es por lo general una guía poderosa a la hora de elegir la siguiente variable, pero el Grado Heurístico puede ser útil como desempate en caso de que las variables tengan el mismo número de valores legales."
+                },
+                {
+                    "enunciado": "En los problemas de planificación, la búsqueda hacia atrás tiene la ventaja de que",
+                    "opciones": [
+                        "Nunca falla",
+                        "Nos permite considerar solamente acciones relevantes",
+                        "Ninguna de las anteriores",
+                        "llegamos antes a la solución"
+                    ],
+                    "solucion": "Nos permite considerar solamente acciones relevantes"
+                },
+                {
+                    "enunciado": "Definimos la heurística de mínimos valores (MVR) como:",
+                    "opciones": [
+                        "La estrategia de elegir la variable con mayor número de valores legales.",
+                        "La estrategia de elegir la variable con menor número de valores legales.",
+                        "La estrategia de elegir la variable con mayor número de restricciones.",
+                        "La estrategia de elegir la variable con menor número de restricciones."
+                    ],
+                    "solucion": "La estrategia de elegir la variable con menor número de valores legales."
+                },
+                {
+                    "enunciado": "Definimos un plan consistente como:",
+                    "opciones": [
+                        "Un plan en el cual no hay ciclos en las restricciones ordenadas",
+                        "Un plan en el cual no hay ciclos en las restricciones ordenadas y no existen conflictos con los enlaces causales.",
+                        "Un plan en el que se ha mencionado cada variable y además cumple con todas las restricciones (el equivalente de solución para el tema de planificación)",
+                        "Un plan en el que se ha mencionado cada variable (el equivalente de asignación completa para el tema de planificación)"
+                    ],
+                    "solucion": "Un plan en el cual no hay ciclos en las restricciones ordenadas y no existen conflictos con los enlaces causales."
+                },
+                {
+                    "enunciado": "La idea del arco consistente proporciona un mecanismo rápido para:",
+                    "opciones": [
+                        "El manejo de restricciones especiales",
+                        "La propagación de restricciones",
+                        "La búsqueda con vuelta atrás para PSR",
+                        "La comprobación hacia delante"
+                    ],
+                    "solucion": "La propagación de restricciones"
+                },
+                {
+                    "enunciado": "Una condición abierta…",
+                    "opciones": [
+                        "Es una precondición de una etapa que no está ligada a ningún enlace causal.",
+                        "Es aquella que establece enlaces de etapas anteriores con precondiciones de etapas temporales posteriores.",
+                        "Finaliza un plan",
+                        "determina si un plan está completo"
+                    ],
+                    "solucion": "Es una precondición de una etapa que no está ligada a ningún enlace causal."
+                },
+                {
+                    "enunciado": "Marque la opción FALSA con respecto al algoritmo minimax (jugadores MAX y MIN) y la técnica de poda alfa-beta:",
+                    "opciones": [
+                        "β es el valor de la mejor opción (más abajo) hasta el momento a lo largo del camino para MIN",
+                        "La poda alfa-beta es una técnica de búsqueda que reduce el número de nodos evaluados en un árbol de juego por el algoritmo minimax.",
+                        "La técnica de poda alfa-beta, al podar ramas del árbol de juego, hace que varíe la decisión final tomada.",
+                        "α es el valor de la mejor opción (valor más alto) hasta el momento a lo largo del camino para MAX."
+                    ],
+                    "solucion": "La técnica de poda alfa-beta, al podar ramas del árbol de juego, hace que varíe la decisión final tomada."
+                },
+                {
+                    "enunciado": "Si la profundidad máxima del árbol 'm' y hay 'b' movimientos legales, la complejidad temporal de un algoritmo MINIMAX es:",
+                    "opciones": [
+                        "O(b^m)",
+                        "O(bm)",
+                        "O(n)",
+                        "Ninguna de las anteriores"
+                    ],
+                    "solucion": "O(b^m)"
+                },
+                {
+                    "enunciado": "De las heurísticas estudiadas en el tema, que nos ayudan a mejorar la eficiencia del Backtracking (Mínimos Valores Restantes, Grado Heurístico y Valor Más Restringido), marca la opción verdadera",
+                    "opciones": [
+                        "MVR es por lo general una guía poderosa a la hora de elegir la siguiente variable, pero el Grado Heurístico puede ser útil como desempate en caso de que las variables tengan el mismo número de valores legales.",
+                        "VMR nos ayuda en la elección de variable, puesto que su funcionamiento se basa en elegir la variable más restringida es decir con menos valores legales posibles para asignar.",
+                        "Grado Heurístico nos ayuda a decidir el orden para examinar los valores que asignar a una variable una vez elegida.",
+                        "MVR siempre nos ayuda en la elección de variable, puesto que su funcionamiento se basa en elegir la variable más restringida, es decir, con menos valores legales posibles para asignar."
+                    ],
+                    "solucion": "MVR es por lo general una guía poderosa a la hora de elegir la siguiente variable, pero el Grado Heurístico puede ser útil como desempate en caso de que las variables tengan el mismo número de valores legales."
+                },
+                {
+                    "enunciado": "¿Qué diferencia existe entre un plan de orden parcial y otro de orden total?",
+                    "opciones": [
+                        "En un plan de orden total los planes están formados por varias listas de pasos.",
+                        "Un plan de orden parcial se diferencia del plan de orden total en que, en lugar de especificar planes con acciones totalmente ordenadas de forma lineal, se especifican planes con acciones parcialmente ordenadas.",
+                        "Un plan totalmente ordenado es como un conjunto de planes parcialmente ordenados.",
+                        "Un plan de orden parcial considera de forma simultánea dos planes totalmente ordenados."
+                    ],
+                    "solucion": "Un plan de orden parcial se diferencia del plan de orden total en que, en lugar de especificar planes con acciones totalmente ordenadas de forma lineal, se especifican planes con acciones parcialmente ordenadas."
+                },
+                {
+                    "enunciado": "Sobre el algoritmo MINIMAX marca la opción verdadera.",
+                    "opciones": [
+                        "El algoritmo MINIMAX realiza una búsqueda primero en profundidad completa del árbol de juegos.",
+                        "Si la profundidad máxima del árbol es m, y hay b movimientos legales en cada punto, entonces la complejidad en espacio del algoritmo MINIMAX es O(bm)",
+                        "Si la profundidad máxima del árbol es m, y hay b movimientos legales en cada punto, entonces la complejidad en espacio del algoritmo MINIMAX es O(bm)",
+                        "El algoritmo MINIMAX realiza una búsqueda primero en anchura completa del árbol de juegos."
+                    ],
+                    "solucion": "El algoritmo MINIMAX realiza una búsqueda primero en profundidad completa del árbol de juegos."
+                },
+                {
+                    "enunciado": "Seleccione la opción verdadera",
+                    "opciones": [
+                        "La heurística MVR ('Mínimos valores restantes') selecciona la variable (de las no asignadas) que menor probabilidad de fallar pronto tenga",
+                        "La heurística 'valor menos restringido' escoge la variable (de las no asignadas) que con mayor probabilidad causara pronto un fallo",
+                        "La heurística 'mínimo grado restante' (grado heurístico) selecciona la variable (de las no asignadas) que esté implicada en el mayor número de restricciones",
+                        "En un PSR, una solución tiene que satisfacer todas las restricciones, pero no hace falta que sea completa"
+                    ],
+                    "solucion": "La heurística 'mínimo grado restante' (grado heurístico) selecciona la variable (de las no asignadas) que esté implicada en el mayor número de restricciones"
+                },
+                {
+                    "enunciado": "Cuál de las siguientes afirmaciones relacionadas con PSR y tipos de búsqueda es falsa:",
+                    "opciones": [
+                        "La búsqueda con vuelta atrás es un tipo de búsqueda primero en profundidad.",
+                        "En los problemas de satisfacción de restricciones (PSR) se puede representar su estructura mediante un grafo de restricciones.",
+                        "Las heurísticas de mínimos valores restantes y mínimo grado restante no son mecanismos independientes del dominio a la hora de decidir que variables elegir en una búsqueda con vuelta atrás",
+                        "La comprobación hacia delante es el método más simple para reducir en gran medida el factor de ramificación."
+                    ],
+                    "solucion": "Las heurísticas de mínimos valores restantes y mínimo grado restante no son mecanismos independientes del dominio a la hora de decidir que variables elegir en una búsqueda con vuelta atrás"
+                },
+                {
+                    "enunciado": "Seleccione cuál de las siguientes sentencias es cierta en relación a los lenguajes SCRIPTS y ADL:",
+                    "opciones": [
+                        "Los lenguajes STRIPS permiten sólo literales positivos en estados, mientras que los ADL permiten tanto negativos como positivos",
+                        "Los lenguajes SRIPTS permiten tanto literales negativos como positivos en estados, al igual que los lenguajes ADL",
+                        "Los lenguajes STRIPS permiten sólo literales negativos en estados, mientras que los ADL permiten tanto negativos como positivos",
+                        "Todas las sentencias son falsas"
+                    ],
+                    "solucion": "Los lenguajes STRIPS permiten sólo literales positivos en estados, mientras que los ADL permiten tanto negativos como positivos"
+                },
+                {
+                    "enunciado": "Se quiere abordar el problema de componer la canción más bonita en piano, para un sujeto particular. Se abordará como un problema de satisfacción de restricciones. Para ello disponemos de un casco BCI (Brain Computer Interface) que colocamos sobre el sujeto y después de algunas pruebas, aislamos los patrones relativos a las ondas cerebrales que determinan cuando el sujeto se encuentra aburrido, emocionado e indiferente. El sujeto escuchará la composición generada en cada estado, dada por las variables asignadas, y el sensor captará el patrón de señales que representa sus emociones. La solución consiste en encontrar 15 pulsaciones de teclas de piano, de igual duración (por simplicidad), que generen una tremenda emoción al sujeto. Elija la opción correcta.",
+                    "opciones": [
+                        "Variables Notas [Do, Re, Mi, Fa, Sol, La, Si]; Dominio Pulsaciones [P1, P2,,P15]; Restricciones [\"El sujeto está aburrido\"]",
+                        "Variables Pulsaciones [P1, P2,,,P15]; Dominio Notas [Do, Re, Mi, Fa, Sol, La, Si] ; Restricciones [\"El sujeto está indiferente\"]",
+                        "Este problema no puede abordarse desde el punto de vista de la inteligencia artificial.",
+                        "Variables Pulsaciones [P1, P2,P15]; Dominio Notas [Do, Re, Mi, Fa, Sol, La, Si] ; Restricciones [\"El sujeto está emocionado\"] ."
+                    ],
+                    "solucion": "Variables Pulsaciones [P1, P2,P15]; Dominio Notas [Do, Re, Mi, Fa, Sol, La, Si] ; Restricciones [\"El sujeto está emocionado\"] ."
+                },
+                {
+                    "enunciado": "El árbol de juegos del algoritmo minimax puede ser acotado",
+                    "opciones": [
+                        "Sí, y consigue reducir el número de estados considerablemente, en el algoritmo minimax esta cota se determina mediante la poda alfa-beta.",
+                        "Sí, si establece una cota y cuando se alcanza se devuelve un valor por una función de utilidad. Es deseable cuando el espacio de estados es muy grande.",
+                        "No, porque para conocer los valores es necesario recorrer todo el árbol.",
+                        "No tendría ningún sentido, por que es en anchura."
+                    ],
+                    "solucion": "Sí, y consigue reducir el número de estados considerablemente, en el algoritmo minimax esta cota se determina mediante la poda alfa-beta."
+                },
+                {
+                    "enunciado": "Un arco consistente…",
+                    "opciones": [
+                        "Es no dirigido.",
+                        "Es menos potente que la comprobación hacia delante.",
+                        "Proporciona un método rápido de propagación de restricciones.",
+                        "El arco inverso es consistente."
+                    ],
+                    "solucion": "Proporciona un método rápido de propagación de restricciones."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes opciones sobre poda alfa beta es la correcta?",
+                    "opciones": [
+                        "Beta es el valor de la mejor opción (valor más bajo) que hemos encontrado hasta ahora en cualquier punto elegido a lo largo del camino para MAX.",
+                        "Alfa es el valor de la mejor opción (valor más bajo) que hemos encontrado hasta ahora en cualquier punto elegido a lo largo del camino para MIN.",
+                        "Beta es el valor de la mejor opción (valor más bajo) que hemos encontrado hasta ahora en cualquier punto elegido a lo largo del camino para MIN.",
+                        "Ninguna de las demás es correcta."
+                    ],
+                    "solucion": "Beta es el valor de la mejor opción (valor más bajo) que hemos encontrado hasta ahora en cualquier punto elegido a lo largo del camino para MIN."
+                },
+                {
+                    "enunciado": "Indique la afirmación correcta respecto al funcionamiento del algoritmo minimax",
+                    "opciones": [
+                        "Ninguna de las demás es correcta.",
+                        "Para realizar los cálculos utiliza los valores minimax de cada estado anterior.",
+                        "Calcula la decisión minimax del estado anterior.",
+                        "La complejidad espacial es siempre O(m) siendo m la profundidad máxima."
+                    ],
+                    "solucion": "Ninguna de las demás es correcta."
+                },
+                {
+                    "enunciado": "Indique la afirmación correcta en relación al término efecto",
+                    "opciones": [
+                        "Un efecto es la unión de literales con dependencia funcional describiendo como el estado cambia cuando la acción es ejecutada.",
+                        "Un efecto es la unión de literales sin dependencia funcional describiendo como el estado cambia cuando la acción es ejecutada.",
+                        "Un efecto es la disyunción de literales sin dependencia funcional describiendo como el estado cambia cuando la acción es ejecutada.",
+                        "Un literal positivo P en el efecto se espera que sea verdadero en el estado actual desde el que se realiza la acción, mientras que un literal negativo P se espera que sea falso."
+                    ],
+                    "solucion": "Un efecto es la unión de literales sin dependencia funcional describiendo como el estado cambia cuando la acción es ejecutada."
+                },
+                {
+                    "enunciado": "¿Por qué consigue menos eficiencia el algoritmo de búsqueda alfa-beta que el minimax?",
+                    "opciones": [
+                        "El algoritmo de búsqueda alfa-beta es más eficiente que el minimax.",
+                        "Porque el algoritmo de búsqueda alfa-beta recorre subárboles irrelevantes.",
+                        "Porque puede calcular distinto movimiento óptimo que el minimax.",
+                        "Ninguna de las demás es correcta."
+                    ],
+                    "solucion": "El algoritmo de búsqueda alfa-beta es más eficiente que el minimax."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes afirmaciones es falsa?",
+                    "opciones": [
+                        "La heurística \"mínimo grado restante\" es un método para decidir qué variable elegir en una búsqueda con vuelta atrás.",
+                        "\"La heurística \"mínimos valores restantes\" es llamada también heurística \"primero en fallar\".",
+                        "\"La primera elección siempre es proporcionada por la heurística \"mínimos valores restantes\".",
+                        "\"La heurística \"valor menos restringido\" ayuda en la ordenación de los valores de las variables."
+                    ],
+                    "solucion": "\"La primera elección siempre es proporcionada por la heurística \"mínimos valores restantes\"."
                 }
             ]
         }
