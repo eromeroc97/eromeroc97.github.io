@@ -990,12 +990,12 @@
                 {
                     "enunciado": "Se quiere abordar el problema de componer la canción más bonita en piano, para un sujeto particular. Se abordará como un problema de satisfacción de restricciones. Para ello disponemos de un casco BCI (Brain Computer Interface) que colocamos sobre el sujeto y después de algunas pruebas, aislamos los patrones relativos a las ondas cerebrales que determinan cuando el sujeto se encuentra aburrido, emocionado e indiferente. El sujeto escuchará la composición generada en cada estado, dada por las variables asignadas, y el sensor captará el patrón de señales que representa sus emociones. La solución consiste en encontrar 15 pulsaciones de teclas de piano, de igual duración (por simplicidad), que generen una tremenda emoción al sujeto. Elija la opción correcta.",
                     "opciones": [
-                        "Variables Notas [Do, Re, Mi, Fa, Sol, La, Si]; Dominio Pulsaciones [P1, P2,,P15]; Restricciones [\"El sujeto está aburrido\"]",
-                        "Variables Pulsaciones [P1, P2,,,P15]; Dominio Notas [Do, Re, Mi, Fa, Sol, La, Si] ; Restricciones [\"El sujeto está indiferente\"]",
+                        "Variables Notas [Do, Re, Mi, Fa, Sol, La, Si]; Dominio Pulsaciones [P1, P2,,P15]; Restricciones ['El sujeto está aburrido']",
+                        "Variables Pulsaciones [P1, P2,,,P15]; Dominio Notas [Do, Re, Mi, Fa, Sol, La, Si] ; Restricciones ['El sujeto está indiferente'].",
                         "Este problema no puede abordarse desde el punto de vista de la inteligencia artificial.",
-                        "Variables Pulsaciones [P1, P2,P15]; Dominio Notas [Do, Re, Mi, Fa, Sol, La, Si] ; Restricciones [\"El sujeto está emocionado\"] ."
+                        "Variables Pulsaciones [P1, P2,P15]; Dominio Notas [Do, Re, Mi, Fa, Sol, La, Si] ; Restricciones ['El sujeto está emocionado']."
                     ],
-                    "solucion": "Variables Pulsaciones [P1, P2,P15]; Dominio Notas [Do, Re, Mi, Fa, Sol, La, Si] ; Restricciones [\"El sujeto está emocionado\"] ."
+                    "solucion": "Variables Pulsaciones [P1, P2,P15]; Dominio Notas [Do, Re, Mi, Fa, Sol, La, Si] ; Restricciones ['El sujeto está emocionado']."
                 },
                 {
                     "enunciado": "El árbol de juegos del algoritmo minimax puede ser acotado",
@@ -1008,7 +1008,7 @@
                     "solucion": "Sí, y consigue reducir el número de estados considerablemente, en el algoritmo minimax esta cota se determina mediante la poda alfa-beta."
                 },
                 {
-                    "enunciado": "Un arco consistente…",
+                    "enunciado": "Un arco consistente ...",
                     "opciones": [
                         "Es no dirigido.",
                         "Es menos potente que la comprobación hacia delante.",
@@ -1060,12 +1060,12 @@
                 {
                     "enunciado": "¿Cuál de las siguientes afirmaciones es falsa?",
                     "opciones": [
-                        "La heurística \"mínimo grado restante\" es un método para decidir qué variable elegir en una búsqueda con vuelta atrás.",
-                        "\"La heurística \"mínimos valores restantes\" es llamada también heurística \"primero en fallar\".",
-                        "\"La primera elección siempre es proporcionada por la heurística \"mínimos valores restantes\".",
-                        "\"La heurística \"valor menos restringido\" ayuda en la ordenación de los valores de las variables."
+                        "La heurística 'mínimo grado restante' es un método para decidir qué variable elegir en una búsqueda con vuelta atrás.",
+                        "'La heurística 'mínimos valores restantes' es llamada también heurística 'primero en fallar'.",
+                        "'La primera elección siempre es proporcionada por la heurística 'mínimos valores restantes'.",
+                        "'La heurística 'valor menos restringido' ayuda en la ordenación de los valores de las variables."
                     ],
-                    "solucion": "\"La primera elección siempre es proporcionada por la heurística \"mínimos valores restantes\"."
+                    "solucion": "'La primera elección siempre es proporcionada por la heurística 'mínimos valores restantes'."
                 }
             ]
         }
