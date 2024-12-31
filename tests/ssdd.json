@@ -213,6 +213,201 @@
                         "Broker y consumidor"
                     ],
                     "solucion": "El broker"
+                },
+                {
+                    "enunciado": "En un sistema de publicación/suscripción, tanto publicador como subscriptor proporcionan funciones «callback» para envío y recepción de mensajes respectivamente. ¿Qué modelo de interacción parece seguir este sistema?",
+                    "opciones": [
+                        "push/push",
+                        "pull/pull",
+                        "push/pull",
+                        "pull/push"
+                    ],
+                    "solucion": "pull/push"
+                },
+                {
+                    "enunciado": "El tipo de comunicación que ofrece RabbitMQ en el caso más habitual está...",
+                    "opciones": [
+                        "Acoplado en tiempo y espacio.",
+                        "Desacoplado en tiempo y acoplado en espacio",
+                        "Acoplado en tiempo y desacoplado en espacio.",
+                        "Desacoplado en tiempo y espacio."
+                    ],
+                    "solucion": "Desacoplado en tiempo y espacio."
+                },
+                {
+                    "enunciado": "¿Qué modelo de subscripción permite especificar un filtro como un predicado sobre los valores de los atributos del evento?",
+                    "opciones": [
+                        "Basado en canales",
+                        "Basado en temas",
+                        "Basado en contenido",
+                        "Basado en claves"
+                    ],
+                    "solucion": "Basado en contenido"
+                },
+                {
+                    "enunciado": "¿A qué se refiere el concepto de callback habitual en los mecanismos que soportan recepción push?",
+                    "opciones": [
+                        "Es un mecanismo de bloqueo que se aplica en el despachado concurrente.",
+                        "Se refiere al mecanismo de serialización del sirviente en middlewares RMI.",
+                        "Es algún elemento invocable mediante el cual el runtime nos proporciona los mensajes.",
+                        "Es un módulo del runtime que proporciona la interfaz de serialización que ofrece el servidor."
+                    ],
+                    "solucion": "Es algún elemento invocable mediante el cual el runtime nos proporciona los mensajes."
+                },
+                {
+                    "enunciado": "En el diseño de SSDD altamente escalables, ¿cómo se puede lograr una coordinación eficiente sin depender de un único punto de fallo?",
+                    "opciones": [
+                        "Mediante el uso exclusivo de protocolos centralizados.",
+                        "Implementando algoritmos de consenso distribuido.",
+                        "Minimizando la comunicación entre nodos.",
+                        "Usando un coordinador centralizado de baja disponibilidad."
+                    ],
+                    "solucion": "Implementando algoritmos de consenso distribuido."
+                },
+                {
+                    "enunciado": "Como ingeniero informático encargado de la implementación de un sistema distribuido dedicado al mantenimiento de la información del tiempo de un aeropuerto, tiene tres estaciones meteorológicas replicadas identificadas como A, B y C. Normalmente, solo la estación seleccionada como coordinadora manda los datos. Si esto no ocurriera, se seleccionaría otra de forma automática para que envíe las actualizaciones. De los siguientes ¿Qué algoritmo ayudaría a lograr este objetivo?",
+                    "opciones": [
+                        "Ricart y Agrawala",
+                        "García Molina (bully)",
+                        "Maekawa",
+                        "Ninguno de los anteriores"
+                    ],
+                    "solucion": "García Molina (bully)"
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes explica mejor el funcionamiento y la importancia del algoritmo de Maekawa, destacando cómo aborda la coordinación de manera eficiente y reduce la necesidad de comunicación entre nodos?",
+                    "opciones": [
+                        "El algoritmo de Maekawa utiliza un enfoque basado en reglas de prioridad para asignar turnos a los nodos, garantizando la exclusión mutua a través de la cooperación de nodos vecinos y minimizando las consultas a nodos distantes.",
+                        "Maekawa implementa un modelo de acuerdos distribuidos que utiliza lógica difusa para asignar prioridades, permitiendo una coordinación más flexible y adaptativa en entornos dinámicos.",
+                        "El algoritmo de Maekawa optimiza la coordinación al permitir que solo algunos de los nodos resuelvan conflictos de exclusión mutua, reduciendo así la carga de comunicación.",
+                        "La esencia del algoritmo de Maekawa radica en la aplicación de técnicas de aprendizaje profundo para predecir patrones de acceso a recursos, logrando una coordinación autónoma y adaptativa en sistemas distribuidos complejos."
+                    ],
+                    "solucion": "El algoritmo de Maekawa optimiza la coordinación al permitir que solo algunos de los nodos resuelvan conflictos de exclusión mutua, reduciendo así la carga de comunicación."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes explica mejor el algoritmo de servidor central en comparación con otros enfoques de coordinación?",
+                    "opciones": [
+                        "El algoritmo de servidor central utiliza un único nodo como punto focal para coordinar todas las operaciones, simplificando la gestión de transacciones y mejorando la consistencia de datos mediante la centralización de la toma de decisiones.",
+                        "A través de la implementación de un sistema de replicación de servidores, el algoritmo de servidor central busca mitigar la posibilidad de fallos únicos y mejorar la disponibilidad del sistema, aunque a expensas de una mayor complejidad y carga de red.",
+                        "El algoritmo de servidor central, al depender de un único punto centralizado, puede enfrentar desafíos significativos en términos de escalabilidad y tolerancia a fallos, ya que un colapso en el nodo central puede paralizar completamente la coordinación en el sistema distribuido.",
+                        "Al incorporar mecanismos avanzados de encriptación y firma digital, el algoritmo de servidor central garantiza la seguridad de la comunicación entre nodos, minimizando así los riesgos asociados con la coordinación en entornos distribuidos."
+                    ],
+                    "solucion": "El algoritmo de servidor central, al depender de un único punto centralizado, puede enfrentar desafíos significativos en términos de escalabilidad y tolerancia a fallos, ya que un colapso en el nodo central puede paralizar completamente la coordinación en el sistema distribuido."
+                },
+                {
+                    "enunciado": "¿Cuál es la función y relevancia del algoritmo para elegir líder/coordinador en sistemas distribuidos?",
+                    "opciones": [
+                        "La elección del líder no es esencial para la coordinación en sistemas distribuidos, ya que introduce complejidad innecesaria.",
+                        "El algoritmo garantiza exclusión mutua minimizando necesidad coordinación.",
+                        "Al seleccionar nodo líder facilita coordinación centralizando toma decisiones.",
+                        "La elección líder solo es relevante entornos baja concurrencia."
+                    ],
+                    "solucion": "Al seleccionar nodo líder facilita coordinación centralizando toma decisiones."
+                },
+                {
+                    "enunciado": "¿Qué es un sistema tolerante a fallos?",
+                    "opciones": [
+                        "Persigue la consistencia de la información.",
+                        "Sistema muy robusto en el que no se producen fallos de ningún tipo.",
+                        "Cumple con todas las especificaciones del sistema en presencia de cualquier tipo de fallo.",
+                        "Permite la ejecución continuada del sistema, posiblemente degradada, aún en presencia de fallos."
+                    ],
+                    "solucion": "Permite la ejecución continuada del sistema, posiblemente degradada, aún en presencia de fallos."
+                },
+                {
+                    "enunciado": "¿En qué modelo de replicación, una actualización del dato X se tiene que ver inmediatamente en las otras réplicas?",
+                    "opciones": [
+                        "Lineal",
+                        "Estricta",
+                        "Secuencial",
+                        "Ninguna"
+                    ],
+                    "solucion": "Estricta"
+                },
+                {
+                    "enunciado": "¿Qué factores pueden afectar a la ventana de inconsistencia?",
+                    "opciones": [
+                        "Carga del sistema.",
+                        "Latencia.",
+                        "Latencia y carga del sistema.",
+                        "Latencia, carga del sistema y número réplicas."
+                    ],
+                    "solucion": "Latencia, carga del sistema y número réplicas."
+                },
+                {
+                    "enunciado": "Señala afirmación FALSA respecto esquema replicación asíncrona.",
+                    "opciones": [
+                        "Cumple ACID.",
+                        "Proporciona baja latencia.",
+                        "Proporciona bajo acoplamiento.",
+                        "Aplicable a sistema consistencia eventual."
+                    ],
+                    "solucion": "Cumple ACID."
+                },
+                {
+                    "enunciado": "En sistema réplica 7 nodos basado quorum assembly. ¿Cuál sería configuración ROWA?",
+                    "opciones": [
+                        "R=1, W=4",
+                        "R=1, W=7",
+                        "R=4, W=1",
+                        "R=7, W=7"
+                    ],
+                    "solucion": "R=1, W=7"
+                },
+                {
+                    "enunciado": "¿Cuál es valor reloj lógico vectorial segundo evento P2?",
+                    "imagen": "img/ssdd/2324_p2_2.png",
+                    "opciones": [
+                        "(0,1,0)",
+                        "(0,2,0)",
+                        "(0,3,0)",
+                        "(1,2,0)"
+                    ],
+                    "solucion": "(0,2,0)"
+                },
+                {
+                    "enunciado": "¿Cómo cambiaría recuento estados globales si se hubiera enviado mensaje evento c=2 llega P2 evento b=3?",
+                    "imagen": "img/ssdd/2324_p2_2.png",
+                    "opciones": [
+                        "No habría cambios",
+                        "4 estados más",
+                        "3 estados menos",
+                        "6 estados menos"
+                    ],
+                    "solucion": "6 estados menos"
+                },
+                {
+                    "enunciado": "¿Qué habría que añadir eliminar diagrama eventos izquierda transición entre estados S030 S131 diagrama derecha?",
+                    "imagen": "img/ssdd/2324_p2_2.png",
+                    "opciones": [
+                        "Evento nuevo P2 entre b=2 b=3.",
+                        "Eliminar evento c=2.",
+                        "Mensaje entre a=2 b=2.",
+                        "No es posible."
+                    ],
+                    "solucion": "No es posible."
+                },
+                {
+                    "enunciado": "¿Cuáles son valores a,b,c después segundo evento P2?",
+                    "imagen": "img/ssdd/2324_p2_2.png",
+                    "opciones": [
+                        "(a=1,b=2,c=0)",
+                        "(a=1,b=2,c=1)",
+                        "(a=indeterminado,b=2,c=1)",
+                        "(a=indeterminado,b=2,c=indeterminado)"
+                    ],
+                    "solucion": "(a=indeterminado,b=2,c=indeterminado)"
+                },
+                {
+                    "enunciado": "Dada la función f = (2a > b + c), ¿cuáles serían los resultados de evaluar los predicados «posiblemente(f)» y «definitivamente(f)»?",
+                    "imagen": "img/ssdd/2324_p2_2.png",
+                    "opciones": [
+                        "(false, false)",
+                        "(false, true)",
+                        "(true, false)",
+                        "(true, true)"
+                    ],
+                    "solucion": "(true, false)"
                 }
             ]
         }
