@@ -1,221 +1,219 @@
 {
     "nombre": "INTELIGENTES",
     "temas": {
-        "Primer Parcial (Temas 1 a 3.1)": {
+        "Segundo Parcial (Temas 4 a 8)": {
             "preguntas": [
-                [
-                    {
-                        "enunciado": "¿Qué es la comunicación indirecta en sistemas distribuidos?",
-                        "opciones": [
-                            "Comunicación directa entre dos procesos.",
-                            "Comunicación a través de un intermediario.",
-                            "Comunicación a través de líneas telefónicas.",
-                            "Comunicación sincrónica en tiempo real."
-                        ],
-                        "solucion": "Comunicación a través de un intermediario."
-                    },
-                    {
-                        "enunciado": "¿Cuál de los siguientes es un ejemplo de comunicación indirecta?",
-                        "opciones": [
-                            "Llamadas a procedimiento remoto (RPC).",
-                            "Comunicación por sockets.",
-                            "Colas de mensajes distribuidas.",
-                            "Comunicación por bluetooth."
-                        ],
-                        "solucion": "Colas de mensajes distribuidas."
-                    },
-                    {
-                        "enunciado": "¿Qué es el patrón de publicación/suscripción en sistemas distribuidos?",
-                        "opciones": [
-                            "Un método para realizar llamadas a procedimiento remoto (RPC).",
-                            "Un esquema en el que los procesos se comunican mediante el intercambio de archivos.",
-                            "Productores envían mensajes a múltiples consumidores interesados a través de un intermediario.",
-                            "Una técnica para compartir memoria entre procesos en diferentes nodos."
-                        ],
-                        "solucion": "Productores envían mensajes a múltiples consumidores interesados a través de un intermediario."
-                    },
-                    {
-                        "enunciado": "¿Cuál de los siguientes mecanismos NO es una forma de comunicación indirecta?",
-                        "opciones": [
-                            "Memoria compartida distribuida.",
-                            "Base de datos compartida.",
-                            "Comunicación de grupos.",
-                            "Sockets TCP/IP."
-                        ],
-                        "solucion": "Sockets TCP/IP."
-                    },
-                    {
-                        "enunciado": "¿Qué característica tiene la comunicación indirecta respecto de la directa?",
-                        "opciones": [
-                            "Es más rápida.",
-                            "Facilita la sincronización directa entre procesos.",
-                            "Aumenta el acoplamiento entre los procesos.",
-                            "Proporciona mayor flexibilidad y desacoplamiento."
-                        ],
-                        "solucion": "Proporciona mayor flexibilidad y desacoplamiento."
-                    },
-                    {
-                        "enunciado": "Indique el tipo de problema que le ayuda a resolver el algoritmo de Ricart y Agrawala",
-                        "opciones": [
-                            "Elección de coordinador",
-                            "Consenso",
-                            "Exclusión mutua",
-                            "Sincronización de eventos"
-                        ],
-                        "solucion": "Exclusión mutua"
-                    },
-                    {
-                        "enunciado": "Construir un sistema que emplea multidifusión sobre el protocolo IP, implica la utilización de:",
-                        "opciones": [
-                            "SNMP",
-                            "TCP",
-                            "UDP",
-                            "RPC"
-                        ],
-                        "solucion": "UDP"
-                    },
-                    {
-                        "enunciado": "En un sistema distribuido con 4 procesos y un recurso compartido R, ningún proceso quiere acceso a R en el instante 0. En el instante 1, el proceso P1 solicita acceso a R. En cuanto a número de mensajes ¿cuál de los siguientes algoritmos es más eficiente para conseguir la exclusión mutua en ausencia de fallos?",
-                        "opciones": [
-                            "Servidor Central",
-                            "Anillo (formado por P2->P3->P4->P1->P2 y el token en P3)",
-                            "Ricart y Agrawala (con soporte multicast real)",
-                            "García Molina (con soporte multicast real)"
-                        ],
-                        "solucion": "Servidor Central"
-                    },
-                    {
-                        "enunciado": "¿Qué caracteriza inequívocamente a un error bizantino?",
-                        "opciones": [
-                            "Errores en las comunicaciones.",
-                            "Errores en los procesos.",
-                            "Errores aleatorios en comunicaciones y procesos.",
-                            "Comportamiento aparentemente malicioso."
-                        ],
-                        "solucion": "Comportamiento aparentemente malicioso."
-                    },
-                    {
-                        "enunciado": "En multidifusión ¿a qué nos referimos con un grupo cerrado?",
-                        "opciones": [
-                            "Sólo los miembros del grupo pueden enviar mensajes al grupo.",
-                            "Para formar parte del grupo los miembros deben conseguir exclusión mutua.",
-                            "Todos los procesos se ejecutan sobre computadores de una misma LAN.",
-                            "Los mensajes enviados al grupo tienen un tamaño predefinido."
-                        ],
-                        "solucion": "Sólo los miembros del grupo pueden enviar mensajes al grupo."
-                    },
-                    {
-                        "enunciado": "En un conjunto de 7 réplicas, decide implementar un protocolo de consistencia Quorum ¿qué asignación de número de réplicas a grupos de lectura/escritura sería correcta?",
-                        "opciones": [
-                            "Escritura 3, Lectura 3.",
-                            "Escritura 2, Lectura 5.",
-                            "Escritura 1, Lectura 6.",
-                            "Escritura 4, Lectura 7."
-                        ],
-                        "solucion": "Escritura 4, Lectura 7."
-                    },
-                    {
-                        "enunciado": "¿Qué métodos de replicación no aseguran una consistencia estricta?",
-                        "opciones": [
-                            "Métodos optimistas",
-                            "Métodos pesimistas",
-                            "Ambos métodos aseguran una consistencia estricta",
-                            "Ambos métodos no aseguran una consistencia estricta"
-                        ],
-                        "solucion": "Métodos optimistas"
-                    },
-                    {
-                        "enunciado": "Complete la siguiente frase: «La disponibilidad es inversamente proporcional a... »",
-                        "opciones": [
-                            "La carga del sistema.",
-                            "El coste del sistema.",
-                            "La redundancia del sistema.",
-                            "La fiabilidad del sistema."
-                        ],
-                        "solucion": "La carga del sistema."
-                    },
-                    {
-                        "enunciado": "¿Cuál de las siguientes puede ser una consecuencia de la replicación?",
-                        "opciones": [
-                            "Aumenta la latencia.",
-                            "Incrementa la disponibilidad.",
-                            "Reduce las opciones de escalabilidad.",
-                            "Simplifica la consistencia."
-                        ],
-                        "solucion": "Incrementa la disponibilidad."
-                    },
-                    {
-                        "enunciado": "¿Qué dice el modelo de «consistencia eventual»?",
-                        "opciones": [
-                            "El programador es responsable de actualizar las copias en base a un modelo líder-seguidores.",
-                            "Todas las réplicas deben ser sincronizadas inmediatamente después de cualquier acceso a una de las réplicas.",
-                            "Si no se hacen escrituras nuevas sobre un recurso dado, todos los accesos devolverán eventualmente el último valor escrito.",
-                            "Requiere de un protocolo de transacción distribuidas para garantizar la coherencia entre réplicas, especialmente ante particiones en la red."
-                        ],
-                        "solucion": "Si no se hacen escrituras nuevas sobre un recurso dado, todos los accesos devolverán eventualmente el último valor escrito."
-                    },
-                    {
-                        "enunciado": "¿Qué son los relojes lógicos en sistemas distribuidos?",
-                        "opciones": [
-                            "Esquemas para ordenar eventos.",
-                            "Métodos para medir el tiempo real en cada nodo.",
-                            "Relojes físicos que se sincronizan con precisión.",
-                            "Dispositivos de hardware para mantener la hora actual."
-                        ],
-                        "solucion": "Esquemas para ordenar eventos."
-                    },
-                    {
-                        "enunciado": "¿Cuál es el propósito de los relojes vectoriales?",
-                        "opciones": [
-                            "Reducir el tiempo de procesamiento en cada nodo.",
-                            "Capturar las dependencias causales entre eventos.",
-                            "Sincronizar relojes físicos entre nodos.",
-                            "Proporcionar una GUI para la gestión del tiempo."
-                        ],
-                        "solucion": "Capturar las dependencias causales entre eventos."
-                    },
-                    {
-                        "enunciado": "¿Qué problema intenta resolver NTP?",
-                        "opciones": [
-                            "La sincronización de relojes entre nodos en una red.",
-                            "La comunicación segura entre nodos.",
-                            "La recuperación de datos después de una falla del sistema.",
-                            "La distribución de la carga de trabajo en un SD."
-                        ],
-                        "solucion": "La sincronización de relojes entre nodos en una red."
-                    },
-                    {
-                        "enunciado": "¿Cuál es el propósito del «algoritmo del abusón»?",
-                        "opciones": [
-                            "Sincronizar los relojes físicos de todos los nodos en una red.",
-                            "Elegir un proceso para realizar una tarea específica.",
-                            "Asegurar la integridad y seguridad de los datos transmitidos.",
-                            "Ora ordenando eventos en ausencia de sincronización de reloj físico."
-                        ],
-                        "solucion": "Elegir un proceso para realizar una tarea específica."
-                    },
-                    {
-                        "enunciado": "¿Cuál es una limitación de usar relojes físicos en sistemas distribuidos?",
-                        "opciones": [
-                            "Son difíciles de implementar.",
-                            "Pueden llevar a inconsistencias debido a su resolución.",
-                            "Consumen demasiados recursos.",
-                            "No se pueden sincronizar en redes locales."
-                        ],
-                        "solucion": "Pueden llevar a inconsistencias debido a su resolución."
-                    },
-                    {
-                        "enunciado": "Está implementando un sistema de comunicación indirecta con ZeroC Ice. ¿Qué componente es más probable que implemente una interfaz similar a la siguiente?",
-                        "imagen": "img/ssdd/2324_p2_1.png",
-                        "opciones": [
-                            "El publicador",
-                            "El consumidor",
-                            "El broker",
-                            "Broker y consumidor"
-                        ],
-                        "solucion": "El broker"
-                    }
-                ]
+                {
+                    "enunciado": "¿Qué es la comunicación indirecta en sistemas distribuidos?",
+                    "opciones": [
+                        "Comunicación directa entre dos procesos.",
+                        "Comunicación a través de un intermediario.",
+                        "Comunicación a través de líneas telefónicas.",
+                        "Comunicación sincrónica en tiempo real."
+                    ],
+                    "solucion": "Comunicación a través de un intermediario."
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes es un ejemplo de comunicación indirecta?",
+                    "opciones": [
+                        "Llamadas a procedimiento remoto (RPC).",
+                        "Comunicación por sockets.",
+                        "Colas de mensajes distribuidas.",
+                        "Comunicación por bluetooth."
+                    ],
+                    "solucion": "Colas de mensajes distribuidas."
+                },
+                {
+                    "enunciado": "¿Qué es el patrón de publicación/suscripción en sistemas distribuidos?",
+                    "opciones": [
+                        "Un método para realizar llamadas a procedimiento remoto (RPC).",
+                        "Un esquema en el que los procesos se comunican mediante el intercambio de archivos.",
+                        "Productores envían mensajes a múltiples consumidores interesados a través de un intermediario.",
+                        "Una técnica para compartir memoria entre procesos en diferentes nodos."
+                    ],
+                    "solucion": "Productores envían mensajes a múltiples consumidores interesados a través de un intermediario."
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes mecanismos NO es una forma de comunicación indirecta?",
+                    "opciones": [
+                        "Memoria compartida distribuida.",
+                        "Base de datos compartida.",
+                        "Comunicación de grupos.",
+                        "Sockets TCP/IP."
+                    ],
+                    "solucion": "Sockets TCP/IP."
+                },
+                {
+                    "enunciado": "¿Qué característica tiene la comunicación indirecta respecto de la directa?",
+                    "opciones": [
+                        "Es más rápida.",
+                        "Facilita la sincronización directa entre procesos.",
+                        "Aumenta el acoplamiento entre los procesos.",
+                        "Proporciona mayor flexibilidad y desacoplamiento."
+                    ],
+                    "solucion": "Proporciona mayor flexibilidad y desacoplamiento."
+                },
+                {
+                    "enunciado": "Indique el tipo de problema que le ayuda a resolver el algoritmo de Ricart y Agrawala",
+                    "opciones": [
+                        "Elección de coordinador",
+                        "Consenso",
+                        "Exclusión mutua",
+                        "Sincronización de eventos"
+                    ],
+                    "solucion": "Exclusión mutua"
+                },
+                {
+                    "enunciado": "Construir un sistema que emplea multidifusión sobre el protocolo IP, implica la utilización de:",
+                    "opciones": [
+                        "SNMP",
+                        "TCP",
+                        "UDP",
+                        "RPC"
+                    ],
+                    "solucion": "UDP"
+                },
+                {
+                    "enunciado": "En un sistema distribuido con 4 procesos y un recurso compartido R, ningún proceso quiere acceso a R en el instante 0. En el instante 1, el proceso P1 solicita acceso a R. En cuanto a número de mensajes ¿cuál de los siguientes algoritmos es más eficiente para conseguir la exclusión mutua en ausencia de fallos?",
+                    "opciones": [
+                        "Servidor Central",
+                        "Anillo (formado por P2->P3->P4->P1->P2 y el token en P3)",
+                        "Ricart y Agrawala (con soporte multicast real)",
+                        "García Molina (con soporte multicast real)"
+                    ],
+                    "solucion": "Servidor Central"
+                },
+                {
+                    "enunciado": "¿Qué caracteriza inequívocamente a un error bizantino?",
+                    "opciones": [
+                        "Errores en las comunicaciones.",
+                        "Errores en los procesos.",
+                        "Errores aleatorios en comunicaciones y procesos.",
+                        "Comportamiento aparentemente malicioso."
+                    ],
+                    "solucion": "Comportamiento aparentemente malicioso."
+                },
+                {
+                    "enunciado": "En multidifusión ¿a qué nos referimos con un grupo cerrado?",
+                    "opciones": [
+                        "Sólo los miembros del grupo pueden enviar mensajes al grupo.",
+                        "Para formar parte del grupo los miembros deben conseguir exclusión mutua.",
+                        "Todos los procesos se ejecutan sobre computadores de una misma LAN.",
+                        "Los mensajes enviados al grupo tienen un tamaño predefinido."
+                    ],
+                    "solucion": "Sólo los miembros del grupo pueden enviar mensajes al grupo."
+                },
+                {
+                    "enunciado": "En un conjunto de 7 réplicas, decide implementar un protocolo de consistencia Quorum ¿qué asignación de número de réplicas a grupos de lectura/escritura sería correcta?",
+                    "opciones": [
+                        "Escritura 3, Lectura 3.",
+                        "Escritura 2, Lectura 5.",
+                        "Escritura 1, Lectura 6.",
+                        "Escritura 4, Lectura 7."
+                    ],
+                    "solucion": "Escritura 4, Lectura 7."
+                },
+                {
+                    "enunciado": "¿Qué métodos de replicación no aseguran una consistencia estricta?",
+                    "opciones": [
+                        "Métodos optimistas",
+                        "Métodos pesimistas",
+                        "Ambos métodos aseguran una consistencia estricta",
+                        "Ambos métodos no aseguran una consistencia estricta"
+                    ],
+                    "solucion": "Métodos optimistas"
+                },
+                {
+                    "enunciado": "Complete la siguiente frase: «La disponibilidad es inversamente proporcional a... »",
+                    "opciones": [
+                        "La carga del sistema.",
+                        "El coste del sistema.",
+                        "La redundancia del sistema.",
+                        "La fiabilidad del sistema."
+                    ],
+                    "solucion": "La carga del sistema."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes puede ser una consecuencia de la replicación?",
+                    "opciones": [
+                        "Aumenta la latencia.",
+                        "Incrementa la disponibilidad.",
+                        "Reduce las opciones de escalabilidad.",
+                        "Simplifica la consistencia."
+                    ],
+                    "solucion": "Incrementa la disponibilidad."
+                },
+                {
+                    "enunciado": "¿Qué dice el modelo de «consistencia eventual»?",
+                    "opciones": [
+                        "El programador es responsable de actualizar las copias en base a un modelo líder-seguidores.",
+                        "Todas las réplicas deben ser sincronizadas inmediatamente después de cualquier acceso a una de las réplicas.",
+                        "Si no se hacen escrituras nuevas sobre un recurso dado, todos los accesos devolverán eventualmente el último valor escrito.",
+                        "Requiere de un protocolo de transacción distribuidas para garantizar la coherencia entre réplicas, especialmente ante particiones en la red."
+                    ],
+                    "solucion": "Si no se hacen escrituras nuevas sobre un recurso dado, todos los accesos devolverán eventualmente el último valor escrito."
+                },
+                {
+                    "enunciado": "¿Qué son los relojes lógicos en sistemas distribuidos?",
+                    "opciones": [
+                        "Esquemas para ordenar eventos.",
+                        "Métodos para medir el tiempo real en cada nodo.",
+                        "Relojes físicos que se sincronizan con precisión.",
+                        "Dispositivos de hardware para mantener la hora actual."
+                    ],
+                    "solucion": "Esquemas para ordenar eventos."
+                },
+                {
+                    "enunciado": "¿Cuál es el propósito de los relojes vectoriales?",
+                    "opciones": [
+                        "Reducir el tiempo de procesamiento en cada nodo.",
+                        "Capturar las dependencias causales entre eventos.",
+                        "Sincronizar relojes físicos entre nodos.",
+                        "Proporcionar una GUI para la gestión del tiempo."
+                    ],
+                    "solucion": "Capturar las dependencias causales entre eventos."
+                },
+                {
+                    "enunciado": "¿Qué problema intenta resolver NTP?",
+                    "opciones": [
+                        "La sincronización de relojes entre nodos en una red.",
+                        "La comunicación segura entre nodos.",
+                        "La recuperación de datos después de una falla del sistema.",
+                        "La distribución de la carga de trabajo en un SD."
+                    ],
+                    "solucion": "La sincronización de relojes entre nodos en una red."
+                },
+                {
+                    "enunciado": "¿Cuál es el propósito del «algoritmo del abusón»?",
+                    "opciones": [
+                        "Sincronizar los relojes físicos de todos los nodos en una red.",
+                        "Elegir un proceso para realizar una tarea específica.",
+                        "Asegurar la integridad y seguridad de los datos transmitidos.",
+                        "Ora ordenando eventos en ausencia de sincronización de reloj físico."
+                    ],
+                    "solucion": "Elegir un proceso para realizar una tarea específica."
+                },
+                {
+                    "enunciado": "¿Cuál es una limitación de usar relojes físicos en sistemas distribuidos?",
+                    "opciones": [
+                        "Son difíciles de implementar.",
+                        "Pueden llevar a inconsistencias debido a su resolución.",
+                        "Consumen demasiados recursos.",
+                        "No se pueden sincronizar en redes locales."
+                    ],
+                    "solucion": "Pueden llevar a inconsistencias debido a su resolución."
+                },
+                {
+                    "enunciado": "Está implementando un sistema de comunicación indirecta con ZeroC Ice. ¿Qué componente es más probable que implemente una interfaz similar a la siguiente?",
+                    "imagen": "img/ssdd/2324_p2_1.png",
+                    "opciones": [
+                        "El publicador",
+                        "El consumidor",
+                        "El broker",
+                        "Broker y consumidor"
+                    ],
+                    "solucion": "El broker"
+                }
             ]
         }
     }
