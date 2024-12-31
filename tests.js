@@ -131,6 +131,13 @@ function mostrarTest(preguntas) {
         preguntaDiv.appendChild(opcionesDiv);
         testContainer.appendChild(preguntaDiv);
     });
+
+    // Asegúrate de que las imágenes dentro de las preguntas se redimensionen correctamente
+    const images = document.querySelectorAll('img');
+    images.forEach(img => {
+        img.style.maxWidth = '95%';
+        img.style.height = 'auto';
+    });
 }
 
 // Función para corregir el test
