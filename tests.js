@@ -106,7 +106,7 @@ function mostrarTest(preguntas) {
 
         // Mostrar imagen si existe
         if (pregunta.imagen) {
-            const imagen = document.createElement('.pregunta img');
+            const imagen = document.createElement('img');
             imagen.src = `tests/${pregunta.imagen}`;
             imagen.alt = `Imagen para la pregunta ${index + 1}`;
             preguntaDiv.appendChild(imagen);
