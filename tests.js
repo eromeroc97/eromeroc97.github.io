@@ -106,7 +106,7 @@ function mostrarTest(preguntas) {
 
         // Mostrar imagen si existe
         if (pregunta.imagen) {
-            const imagen = document.createElement('img');
+            const imagen = document.createElement('.pregunta img');
             imagen.src = `tests/${pregunta.imagen}`;
             imagen.alt = `Imagen para la pregunta ${index + 1}`;
             preguntaDiv.appendChild(imagen);
@@ -133,9 +133,9 @@ function mostrarTest(preguntas) {
     });
 
     // Asegúrate de que las imágenes dentro de las preguntas se redimensionen correctamente
-    const images = document.querySelectorAll('img');
+    const images = document.querySelectorAll('.pregunta img');
     images.forEach(img => {
-        img.style.maxWidth = '95%';
+        img.style.maxWidth = '100%';
         img.style.height = 'auto';
     });
 }

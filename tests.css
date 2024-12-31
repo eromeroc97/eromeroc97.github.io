@@ -189,7 +189,7 @@ em {
     color: white; /* Texto blanco en modo oscuro */
 }
 
-img {
-    max-width: 95%;
+.pregunta img {
+    max-width: 100%;
     height: auto;
 }
