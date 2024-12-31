@@ -188,3 +188,8 @@ em {
     background-color: rgba(30, 30, 30, 0.9); /* Fondo oscuro en modo oscuro */
     color: white; /* Texto blanco en modo oscuro */
 }
+
+.pregunta img {
+    max-width: 100%;
+    height: auto;
+}
