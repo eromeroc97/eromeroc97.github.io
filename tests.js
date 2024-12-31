@@ -104,6 +104,14 @@ function mostrarTest(preguntas) {
         preguntaDiv.className = 'pregunta';
         preguntaDiv.innerHTML = `<p><strong>Pregunta ${index + 1}:</strong> ${pregunta.enunciado}</p>`;
 
+        // Mostrar imagen si existe
+        if (pregunta.imagen) {
+            const imagen = document.createElement('img');
+            imagen.src = `tests/${pregunta.imagen}`;
+            imagen.alt = `Imagen para la pregunta ${index + 1}`;
+            preguntaDiv.appendChild(imagen);
+        }
+
         const opcionesDiv = document.createElement('div');
         opcionesDiv.className = 'opciones';
 
