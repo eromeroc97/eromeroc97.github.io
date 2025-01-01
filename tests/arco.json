@@ -700,7 +700,7 @@
             ]
         },
         "Tema 3: Superescalares": {
-            "preguntas":[
+            "preguntas": [
                 {
                     "enunciado": "¿Qué tipo de procesador emite varias instrucciones por ciclo de reloj?",
                     "opciones": [
@@ -1094,7 +1094,7 @@
             ]
         },
         "Tema 4: Paralelismo a nivel de hilos": {
-            "preguntas":[
+            "preguntas": [
                 {
                     "enunciado": "¿Qué es un sistema de memoria compartida?",
                     "opciones": [
