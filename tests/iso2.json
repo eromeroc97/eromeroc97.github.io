@@ -164,36 +164,6 @@
                     "solucion": "Una secuencia lineal de fases sin retrocesos"
                 },
                 {
-                    "enunciado": "¿Cuál es una ventaja del modelo incremental?",
-                    "opciones": [
-                        "No requiere pruebas hasta el final",
-                        "Permite entregas frecuentes y retroalimentación continua",
-                        "Es más fácil de entender que otros modelos",
-                        "No requiere planificación previa"
-                    ],
-                    "solucion": "Permite entregas frecuentes y retroalimentación continua"
-                },
-                {
-                    "enunciado": "¿Qué caracteriza al modelo en espiral?",
-                    "opciones": [
-                        "Es un enfoque lineal y secuencial",
-                        "Combina diseño iterativo con análisis de riesgos",
-                        "No permite revisiones durante el desarrollo",
-                        "Se basa únicamente en prototipos"
-                    ],
-                    "solucion": "Combina diseño iterativo con análisis de riesgos"
-                },
-                {
-                    "enunciado": "¿Qué es un artefacto en el contexto del desarrollo de software?",
-                    "opciones": [
-                        "Cualquier documento o producto generado durante el desarrollo",
-                        "Un tipo específico de software",
-                        "Un error encontrado durante las pruebas",
-                        "Una herramienta utilizada para programar"
-                    ],
-                    "solucion": "Cualquier documento o producto generado durante el desarrollo"
-                },
-                {
                     "enunciado": "¿Cuál es la importancia de tener roles claramente definidos en un equipo de desarrollo?",
                     "opciones": [
                         "Aumenta la confusión entre los miembros del equipo",
@@ -202,16 +172,6 @@
                         "Permite que una sola persona maneje todo el proyecto"
                     ],
                     "solucion": "Facilita la distribución de tareas y mejora la eficiencia"
-                },
-                {
-                    "enunciado": "¿Qué se busca lograr al seguir un proceso estructurado para el desarrollo de software?",
-                    "opciones": [
-                        "Aumentar la complejidad del software",
-                        "Mejorar el rendimiento organizacional y la calidad del producto final",
-                        "Reducir la comunicación entre equipos",
-                        "Eliminar la necesidad de pruebas"
-                    ],
-                    "solucion": "Mejorar el rendimiento organizacional y la calidad del producto final"
                 },
                 {
                     "enunciado": "¿Qué describe mejor el ciclo de vida del software según ISO 12207?",
@@ -234,16 +194,6 @@
                     "solucion": "Es fácil de entender y seguir"
                 },
                 {
-                    "enunciado": "En el modelo incremental, ¿qué se entrega con frecuencia?",
-                    "opciones": [
-                        "Documentación completa",
-                        "Pequeños incrementos de funcionalidad",
-                        "El producto final completo",
-                        "Pruebas exhaustivas"
-                    ],
-                    "solucion": "Pequeños incrementos de funcionalidad"
-                },
-                {
                     "enunciado": "¿Qué aspecto es fundamental en el análisis de requisitos?",
                     "opciones": [
                         "La codificación inmediata",
@@ -262,26 +212,6 @@
                         "Reducción de costos operativos"
                     ],
                     "solucion": "Dificultad para escalar el software a largo plazo"
-                },
-                {
-                    "enunciado": "¿Qué se busca lograr al seguir un proceso estructurado en el desarrollo de software?",
-                    "opciones": [
-                        "Aumentar la complejidad del software",
-                        "Mejorar la calidad y eficiencia del producto final",
-                        "Reducir la comunicación entre equipos",
-                        "Eliminar la necesidad de pruebas"
-                    ],
-                    "solucion": "Mejorar la calidad y eficiencia del producto final"
-                },
-                {
-                    "enunciado": "¿Qué caracteriza al modelo en espiral?",
-                    "opciones": [
-                        "Un enfoque lineal y secuencial",
-                        "Iteraciones que combinan diseño e implementación con análisis de riesgos",
-                        "No permite revisiones durante el desarrollo",
-                        "Se basa únicamente en prototipos"
-                    ],
-                    "solucion": "Iteraciones que combinan diseño e implementación con análisis de riesgos"
                 },
                 {
                     "enunciado": "¿Qué rol desempeña un ingeniero de software en el desarrollo?",
@@ -464,16 +394,6 @@
                     "solucion": "Requisitos, Análisis, Diseño, Implementación, Pruebas."
                 },
                 {
-                    "enunciado": "¿Qué modelo de ciclo de vida es conocido por permitir la entrega de incrementos de valor durante el desarrollo?",
-                    "opciones": [
-                        "Modelo en Cascada.",
-                        "Modelo Espiral.",
-                        "Modelo Incremental.",
-                        "Modelo Prototipo."
-                    ],
-                    "solucion": "Modelo Incremental."
-                },
-                {
                     "enunciado": "¿Qué característica destaca del Modelo en Espiral?",
                     "opciones": [
                         "No permite retrocesos ni iteraciones.",
@@ -482,16 +402,6 @@
                         "No ofrece resultados parciales hasta la fase final."
                     ],
                     "solucion": "Incorpora gestión de riesgos en cada ciclo."
-                },
-                {
-                    "enunciado": "¿Qué ventaja tiene el Modelo Incremental respecto al Modelo en Cascada?",
-                    "opciones": [
-                        "Los errores se detectan al final del proceso.",
-                        "Permite entregas frecuentes a los usuarios.",
-                        "Facilita la gestión de proyectos grandes.",
-                        "Es menos flexible para los cambios."
-                    ],
-                    "solucion": "Permite entregas frecuentes a los usuarios."
                 },
                 {
                     "enunciado": "¿Cuál es una de las principales características del Modelo Espiral?",
