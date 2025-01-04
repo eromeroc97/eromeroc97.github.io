@@ -898,16 +898,6 @@
                     "solucion": "Integrar, desplegar y corregir defectos encontrados"
                 },
                 {
-                    "enunciado": "Análisis y diseño son disciplinas que se centran en:",
-                    "opciones": [
-                        "Definir los requisitos funcionales",
-                        "Plasmar un modelo de análisis y un modelo de diseño",
-                        "Implementar pruebas exhaustivas",
-                        "Gestionar los cambios en el proyecto"
-                    ],
-                    "solucion": "Plasmar un modelo de análisis y un modelo de diseño"
-                },
-                {
                     "enunciado": "Proyectos adaptativos se caracterizan por:",
                     "opciones": [
                         "Un enfoque rígido hacia los requisitos",
