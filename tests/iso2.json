@@ -334,16 +334,6 @@
                     "solucion": "Pruebas"
                 },
                 {
-                    "enunciado": "¿Qué aspecto es crítico en la fase de mantenimiento del software?",
-                    "opciones": [
-                        "Eliminar todos los errores encontrados durante las pruebas iniciales",
-                        "Realizar actualizaciones y correcciones basadas en retroalimentación del usuario",
-                        "Desarrollar nuevas funcionalidades sin planificación previa",
-                        "Ignorar los comentarios de los usuarios sobre el sistema"
-                    ],
-                    "solucion": "Realizar actualizaciones y correcciones basadas en retroalimentación del usuario"
-                },
-                {
                     "enunciado": "¿Cuál es la función básica de la Ingeniería del Software?",
                     "opciones": [
                         "Crear bases de datos para las empresas.",
@@ -427,106 +417,6 @@
         },
         "Tema 1.2: Metodologías de Desarrollo": {
             "preguntas": [
-                {
-                    "enunciado": "¿Cuál es el principal objetivo del mantenimiento correctivo en el software?",
-                    "opciones": [
-                        "Mejorar la usabilidad del software",
-                        "Corregir errores que afectan el funcionamiento",
-                        "Agregar nuevas funcionalidades",
-                        "Actualizar la documentación"
-                    ],
-                    "solucion": "Corregir errores que afectan el funcionamiento"
-                },
-                {
-                    "enunciado": "¿Qué tipo de mantenimiento se enfoca en adaptar el software a cambios en el entorno operativo?",
-                    "opciones": [
-                        "Mantenimiento adaptativo",
-                        "Mantenimiento perfectivo",
-                        "Mantenimiento correctivo",
-                        "Mantenimiento preventivo"
-                    ],
-                    "solucion": "Mantenimiento adaptativo"
-                },
-                {
-                    "enunciado": "¿Qué actividad es esencial durante la fase de mantenimiento para asegurar la calidad del software?",
-                    "opciones": [
-                        "Realizar pruebas de regresión",
-                        "Desarrollar nuevas funciones sin pruebas",
-                        "Eliminar la documentación existente",
-                        "Aumentar la complejidad del código"
-                    ],
-                    "solucion": "Realizar pruebas de regresión"
-                },
-                {
-                    "enunciado": "¿Cuál es un riesgo asociado al mantenimiento del software?",
-                    "opciones": [
-                        "Mejora continua del sistema",
-                        "Incremento de la deuda técnica",
-                        "Reducción de costos operativos",
-                        "Aumento de la satisfacción del usuario"
-                    ],
-                    "solucion": "Incremento de la deuda técnica"
-                },
-                {
-                    "enunciado": "¿Qué se debe considerar al planificar el mantenimiento del software?",
-                    "opciones": [
-                        "La obsolescencia de las tecnologías utilizadas",
-                        "La falta de documentación previa",
-                        "La resistencia al cambio por parte del equipo",
-                        "La disponibilidad de recursos humanos"
-                    ],
-                    "solucion": "La obsolescencia de las tecnologías utilizadas"
-                },
-                {
-                    "enunciado": "¿Qué es el mantenimiento perfectivo?",
-                    "opciones": [
-                        "Es una mejora que se realiza para optimizar el rendimiento",
-                        "Es la corrección de errores críticos",
-                        "Es la adaptación a nuevos entornos tecnológicos",
-                        "Es el proceso de eliminar funcionalidades obsoletas"
-                    ],
-                    "solucion": "Es una mejora que se realiza para optimizar el rendimiento"
-                },
-                {
-                    "enunciado": "Durante el mantenimiento, ¿qué aspecto debe priorizarse para mantener la satisfacción del usuario?",
-                    "opciones": [
-                        "Cambiar completamente la interfaz de usuario",
-                        "Implementar cambios sin consultar a los usuarios",
-                        "Escuchar y aplicar las sugerencias de los usuarios",
-                        "Reducir los tiempos de respuesta sin pruebas"
-                    ],
-                    "solucion": "Escuchar y aplicar las sugerencias de los usuarios"
-                },
-                {
-                    "enunciado": "¿Qué herramienta puede ser útil para gestionar el mantenimiento del software?",
-                    "opciones": [
-                        "Sistemas de gestión de proyectos",
-                        "Herramientas de diseño gráfico",
-                        "Software antivirus",
-                        "Plataformas de redes sociales"
-                    ],
-                    "solucion": "Sistemas de gestión de proyectos"
-                },
-                {
-                    "enunciado": "¿Cuál es una práctica recomendada para documentar cambios durante el mantenimiento?",
-                    "opciones": [
-                        "No documentar cambios para ahorrar tiempo",
-                        "Registrar todos los cambios realizados y sus razones",
-                        "Mantener un registro solo si se presentan problemas",
-                        "Utilizar un lenguaje técnico complejo en la documentación"
-                    ],
-                    "solucion": "Registrar todos los cambios realizados y sus razones"
-                },
-                {
-                    "enunciado": "¿Qué tipo de mantenimiento implica realizar mejoras basadas en nuevas tecnologías?",
-                    "opciones": [
-                        "Mantenimiento correctivo",
-                        "Mantenimiento perfectivo",
-                        "Mantenimiento adaptativo",
-                        "Mantenimiento preventivo"
-                    ],
-                    "solucion": "Mantenimiento perfectivo"
-                },
                 {
                     "enunciado": "¿Qué caracteriza a las metodologías ágiles en comparación con las tradicionales?",
                     "opciones": [
