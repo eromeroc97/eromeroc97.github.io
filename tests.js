@@ -133,7 +133,7 @@ function mostrarTest(preguntas) {
     });
 
     // Asegúrate de que las imágenes dentro de las preguntas se redimensionen correctamente
-    const images = document.querySelectorAll('img');
+    const images = document.querySelectorAll('.pregunta img');
     images.forEach(img => {
         img.style.maxWidth = '100%';
         img.style.height = 'auto';
