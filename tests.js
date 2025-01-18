@@ -104,6 +104,14 @@ function mostrarTest(preguntas) {
         preguntaDiv.className = 'pregunta';
         preguntaDiv.innerHTML = `<p><strong>Pregunta ${index + 1}:</strong> ${pregunta.enunciado}</p>`;
 
+        // Mostrar imagen si existe
+        if (pregunta.imagen) {
+            const imagen = document.createElement('.pregunta img');
+            imagen.src = `tests/${pregunta.imagen}`;
+            imagen.alt = `Imagen para la pregunta ${index + 1}`;
+            preguntaDiv.appendChild(imagen);
+        }
+
         const opcionesDiv = document.createElement('div');
         opcionesDiv.className = 'opciones';
 
@@ -122,6 +130,13 @@ function mostrarTest(preguntas) {
 
         preguntaDiv.appendChild(opcionesDiv);
         testContainer.appendChild(preguntaDiv);
+    });
+
+    // Asegúrate de que las imágenes dentro de las preguntas se redimensionen correctamente
+    const images = document.querySelectorAll('.pregunta img');
+    images.forEach(img => {
+        img.style.maxWidth = '100%';
+        img.style.height = 'auto';
     });
 }
 
