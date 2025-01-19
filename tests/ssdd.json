@@ -408,6 +408,209 @@
                         "(true, true)"
                     ],
                     "solucion": "(true, false)"
+                },
+                {
+                    "enunciado": "Marca cuál de las siguientes afirmaciones es cierta:",
+                    "opciones": [
+                        "En comunicación indirecta existe un desacoplamiento en espacio y tiempo entre los participantes.",
+                        "Implementar comunicación indirecta es apropiado para la difusión de eventos, pero cuando los receptores son bien conocidos y no suelen cambiar.",
+                        "En comunicación indirecta se utiliza un intermediario y todas las partes de la comunicación deben estar en ejecución.",
+                        "RMI implementa comunicación indirecta."
+                    ],
+                    "solucion": "En comunicación indirecta existe un desacoplamiento en espacio y tiempo entre los participantes."
+                },
+                {
+                    "enunciado": "¿Cuál es el modelo de comunicación más adecuado para un sistema de estaciones meteorológicas que informan sobre temperatura, viento y presión a un conjunto indeterminado y dinámico de posibles clientes?",
+                    "opciones": [
+                        "Polling a una base de datos.",
+                        "Un sistema publicador-subscriptor.",
+                        "Un sistema de ficheros distribuido.",
+                        "RPC o RMI."
+                    ],
+                    "solucion": "Un sistema publicador-subscriptor."
+                },
+                {
+                    "enunciado": "¿Qué modelo de comunicación indirecta implica conocer los identificadores de los destinatarios del mensaje que enviamos?",
+                    "opciones": [
+                        "Comunicación en grupo",
+                        "Colas de mensajes",
+                        "Ninguno",
+                        "Modelo de memoria distribuida compartida"
+                    ],
+                    "solucion": "Ninguno"
+                },
+                {
+                    "enunciado": "Marca la afirmación correcta en relación a los sistemas de propagación de eventos de publicación–subscripción basados en broker:",
+                    "opciones": [
+                        "Los publicadores no conocen las referencias de los subscriptores.",
+                        "Cada publicador es responsable de almacenar las referencias de sus subscriptores.",
+                        "Cada subscriptor es responsable de almacenar las referencias de sus publicadores.",
+                        "Cada pareja publicador-subscriptor es única y está identificada unívocamente."
+                    ],
+                    "solucion": "Los publicadores no conocen las referencias de los subscriptores."
+                },
+                {
+                    "enunciado": "¿En qué caso NO es adecuado a priori el uso de un middleware de colas de mensajes distribuidas?",
+                    "opciones": [
+                        "Emisores y receptores no están activos al mismo tiempo.",
+                        "Los receptores se encuentran dispersos en múltiples nodos de la red.",
+                        "Los emisores esperan los resultados del cómputo realizado en los receptores.",
+                        "Se desea persistencia de los mensajes."
+                    ],
+                    "solucion": "Los emisores esperan los resultados del cómputo realizado en los receptores."
+                },
+                {
+                    "enunciado": "IceStorm es un sistema de propagación de eventos basado en...",
+                    "opciones": [
+                        "contenido",
+                        "tipo",
+                        "canal",
+                        "Ninguno de los otros"
+                    ],
+                    "solucion": "canal"
+                },
+                {
+                    "enunciado": "¿Cuál sería el valor del reloj lógico vectorial del tercer evento de P2?",
+                    "imagen": "img/ssdd/2223_p2_1.png",
+                    "opciones": [
+                        "(1,3,1)",
+                        "(2,3,1)",
+                        "(0,3,0)",
+                        "(1,2,1)"
+                    ],
+                    "solucion": "(2,3,1)"
+                },
+                {
+                    "enunciado": "¿Cuántos eventos han ocurrido en el estado global S031?",
+                    "imagen": "img/ssdd/2223_p2_1.png",
+                    "opciones": [
+                        "2",
+                        "4",
+                        "5",
+                        "No es determinista"
+                    ],
+                    "solucion": "No es determinista"
+                },
+                {
+                    "enunciado": "¿Cuáles son los valores de a, b y c después de ocurrir el segundo evento de P3?",
+                    "imagen": "img/ssdd/2223_p2_1.png",
+                    "opciones": [
+                        "a=3, b=3, c=2",
+                        "a=3, b=2, c=2",
+                        "a=3, b=indeterminado, c=2",
+                        "No es determinista"
+                    ],
+                    "solucion": "a=3, b=indeterminado, c=2"
+                },
+                {
+                    "enunciado": "Dada la función f = a + b == c + 1, ¿cuáles serían los resultados de evaluar los predicados «posiblemente(f)» y «definitivamente(f)»?",
+                    "imagen": "img/ssdd/2223_p2_1.png",
+                    "opciones": [
+                        "false, false",
+                        "false, true",
+                        "true, false",
+                        "true, true"
+                    ],
+                    "solucion": "true, false"
+                },
+                {
+                    "enunciado": "Un diagrama de estados globales consistentes tiene dos propiedades fundamentales ¿cuál de las siguientes NO es una de ellas?",
+                    "opciones": [
+                        "En un estado, haber almacenado recepción de mensajes, pero no su envío.",
+                        "El estado almacenado es alcanzable desde el estado inicial.",
+                        "El estado final es alcanzable desde el estado almacenado."
+                    ],
+                    "solucion": "En un estado, haber almacenado recepción de mensajes, pero no su envío."
+                },
+                {
+                    "enunciado": "Sea un cliente y un servidor ejecutando el algoritmo de Cristian, tras el proceso de sincronización, el cliente actualiza a Tc=12:00:00, en ese mismo instante, observamos el tiempo del servidor y es Ts=12:00:01, ¿Qué hora original tenía el cliente antes del proceso de sincronización?",
+                    "opciones": [
+                        "12:00:01",
+                        "12:00:02",
+                        "12:00:00:05",
+                        "Ninguna respuesta es válida"
+                    ],
+                    "solucion": "Ninguna respuesta es válida"
+                },
+                {
+                    "enunciado": "Disponemos de un sistema distribuido formado por 10 procesos (P1-P10). P5 está actuando como servidor central para exclusión mutua, pero debido a un fallo del nodo, el proceso termina inesperadamente. ¿Qué opción considera más adecuada para decidir qué proceso debe desempeñar ahora esa función teniendo en cuenta que todos ellos tienen la capacidad de hacerlo?",
+                    "opciones": [
+                        "El siguiente: P6",
+                        "El anterior: P7.",
+                        "Deberían ejecutar un algoritmo de elección.",
+                        "Deberían esperar a que P5 esté activo de nuevo."
+                    ],
+                    "solucion": "Deberían ejecutar un algoritmo de elección."
+                },
+                {
+                    "enunciado": "¿Qué implica «multicast causal»?",
+                    "opciones": [
+                        "Los mensajes enviados por un proceso llegarán a en el mismo orden que fueron enviados.",
+                        "Si existe una relación causal entre el envío de dos mensajes multicast, su recepción respeta ese mismo orden.",
+                        "Todos los mensajes recibidos por un proceso del grupo son confirmados individualmente al emisor.",
+                        "Todos las la entregas correspondiente a un mismo envío llegarán a la vez a todos los procesos del grupo."
+                    ],
+                    "solucion": "Si existe una relación causal entre el envío de dos mensajes multicast, su recepción respeta ese mismo orden."
+                },
+                {
+                    "enunciado": "Si ejecutamos el algoritmo de Ricart y Agrawala en una red que soporta multicast, la cantidad de mensajes para acceder a la sección crítica...",
+                    "opciones": [
+                        "aumenta",
+                        "disminuye",
+                        "no varía",
+                        "depende de qué proceso ostenta el testigo"
+                    ],
+                    "solucion": "no varía"
+                },
+                {
+                    "enunciado": "¿A qué se refiere la propiedad «liveness» cuando se aplica a un algoritmo de exclusión mutua distribuida?",
+                    "opciones": [
+                        "Asegura que no habrá inanición o deadlock.",
+                        "Asegura que solo un proceso podrán entrar en la CS.",
+                        "Asegura que los procesos obtendrán acceso a la CS en el mismo orden que lo pidieron.",
+                        "Asegura que la CS fue liberada antes de otorgar permiso a otro proceso."
+                    ],
+                    "solucion": "Asegura que no habrá inanición o deadlock."
+                },
+                {
+                    "enunciado": "El algoritmo de Ricart and Agrawala se basa en:",
+                    "opciones": [
+                        "Relojes lógicos y soporte multicast.",
+                        "La necesidad de elegir un nuevo coordinador.",
+                        "El paso continuo de un testigo.",
+                        "La creación de subconjuntos de voto."
+                    ],
+                    "solucion": "Relojes lógicos y soporte multicast."
+                },
+                {
+                    "enunciado": "En el contexto de la replicación ¿a qué nos referimos con «particiones de red»?",
+                    "opciones": [
+                        "Situaciones en que grupo de una o más réplicas pierden conectividad con el resto.",
+                        "Al modo en que se organiza el espacio de almacenamiento local dentro de cada réplica.",
+                        "Agrupaciones arbitrarias de las réplicas para ofrecer mejor redundancia.",
+                        "Es solo una forma de referirse a las subredes que forman la red de nodos."
+                    ],
+                    "solucion": "Situaciones en que grupo de una o más réplicas pierden conectividad con el resto."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes no se encuadra en el concepto de «replicación»?",
+                    "opciones": [
+                        "Múltiples nodos con servidores que mantienen de forma consistente copias de los mismos datos.",
+                        "Los servidores que gestionan los datos replicados están conectados mediante una red.",
+                        "Idealmente, el cliente debería ser plenamente consciente con qué servidor está contactando.",
+                        "Los nodos replicados pueden ofrecer un servicio en lugar de datos."
+                    ],
+                    "solucion": "Idealmente, el cliente debería ser plenamente consciente con qué servidor está contactando."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes estrategias de replicación ofrece mayor consistencia?",
+                    "opciones": [
+                        "Replicación asíncrona",
+                        "Consistencia eventual",
+                        "Basados en transacciones",
+                        "Ordenación débil"
+                    ],
+                    "solucion": "Basados en transacciones"
                 }
             ]
         },
