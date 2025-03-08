@@ -1,7 +1,7 @@
 {
     "nombre": "ARCO",
     "temas": {
-        "Tema 1: Introducción a la arquitectura de computadores": {
+        "Tema 1: Introducción a la ingeniería de requisitos": {
             "preguntas": [
                 {
                     "enunciado": "¿Qué es la Ingeniería de Requisitos?",
