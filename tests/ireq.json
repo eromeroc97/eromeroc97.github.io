@@ -1,0 +1,309 @@
+{
+    "nombre": "ARCO",
+    "temas": {
+        "Tema 1: Introducción a la arquitectura de computadores": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Qué es la Ingeniería de Requisitos?",
+                    "opciones": [
+                        "Una disciplina que se enfoca únicamente en la codificación del software.",
+                        "La rama de la ingeniería del software relacionada con los objetivos del mundo real, funciones y restricciones de los sistemas software.",
+                        "Un proceso exclusivo del mantenimiento de sistemas legacy.",
+                        "La implementación técnica de algoritmos complejos."
+                    ],
+                    "solucion": "La rama de la ingeniería del software relacionada con los objetivos del mundo real, funciones y restricciones de los sistemas software."
+                },
+                {
+                    "enunciado": "Según el informe CHAOS, ¿cuál es una causa principal de fracaso en proyectos software relacionada con la Ingeniería de Requisitos?",
+                    "opciones": [
+                        "Uso excesivo de metodologías ágiles.",
+                        "Falta de recursos económicos.",
+                        "Requisitos incompletos o cambiantes.",
+                        "Sobrecarga de documentación técnica."
+                    ],
+                    "solucion": "Requisitos incompletos o cambiantes."
+                },
+                {
+                    "enunciado": "¿Qué ciclo de vida del software se caracteriza por iteraciones cortas y comunicación constante con el cliente?",
+                    "opciones": [
+                        "Ciclo de vida en cascada.",
+                        "Modelo en V.",
+                        "Ciclo de vida evolutivo (como PUD).",
+                        "Métodos ágiles."
+                    ],
+                    "solucion": "Métodos ágiles."
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes es un requisito no funcional?",
+                    "opciones": [
+                        "El sistema debe permitir guardar información de usuarios.",
+                        "El sistema debe estar disponible el 99.9% del tiempo.",
+                        "El sistema debe generar informes mensuales.",
+                        "El sistema debe integrarse con una API externa."
+                    ],
+                    "solucion": "El sistema debe estar disponible el 99.9% del tiempo."
+                },
+                {
+                    "enunciado": "¿Qué documento establece las bases técnicas en contratación pública?",
+                    "opciones": [
+                        "Request for Proposals (RFP).",
+                        "Pliego de prescripciones técnicas (PPT).",
+                        "Plan de proyecto.",
+                        "Especificación de requisitos."
+                    ],
+                    "solucion": "Pliego de prescripciones técnicas (PPT)."
+                },
+                {
+                    "enunciado": "¿Qué atributo NO es deseable en un requisito bien definido?",
+                    "opciones": [
+                        "Ambigüedad controlada.",
+                        "Rastreabilidad.",
+                        "Consistencia.",
+                        "Verificabilidad."
+                    ],
+                    "solucion": "Ambigüedad controlada."
+                },
+                {
+                    "enunciado": "Según el PDF, ¿qué rol es responsable de interactuar con clientes para obtener necesidades?",
+                    "opciones": [
+                        "Director de proyecto.",
+                        "Ingeniero de requisitos.",
+                        "Equipo de calidad.",
+                        "Responsable TIC del cliente."
+                    ],
+                    "solucion": "Ingeniero de requisitos."
+                },
+                {
+                    "enunciado": "¿Qué actividad de la Ingeniería de Requisitos implica resolver conflictos entre stakeholders?",
+                    "opciones": [
+                        "Elicitación.",
+                        "Negociación.",
+                        "Validación.",
+                        "Gestión de configuración."
+                    ],
+                    "solucion": "Negociación."
+                },
+                {
+                    "enunciado": "¿Qué describe un requisito derivado?",
+                    "opciones": [
+                        "Un requisito original proporcionado por el cliente.",
+                        "Un requisito técnico generado durante el diseño para satisfacer soluciones.",
+                        "Un requisito obsoleto eliminado en fases tempranas.",
+                        "Un requisito no vinculante sugerido por el equipo de desarrollo."
+                    ],
+                    "solucion": "Un requisito técnico generado durante el diseño para satisfacer soluciones."
+                },
+                {
+                    "enunciado": "¿Qué caracteriza al ciclo de vida en cascada?",
+                    "opciones": [
+                        "Flexibilidad para incorporar cambios durante el desarrollo.",
+                        "Fases secuenciales con revisión al final de cada etapa.",
+                        "Iteraciones rápidas y entregables parciales.",
+                        "Enfoque exclusivo en pruebas de integración."
+                    ],
+                    "solucion": "Fases secuenciales con revisión al final de cada etapa."
+                },
+                {
+                    "enunciado": "¿Qué objetivo principal tiene la gestión de requisitos?",
+                    "opciones": [
+                        "Automatizar la codificación del software.",
+                        "Controlar el proceso de IR, priorizar requisitos y gestionar cambios.",
+                        "Reducir el número de reuniones con stakeholders.",
+                        "Eliminar la necesidad de documentación técnica."
+                    ],
+                    "solucion": "Controlar el proceso de IR, priorizar requisitos y gestionar cambios."
+                },
+                {
+                    "enunciado": "¿Qué diferencia principal existe entre un sistema de información y un sistema informático según el tema?",
+                    "opciones": [
+                        "El sistema de información solo incluye hardware, mientras el informático abarca personas y procesos.",
+                        "El sistema informático se centra en tecnología, mientras el de información incluye personas, procesos y tecnología.",
+                        "El sistema de información es un subconjunto del sistema informático.",
+                        "No hay diferencia; son términos intercambiables."
+                    ],
+                    "solucion": "El sistema informático se centra en tecnología, mientras el de información incluye personas, procesos y tecnología."
+                },
+                {
+                    "enunciado": "Según el PDF, ¿qué caracteriza a los requisitos derivados?",
+                    "opciones": [
+                        "Son definidos directamente por el cliente sin intervención técnica.",
+                        "Surgen durante el diseño para satisfacer soluciones técnicas y pueden aumentar un 50% los requisitos originales.",
+                        "Son requisitos obsoletos descartados en fases iniciales.",
+                        "Se refieren exclusivamente a interfaces de usuario."
+                    ],
+                    "solucion": "Surgen durante el diseño para satisfacer soluciones técnicas y pueden aumentar un 50% los requisitos originales."
+                },
+                {
+                    "enunciado": "¿Cuál es la finalidad del documento base de requisitos (baseline)?",
+                    "opciones": [
+                        "Reemplazar la comunicación con los stakeholders.",
+                        "Servir como acuerdo inicial que solo puede modificarse sin consecuencias.",
+                        "Establecer una versión acordada de requisitos, donde cambios posteriores requieren revisión de costos y plazos.",
+                        "Limitar la creatividad del equipo de desarrollo."
+                    ],
+                    "solucion": "Establecer una versión acordada de requisitos, donde cambios posteriores requieren revisión de costos y plazos."
+                },
+                {
+                    "enunciado": "¿Qué se entiende por 'rastreabilidad' en los requisitos?",
+                    "opciones": [
+                        "La capacidad de eliminar requisitos redundantes.",
+                        "Seguir las dependencias de un requisito hacia atrás (origen) y hacia adelante (implementación).",
+                        "Traducir requisitos a múltiples idiomas.",
+                        "Priorizar requisitos por costo económico."
+                    ],
+                    "solucion": "Seguir las dependencias de un requisito hacia atrás (origen) y hacia adelante (implementación)."
+                },
+                {
+                    "enunciado": "Según el informe CHAOS, ¿qué porcentaje de proyectos software son cancelados?",
+                    "opciones": [
+                        "10%",
+                        "25%",
+                        "50%",
+                        "75%"
+                    ],
+                    "solucion": "25%"
+                },
+                {
+                    "enunciado": "¿Qué actividad de la Ingeniería de Requisitos asegura que el sistema cumple con el propósito previsto por el usuario?",
+                    "opciones": [
+                        "Verificación.",
+                        "Validación.",
+                        "Elicitación.",
+                        "Negociación."
+                    ],
+                    "solucion": "Validación."
+                },
+                {
+                    "enunciado": "¿Qué describe un requisito temporal?",
+                    "opciones": [
+                        "Duración o precedencia entre eventos en el sistema.",
+                        "Restricciones geográficas de implementación.",
+                        "Requisitos obsoletos por cambios tecnológicos.",
+                        "Funcionalidades opcionales pospuestas para versiones futuras."
+                    ],
+                    "solucion": "Duración o precedencia entre eventos en el sistema."
+                },
+                {
+                    "enunciado": "¿Qué rol es responsable del entorno tecnológico donde se integrará el software desarrollado?",
+                    "opciones": [
+                        "Usuario.",
+                        "Director de proyecto.",
+                        "Responsable TIC del cliente.",
+                        "Arquitecto software."
+                    ],
+                    "solucion": "Responsable TIC del cliente."
+                },
+                {
+                    "enunciado": "¿Cuál es un ejemplo de fuente de requisitos según el tema?",
+                    "opciones": [
+                        "Preferencias personales del equipo de desarrollo.",
+                        "Sistemas heredados o competidores con funciones similares.",
+                        "Tendencias en redes sociales no relacionadas con el proyecto.",
+                        "Especulaciones técnicas sin validación."
+                    ],
+                    "solucion": "Sistemas heredados o competidores con funciones similares."
+                },
+                {
+                    "enunciado": "¿Qué caracteriza a un requisito 'independiente del diseño y la implementación'?",
+                    "opciones": [
+                        "Limita las opciones técnicas del equipo de desarrollo.",
+                        "Evita complejidades innecesarias al no vincularse a soluciones técnicas específicas.",
+                        "Obliga a usar arquitecturas predefinidas.",
+                        "Prioriza detalles de codificación sobre funcionalidades."
+                    ],
+                    "solucion": "Evita complejidades innecesarias al no vincularse a soluciones técnicas específicas."
+                },
+                {
+                    "enunciado": "¿Qué implica la 'explosión de requisitos derivados' durante el diseño?",
+                    "opciones": [
+                        "Reducción de requisitos originales por falta de viabilidad.",
+                        "Generación de nuevos requisitos técnicos que amplían los originales en un 50% o más.",
+                        "Eliminación de requisitos no funcionales para simplificar el proyecto.",
+                        "Fusión de requisitos contradictorios en uno solo."
+                    ],
+                    "solucion": "Generación de nuevos requisitos técnicos que amplían los originales en un 50% o más."
+                },
+                {
+                    "enunciado": "¿Qué rol tiene una visión detallada pero potencialmente parcial del modelo de negocio?",
+                    "opciones": [
+                        "Cliente.",
+                        "Usuario.",
+                        "Director de proyecto.",
+                        "Ingeniero de requisitos."
+                    ],
+                    "solucion": "Usuario."
+                },
+                {
+                    "enunciado": "¿Cuál es el propósito principal de la especificación de requisitos del sistema (SRS)?",
+                    "opciones": [
+                        "Servir como manual de usuario final.",
+                        "Actuar como contrato formal entre cliente y desarrolladores.",
+                        "Detallar el código fuente del proyecto.",
+                        "Reemplazar la planificación del proyecto."
+                    ],
+                    "solucion": "Actuar como contrato formal entre cliente y desarrolladores."
+                },
+                {
+                    "enunciado": "¿Qué factor NO está asociado al éxito de proyectos según el informe CHAOS?",
+                    "opciones": [
+                        "Implicación activa de los usuarios.",
+                        "Hitos de proyecto pequeños y frecuentes.",
+                        "Uso exclusivo de metodologías en cascada.",
+                        "Expectativas realistas sobre alcance y plazos."
+                    ],
+                    "solucion": "Uso exclusivo de metodologías en cascada."
+                },
+                {
+                    "enunciado": "¿Qué tipo de requisito define restricciones sobre el uso de recursos hardware?",
+                    "opciones": [
+                        "Requisito de eficiencia.",
+                        "Requisito de interoperabilidad.",
+                        "Requisito funcional de almacenamiento.",
+                        "Requisito de portabilidad."
+                    ],
+                    "solucion": "Requisito de eficiencia."
+                },
+                {
+                    "enunciado": "¿Qué documento detalla cómo un proveedor cumplirá con los requisitos técnicos de una licitación?",
+                    "opciones": [
+                        "Plan de pruebas.",
+                        "Oferta técnica.",
+                        "Manual de usuario.",
+                        "Informe de seguimiento."
+                    ],
+                    "solucion": "Oferta técnica."
+                },
+                {
+                    "enunciado": "¿Qué actividad se enfoca en asegurar que los requisitos no contengan contradicciones?",
+                    "opciones": [
+                        "Validación.",
+                        "Gestión de configuración.",
+                        "Análisis de requisitos.",
+                        "Elicitación."
+                    ],
+                    "solucion": "Análisis de requisitos."
+                },
+                {
+                    "enunciado": "¿Qué dimensión de los requisitos se refiere al nivel de consenso entre stakeholders?",
+                    "opciones": [
+                        "Contenido.",
+                        "Documentación.",
+                        "Acuerdo.",
+                        "Rastreabilidad."
+                    ],
+                    "solucion": "Acuerdo."
+                },
+                {
+                    "enunciado": "¿Qué elemento NO forma parte de los entregables habituales de un proyecto software?",
+                    "opciones": [
+                        "Código fuente.",
+                        "Plan de proyecto.",
+                        "Especificaciones de marketing.",
+                        "Manuales de usuario."
+                    ],
+                    "solucion": "Especificaciones de marketing."
+                }
+            ]
+        }
+    }
+}
