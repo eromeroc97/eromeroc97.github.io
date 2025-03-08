@@ -614,447 +614,387 @@
                 }
             ]
         },
-        "Tema 4: Comunicación indirecta (Copilot)": {
+        "Tema 4: Comunicación indirecta": {
             "preguntas": [
                 {
-                    "enunciado": "¿Qué caracteriza a la comunicación directa en sistemas distribuidos?",
+                    "enunciado": "¿Cuál de las siguientes NO es una característica de la comunicación directa en sistemas distribuidos?",
                     "opciones": [
-                        "Es punto a punto y requiere conocimiento de direcciones.",
-                        "Utiliza un intermediario para facilitar la comunicación.",
-                        "No requiere que los participantes estén activos simultáneamente.",
-                        "Facilita la implementación de patrones como publish-subscribe."
-                    ],
-                    "solucion": "Es punto a punto y requiere conocimiento de direcciones."
-                },
-                {
-                    "enunciado": "¿Cuál es una ventaja de la comunicación indirecta?",
-                    "opciones": [
-                        "Requiere un proceso de 'handshake' inicial.",
-                        "Desacopla en tiempo y espacio a los participantes.",
-                        "Cada participante debe conocer la dirección del otro.",
-                        "Es menos flexible en la identidad de los participantes."
-                    ],
-                    "solucion": "Desacopla en tiempo y espacio a los participantes."
-                },
-                {
-                    "enunciado": "¿Qué es un sistema de colas de mensajes?",
-                    "opciones": [
-                        "Un sistema que permite la comunicación directa entre dos entidades.",
-                        "Un sistema que utiliza un intermediario para almacenar y entregar mensajes.",
-                        "Un sistema que requiere que los participantes estén activos simultáneamente.",
-                        "Un sistema que no garantiza la entrega de mensajes."
-                    ],
-                    "solucion": "Un sistema que utiliza un intermediario para almacenar y entregar mensajes."
-                },
-                {
-                    "enunciado": "¿Cuál es una desventaja de la comunicación indirecta?",
-                    "opciones": [
-                        "Requiere conocimiento de direcciones.",
-                        "Puede añadir latencia y complejidad.",
-                        "No permite la implementación de balanceo de carga.",
-                        "Es menos flexible en la identidad de los participantes."
-                    ],
-                    "solucion": "Puede añadir latencia y complejidad."
-                },
-                {
-                    "enunciado": "¿Qué es la comunicación grupal en sistemas distribuidos?",
-                    "opciones": [
-                        "Un método donde los emisores envían mensajes a un grupo específico.",
-                        "Un método donde los emisores deben conocer las identidades de los receptores.",
-                        "Un método que no permite la difusión de información a múltiples destinatarios.",
-                        "Un método que requiere que los participantes estén activos simultáneamente."
-                    ],
-                    "solucion": "Un método donde los emisores envían mensajes a un grupo específico."
-                },
-                {
-                    "enunciado": "¿Qué es un sistema basado en eventos?",
-                    "opciones": [
-                        "Un sistema que permite la comunicación directa entre dos entidades.",
-                        "Un sistema que disemina eventos a múltiples receptores a través de un intermediario.",
-                        "Un sistema que no permite la escalabilidad y flexibilidad en la distribución de información.",
-                        "Un sistema que requiere que los participantes estén activos simultáneamente."
-                    ],
-                    "solucion": "Un sistema que disemina eventos a múltiples receptores a través de un intermediario."
-                },
-                {
-                    "enunciado": "¿Cuál es una característica de los sistemas publish-subscribe?",
-                    "opciones": [
-                        "Requieren que los participantes estén activos simultáneamente.",
-                        "Permiten la interacción entre componentes heterogéneos.",
-                        "No permiten la escalabilidad en la gestión de sistemas.",
-                        "Requieren conocimiento de direcciones."
-                    ],
-                    "solucion": "Permiten la interacción entre componentes heterogéneos."
-                },
-                {
-                    "enunciado": "¿Qué es un publicador en un sistema publish-subscribe?",
-                    "opciones": [
-                        "Un componente que recibe eventos de los suscriptores.",
-                        "Un componente que publica eventos estructurados a un servicio de eventos.",
-                        "Un componente que actúa como intermediario entre publicadores y suscriptores.",
-                        "Un componente que expresa interés en eventos particulares mediante suscripciones."
-                    ],
-                    "solucion": "Un componente que publica eventos estructurados a un servicio de eventos."
-                },
-                {
-                    "enunciado": "¿Qué es un suscriptor en un sistema publish-subscribe?",
-                    "opciones": [
-                        "Un componente que publica eventos estructurados a un servicio de eventos.",
-                        "Un componente que actúa como intermediario entre publicadores y suscriptores.",
-                        "Un componente que recibe eventos de los publicadores.",
-                        "Un componente que expresa interés en eventos particulares mediante suscripciones."
-                    ],
-                    "solucion": "Un componente que expresa interés en eventos particulares mediante suscripciones."
-                },
-                {
-                    "enunciado": "¿Qué es un broker en un sistema publish-subscribe?",
-                    "opciones": [
-                        "Un componente que publica eventos estructurados a un servicio de eventos.",
-                        "Un componente que actúa como intermediario entre publicadores y suscriptores.",
-                        "Un componente que expresa interés en eventos particulares mediante suscripciones.",
-                        "Un componente que recibe eventos de los suscriptores."
-                    ],
-                    "solucion": "Un componente que actúa como intermediario entre publicadores y suscriptores."
-                },
-                {
-                    "enunciado": "¿Cuál es una ventaja de los sistemas publish-subscribe?",
-                    "opciones": [
-                        "Requieren que los participantes estén activos simultáneamente.",
-                        "Facilitan la gestión de sistemas con muchos participantes.",
-                        "No permiten la escalabilidad en la gestión de sistemas.",
-                        "Requieren conocimiento de direcciones."
-                    ],
-                    "solucion": "Facilitan la gestión de sistemas con muchos participantes."
-                },
-                {
-                    "enunciado": "¿Qué es la suscripción basada en tipos?",
-                    "opciones": [
-                        "Un modelo donde las suscripciones se definen en términos de tipos de eventos.",
-                        "Un modelo donde las suscripciones se definen en términos de contenido de eventos.",
-                        "Un modelo que no permite la coincidencia de eventos con el filtro dado.",
-                        "Un modelo que requiere conocimiento de direcciones."
-                    ],
-                    "solucion": "Un modelo donde las suscripciones se definen en términos de tipos de eventos."
-                },
-                {
-                    "enunciado": "¿Qué es la suscripción basada en contenido?",
-                    "opciones": [
-                        "Un modelo donde las suscripciones se definen en términos de tipos de eventos.",
-                        "Un modelo donde el filtro se define como una consulta basada en restricciones sobre los valores de los atributos del evento.",
-                        "Un modelo que no permite la coincidencia de eventos con el filtro dado.",
-                        "Un modelo que requiere conocimiento de direcciones."
-                    ],
-                    "solucion": "Un modelo donde el filtro se define como una consulta basada en restricciones sobre los valores de los atributos del evento."
-                },
-                {
-                    "enunciado": "¿Cuál es una ventaja de los sistemas de eventos centralizados?",
-                    "opciones": [
-                        "Mayor resiliencia.",
-                        "Escalabilidad mejorada.",
-                        "Implementación sencilla.",
-                        "Flexibilidad geográfica."
-                    ],
-                    "solucion": "Implementación sencilla."
-                },
-                {
-                    "enunciado": "¿Cuál es una desventaja de los sistemas de eventos centralizados?",
-                    "opciones": [
-                        "Mayor resiliencia.",
-                        "Escalabilidad mejorada.",
-                        "Punto único de fallo.",
-                        "Flexibilidad geográfica."
-                    ],
-                    "solucion": "Punto único de fallo."
-                },
-                {
-                    "enunciado": "¿Cuál es una ventaja de los sistemas de eventos distribuidos?",
-                    "opciones": [
-                        "Falta de resiliencia.",
-                        "Limitaciones de escalabilidad.",
-                        "Flexibilidad geográfica.",
-                        "Posible cuello de botella."
-                    ],
-                    "solucion": "Flexibilidad geográfica."
-                },
-                {
-                    "enunciado": "¿Qué es IceStorm?",
-                    "opciones": [
-                        "Un sistema de colas de mensajes.",
-                        "Un servicio de eventos de ZeroC Ice que implementa el paradigma de publicar-suscribir.",
-                        "Un sistema que permite la comunicación directa entre dos entidades.",
-                        "Un sistema que no permite la escalabilidad y flexibilidad en la distribución de información."
-                    ],
-                    "solucion": "Un servicio de eventos de ZeroC Ice que implementa el paradigma de publicar-suscribir."
-                },
-                {
-                    "enunciado": "¿Qué es RabbitMQ?",
-                    "opciones": [
-                        "Un software de gestión de colas de mensajes que implementa el protocolo AMQP.",
-                        "Un servicio de eventos de ZeroC Ice que implementa el paradigma de publicar-suscribir.",
-                        "Un sistema que permite la comunicación directa entre dos entidades.",
-                        "Un sistema que no permite la escalabilidad y flexibilidad en la distribución de información."
-                    ],
-                    "solucion": "Un software de gestión de colas de mensajes que implementa el protocolo AMQP."
-                },
-                {
-                    "enunciado": "¿Qué es Celery?",
-                    "opciones": [
-                        "Una biblioteca de Python para gestionar tareas distribuidas y colas de mensajes.",
-                        "Un software de gestión de colas de mensajes que implementa el protocolo AMQP.",
-                        "Un servicio de eventos de ZeroC Ice que implementa el paradigma de publicar-suscribir.",
-                        "Un sistema que permite la comunicación directa entre dos entidades."
-                    ],
-                    "solucion": "Una biblioteca de Python para gestionar tareas distribuidas y colas de mensajes."
-                },
-                {
-                    "enunciado": "¿Cuál es una característica de la recepción bloqueante (pull) en sistemas distribuidos?",
-                    "opciones": [
-                        "El proceso receptor se bloquea hasta que el mensaje deseado llega.",
-                        "El proceso puede continuar con otras tareas mientras espera el mensaje.",
-                        "El sistema notifica al proceso receptor cuando un mensaje está disponible.",
-                        "Requiere verificación posterior para comprobar si el mensaje ha llegado."
-                    ],
-                    "solucion": "El proceso receptor se bloquea hasta que el mensaje deseado llega."
-                },
-                {
-                    "enunciado": "¿Cuál es una ventaja de la recepción no bloqueante (polling)?",
-                    "opciones": [
-                        "Garantiza que el mensaje está disponible después de la llamada.",
-                        "Permite solapamiento de comunicación y cómputo.",
-                        "El proceso receptor se bloquea hasta que el mensaje deseado llega.",
-                        "Sincroniza el receptor con el emisor."
-                    ],
-                    "solucion": "Permite solapamiento de comunicación y cómputo."
-                },
-                {
-                    "enunciado": "¿Qué es la notificación (push) en sistemas distribuidos?",
-                    "opciones": [
-                        "El proceso receptor se bloquea hasta que el mensaje deseado llega.",
-                        "El proceso puede continuar con otras tareas mientras espera el mensaje.",
-                        "El sistema notifica al proceso receptor cuando un mensaje está disponible.",
-                        "Requiere verificación posterior para comprobar si el mensaje ha llegado."
-                    ],
-                    "solucion": "El sistema notifica al proceso receptor cuando un mensaje está disponible."
-                },
-                {
-                    "enunciado": "¿Qué es un publicador en RabbitMQ?",
-                    "opciones": [
-                        "Un componente que recibe mensajes de los intercambiadores.",
-                        "Un componente que envía mensajes a un intercambio.",
-                        "Un componente que procesa los mensajes recibidos de las colas.",
-                        "Un componente que almacena temporalmente los mensajes de los publicadores."
-                    ],
-                    "solucion": "Un componente que envía mensajes a un intercambio."
-                },
-                {
-                    "enunciado": "¿Qué es un consumidor en RabbitMQ?",
-                    "opciones": [
-                        "Un componente que envía mensajes a un intercambio.",
-                        "Un componente que recibe mensajes de los intercambiadores.",
-                        "Un componente que procesa los mensajes recibidos de las colas.",
-                        "Un componente que almacena temporalmente los mensajes de los publicadores."
-                    ],
-                    "solucion": "Un componente que procesa los mensajes recibidos de las colas."
-                },
-                {
-                    "enunciado": "¿Qué es un intercambio (exchange) en RabbitMQ?",
-                    "opciones": [
-                        "Un componente que almacena temporalmente los mensajes de los publicadores.",
-                        "Un componente que procesa los mensajes recibidos de las colas.",
-                        "Un componente que recibe mensajes de los publicadores y los enruta a las colas.",
-                        "Un componente que envía mensajes a un intercambio."
-                    ],
-                    "solucion": "Un componente que recibe mensajes de los publicadores y los enruta a las colas."
-                },
-                {
-                    "enunciado": "¿Qué es una cola en RabbitMQ?",
-                    "opciones": [
-                        "Un componente que recibe mensajes de los publicadores y los enruta a las colas.",
-                        "Un componente que almacena temporalmente los mensajes de los publicadores.",
-                        "Un componente que procesa los mensajes recibidos de las colas.",
-                        "Un componente que envía mensajes a un intercambio."
-                    ],
-                    "solucion": "Un componente que almacena temporalmente los mensajes de los publicadores."
-                },
-                {
-                    "enunciado": "¿Qué es un broker en Apache Kafka?",
-                    "opciones": [
-                        "Un componente que envía eventos a un log.",
-                        "Un componente que lee eventos del log.",
-                        "Un componente que almacena y gestiona eventos.",
-                        "Un componente que categoriza eventos."
-                    ],
-                    "solucion": "Un componente que almacena y gestiona eventos."
-                },
-                {
-                    "enunciado": "¿Qué es un tema (topic) en Apache Kafka?",
-                    "opciones": [
-                        "Un componente que envía eventos a un log.",
-                        "Un componente que lee eventos del log.",
-                        "Una categoría de eventos.",
-                        "Un subconjunto de un tema."
-                    ],
-                    "solucion": "Una categoría de eventos."
-                },
-                {
-                    "enunciado": "¿Qué es una partición en Apache Kafka?",
-                    "opciones": [
-                        "Un componente que envía eventos a un log.",
-                        "Un componente que lee eventos del log.",
-                        "Una categoría de eventos.",
-                        "Un subconjunto de un tema."
-                    ],
-                    "solucion": "Un subconjunto de un tema."
-                },
-                {
-                    "enunciado": "¿Cuál es una característica de la memoria compartida distribuida?",
-                    "opciones": [
-                        "Simula una memoria centralizada compartida en un entorno distribuido.",
                         "Requiere que los participantes estén activos simultáneamente.",
-                        "No permite el acceso compartido a datos entre nodos distribuidos.",
-                        "Es menos flexible en la identidad de los participantes."
+                        "Implica un proceso de handshake o establecimiento de conexión.",
+                        "El intercambio de mensajes se realiza a través de un intermediario.",
+                        "Los participantes deben conocer las direcciones de los demás."
                     ],
-                    "solucion": "Simula una memoria centralizada compartida en un entorno distribuido."
+                    "solucion": "El intercambio de mensajes se realiza a través de un intermediario."
                 },
                 {
-                    "enunciado": "¿Qué es un sistema de eventos distribuidos?",
+                    "enunciado": "¿Cuál es la principal ventaja de la comunicación indirecta en sistemas distribuidos?",
                     "opciones": [
-                        "Un sistema que permite la comunicación directa entre dos entidades.",
-                        "Un sistema que disemina eventos a múltiples receptores a través de un intermediario.",
-                        "Un sistema que no permite la escalabilidad y flexibilidad en la distribución de información.",
-                        "Un sistema que requiere que los participantes estén activos simultáneamente."
+                        "Permite la comunicación en tiempo real sin latencia.",
+                        "Facilita el desacoplamiento en tiempo y espacio entre emisores y receptores.",
+                        "Requiere que todos los participantes estén activos simultáneamente.",
+                        "Elimina la necesidad de establecer conexiones previas."
                     ],
-                    "solucion": "Un sistema que disemina eventos a múltiples receptores a través de un intermediario."
+                    "solucion": "Facilita el desacoplamiento en tiempo y espacio entre emisores y receptores."
                 },
                 {
-                    "enunciado": "¿Cuál es una ventaja de los sistemas de eventos distribuidos?",
+                    "enunciado": "En un sistema publish-subscribe, ¿cuál es el rol principal del broker de eventos?",
                     "opciones": [
-                        "Falta de resiliencia.",
-                        "Limitaciones de escalabilidad.",
-                        "Mayor resiliencia.",
-                        "Posible cuello de botella."
+                        "Ejecutar métodos remotos en los suscriptores.",
+                        "Almacenar datos de forma permanente.",
+                        "Intermediar la comunicación entre publicadores y suscriptores sin acoplarlos.",
+                        "Gestionar la autenticación y seguridad de los participantes."
                     ],
-                    "solucion": "Mayor resiliencia."
+                    "solucion": "Intermediar la comunicación entre publicadores y suscriptores sin acoplarlos."
                 },
                 {
-                    "enunciado": "¿Qué es un sistema de colas de mensajes?",
+                    "enunciado": "¿Qué diferencia fundamental existe entre la suscripción basada en tipos y la basada en contenido en sistemas distribuidos?",
                     "opciones": [
-                        "Un sistema que permite la comunicación directa entre dos entidades.",
-                        "Un sistema que utiliza un intermediario para almacenar y entregar mensajes.",
-                        "Un sistema que requiere que los participantes estén activos simultáneamente.",
-                        "Un sistema que no garantiza la entrega de mensajes."
+                        "La suscripción basada en tipos se basa en la comparación de categorías predefinidas, mientras que la basada en contenido permite restricciones sobre los atributos del evento.",
+                        "La suscripción basada en contenido utiliza filtros predefinidos, mientras que la basada en tipos permite consultas dinámicas.",
+                        "La suscripción basada en tipos ofrece mayor flexibilidad que la basada en contenido.",
+                        "No existe diferencia, ambos modelos funcionan de manera idéntica."
                     ],
-                    "solucion": "Un sistema que utiliza un intermediario para almacenar y entregar mensajes."
+                    "solucion": "La suscripción basada en tipos se basa en la comparación de categorías predefinidas, mientras que la basada en contenido permite restricciones sobre los atributos del evento."
                 },
                 {
-                    "enunciado": "¿Cuál es una característica de los sistemas de colas de mensajes?",
+                    "enunciado": "¿Cuál es una desventaja importante de utilizar un sistema centralizado para la gestión de eventos?",
                     "opciones": [
-                        "Permiten la comunicación directa entre dos entidades.",
-                        "Requieren que los participantes estén activos simultáneamente.",
+                        "Ofrece mayor flexibilidad para la distribución geográfica de eventos.",
+                        "Facilita la implementación de mecanismos de filtrado basados en contenido.",
+                        "Representa un único punto de fallo que puede afectar a todo el sistema.",
+                        "Permite escalabilidad horizontal de manera sencilla."
+                    ],
+                    "solucion": "Representa un único punto de fallo que puede afectar a todo el sistema."
+                },
+                {
+                    "enunciado": "En el contexto de las colas de mensajes en sistemas distribuidos, ¿cuál de las siguientes afirmaciones es correcta?",
+                    "opciones": [
+                        "Permiten la comunicación síncrona únicamente, requiriendo la disponibilidad simultánea del receptor.",
                         "Garantizan la entrega de mensajes incluso si el receptor no está disponible en el momento del envío.",
-                        "No permiten el balanceo de carga."
+                        "Utilizan una estructura LIFO para procesar los mensajes.",
+                        "Requieren que el mensaje sea confirmado manualmente por el emisor."
                     ],
                     "solucion": "Garantizan la entrega de mensajes incluso si el receptor no está disponible en el momento del envío."
                 },
                 {
-                    "enunciado": "¿Qué es un sistema publish-subscribe?",
+                    "enunciado": "¿Qué característica define al modelo de recepción bloqueante (pull) en sistemas distribuidos?",
                     "opciones": [
-                        "Un sistema que permite la comunicación directa entre dos entidades.",
-                        "Un sistema que utiliza un intermediario para almacenar y entregar mensajes.",
-                        "Un sistema que permite la interacción entre componentes heterogéneos y la comunicación asíncrona.",
-                        "Un sistema que requiere que los participantes estén activos simultáneamente."
+                        "El proceso receptor realiza polling continuo sin detenerse.",
+                        "El proceso receptor se bloquea hasta recibir el mensaje completo.",
+                        "El mensaje se envía automáticamente mediante callbacks.",
+                        "Permite la ejecución simultánea de comunicación y procesamiento sin bloqueos."
                     ],
-                    "solucion": "Un sistema que permite la interacción entre componentes heterogéneos y la comunicación asíncrona."
+                    "solucion": "El proceso receptor se bloquea hasta recibir el mensaje completo."
                 },
                 {
-                    "enunciado": "¿Cuál es una ventaja de los sistemas publish-subscribe?",
+                    "enunciado": "En RabbitMQ, ¿cuál es la función del componente 'exchange'?",
                     "opciones": [
-                        "Requieren que los participantes estén activos simultáneamente.",
-                        "Facilitan la gestión de sistemas con muchos participantes.",
-                        "No permiten la escalabilidad en la gestión de sistemas.",
-                        "Requieren conocimiento de direcciones."
+                        "Recibir mensajes del publicador y enrutar estos mensajes a las colas basándose en claves de enrutamiento.",
+                        "Almacenar mensajes de forma permanente en el sistema.",
+                        "Realizar la confirmación de recepción de mensajes por parte de los consumidores.",
+                        "Gestionar las conexiones de red entre publicadores y suscriptores."
                     ],
-                    "solucion": "Facilitan la gestión de sistemas con muchos participantes."
+                    "solucion": "Recibir mensajes del publicador y enrutar estos mensajes a las colas basándose en claves de enrutamiento."
                 },
                 {
-                    "enunciado": "¿Qué es un publicador en un sistema publish-subscribe?",
+                    "enunciado": "¿Para qué se utiliza la biblioteca Celery en el ámbito de los sistemas distribuidos?",
                     "opciones": [
-                        "Un componente que recibe eventos de los suscriptores.",
-                        "Un componente que publica eventos estructurados a un servicio de eventos.",
-                        "Un componente que actúa como intermediario entre publicadores y suscriptores.",
-                        "Un componente que expresa interés en eventos particulares mediante suscripciones."
+                        "Para implementar sistemas publish-subscribe basados en eventos.",
+                        "Para la gestión y ejecución de tareas en segundo plano mediante colas de mensajes.",
+                        "Para replicar bases de datos en entornos distribuidos.",
+                        "Para la sincronización en tiempo real entre nodos distribuidos."
                     ],
-                    "solucion": "Un componente que publica eventos estructurados a un servicio de eventos."
+                    "solucion": "Para la gestión y ejecución de tareas en segundo plano mediante colas de mensajes."
                 },
                 {
-                    "enunciado": "¿Qué es un suscriptor en un sistema publish-subscribe?",
+                    "enunciado": "En Apache Kafka, ¿cuál es el propósito del 'offset' en una partición de un topic?",
                     "opciones": [
-                        "Un componente que publica eventos estructurados a un servicio de eventos.",
-                        "Un componente que actúa como intermediario entre publicadores y suscriptores.",
-                        "Un componente que recibe eventos de los publicadores.",
-                        "Un componente que expresa interés en eventos particulares mediante suscripciones."
+                        "Indicar la posición de cada evento dentro de la partición, facilitando el seguimiento del consumo.",
+                        "Definir la clave de enrutamiento para los mensajes en el topic.",
+                        "Determinar la capacidad máxima de almacenamiento de la partición.",
+                        "Establecer la conexión entre productores y consumidores."
                     ],
-                    "solucion": "Un componente que expresa interés en eventos particulares mediante suscripciones."
+                    "solucion": "Indicar la posición de cada evento dentro de la partición, facilitando el seguimiento del consumo."
                 },
                 {
-                    "enunciado": "¿Qué es un broker en un sistema publish-subscribe?",
+                    "enunciado": "¿Qué significa el desacoplamiento en tiempo y espacio en la comunicación indirecta y cuál es su ventaja principal?",
                     "opciones": [
-                        "Un componente que publica eventos estructurados a un servicio de eventos.",
-                        "Un componente que actúa como intermediario entre publicadores y suscriptores.",
-                        "Un componente que expresa interés en eventos particulares mediante suscripciones.",
-                        "Un componente que recibe eventos de los suscriptores."
+                        "Permite la interacción directa entre componentes conocidos.",
+                        "Requiere que todos los participantes estén conectados al mismo tiempo.",
+                        "Facilita la operación en entornos donde los componentes pueden estar inactivos en momentos distintos y ubicados en diferentes lugares.",
+                        "Obliga a que los mensajes sean enviados de forma síncrona."
                     ],
-                    "solucion": "Un componente que actúa como intermediario entre publicadores y suscriptores."
+                    "solucion": "Facilita la operación en entornos donde los componentes pueden estar inactivos en momentos distintos y ubicados en diferentes lugares."
                 },
                 {
-                    "enunciado": "¿Qué es un productor en Apache Kafka?",
+                    "enunciado": "¿Cuál de los siguientes es un desafío típico en la implementación de sistemas basados en la comunicación indirecta mediante colas de mensajes?",
                     "opciones": [
-                        "Un componente que almacena y gestiona eventos.",
-                        "Un componente que envía eventos a un log.",
-                        "Un componente que lee eventos del log.",
-                        "Un componente que categoriza eventos."
+                        "La sincronización en tiempo real entre publicadores y receptores.",
+                        "La complejidad de garantizar la entrega, el orden y la integridad de los mensajes.",
+                        "La necesidad de conocer las direcciones IP de los suscriptores.",
+                        "La implementación de un handshake entre cada emisor y receptor."
                     ],
-                    "solucion": "Un componente que envía eventos a un log."
+                    "solucion": "La complejidad de garantizar la entrega, el orden y la integridad de los mensajes."
                 },
                 {
-                    "enunciado": "¿Qué es un consumidor en Apache Kafka?",
+                    "enunciado": "En el modelo de programación publish-subscribe, ¿qué operación se utiliza para dejar de recibir eventos que coincidan con un filtro específico?",
                     "opciones": [
-                        "Un componente que almacena y gestiona eventos.",
-                        "Un componente que envía eventos a un log.",
-                        "Un componente que lee eventos del log.",
-                        "Un componente que categoriza eventos."
+                        "publish(e)",
+                        "unsubscribe(f)",
+                        "subscribe(f)",
+                        "notify(e)"
                     ],
-                    "solucion": "Un componente que lee eventos del log."
+                    "solucion": "unsubscribe(f)"
                 },
                 {
-                    "enunciado": "¿Qué es un offset en Apache Kafka?",
+                    "enunciado": "En la comunicación directa, ¿cuál es la función del proceso de 'handshake'?",
                     "opciones": [
-                        "Un ID incremental asignado a cada evento dentro de una partición.",
-                        "Un componente que almacena y gestiona eventos.",
-                        "Un componente que envía eventos a un log.",
-                        "Un componente que categoriza eventos."
+                        "Permitir el desacoplamiento en tiempo y espacio.",
+                        "Establecer y negociar la conexión entre los participantes.",
+                        "Transmitir mensajes de forma asíncrona.",
+                        "Filtrar mensajes basándose en tipos o contenido."
                     ],
-                    "solucion": "Un ID incremental asignado a cada evento dentro de una partición."
+                    "solucion": "Establecer y negociar la conexión entre los participantes."
                 },
                 {
-                    "enunciado": "¿Qué es un grupo de consumidores en Apache Kafka?",
+                    "enunciado": "¿Cuál es una ventaja clave de la comunicación asíncrona en sistemas distribuidos basados en eventos?",
                     "opciones": [
-                        "Un conjunto de productores que envían eventos a un log.",
-                        "Un conjunto de consumidores que se asignan exclusivamente a un subconjunto de particiones.",
-                        "Un conjunto de brokers que almacenan y gestionan eventos.",
-                        "Un conjunto de temas que categorizan eventos."
+                        "Requiere que los emisores y receptores estén activos al mismo tiempo.",
+                        "Permite el solapamiento de comunicación y procesamiento, mejorando la eficiencia.",
+                        "Garantiza una respuesta inmediata y en tiempo real.",
+                        "Elimina la necesidad de un intermediario para la gestión de mensajes."
                     ],
-                    "solucion": "Un conjunto de consumidores que se asignan exclusivamente a un subconjunto de particiones."
+                    "solucion": "Permite el solapamiento de comunicación y procesamiento, mejorando la eficiencia."
                 },
                 {
-                    "enunciado": "¿Qué es un tema (topic) en Apache Kafka?",
+                    "enunciado": "¿Cuál de las siguientes afirmaciones NO corresponde a una característica de la suscripción basada en contenido?",
                     "opciones": [
-                        "Un componente que envía eventos a un log.",
-                        "Un componente que lee eventos del log.",
-                        "Una categoría de eventos.",
-                        "Un subconjunto de un tema."
+                        "Ofrece mayor flexibilidad y granularidad en la definición de suscripciones.",
+                        "Permite definir filtros personalizados basados en restricciones de atributos.",
+                        "Es más simple y eficiente de implementar que la suscripción basada en tipos.",
+                        "Permite especificar consultas complejas para filtrar eventos."
                     ],
-                    "solucion": "Una categoría de eventos."
+                    "solucion": "Es más simple y eficiente de implementar que la suscripción basada en tipos."
+                },
+                {
+                    "enunciado": "¿Qué es IceStorm y qué paradigma de comunicación implementa?",
+                    "opciones": [
+                        "Es un sistema de comunicación directa basado en RPC.",
+                        "Es un servicio de eventos que implementa el paradigma publish-subscribe.",
+                        "Es una herramienta para la gestión de colas de mensajes exclusivamente.",
+                        "Es un middleware que implementa únicamente el modelo de memoria compartida."
+                    ],
+                    "solucion": "Es un servicio de eventos que implementa el paradigma publish-subscribe."
+                },
+                {
+                    "enunciado": "En un sistema distribuido descentralizado basado en eventos, ¿cuál es una ventaja principal respecto a un sistema centralizado?",
+                    "opciones": [
+                        "Mayor resiliencia debido a la ausencia de un único punto de fallo.",
+                        "Menor complejidad en la coordinación de nodos.",
+                        "Una vista única y coherente de todos los eventos.",
+                        "Latencia predecible y constante en la transmisión de mensajes."
+                    ],
+                    "solucion": "Mayor resiliencia debido a la ausencia de un único punto de fallo."
+                },
+                {
+                    "enunciado": "En Apache Kafka, ¿cuál es la función principal de las particiones en un topic?",
+                    "opciones": [
+                        "Facilitar la replicación completa del cluster en un único nodo.",
+                        "Permitir la paralelización del procesamiento al dividir el topic en subconjuntos.",
+                        "Garantizar que cada mensaje tenga un offset único en todo el cluster.",
+                        "Asegurar que todos los eventos sean procesados de forma secuencial."
+                    ],
+                    "solucion": "Permitir la paralelización del procesamiento al dividir el topic en subconjuntos."
+                },
+                {
+                    "enunciado": "¿Qué ventaja ofrece RabbitMQ al soportar múltiples protocolos de mensajería?",
+                    "opciones": [
+                        "Obliga a los sistemas a utilizar exclusivamente AMQP.",
+                        "Facilita la integración con una amplia variedad de aplicaciones y dispositivos.",
+                        "Restringe la interoperabilidad a entornos Java únicamente.",
+                        "Simplifica la implementación al reducir la complejidad del sistema."
+                    ],
+                    "solucion": "Facilita la integración con una amplia variedad de aplicaciones y dispositivos."
+                },
+                {
+                    "enunciado": "En Celery, ¿cuál es el propósito principal del backend de resultados?",
+                    "opciones": [
+                        "Gestionar la cola de mensajes para distribuir las tareas.",
+                        "Almacenar y recuperar los resultados de las tareas ejecutadas.",
+                        "Implementar la lógica de enrutamiento de mensajes.",
+                        "Sincronizar la comunicación en tiempo real entre trabajadores."
+                    ],
+                    "solucion": "Almacenar y recuperar los resultados de las tareas ejecutadas."
+                },
+                {
+                    "enunciado": "En el contexto de las colas de mensajes en sistemas distribuidos, ¿qué características deben cumplir los mensajes para garantizar la fiabilidad del sistema?",
+                    "opciones": [
+                        "Ser desechables y no almacenarse en caso de fallo.",
+                        "Contener identificadores únicos, metadatos y carga útil, asegurando validez e integridad.",
+                        "Ser enviados exclusivamente en formato JSON.",
+                        "Requerir confirmación manual de recepción por parte del emisor."
+                    ],
+                    "solucion": "Contener identificadores únicos, metadatos y carga útil, asegurando validez e integridad."
+                },
+                {
+                    "enunciado": "¿Cuál es una de las principales desventajas de utilizar intermediarios en la comunicación indirecta?",
+                    "opciones": [
+                        "Elimina la latencia en la transmisión de mensajes.",
+                        "Introduce sobrecarga adicional y posibles vectores de ataque en términos de seguridad.",
+                        "Simplifica la gestión de conexiones en sistemas distribuidos.",
+                        "Garantiza la entrega inmediata de los mensajes."
+                    ],
+                    "solucion": "Introduce sobrecarga adicional y posibles vectores de ataque en términos de seguridad."
+                },
+                {
+                    "enunciado": "¿Cuál es una ventaja principal de utilizar memoria compartida distribuida en sistemas distribuidos?",
+                    "opciones": [
+                        "Elimina la necesidad de establecer conexiones directas entre nodos.",
+                        "Proporciona una abstracción de alto nivel para compartir datos entre nodos, simplificando la programación.",
+                        "Asegura la sincronización en tiempo real de todos los componentes.",
+                        "Garantiza la entrega de mensajes sin intermediarios."
+                    ],
+                    "solucion": "Proporciona una abstracción de alto nivel para compartir datos entre nodos, simplificando la programación."
+                },
+                {
+                    "enunciado": "En un entorno de sistemas distribuidos, ¿cómo afecta la introducción de intermediarios en la comunicación indirecta en aplicaciones que requieren respuestas en tiempo real?",
+                    "opciones": [
+                        "Reduce la latencia al optimizar la conexión entre emisores y receptores.",
+                        "Aumenta la latencia, lo que puede afectar negativamente aplicaciones con estrictos requerimientos temporales.",
+                        "No tiene impacto alguno en la latencia del sistema.",
+                        "Garantiza la comunicación en tiempo real eliminando la necesidad de sincronización."
+                    ],
+                    "solucion": "Aumenta la latencia, lo que puede afectar negativamente aplicaciones con estrictos requerimientos temporales."
+                },
+                {
+                    "enunciado": "Considerando los riesgos de seguridad en sistemas con comunicación indirecta, ¿cuál es la medida crucial para mitigar vulnerabilidades asociadas a la presencia de intermediarios?",
+                    "opciones": [
+                        "Utilizar únicamente protocolos no encriptados para maximizar la velocidad.",
+                        "Implementar autenticación robusta y cifrado en las comunicaciones entre todos los componentes.",
+                        "Eliminar el intermediario y establecer conexiones directas entre emisores y receptores.",
+                        "Aislar cada nodo sin permitir ninguna forma de comunicación externa."
+                    ],
+                    "solucion": "Implementar autenticación robusta y cifrado en las comunicaciones entre todos los componentes."
+                },
+                {
+                    "enunciado": "En sistemas distribuidos descentralizados basados en eventos, ¿cuáles son los principales desafíos para mantener el orden y la consistencia de los mensajes?",
+                    "opciones": [
+                        "La ausencia de intermediarios que ordenen los mensajes de forma automática.",
+                        "El manejo de offsets, la replicación de datos y la coordinación entre múltiples brokers.",
+                        "La necesidad de que cada nodo conozca las direcciones IP de los demás participantes.",
+                        "La imposibilidad de implementar modelos publish-subscribe en entornos descentralizados."
+                    ],
+                    "solucion": "El manejo de offsets, la replicación de datos y la coordinación entre múltiples brokers."
+                },
+                {
+                    "enunciado": "Comparando filtros basados en contenido con los basados en tipos en el modelo publish-subscribe, ¿cuál es la principal diferencia en términos de complejidad y flexibilidad?",
+                    "opciones": [
+                        "Los filtros basados en tipos son más flexibles pero más difíciles de implementar.",
+                        "Los filtros basados en contenido ofrecen mayor flexibilidad a costa de una mayor complejidad en su implementación.",
+                        "Ambos enfoques presentan la misma complejidad y flexibilidad.",
+                        "Los filtros basados en contenido son menos complejos y ofrecen la misma flexibilidad que los basados en tipos."
+                    ],
+                    "solucion": "Los filtros basados en contenido ofrecen mayor flexibilidad a costa de una mayor complejidad en su implementación."
+                },
+                {
+                    "enunciado": "Al comparar sistemas centralizados y descentralizados para la distribución de eventos, ¿cuál es el principal trade-off en términos de escalabilidad y resiliencia?",
+                    "opciones": [
+                        "Los sistemas centralizados ofrecen mayor resiliencia, pero son menos escalables.",
+                        "Los sistemas descentralizados proporcionan mayor resiliencia y escalabilidad, aunque incrementan la complejidad de coordinación.",
+                        "Ambos modelos ofrecen la misma escalabilidad y resiliencia sin importar la arquitectura.",
+                        "Los sistemas centralizados permiten escalabilidad horizontal sin comprometer la resiliencia."
+                    ],
+                    "solucion": "Los sistemas descentralizados proporcionan mayor resiliencia y escalabilidad, aunque incrementan la complejidad de coordinación."
+                },
+                {
+                    "enunciado": "En RabbitMQ, ¿cómo influye la elección del tipo de exchange en la distribución de mensajes y en la escalabilidad del sistema?",
+                    "opciones": [
+                        "El exchange fanout es el único que permite distribuir mensajes a todas las colas, independientemente de claves de enrutamiento.",
+                        "El exchange direct optimiza la escalabilidad mediante una distribución basada en coincidencias exactas.",
+                        "El exchange topic permite enrutamiento basado en patrones, lo que ofrece mayor flexibilidad y escalabilidad.",
+                        "El tipo de exchange no afecta la distribución ni la escalabilidad del sistema."
+                    ],
+                    "solucion": "El exchange topic permite enrutamiento basado en patrones, lo que ofrece mayor flexibilidad y escalabilidad."
+                },
+                {
+                    "enunciado": "En la implementación de colas de mensajes, ¿qué mecanismos aseguran la integridad y la entrega única de los mensajes, y qué consecuencia puede tener su fallo?",
+                    "opciones": [
+                        "La utilización de mecanismos de confirmación (acknowledgments) y persistencia; su fallo puede provocar duplicación o pérdida de mensajes.",
+                        "El reenvío automático de mensajes sin almacenamiento, lo que elimina la necesidad de confirmaciones.",
+                        "La implementación de múltiples intermediarios sin control de duplicados, asegurando siempre la entrega única.",
+                        "La sincronización en tiempo real entre emisor y receptor, eliminando cualquier riesgo de duplicación."
+                    ],
+                    "solucion": "La utilización de mecanismos de confirmación (acknowledgments) y persistencia; su fallo puede provocar duplicación o pérdida de mensajes."
+                },
+                {
+                    "enunciado": "¿Cómo se puede lograr un balance óptimo entre el desacoplamiento y la complejidad en la gestión de intermediarios en sistemas distribuidos basados en eventos?",
+                    "opciones": [
+                        "Eliminando completamente los intermediarios para reducir la complejidad, aunque se pierda el desacoplamiento.",
+                        "Centralizando todos los intermediarios en un único nodo para simplificar la coordinación.",
+                        "Mediante la replicación y distribución de intermediarios junto con la implementación de protocolos de consenso.",
+                        "Utilizando únicamente intermediarios basados en memoria compartida para simplificar la arquitectura."
+                    ],
+                    "solucion": "Mediante la replicación y distribución de intermediarios junto con la implementación de protocolos de consenso."
+                },
+                {
+                    "enunciado": "En Apache Kafka, ¿cuáles son los desafíos asociados con la partición de topics y cómo impactan en el procesamiento paralelo y la consistencia de los datos?",
+                    "opciones": [
+                        "La partición elimina la necesidad de gestionar offsets, simplificando el procesamiento paralelo.",
+                        "La partición permite el procesamiento paralelo, pero requiere mecanismos para el control de offsets y la coordinación para mantener la consistencia entre particiones.",
+                        "La partición garantiza la consistencia sin necesidad de mecanismos adicionales de coordinación.",
+                        "La partición impide el procesamiento paralelo, reduciendo la escalabilidad del sistema."
+                    ],
+                    "solucion": "La partición permite el procesamiento paralelo, pero requiere mecanismos para el control de offsets y la coordinación para mantener la consistencia entre particiones."
+                },
+                {
+                    "enunciado": "Considerando el uso de Celery en la distribución de tareas, ¿cuáles son las implicaciones de integrar múltiples brokers y un backend de resultados en términos de escalabilidad y fiabilidad?",
+                    "opciones": [
+                        "La integración de múltiples brokers simplifica la coordinación y siempre garantiza una alta fiabilidad sin complicaciones adicionales.",
+                        "El uso de múltiples brokers distribuye la carga de trabajo, pero incrementa la complejidad en la coordinación y puede dificultar la recuperación de resultados en caso de fallos.",
+                        "Utilizar un único broker es siempre preferible, por lo que la integración de múltiples brokers no aporta ventajas.",
+                        "El backend de resultados únicamente afecta la velocidad de procesamiento, sin influir en la coordinación del sistema."
+                    ],
+                    "solucion": "El uso de múltiples brokers distribuye la carga de trabajo, pero incrementa la complejidad en la coordinación y puede dificultar la recuperación de resultados en caso de fallos."
+                },
+                {
+                    "enunciado": "¿Cuál es una de las principales ventajas del protocolo MQTT en comparación con otros protocolos de mensajería en sistemas distribuidos?",
+                    "opciones": [
+                        "Es un protocolo ligero diseñado para dispositivos con recursos limitados y redes inestables.",
+                        "Requiere conexiones constantes de alta velocidad para funcionar correctamente.",
+                        "Está diseñado exclusivamente para comunicación síncrona en tiempo real.",
+                        "No permite la comunicación entre dispositivos IoT debido a sus restricciones de conectividad."
+                    ],
+                    "solucion": "Es un protocolo ligero diseñado para dispositivos con recursos limitados y redes inestables."
+                },
+                {
+                    "enunciado": "En MQTT, ¿cuál es la función del 'broker' dentro de la arquitectura del protocolo?",
+                    "opciones": [
+                        "Permite la comunicación punto a punto sin intermediarios.",
+                        "Gestiona la comunicación entre clientes, actuando como intermediario entre publicadores y suscriptores.",
+                        "Almacena de forma permanente todos los mensajes enviados a través del sistema.",
+                        "Se encarga de asignar direcciones IP a los dispositivos conectados a la red."
+                    ],
+                    "solucion": "Gestiona la comunicación entre clientes, actuando como intermediario entre publicadores y suscriptores."
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes niveles de calidad de servicio (QoS) en MQTT garantiza que un mensaje se entrega exactamente una vez?",
+                    "opciones": [
+                        "QoS 0 (At most once)",
+                        "QoS 1 (At least once)",
+                        "QoS 2 (Exactly once)",
+                        "MQTT no ofrece control de calidad de servicio."
+                    ],
+                    "solucion": "QoS 2 (Exactly once)"
+                },
+                {
+                    "enunciado": "¿Por qué MQTT es ampliamente utilizado en entornos IoT (Internet of Things)?",
+                    "opciones": [
+                        "Debido a su bajo consumo de ancho de banda y su capacidad de operar en redes inestables.",
+                        "Porque requiere conexiones de alta velocidad y baja latencia para funcionar correctamente.",
+                        "Porque permite la comunicación directa entre dispositivos sin necesidad de un intermediario.",
+                        "Porque impone estrictos requisitos de seguridad que limitan su uso en dispositivos pequeños."
+                    ],
+                    "solucion": "Debido a su bajo consumo de ancho de banda y su capacidad de operar en redes inestables."
                 }
             ]
         }
