@@ -1,5 +1,5 @@
 {
-    "nombre": "ARCO",
+    "nombre": "IREQ",
     "temas": {
         "Tema 1: Introducción a la ingeniería de requisitos": {
             "preguntas": [
@@ -64,7 +64,7 @@
                     "solucion": "Ambigüedad controlada."
                 },
                 {
-                    "enunciado": "Según el PDF, ¿qué rol es responsable de interactuar con clientes para obtener necesidades?",
+                    "enunciado": "¿qué rol es responsable de interactuar con clientes para obtener necesidades?",
                     "opciones": [
                         "Director de proyecto.",
                         "Ingeniero de requisitos.",
@@ -124,7 +124,7 @@
                     "solucion": "El sistema informático se centra en tecnología, mientras el de información incluye personas, procesos y tecnología."
                 },
                 {
-                    "enunciado": "Según el PDF, ¿qué caracteriza a los requisitos derivados?",
+                    "enunciado": "¿qué caracteriza a los requisitos derivados?",
                     "opciones": [
                         "Son definidos directamente por el cliente sin intervención técnica.",
                         "Surgen durante el diseño para satisfacer soluciones técnicas y pueden aumentar un 50% los requisitos originales.",
