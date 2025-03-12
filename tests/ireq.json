@@ -708,6 +708,310 @@
                     "solucion": "Permite refinar y mejorar continuamente la definición de los requisitos a partir de nuevas evidencias."
                 }
             ]
+        },
+        "Tema 3: Documentación de Requisitos": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Cuál de las siguientes ventajas NO se menciona como beneficio de la documentación de requisitos?",
+                    "opciones": [
+                        "Hace persistente la información elicitada.",
+                        "Actúa como referencia para los stakeholders.",
+                        "Optimiza el rendimiento del sistema en producción.",
+                        "Promueve la objetividad."
+                    ],
+                    "solucion": "Optimiza el rendimiento del sistema en producción."
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes criterios de calidad NO es mencionado en la documentación de requisitos?",
+                    "opciones": [
+                        "Completitud.",
+                        "Trazabilidad.",
+                        "Consistencia.",
+                        "Creatividad."
+                    ],
+                    "solucion": "Creatividad."
+                },
+                {
+                    "enunciado": "¿Qué ventaja tiene documentar requisitos utilizando lenguaje natural?",
+                    "opciones": [
+                        "Es una forma universal de comunicarse.",
+                        "Garantiza la ausencia de ambigüedad.",
+                        "Requiere entrenamiento especializado.",
+                        "Impone una organización rígida de ideas."
+                    ],
+                    "solucion": "Es una forma universal de comunicarse."
+                },
+                {
+                    "enunciado": "Una de las desventajas de utilizar lenguaje natural para la documentación de requisitos es:",
+                    "opciones": [
+                        "Su flexibilidad para permitir abstracciones.",
+                        "La comprensión por parte de todos los stakeholders.",
+                        "La dificultad en la trazabilidad.",
+                        "La posibilidad de refinamientos posteriores."
+                    ],
+                    "solucion": "La dificultad en la trazabilidad."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes técnicas se emplea para evitar la ambigüedad en los documentos de requisitos?",
+                    "opciones": [
+                        "Utilizar glosarios que incluyan definiciones, sinónimos, términos relacionados y ejemplos.",
+                        "Incrementar el uso de abreviaturas sin definición.",
+                        "Evitar el uso de patrones sintácticos.",
+                        "Emplear lenguaje natural sin restricciones."
+                    ],
+                    "solucion": "Utilizar glosarios que incluyan definiciones, sinónimos, términos relacionados y ejemplos."
+                },
+                {
+                    "enunciado": "En un documento de requisitos estructurado, ¿cuál es la ventaja de utilizar una plantilla predefinida?",
+                    "opciones": [
+                        "Permite personalizar totalmente la estructura para cada proyecto.",
+                        "Sirve de referencia para asegurar la completitud y organización de los requisitos.",
+                        "Elimina la necesidad de revisar los requisitos posteriormente.",
+                        "Facilita la implementación directa del software."
+                    ],
+                    "solucion": "Sirve de referencia para asegurar la completitud y organización de los requisitos."
+                },
+                {
+                    "enunciado": "Según el estándar IEEE 830-1998, ¿cuál de los siguientes elementos forma parte de la sección 'Introducción'?",
+                    "opciones": [
+                        "Definiciones, acrónimos y abreviaciones.",
+                        "Requisitos funcionales detallados.",
+                        "Restricciones de diseño.",
+                        "Datos de rendimiento del sistema."
+                    ],
+                    "solucion": "Definiciones, acrónimos y abreviaciones."
+                },
+                {
+                    "enunciado": "En las plantillas de requisitos, ¿cuál de los siguientes atributos NO se menciona como parte de su documentación?",
+                    "opciones": [
+                        "Autores.",
+                        "Versión.",
+                        "Coste hasta el momento.",
+                        "Nivel de seguridad del sistema."
+                    ],
+                    "solucion": "Nivel de seguridad del sistema."
+                },
+                {
+                    "enunciado": "¿Cuál es una de las principales ventajas de la documentación de requisitos basada en modelos?",
+                    "opciones": [
+                        "Permite reducir la ambigüedad al utilizar notaciones formales.",
+                        "Exige menos formación en técnicas de modelado.",
+                        "Elimina la necesidad de documentación textual.",
+                        "Aumenta la ambigüedad por la complejidad gráfica."
+                    ],
+                    "solucion": "Permite reducir la ambigüedad al utilizar notaciones formales."
+                },
+                {
+                    "enunciado": "¿Qué relación se establece entre los modelos y los requisitos textuales en la documentación de requisitos?",
+                    "opciones": [
+                        "Los modelos sustituyen al texto, eliminando la necesidad de trazabilidad.",
+                        "Se debe mantener la trazabilidad entre los modelos y los requisitos en lenguaje natural.",
+                        "Los requisitos textuales son irrelevantes si se disponen de modelos.",
+                        "Ambos se documentan de forma separada sin relación alguna."
+                    ],
+                    "solucion": "Se debe mantener la trazabilidad entre los modelos y los requisitos en lenguaje natural."
+                },
+                {
+                    "enunciado": "¿Cuál es una de las razones por las que la documentación de requisitos es esencial en proyectos de software?",
+                    "opciones": [
+                        "Preserva el conocimiento experto de los diferentes stakeholders.",
+                        "Permite omitir la validación de requisitos.",
+                        "Sustituye la necesidad de reuniones con los stakeholders.",
+                        "Reduce la necesidad de pruebas en el sistema final."
+                    ],
+                    "solucion": "Preserva el conocimiento experto de los diferentes stakeholders."
+                },
+                {
+                    "enunciado": "¿Por qué la trazabilidad es un criterio clave en la documentación de requisitos?",
+                    "opciones": [
+                        "Permite identificar la fuente, evolución, impacto y uso de los requisitos en etapas posteriores.",
+                        "Facilita la implementación del código sin revisiones.",
+                        "Elimina la necesidad de documentar cambios en los requisitos.",
+                        "Permite modificar los requisitos sin consultar a los stakeholders."
+                    ],
+                    "solucion": "Permite identificar la fuente, evolución, impacto y uso de los requisitos en etapas posteriores."
+                },
+                {
+                    "enunciado": "En el estándar IEEE 830-1998, ¿qué información se incluye en la sección 'Requisitos específicos'?",
+                    "opciones": [
+                        "Interfaces externas, requisitos funcionales y restricciones de diseño.",
+                        "Objetivos estratégicos de la empresa.",
+                        "Descripción detallada de la arquitectura del software.",
+                        "Estadísticas de uso del sistema."
+                    ],
+                    "solucion": "Interfaces externas, requisitos funcionales y restricciones de diseño."
+                },
+                {
+                    "enunciado": "¿Cómo pueden ayudar los lenguajes restringidos en la documentación de requisitos?",
+                    "opciones": [
+                        "Reducen la ambigüedad al definir una gramática formal y un conjunto de términos predefinidos.",
+                        "Aumentan la flexibilidad del lenguaje, permitiendo más interpretaciones.",
+                        "Eliminan la necesidad de validar los requisitos con los stakeholders.",
+                        "Facilitan la inclusión de requisitos subjetivos en el documento."
+                    ],
+                    "solucion": "Reducen la ambigüedad al definir una gramática formal y un conjunto de términos predefinidos."
+                },
+                {
+                    "enunciado": "¿Cuál es una desventaja del uso de modelos en la documentación de requisitos?",
+                    "opciones": [
+                        "Requieren un dominio específico de técnicas de modelado.",
+                        "No permiten representar relaciones complejas entre requisitos.",
+                        "Sustituyen por completo la documentación en lenguaje natural.",
+                        "Generan mayor ambigüedad en la especificación de requisitos."
+                    ],
+                    "solucion": "Requieren un dominio específico de técnicas de modelado."
+                },
+                {
+                    "enunciado": "¿Qué técnica se utiliza para asegurar la no ambigüedad en la documentación de requisitos?",
+                    "opciones": [
+                        "Uso de patrones sintácticos para estructurar las frases.",
+                        "Permitir la interpretación libre de los términos utilizados.",
+                        "Evitar la validación con los stakeholders.",
+                        "Eliminar las definiciones de términos técnicos para reducir la complejidad."
+                    ],
+                    "solucion": "Uso de patrones sintácticos para estructurar las frases."
+                },
+                {
+                    "enunciado": "¿Cuál es una ventaja clave de los documentos de requisitos estructurados?",
+                    "opciones": [
+                        "Permiten organizar y clasificar los requisitos en categorías para facilitar su análisis.",
+                        "Eliminan la necesidad de herramientas de gestión de requisitos.",
+                        "Sustituyen las entrevistas con stakeholders.",
+                        "Permiten cambiar los requisitos sin necesidad de justificación."
+                    ],
+                    "solucion": "Permiten organizar y clasificar los requisitos en categorías para facilitar su análisis."
+                },
+                {
+                    "enunciado": "¿Por qué es importante mantener actualizados los documentos de requisitos?",
+                    "opciones": [
+                        "Para reflejar el estado actual del sistema y su contexto.",
+                        "Para descartar requisitos antiguos sin justificación.",
+                        "Para evitar que los stakeholders revisen los documentos.",
+                        "Para reemplazar el análisis de impacto de los cambios."
+                    ],
+                    "solucion": "Para reflejar el estado actual del sistema y su contexto."
+                },
+                {
+                    "enunciado": "En la documentación basada en modelos, ¿qué beneficio se obtiene al complementar los modelos con requisitos textuales?",
+                    "opciones": [
+                        "Mejora la trazabilidad y comprensión de los requisitos.",
+                        "Permite prescindir de validaciones con stakeholders.",
+                        "Evita la necesidad de documentar cambios futuros.",
+                        "Elimina la ambigüedad de los requisitos de manera absoluta."
+                    ],
+                    "solucion": "Mejora la trazabilidad y comprensión de los requisitos."
+                },
+                {
+                    "enunciado": "¿Cómo ayuda la documentación de requisitos en el entrenamiento de nuevos empleados?",
+                    "opciones": [
+                        "Proporciona una referencia clara sobre el sistema y sus funcionalidades.",
+                        "Elimina la necesidad de reuniones de formación.",
+                        "Sustituye la experiencia práctica en el sistema.",
+                        "Permite que los empleados interpreten los requisitos de manera libre."
+                    ],
+                    "solucion": "Proporciona una referencia clara sobre el sistema y sus funcionalidades."
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes problemas puede surgir si la documentación de requisitos no es verificable?",
+                    "opciones": [
+                        "No se podrá comprobar si la implementación satisface los requisitos.",
+                        "Se eliminará la necesidad de realizar pruebas funcionales.",
+                        "Los requisitos no necesitarán trazabilidad.",
+                        "El sistema podrá ser desarrollado sin restricciones."
+                    ],
+                    "solucion": "No se podrá comprobar si la implementación satisface los requisitos."
+                },
+                {
+                    "enunciado": "¿Qué aspecto es clave para garantizar la comprensión de los documentos de requisitos?",
+                    "opciones": [
+                        "Que sean fáciles de entender para los stakeholders clave.",
+                        "Que contengan la menor cantidad de texto posible.",
+                        "Que utilicen un lenguaje técnico sin explicaciones adicionales.",
+                        "Que no requieran validación con los usuarios finales."
+                    ],
+                    "solucion": "Que sean fáciles de entender para los stakeholders clave."
+                },
+                {
+                    "enunciado": "En un documento de requisitos, ¿qué información se encuentra en la sección de 'Visión general' según IEEE 830-1998?",
+                    "opciones": [
+                        "Resumen del contenido y la estructura del documento.",
+                        "Lista detallada de todos los requisitos funcionales.",
+                        "Descripciones técnicas de la arquitectura del sistema.",
+                        "Resultados esperados de las pruebas de software."
+                    ],
+                    "solucion": "Resumen del contenido y la estructura del documento."
+                },
+                {
+                    "enunciado": "¿Cuál es la principal diferencia entre los requisitos de calidad y los requisitos de rendimiento?",
+                    "opciones": [
+                        "Los requisitos de calidad abarcan aspectos no funcionales, mientras que los de rendimiento se centran en la carga soportada por el sistema.",
+                        "Los requisitos de rendimiento son subjetivos, mientras que los de calidad son medibles.",
+                        "Los requisitos de calidad se enfocan en la interfaz de usuario, mientras que los de rendimiento en la base de datos.",
+                        "No hay diferencia, ambos términos se refieren a lo mismo."
+                    ],
+                    "solucion": "Los requisitos de calidad abarcan aspectos no funcionales, mientras que los de rendimiento se centran en la carga soportada por el sistema."
+                },
+                {
+                    "enunciado": "¿Qué beneficio aporta la documentación estructurada en la gestión de cambios de requisitos?",
+                    "opciones": [
+                        "Facilita el seguimiento de la evolución de los requisitos y su impacto en el sistema.",
+                        "Elimina la necesidad de modificar requisitos una vez documentados.",
+                        "Permite evitar validaciones con los stakeholders.",
+                        "Reduce la importancia de la trazabilidad en el proyecto."
+                    ],
+                    "solucion": "Facilita el seguimiento de la evolución de los requisitos y su impacto en el sistema."
+                },
+                {
+                    "enunciado": "En el IEEE 830-1998, ¿qué tipo de información se incluye en la sección de 'Restricciones'?",
+                    "opciones": [
+                        "Limitaciones regulatorias, de hardware, de interfaces y de seguridad.",
+                        "Lista de stakeholders involucrados en el proyecto.",
+                        "Casos de prueba para la validación del sistema.",
+                        "Estrategias de marketing para la distribución del software."
+                    ],
+                    "solucion": "Limitaciones regulatorias, de hardware, de interfaces y de seguridad."
+                },
+                {
+                    "enunciado": "¿Por qué es importante la trazabilidad en la relación entre requisitos textuales y modelos gráficos?",
+                    "opciones": [
+                        "Para asegurar que los modelos representan correctamente los requisitos documentados.",
+                        "Para reemplazar completamente la documentación en lenguaje natural.",
+                        "Para evitar la validación de requisitos con los stakeholders.",
+                        "Para reducir la importancia de la documentación textual en el proyecto."
+                    ],
+                    "solucion": "Para asegurar que los modelos representan correctamente los requisitos documentados."
+                },
+                {
+                    "enunciado": "¿Qué técnica de documentación ayuda a identificar posibles contradicciones en los requisitos?",
+                    "opciones": [
+                        "Revisión cruzada entre requisitos y su trazabilidad.",
+                        "Uso exclusivo de lenguaje natural sin estructuras definidas.",
+                        "Eliminación de las definiciones en los documentos de requisitos.",
+                        "Reducción de la documentación al mínimo para evitar inconsistencias."
+                    ],
+                    "solucion": "Revisión cruzada entre requisitos y su trazabilidad."
+                },
+                {
+                    "enunciado": "En la documentación basada en modelos, ¿qué ventaja proporciona el uso de diagramas sobre la documentación en texto?",
+                    "opciones": [
+                        "Permiten representar visualmente relaciones complejas entre requisitos.",
+                        "Eliminan la necesidad de documentar los requisitos en lenguaje natural.",
+                        "Sustituyen por completo las entrevistas con stakeholders.",
+                        "Aumentan la ambigüedad al representar gráficamente los requisitos."
+                    ],
+                    "solucion": "Permiten representar visualmente relaciones complejas entre requisitos."
+                },
+                {
+                    "enunciado": "¿Por qué es recomendable emplear herramientas para la gestión de requisitos documentados?",
+                    "opciones": [
+                        "Facilitan la trazabilidad, el control de cambios y la colaboración entre equipos.",
+                        "Reducen la necesidad de estructurar la documentación.",
+                        "Permiten que los requisitos sean interpretados libremente por cada stakeholder.",
+                        "Hacen innecesario el uso de plantillas o estándares en la documentación."
+                    ],
+                    "solucion": "Facilitan la trazabilidad, el control de cambios y la colaboración entre equipos."
+                }
+            ]
         }
     }
 }
