@@ -304,6 +304,410 @@
                     "solucion": "Especificaciones de marketing."
                 }
             ]
+        },
+        "Tema 2: Elicitación de Requisitos": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Cuál es el objetivo principal de la elicitación de requisitos en un proyecto de software?",
+                    "opciones": [
+                        "Obtener información detallada de todos los requisitos necesarios para el sistema.",
+                        "Diseñar la arquitectura técnica del software.",
+                        "Implementar y probar funcionalidades específicas.",
+                        "Optimizar el rendimiento del producto final."
+                    ],
+                    "solucion": "Obtener información detallada de todos los requisitos necesarios para el sistema."
+                },
+                {
+                    "enunciado": "Entre los siguientes, ¿cuál no se considera un problema típico en la elicitación de requisitos?",
+                    "opciones": [
+                        "Dificultad para articular las necesidades.",
+                        "Diferencias culturales y de vocabulario entre stakeholders.",
+                        "Problemas de codificación en el software.",
+                        "Conflictos y ambigüedades en los roles de los participantes."
+                    ],
+                    "solucion": "Problemas de codificación en el software."
+                },
+                {
+                    "enunciado": "¿Cuál es la finalidad principal de utilizar goals y escenarios durante el proceso de elicitación?",
+                    "opciones": [
+                        "Definir la estructura de la base de datos del sistema.",
+                        "Descubrir nuevos requisitos y refinar los existentes a partir de interacciones.",
+                        "Establecer protocolos de seguridad en la aplicación.",
+                        "Realizar pruebas de rendimiento del software."
+                    ],
+                    "solucion": "Descubrir nuevos requisitos y refinar los existentes a partir de interacciones."
+                },
+                {
+                    "enunciado": "En una entrevista para la elicitación de requisitos, ¿qué actividad es esencial en la fase de seguimiento?",
+                    "opciones": [
+                        "Registrar y analizar las notas obtenidas durante la entrevista.",
+                        "Realizar únicamente preguntas cerradas para obtener respuestas precisas.",
+                        "Iniciar la sesión sin una introducción para ahorrar tiempo.",
+                        "Evitar retroalimentar al entrevistado para no influir en sus respuestas."
+                    ],
+                    "solucion": "Registrar y analizar las notas obtenidas durante la entrevista."
+                },
+                {
+                    "enunciado": "Dentro de la técnica de workshops, ¿cuál es un aspecto clave para asegurar el éxito de la sesión?",
+                    "opciones": [
+                        "Utilizar un facilitador experimentado y contar con una agenda definida.",
+                        "Realizar la sesión sin moderador para fomentar la espontaneidad.",
+                        "Limitar la participación a un solo stakeholder para agilizar el proceso.",
+                        "No documentar los acuerdos para evitar sesgos en la discusión."
+                    ],
+                    "solucion": "Utilizar un facilitador experimentado y contar con una agenda definida."
+                },
+                {
+                    "enunciado": "En la metodología de Focus Groups, ¿cuál es un elemento crítico para obtener resultados representativos?",
+                    "opciones": [
+                        "Seleccionar un grupo de entre 6 y 10 participantes representativos.",
+                        "Invitar a todos los empleados de la empresa sin ningún filtrado.",
+                        "Realizar la sesión sin un moderador para evitar influencias externas.",
+                        "Asegurar que la sesión dure más de 3 horas para profundizar en el tema."
+                    ],
+                    "solucion": "Seleccionar un grupo de entre 6 y 10 participantes representativos."
+                },
+                {
+                    "enunciado": "¿Qué ventaja principal ofrece la técnica de observación en la elicitación de requisitos?",
+                    "opciones": [
+                        "Proporciona datos objetivos sobre el comportamiento real de los usuarios.",
+                        "Reduce significativamente el tiempo dedicado al análisis posterior.",
+                        "Elimina la necesidad de interactuar directamente con los stakeholders.",
+                        "Permite obtener respuestas más detalladas que las entrevistas."
+                    ],
+                    "solucion": "Proporciona datos objetivos sobre el comportamiento real de los usuarios."
+                },
+                {
+                    "enunciado": "¿Cuál es una de las principales ventajas de utilizar cuestionarios en el proceso de elicitación de requisitos?",
+                    "opciones": [
+                        "Permiten alcanzar a una amplia audiencia de forma rápida y estandarizada.",
+                        "Garantizan respuestas más profundas que las entrevistas personales.",
+                        "Eliminan la necesidad de análisis posterior de los datos recopilados.",
+                        "Aseguran la participación activa y detallada de cada stakeholder."
+                    ],
+                    "solucion": "Permiten alcanzar a una amplia audiencia de forma rápida y estandarizada."
+                },
+                {
+                    "enunciado": "¿Cuál es la diferencia principal entre un prototipo horizontal y uno vertical en el proceso de elicitación de requisitos?",
+                    "opciones": [
+                        "El prototipo horizontal se centra en la interfaz de usuario, mientras que el vertical integra funcionalidades completas y gestión de datos.",
+                        "El horizontal es de alta fidelidad y el vertical de baja fidelidad.",
+                        "El vertical se utiliza para pruebas de usabilidad y el horizontal para validar el rendimiento.",
+                        "No existe diferencia, ambos muestran la totalidad de las funcionalidades del sistema."
+                    ],
+                    "solucion": "El prototipo horizontal se centra en la interfaz de usuario, mientras que el vertical integra funcionalidades completas y gestión de datos."
+                },
+                {
+                    "enunciado": "En la elaboración de historias de usuario, ¿cuál de los siguientes elementos NO forma parte del formato estándar?",
+                    "opciones": [
+                        "Como [rol]",
+                        "Quiero [funcionalidad]",
+                        "Para [beneficio]",
+                        "Porque [razón]"
+                    ],
+                    "solucion": "Porque [razón]"
+                },
+                {
+                    "enunciado": "¿Qué información se agrupa en el 'system context' durante el proceso de elicitación de requisitos?",
+                    "opciones": [
+                        "Faceta de tema/asunto, faceta de uso, faceta de sistema de TI y faceta de desarrollo.",
+                        "Plan de proyecto, cronograma, presupuesto y recursos humanos.",
+                        "Especificaciones técnicas, código fuente y modelos de datos.",
+                        "Interfaz gráfica, experiencia de usuario y feedback de clientes."
+                    ],
+                    "solucion": "Faceta de tema/asunto, faceta de uso, faceta de sistema de TI y faceta de desarrollo."
+                },
+                {
+                    "enunciado": "Según el tema, ¿cuál de las siguientes actividades NO forma parte de las core activities en Ingeniería de Requisitos?",
+                    "opciones": [
+                        "Elicitación.",
+                        "Documentación.",
+                        "Negociación.",
+                        "Codificación."
+                    ],
+                    "solucion": "Codificación."
+                },
+                {
+                    "enunciado": "En la subactividad de identificar fuentes de requisitos relevantes, ¿qué pasos son esenciales?",
+                    "opciones": [
+                        "Recopilar todas las fuentes sin realizar ningún filtrado.",
+                        "Identificar fuentes potenciales y seleccionar las más relevantes.",
+                        "Utilizar únicamente la documentación existente.",
+                        "Depender exclusivamente de entrevistas con los usuarios."
+                    ],
+                    "solucion": "Identificar fuentes potenciales y seleccionar las más relevantes."
+                },
+                {
+                    "enunciado": "En el estudio de documentación, uno de los principales desafíos a tener en cuenta es:",
+                    "opciones": [
+                        "Que la documentación siempre esté actualizada.",
+                        "Que la documentación pueda estar desactualizada o ser incompleta.",
+                        "Que la documentación reemplace la necesidad de entrevistas.",
+                        "Que la documentación valide únicamente el presupuesto del proyecto."
+                    ],
+                    "solucion": "Que la documentación pueda estar desactualizada o ser incompleta."
+                },
+                {
+                    "enunciado": "¿Qué característica distingue al brainstorming como técnica de elicitación de requisitos?",
+                    "opciones": [
+                        "Se realiza en solitario para evitar influencias externas.",
+                        "Fomenta la generación libre de ideas sin críticas iniciales.",
+                        "Se basa en el análisis cuantitativo de datos recopilados.",
+                        "Se centra exclusivamente en aspectos técnicos del sistema."
+                    ],
+                    "solucion": "Fomenta la generación libre de ideas sin críticas iniciales."
+                },
+                {
+                    "enunciado": "El método KJ se utiliza principalmente para:",
+                    "opciones": [
+                        "Realizar análisis estadístico de las respuestas de los stakeholders.",
+                        "Agrupar y organizar ideas a partir de información dispersa.",
+                        "Diseñar la interfaz de usuario del sistema.",
+                        "Implementar prototipos de alta fidelidad."
+                    ],
+                    "solucion": "Agrupar y organizar ideas a partir de información dispersa."
+                },
+                {
+                    "enunciado": "¿Cuál es la ventaja principal del mind mapping en el proceso de elicitación de requisitos?",
+                    "opciones": [
+                        "Permite identificar rápidamente relaciones entre conceptos de manera visual.",
+                        "Requiere menos recursos y tiempo que otras técnicas.",
+                        "Elimina la necesidad de reuniones presenciales.",
+                        "Se centra únicamente en la documentación técnica del proyecto."
+                    ],
+                    "solucion": "Permite identificar rápidamente relaciones entre conceptos de manera visual."
+                },
+                {
+                    "enunciado": "Una de las principales ventajas de utilizar checklists en la recolección de requisitos es:",
+                    "opciones": [
+                        "Asegurar que se abordan todos los aspectos relevantes del proyecto.",
+                        "Reducir el número de stakeholders involucrados en el proceso.",
+                        "Eliminar la necesidad de seguimiento posterior.",
+                        "Optimizar directamente el código fuente del sistema."
+                    ],
+                    "solucion": "Asegurar que se aborden todos los aspectos relevantes del proyecto."
+                },
+                {
+                    "enunciado": "Durante la fase de seguimiento en técnicas colaborativas, ¿cuál es uno de los objetivos principales?",
+                    "opciones": [
+                        "Ignorar las inconsistencias para evitar debates.",
+                        "Consolidar y validar la información recopilada.",
+                        "Reemplazar la documentación previa del proyecto.",
+                        "Implementar inmediatamente las ideas sin análisis previo."
+                    ],
+                    "solucion": "Consolidar y validar la información recopilada."
+                },
+                {
+                    "enunciado": "¿Por qué es fundamental combinar múltiples técnicas de elicitación de requisitos en un proyecto de software?",
+                    "opciones": [
+                        "Porque ninguna técnica por sí sola capta la totalidad de los requisitos.",
+                        "Para aumentar el tiempo invertido en el proceso.",
+                        "Para confundir a los stakeholders y obtener más ideas.",
+                        "Porque es un requisito obligatorio según las normas ISO."
+                    ],
+                    "solucion": "Porque ninguna técnica por sí sola capta la totalidad de los requisitos."
+                },
+                {
+                    "enunciado": "¿Cuál es la función principal de la negociación en el proceso de ingeniería de requisitos?",
+                    "opciones": [
+                        "Resolver conflictos y alinear las expectativas entre los stakeholders.",
+                        "Definir la arquitectura técnica del sistema.",
+                        "Determinar el presupuesto final del proyecto.",
+                        "Seleccionar las herramientas de desarrollo."
+                    ],
+                    "solucion": "Resolver conflictos y alinear las expectativas entre los stakeholders."
+                },
+                {
+                    "enunciado": "Una de las limitaciones cognitivas en la elicitación de requisitos es:",
+                    "opciones": [
+                        "La falta de recursos tecnológicos adecuados.",
+                        "No conocer a fondo el dominio del problema.",
+                        "La ausencia de documentación previa.",
+                        "La sobrecarga de información técnica."
+                    ],
+                    "solucion": "No conocer a fondo el dominio del problema."
+                },
+                {
+                    "enunciado": "¿Por qué es crucial la negociación durante la fase de elicitación de requisitos?",
+                    "opciones": [
+                        "Porque permite ajustar y consensuar los requisitos en medio de conflictos.",
+                        "Porque agiliza el proceso de codificación del software.",
+                        "Porque ayuda a establecer la infraestructura tecnológica.",
+                        "Porque elimina la necesidad de realizar entrevistas posteriores."
+                    ],
+                    "solucion": "Porque permite ajustar y consensuar los requisitos en medio de conflictos."
+                },
+                {
+                    "enunciado": "Al utilizar goals y escenarios, ¿qué artefactos se generan para documentar los requisitos?",
+                    "opciones": [
+                        "Esquemas de bases de datos y diagramas de flujo.",
+                        "Objetivos de alto nivel y escenarios de interacción.",
+                        "Planos de la interfaz gráfica y manuales técnicos.",
+                        "Modelos de datos y especificaciones de hardware."
+                    ],
+                    "solucion": "Objetivos de alto nivel y escenarios de interacción."
+                },
+                {
+                    "enunciado": "En la técnica de entrevistas, uno de los factores de éxito es:",
+                    "opciones": [
+                        "Contar con un entrevistador que domine habilidades de comunicación.",
+                        "Utilizar exclusivamente preguntas cerradas para mayor precisión.",
+                        "Realizar entrevistas sin preparación previa para obtener respuestas espontáneas.",
+                        "Limitar la entrevista a un solo stakeholder para evitar conflictos."
+                    ],
+                    "solucion": "Contar con un entrevistador que domine habilidades de comunicación."
+                },
+                {
+                    "enunciado": "¿Cuál es uno de los beneficios destacados de realizar workshops en el proceso de elicitación de requisitos?",
+                    "opciones": [
+                        "Acelerar la implementación del código fuente.",
+                        "Fomentar el consenso y la colaboración entre diversos stakeholders.",
+                        "Reducir la necesidad de documentación formal del proyecto.",
+                        "Minimizar la participación de usuarios para simplificar el proceso."
+                    ],
+                    "solucion": "Fomentar el consenso y la colaboración entre diversos stakeholders."
+                },
+                {
+                    "enunciado": "Una desventaja principal de la técnica de observación es que:",
+                    "opciones": [
+                        "No permite capturar datos objetivos del comportamiento real.",
+                        "Requiere mayor inversión de tiempo y habilidades interpretativas por parte del observador.",
+                        "Impide la recopilación de información no verbal de los usuarios.",
+                        "Sustituye la necesidad de aplicar otras técnicas de elicitación."
+                    ],
+                    "solucion": "Requiere mayor inversión de tiempo y habilidades interpretativas por parte del observador."
+                },
+                {
+                    "enunciado": "En el uso de cuestionarios para el proceso de elicitación, una limitación importante es:",
+                    "opciones": [
+                        "La dificultad para alcanzar a un gran número de participantes.",
+                        "Que la calidad de los datos depende fuertemente del diseño y la tasa de respuesta.",
+                        "La imposibilidad de recopilar información cuantitativa.",
+                        "El alto costo asociado a su distribución y análisis."
+                    ],
+                    "solucion": "Que la calidad de los datos depende fuertemente del diseño y la tasa de respuesta."
+                },
+                {
+                    "enunciado": "En la técnica de prototipado, uno de los principales retos es:",
+                    "opciones": [
+                        "Integrar todas las funcionalidades del sistema en el primer prototipo.",
+                        "Lograr un equilibrio entre la fidelidad del prototipo y la velocidad de desarrollo.",
+                        "Desarrollar un prototipo sin necesidad de feedback de los usuarios.",
+                        "Utilizar únicamente prototipos de baja fidelidad para ahorrar recursos."
+                    ],
+                    "solucion": "Lograr un equilibrio entre la fidelidad del prototipo y la velocidad de desarrollo."
+                },
+                {
+                    "enunciado": "Al redactar historias de usuario, es esencial que cumplan con los criterios INVEST, lo que implica que sean:",
+                    "opciones": [
+                        "Independientes, negociables, valiosas, estimables, pequeñas y testeables.",
+                        "Integradas, vinculantes, escalables, detalladas y fijas.",
+                        "Innovadoras, complejas, extensas, referenciadas y medibles.",
+                        "Incrementales, obligatorias, validadas, estructuradas y documentadas."
+                    ],
+                    "solucion": "Independientes, negociables, valiosas, estimables, pequeñas y testeables."
+                },
+                {
+                    "enunciado": "¿Cuál es el papel fundamental de la documentación en el proceso de Ingeniería de Requisitos?",
+                    "opciones": [
+                        "Registrar y comunicar de forma clara la información obtenida durante la elicitación.",
+                        "Definir la arquitectura técnica del sistema.",
+                        "Optimizar el rendimiento del software.",
+                        "Eliminar la necesidad de futuras reuniones con stakeholders."
+                    ],
+                    "solucion": "Registrar y comunicar de forma clara la información obtenida durante la elicitación."
+                },
+                {
+                    "enunciado": "¿Qué función cumple la matriz de trazabilidad en el contexto de entrevistas para la elicitación de requisitos?",
+                    "opciones": [
+                        "Relacionar cada requisito con su fuente y facilitar su seguimiento.",
+                        "Determinar el presupuesto asignado a cada funcionalidad.",
+                        "Establecer un cronograma de desarrollo del sistema.",
+                        "Optimizar la codificación de los módulos del software."
+                    ],
+                    "solucion": "Relacionar cada requisito con su fuente y facilitar su seguimiento."
+                },
+                {
+                    "enunciado": "¿Cómo se pueden descubrir requisitos que no eran inicialmente evidentes durante el proceso de IR?",
+                    "opciones": [
+                        "Mediante el análisis iterativo de escenarios y la interacción entre diversas técnicas.",
+                        "A través de la implementación inmediata del prototipo sin retroalimentación.",
+                        "Utilizando exclusivamente documentación preexistente.",
+                        "Dependiendo únicamente de cuestionarios estandarizados."
+                    ],
+                    "solucion": "Mediante el análisis iterativo de escenarios y la interacción entre diversas técnicas."
+                },
+                {
+                    "enunciado": "¿Qué consecuencia puede tener la falta de objetivos claros en la preparación de técnicas de elicitation?",
+                    "opciones": [
+                        "Generar información ambigua y dificultar la focalización de las preguntas.",
+                        "Acelerar el proceso de recolección de datos sin errores.",
+                        "Garantizar que solo se aborden temas técnicos.",
+                        "Eliminar la necesidad de análisis posterior de los resultados."
+                    ],
+                    "solucion": "Generar información ambigua y dificultar la focalización de las preguntas."
+                },
+                {
+                    "enunciado": "En el proceso de IR, ¿qué significa 'navegar entre actividades' de elicitar, documentar y negociar?",
+                    "opciones": [
+                        "Realizar estas actividades de forma interrelacionada y de manera iterativa durante el proyecto.",
+                        "Ejecutarlas de manera secuencial sin retroalimentación entre ellas.",
+                        "Concentrarse únicamente en la documentación una vez finalizadas las entrevistas.",
+                        "Realizar negociaciones únicamente al final del proceso de elicitation."
+                    ],
+                    "solucion": "Realizar estas actividades de forma interrelacionada y de manera iterativa durante el proyecto."
+                },
+                {
+                    "enunciado": "¿A qué se refieren los 'requisitos orientados a solución' dentro de los artefactos de requisitos?",
+                    "opciones": [
+                        "A requisitos que describen cómo se resolverán los problemas identificados.",
+                        "A especificaciones técnicas del hardware necesario.",
+                        "A criterios de rendimiento y escalabilidad del sistema.",
+                        "A las pruebas de aceptación del usuario final."
+                    ],
+                    "solucion": "A requisitos que describen cómo se resolverán los problemas identificados."
+                },
+                {
+                    "enunciado": "¿Por qué es esencial validar la información obtenida con los stakeholders durante la elicitación?",
+                    "opciones": [
+                        "Para asegurar que se ha interpretado correctamente y que refleja las necesidades reales.",
+                        "Para acelerar el proceso de codificación del software.",
+                        "Para reducir el número de técnicas de elicitation utilizadas.",
+                        "Para determinar el presupuesto final del proyecto."
+                    ],
+                    "solucion": "Para asegurar que se ha interpretado correctamente y que refleja las necesidades reales."
+                },
+                {
+                    "enunciado": "La 'pasividad de los clientes' en la elicitación de requisitos se traduce en:",
+                    "opciones": [
+                        "Una dificultad para obtener información espontánea y detallada de sus necesidades.",
+                        "Una mejora en la objetividad del análisis.",
+                        "Una mayor rapidez en la documentación de requisitos.",
+                        "Una reducción en la cantidad de reuniones necesarias."
+                    ],
+                    "solucion": "Una dificultad para obtener información espontánea y detallada de sus necesidades."
+                },
+                {
+                    "enunciado": "¿Qué riesgo implica una 'simplificación excesiva' al elicitar requisitos?",
+                    "opciones": [
+                        "Que se malinterpreten o pierdan matices importantes de las necesidades reales del usuario.",
+                        "Que se incremente el tiempo de preparación de las entrevistas.",
+                        "Que se sobrecargue el sistema con demasiadas funcionalidades.",
+                        "Que se convierta en un proceso excesivamente complejo y detallado."
+                    ],
+                    "solucion": "Que se malinterpreten o pierdan matices importantes de las necesidades reales del usuario."
+                },
+                {
+                    "enunciado": "¿Qué papel juega la retroalimentación en el proceso iterativo de la elicitation de requisitos?",
+                    "opciones": [
+                        "Permite refinar y mejorar continuamente la definición de los requisitos a partir de nuevas evidencias.",
+                        "Asegura que una vez definidos los requisitos, éstos no se modifiquen.",
+                        "Evita la necesidad de documentar los cambios durante el proceso.",
+                        "Garantiza que solo se utilice una única técnica de elicitation en el proyecto."
+                    ],
+                    "solucion": "Permite refinar y mejorar continuamente la definición de los requisitos a partir de nuevas evidencias."
+                }
+            ]
         }
     }
 }
