@@ -11,10 +11,10 @@ function cargarAsignaturas() {
             asignaturas = data;
             const select = document.getElementById('asignatura-select');
             select.innerHTML = '<option value="">Selecciona una asignatura</option>';
-            asignaturas.forEach(asignatura => {
+            Object.keys(asignaturas).forEach(id => {
                 const option = document.createElement('option');
-                option.value = asignatura;
-                option.textContent = asignatura;
+                option.value = id;
+                option.textContent = asignaturas[id];
                 select.appendChild(option);
             });
         })

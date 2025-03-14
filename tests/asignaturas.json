@@ -1,7 +1,7 @@
-[
-    "ISO2",
-    "INTELIGENTES",
-    "SSDD",
-    "ARCO",
-    "IREQ"
-]
+{
+    "ISO2": "Ingeniería del Software 2",
+    "INTELIGENTES": "Sistemas Inteligentes",
+    "SSDD": "Sistemas Distribuidos",
+    "ARCO": "Arquitectura de Computadores",
+    "IREQ": "Ingeniería de Requisitos"
+}
