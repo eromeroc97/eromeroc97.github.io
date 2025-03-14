@@ -11,12 +11,12 @@ function cargarAsignaturas() {
             asignaturas = data;
             const select = document.getElementById('asignatura-select');
             select.innerHTML = '<option value="">Selecciona una asignatura</option>';
-            Object.keys(asignaturas).forEach(id => {
+            Object.entries(asignaturas).forEach(([id, nombre]) => {
                 const option = document.createElement('option');
                 option.value = id;
-                option.textContent = asignaturas[id];
+                option.textContent = nombre;
                 select.appendChild(option);
-            });
+            });            
         })
         .catch(error => console.error('Error al cargar asignaturas:', error));
 }
