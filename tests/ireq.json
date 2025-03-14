@@ -1416,6 +1416,410 @@
                     "solucion": "La votación puede favorecer decisiones mayoritarias que ignoren necesidades críticas de minorías; esto se puede mitigar combinándola con análisis cualitativos y revisiones adicionales para asegurar un consenso robusto."
                 }
             ]
+        },
+        "Tema 5: Validación de Requisitos": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor la diferencia entre verificación y validación en la Ingeniería de Requisitos?",
+                    "opciones": [
+                        "La verificación evalúa si el sistema cumple con los requisitos del usuario, mientras que la validación revisa si se han seguido correctamente los procesos de desarrollo.",
+                        "La verificación se centra en comprobar que el producto se ha desarrollado correctamente según las especificaciones, mientras que la validación evalúa si el producto final cumple con los requisitos del usuario.",
+                        "Verificación y validación son procesos equivalentes y pueden usarse indistintamente.",
+                        "La validación solo se realiza cuando el producto ya ha sido desplegado, mientras que la verificación se hace en fases tempranas del desarrollo."
+                    ],
+                    "solucion": "La verificación se centra en comprobar que el producto se ha desarrollado correctamente según las especificaciones, mientras que la validación evalúa si el producto final cumple con los requisitos del usuario."
+                },
+                {
+                    "enunciado": "¿Cuál es un riesgo clave de no realizar una validación adecuada en la Ingeniería de Requisitos?",
+                    "opciones": [
+                        "Los requisitos podrían ser demasiado específicos y limitar la flexibilidad del sistema.",
+                        "Los defectos pueden propagarse a lo largo del desarrollo, generando altos costos de corrección en etapas posteriores.",
+                        "Se necesitarán más reuniones de stakeholders para discutir los requisitos.",
+                        "Se incrementará el tiempo de entrega del proyecto sin afectar su calidad."
+                    ],
+                    "solucion": "Los defectos pueden propagarse a lo largo del desarrollo, generando altos costos de corrección en etapas posteriores."
+                },
+                {
+                    "enunciado": "Dentro de la validación de artefactos, la 'dimensión de contenido' se enfoca en:",
+                    "opciones": [
+                        "Comprobar que los artefactos cumplen con criterios como completitud, consistencia y trazabilidad.",
+                        "Revisar que los documentos de requisitos sean entendibles para los desarrolladores.",
+                        "Asegurar que los stakeholders han firmado los documentos de requisitos.",
+                        "Garantizar que los artefactos sean revisados por expertos externos a la organización."
+                    ],
+                    "solucion": "Comprobar que los artefactos cumplen con criterios como completitud, consistencia y trazabilidad."
+                },
+                {
+                    "enunciado": "En la validación del contexto del sistema, la 'IT Facet' se refiere a:",
+                    "opciones": [
+                        "Garantizar que los requisitos sean compatibles con la infraestructura tecnológica existente.",
+                        "Validar que los usuarios puedan interactuar con el sistema sin errores de usabilidad.",
+                        "Determinar si los requisitos documentados han sido aprobados por la alta dirección.",
+                        "Asegurar que los requisitos son suficientemente abstractos para adaptarse a múltiples tecnologías."
+                    ],
+                    "solucion": "Garantizar que los requisitos sean compatibles con la infraestructura tecnológica existente."
+                },
+                {
+                    "enunciado": "Uno de los principios clave de la validación es la independencia de los revisores. ¿Por qué es importante?",
+                    "opciones": [
+                        "Porque los revisores ajenos al desarrollo pueden detectar deficiencias que quienes participaron en su creación podrían pasar por alto.",
+                        "Porque permite a los desarrolladores centrarse únicamente en la implementación del sistema.",
+                        "Porque evita la necesidad de realizar múltiples revisiones a lo largo del desarrollo.",
+                        "Porque garantiza que los requisitos sean comprensibles para los usuarios finales."
+                    ],
+                    "solucion": "Porque los revisores ajenos al desarrollo pueden detectar deficiencias que quienes participaron en su creación podrían pasar por alto."
+                },
+                {
+                    "enunciado": "El principio de 'Separar la detección de defectos de la corrección' en la validación implica que:",
+                    "opciones": [
+                        "Los revisores deben centrarse en identificar defectos sin preocuparse por proponer soluciones en la fase de revisión.",
+                        "La corrección de los defectos debe realizarse inmediatamente después de su detección.",
+                        "Solo los desarrolladores pueden detectar defectos en los requisitos.",
+                        "Las pruebas de validación deben realizarse sin intervención de los stakeholders."
+                    ],
+                    "solucion": "Los revisores deben centrarse en identificar defectos sin preocuparse por proponer soluciones en la fase de revisión."
+                },
+                {
+                    "enunciado": "Según el principio de 'Validación repetida', ¿en qué casos es especialmente importante aplicar revisiones continuas de los requisitos?",
+                    "opciones": [
+                        "En proyectos a largo plazo o con un alto nivel de innovación.",
+                        "En proyectos donde los requisitos están completamente definidos desde el inicio.",
+                        "En sistemas pequeños con pocos stakeholders involucrados.",
+                        "Cuando los requisitos han sido aprobados por la dirección y no se prevén cambios."
+                    ],
+                    "solucion": "En proyectos a largo plazo o con un alto nivel de innovación."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes técnicas de validación es la más estructurada y formal para detectar defectos en los artefactos de requisitos?",
+                    "opciones": [
+                        "Inspecciones.",
+                        "Walkthroughs.",
+                        "Validación con prototipos.",
+                        "Desk-checks."
+                    ],
+                    "solucion": "Inspecciones."
+                },
+                {
+                    "enunciado": "¿En qué situación sería más recomendable utilizar un 'Desk-Check' en lugar de una 'Inspección'?",
+                    "opciones": [
+                        "Cuando se requiere una validación rápida e individual sin una reunión formal.",
+                        "Cuando el sistema debe cumplir con normativas estrictas y se necesita una revisión detallada.",
+                        "Cuando los requisitos están en una fase avanzada y se requiere un análisis estructurado.",
+                        "Cuando los defectos ya han sido corregidos y solo se necesita documentar la solución."
+                    ],
+                    "solucion": "Cuando se requiere una validación rápida e individual sin una reunión formal."
+                },
+                {
+                    "enunciado": "¿Cuál es la principal ventaja de utilizar la validación con prototipos?",
+                    "opciones": [
+                        "Permite detectar problemas de usabilidad y requisitos difíciles de identificar en documentación escrita.",
+                        "Elimina la necesidad de revisar la documentación de requisitos.",
+                        "Reduce el tiempo de desarrollo, ya que evita la necesidad de realizar validaciones adicionales.",
+                        "Garantiza que los requisitos sean completamente correctos sin necesidad de validaciones posteriores."
+                    ],
+                    "solucion": "Permite detectar problemas de usabilidad y requisitos difíciles de identificar en documentación escrita."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes afirmaciones describe de forma más precisa la validación del contexto del sistema en relación con sus cuatro facetas?",
+                    "opciones": [
+                        "Se centra exclusivamente en la compatibilidad tecnológica, ignorando escenarios de uso y viabilidad de recursos.",
+                        "Abarca la verificación del alcance, la inclusión de escenarios normales y excepcionales, la compatibilidad tecnológica y la viabilidad del desarrollo.",
+                        "Solo valida el alcance del sistema y la infraestructura tecnológica, sin considerar los escenarios de uso.",
+                        "Se limita a evaluar la viabilidad de los recursos disponibles para el desarrollo."
+                    ],
+                    "solucion": "Abarca la verificación del alcance, la inclusión de escenarios normales y excepcionales, la compatibilidad tecnológica y la viabilidad del desarrollo."
+                },
+                {
+                    "enunciado": "¿Qué ventaja y limitación potencial se derivan del uso de múltiples perspectivas independientes durante la validación de requisitos?",
+                    "opciones": [
+                        "Aumenta la detección de defectos, pero puede generar hallazgos redundantes que compliquen la priorización.",
+                        "Garantiza la corrección inmediata de errores, aunque reduce la diversidad de opiniones.",
+                        "Facilita la validación sin necesidad de reuniones adicionales, pero limita el análisis de la trazabilidad.",
+                        "Elimina la necesidad de validación externa, aunque incrementa los costos de revisión."
+                    ],
+                    "solucion": "Aumenta la detección de defectos, pero puede generar hallazgos redundantes que compliquen la priorización."
+                },
+                {
+                    "enunciado": "¿Cuál es la justificación principal para separar la detección de defectos de la corrección en el proceso de validación?",
+                    "opciones": [
+                        "Permite que los revisores se concentren exclusivamente en identificar errores sin influir en las soluciones, garantizando objetividad en la revisión.",
+                        "Facilita la corrección inmediata por parte de los desarrolladores durante la misma sesión de validación.",
+                        "Reduce la necesidad de involucrar a stakeholders externos en la revisión de los artefactos.",
+                        "Asegura que los defectos detectados se corrijan automáticamente sin intervención humana."
+                    ],
+                    "solucion": "Permite que los revisores se concentren exclusivamente en identificar errores sin influir en las soluciones, garantizando objetividad en la revisión."
+                },
+                {
+                    "enunciado": "¿En qué situación sería más adecuado utilizar una inspección formal en lugar de un walkthrough durante la validación de requisitos?",
+                    "opciones": [
+                        "Cuando se requiere una revisión rápida y la obtención de retroalimentación informal.",
+                        "Cuando el artefacto es crítico y necesita una revisión exhaustiva utilizando checklists estructurados y roles definidos.",
+                        "Cuando el equipo dispone de poco tiempo y se busca feedback individual sin formalidades.",
+                        "Cuando se desea explorar nuevas ideas sin un procedimiento predefinido."
+                    ],
+                    "solucion": "Cuando el artefacto es crítico y necesita una revisión exhaustiva utilizando checklists estructurados y roles definidos."
+                },
+                {
+                    "enunciado": "¿Qué factor es determinante para que la validación con prototipos sea eficaz en la detección de defectos en los requisitos?",
+                    "opciones": [
+                        "La participación activa de los ingenieros de requisitos durante la prueba del prototipo para corregir errores en tiempo real.",
+                        "La correcta selección de un conjunto significativo de requisitos basado en objetivos y escenarios, y la limitación adecuada del alcance de la validación.",
+                        "El uso exclusivo de prototipos de alta fidelidad en todas las fases del proyecto sin adaptarse al entorno.",
+                        "La ausencia de soporte técnico durante el uso del prototipo para forzar a los usuarios a descubrir errores."
+                    ],
+                    "solucion": "La correcta selección de un conjunto significativo de requisitos basado en objetivos y escenarios, y la limitación adecuada del alcance de la validación."
+                },
+                {
+                    "enunciado": "¿Cómo influye el cambio de formato en la detección de errores durante la validación de requisitos?",
+                    "opciones": [
+                        "El cambio de formato siempre aumenta la ambigüedad y dificulta la revisión de los artefactos.",
+                        "La modificación del formato puede facilitar la detección de errores al adaptarse a las preferencias de los stakeholders, aunque puede requerir capacitación adicional.",
+                        "El formato de documentación no tiene impacto en la identificación de defectos, ya que esto depende únicamente del contenido.",
+                        "Solo es relevante para los artefactos basados en modelos y no afecta a los requisitos en lenguaje natural."
+                    ],
+                    "solucion": "La modificación del formato puede facilitar la detección de errores al adaptarse a las preferencias de los stakeholders, aunque puede requerir capacitación adicional."
+                },
+                {
+                    "enunciado": "¿Por qué es especialmente importante realizar validación repetida en proyectos con alto nivel de innovación y cambios frecuentes en los requisitos?",
+                    "opciones": [
+                        "Porque permite fijar los requisitos desde el inicio y evitar revisiones posteriores.",
+                        "Porque los stakeholders externos pueden validar los requisitos sin necesidad de revisión interna.",
+                        "Porque el conocimiento y las condiciones del proyecto evolucionan, lo que exige revisiones continuas para mantener la validez de los requisitos.",
+                        "Porque reduce significativamente el esfuerzo de documentación y seguimiento en fases avanzadas."
+                    ],
+                    "solucion": "Porque el conocimiento y las condiciones del proyecto evolucionan, lo que exige revisiones continuas para mantener la validez de los requisitos."
+                },
+                {
+                    "enunciado": "En la validación de la ejecución de las actividades de Ingeniería de Requisitos, ¿cuál de los siguientes aspectos es crítico para garantizar la calidad del proceso?",
+                    "opciones": [
+                        "Que se hayan seguido las guías y reglas establecidas, y que se hayan documentado adecuadamente todas las actividades e inputs relevantes.",
+                        "Que solo se validen los artefactos finales sin considerar el proceso completo de IR.",
+                        "Que se priorice la rapidez en la validación sobre la exhaustividad del proceso.",
+                        "Que únicamente participen los desarrolladores en la revisión para agilizar la ejecución."
+                    ],
+                    "solucion": "Que se hayan seguido las guías y reglas establecidas, y que se hayan documentado adecuadamente todas las actividades e inputs relevantes."
+                },
+                {
+                    "enunciado": "¿Cómo se relaciona la 'dimensión de acuerdo' en la validación de artefactos con la consistencia de los requisitos?",
+                    "opciones": [
+                        "Verifica que los stakeholders estén de acuerdo con cada requisito, lo que refuerza la coherencia y la alineación de los artefactos con las expectativas del proyecto.",
+                        "Se centra únicamente en la aprobación de la documentación sin evaluar la consistencia interna de los requisitos.",
+                        "Es irrelevante si los requisitos ya cumplen con criterios de completitud y correctitud.",
+                        "Solo se aplica en validaciones internas y no tiene impacto en proyectos que requieren validación externa."
+                    ],
+                    "solucion": "Verifica que los stakeholders estén de acuerdo con cada requisito, lo que refuerza la coherencia y la alineación de los artefactos con las expectativas del proyecto."
+                },
+                {
+                    "enunciado": "En la tabla comparativa de técnicas de validación, ¿qué aspecto distingue a la validación con prototipos respecto a las inspecciones formales?",
+                    "opciones": [
+                        "La validación con prototipos se centra en la detección de defectos de usabilidad y funcionales mediante la interacción directa de los usuarios, mientras que las inspecciones se enfocan en la revisión estructurada de la documentación.",
+                        "Las inspecciones requieren menos esfuerzo que la validación con prototipos en términos de recursos y tiempo.",
+                        "Ambas técnicas son equivalentes en su capacidad para detectar defectos, sin diferencias significativas.",
+                        "La validación con prototipos se utiliza únicamente para proyectos de baja criticidad, mientras que las inspecciones son obligatorias en todos los proyectos."
+                    ],
+                    "solucion": "La validación con prototipos se centra en la detección de defectos de usabilidad y funcionales mediante la interacción directa de los usuarios, mientras que las inspecciones se enfocan en la revisión estructurada de la documentación."
+                },
+                {
+                    "enunciado": "En el principio de 'Validación repetida', ¿por qué es crucial realizar múltiples rondas de validación en proyectos con alta ganancia de conocimiento?",
+                    "opciones": [
+                        "Porque los requisitos y el conocimiento de los stakeholders evolucionan con el tiempo, asegurando que los artefactos sigan siendo válidos.",
+                        "Porque permite corregir todos los defectos en una única revisión inicial.",
+                        "Porque reduce el esfuerzo total invertido en la documentación de requisitos.",
+                        "Porque una validación única es suficiente para sistemas de bajo riesgo."
+                    ],
+                    "solucion": "Porque los requisitos y el conocimiento de los stakeholders evolucionan con el tiempo, asegurando que los artefactos sigan siendo válidos."
+                },
+                {
+                    "enunciado": "¿Qué implicaciones prácticas tiene separar la detección de defectos de la corrección durante la validación de requisitos?",
+                    "opciones": [
+                        "Permite que los revisores se enfoquen exclusivamente en identificar errores sin sugerir soluciones, lo que garantiza una evaluación objetiva.",
+                        "Facilita la corrección inmediata durante la misma sesión, acelerando el proceso de validación.",
+                        "Elimina la necesidad de documentar los defectos encontrados.",
+                        "Permite que los desarrolladores corrijan errores sin consultar a los revisores."
+                    ],
+                    "solucion": "Permite que los revisores se enfoquen exclusivamente en identificar errores sin sugerir soluciones, lo que garantiza una evaluación objetiva."
+                },
+                {
+                    "enunciado": "Entre las cuatro facetas del contexto del sistema, ¿cuál resulta más determinante para validar la viabilidad técnica del sistema y por qué?",
+                    "opciones": [
+                        "La IT Facet, porque verifica que los requisitos sean compatibles con la infraestructura tecnológica existente.",
+                        "La Subject Facet, ya que define el alcance del sistema sin importar la tecnología.",
+                        "La Usage Facet, por que se centra en los escenarios de uso sin considerar la viabilidad técnica.",
+                        "La Development Facet, ya que solo evalúa los recursos disponibles sin analizar la compatibilidad tecnológica."
+                    ],
+                    "solucion": "La IT Facet, porque verifica que los requisitos sean compatibles con la infraestructura tecnológica existente."
+                },
+                {
+                    "enunciado": "¿En qué situación es preferible utilizar un walkthrough en lugar de una inspección formal durante la validación de requisitos?",
+                    "opciones": [
+                        "Cuando se requiere una revisión rápida e informal en etapas tempranas para obtener retroalimentación general.",
+                        "Cuando el artefacto es crítico y requiere una revisión exhaustiva con roles y checklists formales.",
+                        "Cuando no se dispone de ningún checklist de validación.",
+                        "Cuando se desea documentar detalladamente cada defecto sin interacción directa de los stakeholders."
+                    ],
+                    "solucion": "Cuando se requiere una revisión rápida e informal en etapas tempranas para obtener retroalimentación general."
+                },
+                {
+                    "enunciado": "¿Cómo contribuye la 'dimensión de acuerdo' en la validación de artefactos a la confiabilidad de los requisitos?",
+                    "opciones": [
+                        "Al asegurar que todos los stakeholders están de acuerdo con cada requisito, lo que refuerza la consistencia y alineación de los artefactos.",
+                        "Al permitir que solo los desarrolladores aprueben los requisitos sin intervención externa.",
+                        "Al eliminar la necesidad de validar el contenido técnico de los artefactos.",
+                        "Al centrarse exclusivamente en la completitud de la documentación sin involucrar a los stakeholders."
+                    ],
+                    "solucion": "Al asegurar que todos los stakeholders están de acuerdo con cada requisito, lo que refuerza la consistencia y alineación de los artefactos."
+                },
+                {
+                    "enunciado": "La validación con prototipos es intensiva en recursos. ¿Qué estrategia se puede aplicar para mitigar su alto esfuerzo sin comprometer la detección de defectos críticos?",
+                    "opciones": [
+                        "Limitar el alcance de la validación a un subconjunto representativo de requisitos basado en objetivos y escenarios.",
+                        "Utilizar prototipos de alta fidelidad para todo el sistema, independientemente del alcance.",
+                        "Realizar validaciones con prototipos únicamente en fases finales del proyecto.",
+                        "Reemplazar la validación con prototipos por inspecciones formales en todos los casos."
+                    ],
+                    "solucion": "Limitar el alcance de la validación a un subconjunto representativo de requisitos basado en objetivos y escenarios."
+                },
+                {
+                    "enunciado": "En la gestión de riesgos de insuficiente validación, ¿cuál es la consecuencia más crítica de no validar adecuadamente los inputs de las actividades de Ingeniería de Requisitos?",
+                    "opciones": [
+                        "Que se pasen por alto aspectos críticos, lo que puede derivar en fallos costosos y propagación de errores durante el desarrollo.",
+                        "Que se reduzca el esfuerzo necesario para documentar los requisitos.",
+                        "Que se acelere el proceso de validación sin afectar la calidad del sistema.",
+                        "Que se genere un exceso de documentación sin impacto en el desarrollo."
+                    ],
+                    "solucion": "Que se pasen por alto aspectos críticos, lo que puede derivar en fallos costosos y propagación de errores durante el desarrollo."
+                },
+                {
+                    "enunciado": "¿Qué papel desempeña la independencia de los revisores en una inspección formal, y qué riesgo se asume si se compromete este principio?",
+                    "opciones": [
+                        "Garantiza una evaluación objetiva de los artefactos; si se viola, puede introducirse sesgo y pasar por alto errores importantes.",
+                        "Permite que los desarrolladores identifiquen errores sin necesidad de feedback externo.",
+                        "Acelera la corrección de defectos, aunque pueda generar conflictos entre revisores.",
+                        "Reduce la necesidad de múltiples rondas de validación sin afectar la calidad del proceso."
+                    ],
+                    "solucion": "Garantiza una evaluación objetiva de los artefactos; si se viola, puede introducirse sesgo y pasar por alto errores importantes."
+                },
+                {
+                    "enunciado": "Dentro del principio de aprovechar múltiples perspectivas independientes, ¿qué mecanismo es fundamental para evitar la redundancia excesiva en los hallazgos?",
+                    "opciones": [
+                        "Integrar los resultados mediante un análisis comparativo y consenso que filtre redundancias y priorice los defectos críticos.",
+                        "Sumar todas las opiniones sin un método de análisis, lo que permite obtener un mayor número de defectos.",
+                        "Delegar la consolidación de hallazgos a un único stakeholder con mayor experiencia en el área.",
+                        "Ignorar las opiniones redundantes y enfocarse únicamente en la primera validación realizada."
+                    ],
+                    "solucion": "Integrar los resultados mediante un análisis comparativo y consenso que filtre redundancias y priorice los defectos críticos."
+                },
+                {
+                    "enunciado": "En la dimensión de documentación de la validación, ¿qué beneficio se obtiene al adaptar el formato de los artefactos a las preferencias de los stakeholders, y qué riesgo puede acarrear?",
+                    "opciones": [
+                        "Facilita la detección de errores y mejora la comprensión, pero si no se gestiona adecuadamente, puede introducir inconsistencias en la documentación.",
+                        "Reduce la claridad del documento, eliminando la necesidad de validación externa.",
+                        "Permite una revisión más rápida sin ningún riesgo asociado, ya que los formatos son irrelevantes.",
+                        "Garantiza que todos los artefactos sean idénticos, eliminando cualquier posibilidad de ambigüedad."
+                    ],
+                    "solucion": "Facilita la detección de errores y mejora la comprensión, pero si no se gestiona adecuadamente, puede introducir inconsistencias en la documentación."
+                },
+                {
+                    "enunciado": "Una compañía de salud desarrolla un sistema de gestión de pacientes. Durante una inspección formal del documento de requisitos, se detecta que varios requisitos no especifican las medidas necesarias para cumplir las normativas de privacidad de datos. ¿Cuál es la principal ventaja de haber realizado esta inspección formal en este ejemplo?",
+                    "opciones": [
+                        "Permite detectar de manera exhaustiva defectos críticos que podrían tener implicaciones legales y de seguridad.",
+                        "Acelera el proceso de desarrollo al eliminar la necesidad de futuras revisiones.",
+                        "Reduce la documentación necesaria al simplificar los requisitos.",
+                        "Facilita la implementación inmediata del sistema sin modificaciones posteriores."
+                    ],
+                    "solucion": "Permite detectar de manera exhaustiva defectos críticos que podrían tener implicaciones legales y de seguridad."
+                },
+                {
+                    "enunciado": "En un proyecto de desarrollo de una aplicación móvil para banca, tres analistas independientes realizan un desk-check del documento de requisitos. Durante la revisión, cada analista identifica inconsistencias en la descripción de los tiempos de transacción y en la implementación de medidas de seguridad. ¿Cuál es la principal ventaja de utilizar desk-checks en este escenario?",
+                    "opciones": [
+                        "Ofrece retroalimentación individual que ayuda a identificar detalles específicos que podrían pasarse por alto en una revisión grupal.",
+                        "Permite aprobar rápidamente todos los requisitos sin discusión.",
+                        "Reduce la necesidad de validación formal mediante la eliminación de discrepancias.",
+                        "Sustituye completamente la revisión formal del documento."
+                    ],
+                    "solucion": "Ofrece retroalimentación individual que ayuda a identificar detalles específicos que podrían pasarse por alto en una revisión grupal."
+                },
+                {
+                    "enunciado": "Una startup de comercio electrónico crea un prototipo interactivo para su motor de búsqueda de productos. Durante las pruebas, varios usuarios indican que el sistema de filtrado es confuso y poco intuitivo. ¿Cuál es la principal ventaja de utilizar validación con prototipos en este ejemplo?",
+                    "opciones": [
+                        "Permite detectar problemas de usabilidad y obtener feedback directo que posibilita mejorar la experiencia del usuario.",
+                        "Garantiza que el prototipo cumpla con todas las especificaciones técnicas sin necesidad de ajustes.",
+                        "Elimina la necesidad de documentar los requisitos de la interfaz.",
+                        "Acelera el proceso de desarrollo al omitir pruebas adicionales."
+                    ],
+                    "solucion": "Permite detectar problemas de usabilidad y obtener feedback directo que posibilita mejorar la experiencia del usuario."
+                },
+                {
+                    "enunciado": "En el desarrollo de un software de gestión de inventarios para una empresa manufacturera, el equipo organiza un walkthrough en el que el autor presenta el documento de requisitos a un grupo mixto de ingenieros y operarios. Durante la sesión, se discute la viabilidad del requisito que propone la integración en tiempo real con el sistema ERP existente. ¿Qué beneficio aporta este walkthrough en el ejemplo presentado?",
+                    "opciones": [
+                        "Facilita la discusión y la identificación de ajustes necesarios mediante la interacción directa de diversos stakeholders.",
+                        "Permite la aprobación inmediata de todos los requisitos sin necesidad de seguimiento.",
+                        "Elimina la necesidad de utilizar otras técnicas de validación más formales.",
+                        "Reduce el tiempo de desarrollo al omitir reuniones adicionales."
+                    ],
+                    "solucion": "Facilita la discusión y la identificación de ajustes necesarios mediante la interacción directa de diversos stakeholders."
+                },
+                {
+                    "enunciado": "Una empresa de servicios financieros lleva a cabo una inspección formal de los requisitos para su nuevo sistema de pagos. Durante la revisión, se identifica que el documento no incluye medidas para prevenir fraudes, lo cual es crítico para evitar riesgos legales y financieros. ¿Qué aspecto crítico se logra detectar mediante esta técnica?",
+                    "opciones": [
+                        "La omisión de requisitos esenciales de seguridad que pueden tener consecuencias legales y operativas.",
+                        "La redundancia de la documentación en ciertos apartados del sistema.",
+                        "La excesiva formalidad de los procedimientos internos.",
+                        "La falta de claridad en la descripción de funciones menores."
+                    ],
+                    "solucion": "La omisión de requisitos esenciales de seguridad que pueden tener consecuencias legales y operativas."
+                },
+                {
+                    "enunciado": "En el desarrollo de una aplicación educativa, se utiliza validación con prototipos. Durante las pruebas, los estudiantes y profesores reportan que la interfaz es poco intuitiva para los usuarios jóvenes, afectando la experiencia educativa. ¿Cómo beneficia la validación con prototipos a la mejora del producto en este caso?",
+                    "opciones": [
+                        "Permite ajustar la interfaz en función de la retroalimentación directa de los usuarios finales, mejorando la usabilidad y accesibilidad.",
+                        "Garantiza que la funcionalidad se implemente sin modificaciones posteriores.",
+                        "Elimina la necesidad de realizar pruebas adicionales con otros grupos de usuarios.",
+                        "Acelera el desarrollo al omitir la fase de análisis de usabilidad."
+                    ],
+                    "solucion": "Permite ajustar la interfaz en función de la retroalimentación directa de los usuarios finales, mejorando la usabilidad y accesibilidad."
+                },
+                {
+                    "enunciado": "Una compañía de logística está desarrollando un sistema de seguimiento de envíos. Organizan un desk-check donde varios gerentes revisan el documento de requisitos y detectan discrepancias en la descripción de los tiempos de actualización de los datos. ¿Qué ventaja proporciona esta revisión individualizada en este ejemplo?",
+                    "opciones": [
+                        "Permite identificar y corregir detalles específicos en la documentación que pueden afectar la precisión del sistema.",
+                        "Acelera la aprobación del documento al omitir detalles menores.",
+                        "Elimina la necesidad de una revisión grupal posterior.",
+                        "Reduce la carga de trabajo del equipo de desarrollo sin comprometer la calidad."
+                    ],
+                    "solucion": "Permite identificar y corregir detalles específicos en la documentación que pueden afectar la precisión del sistema."
+                },
+                {
+                    "enunciado": "Una plataforma de telemedicina está en desarrollo y se organiza un walkthrough en el que participan médicos, enfermeros y personal administrativo. Durante la sesión, se discute la viabilidad del requisito que permite el acceso en tiempo real a los historiales médicos. ¿Qué valor aporta este walkthrough en el ejemplo descrito?",
+                    "opciones": [
+                        "Facilita la identificación de conflictos y permite ajustar el requisito basándose en las necesidades clínicas y operativas de los diferentes usuarios.",
+                        "Garantiza que el requisito se apruebe sin necesidad de validación externa.",
+                        "Elimina la necesidad de documentar el proceso de validación.",
+                        "Reduce el tiempo de desarrollo al evitar discusiones prolongadas."
+                    ],
+                    "solucion": "Facilita la identificación de conflictos y permite ajustar el requisito basándose en las necesidades clínicas y operativas de los diferentes usuarios."
+                },
+                {
+                    "enunciado": "En una fábrica que desarrolla un sistema de control de calidad, se realiza una inspección formal utilizando un checklist. Durante la revisión, se detecta que varios requisitos no contemplan la normativa de seguridad industrial. ¿Cuál es el principal riesgo si estos defectos no se corrigen en este contexto?",
+                    "opciones": [
+                        "Se arriesga a enfrentar sanciones legales y poner en riesgo la seguridad de los trabajadores.",
+                        "El sistema podría implementar funciones redundantes que afecten su eficiencia.",
+                        "La documentación del sistema se volverá demasiado compleja para su mantenimiento.",
+                        "Se incrementarán los costos de desarrollo sin impacto en la seguridad."
+                    ],
+                    "solucion": "Se arriesga a enfrentar sanciones legales y poner en riesgo la seguridad de los trabajadores."
+                },
+                {
+                    "enunciado": "Una empresa de desarrollo de software lanza una nueva aplicación de gestión de proyectos y utiliza validación con prototipos. Durante las pruebas, los usuarios indican que la funcionalidad de colaboración en tiempo real es confusa y poco intuitiva. ¿Qué oportunidad brinda esta validación con prototipos en el ejemplo proporcionado?",
+                    "opciones": [
+                        "Permite identificar y ajustar funcionalidades críticas basándose en la retroalimentación directa de los usuarios, mejorando la experiencia final.",
+                        "Elimina la necesidad de otras técnicas de validación una vez que el prototipo ha sido probado.",
+                        "Garantiza que la funcionalidad se mantenga inalterada en las fases finales del desarrollo.",
+                        "Reduce el costo total del proyecto al omitir revisiones posteriores."
+                    ],
+                    "solucion": "Permite identificar y ajustar funcionalidades críticas basándose en la retroalimentación directa de los usuarios, mejorando la experiencia final."
+                }
+            ]
         }
     }
 }
