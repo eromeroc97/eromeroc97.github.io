@@ -1,6 +1,1409 @@
 {
     "nombre": "DSW",
     "temas": {
-        "No hay temas": {}
+        "Seguridad - Tema 5 Seguridad en diseño software": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Cuál es la principal causa de las vulnerabilidades en el software?",
+                    "opciones": [
+                        "Lanzamiento prematuro",
+                        "Defectos en las aplicaciones",
+                        "Falta de presupuesto",
+                        "Errores en la fase de testeo"
+                    ],
+                    "solucion": "Defectos en las aplicaciones"
+                },
+                {
+                    "enunciado": "¿En qué fase del ciclo de desarrollo es más costoso y arriesgado resolver problemas de seguridad?",
+                    "opciones": [
+                        "Análisis de requisitos",
+                        "Diseño",
+                        "Programación",
+                        "Testeo (auditoría de seguridad dinámica)"
+                    ],
+                    "solucion": "Testeo (auditoría de seguridad dinámica)"
+                },
+                {
+                    "enunciado": "¿Qué técnica permite identificar una buena parte de los errores de código a bajo coste?",
+                    "opciones": [
+                        "Análisis estático de código",
+                        "Pruebas de caja negra",
+                        "Modelado de amenazas",
+                        "Testeo funcional"
+                    ],
+                    "solucion": "Análisis estático de código"
+                },
+                {
+                    "enunciado": "¿Qué medida de diseño reduce la interfaz atacable de un sistema?",
+                    "opciones": [
+                        "Separar datos de instrucciones de control",
+                        "Reducción de la interfaz al mínimo",
+                        "Autenticación multifactor",
+                        "Registro de auditorías"
+                    ],
+                    "solucion": "Reducción de la interfaz al mínimo"
+                },
+                {
+                    "enunciado": "Señala la afirmación correcta sobre la validación de datos de entrada:",
+                    "opciones": [
+                        "Debe realizarse con lista negra",
+                        "Solo es necesaria en el cliente",
+                        "Debe realizarse cerca del uso y con lista blanca",
+                        "Solo al recibir la petición"
+                    ],
+                    "solucion": "Debe realizarse cerca del uso y con lista blanca"
+                },
+                {
+                    "enunciado": "¿Qué principio de diseño seguro establece que ningún componente es confiable hasta demostrar lo contrario?",
+                    "opciones": [
+                        "Principio de seguridad por defecto",
+                        "Confianza cero",
+                        "Defense in depth",
+                        "Principio del menor privilegio"
+                    ],
+                    "solucion": "Confianza cero"
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes NO es una fase de la seguridad en bases de datos según el documento?",
+                    "opciones": [
+                        "Detección y clasificación",
+                        "Administración de datos",
+                        "Cifrado en red",
+                        "Monitorización"
+                    ],
+                    "solucion": "Cifrado en red"
+                },
+                {
+                    "enunciado": "¿Qué mecanismo de SQL Server permite ocultar dinámicamente datos en tiempo de ejecución?",
+                    "opciones": [
+                        "Transparent Data Encryption",
+                        "Always Encrypted",
+                        "Row-Level Security",
+                        "Dynamic Data Masking"
+                    ],
+                    "solucion": "Dynamic Data Masking"
+                },
+                {
+                    "enunciado": "En el proceso de adaptación al GDPR, ¿qué paso se enfoca en supervisar permisos y uso de datos personales?",
+                    "opciones": [
+                        "Detectar",
+                        "Administrar",
+                        "Proteger",
+                        "Monitorizar e informar"
+                    ],
+                    "solucion": "Administrar"
+                },
+                {
+                    "enunciado": "¿Qué característica de SQL Server cifra la base de datos en reposo a nivel físico?",
+                    "opciones": [
+                        "Connection Encryption",
+                        "Always Encrypted",
+                        "Transparent Data Encryption",
+                        "Data Masking"
+                    ],
+                    "solucion": "Transparent Data Encryption"
+                },
+                {
+                    "enunciado": "¿Cuál es el objetivo principal del modelado de amenazas?",
+                    "opciones": [
+                        "Reducir el coste de desarrollo",
+                        "Identificar y priorizar riesgos de seguridad",
+                        "Validar requisitos funcionales",
+                        "Automatizar el testeo"
+                    ],
+                    "solucion": "Identificar y priorizar riesgos de seguridad"
+                },
+                {
+                    "enunciado": "¿Qué propiedad de un producto software varía dinámicamente con el tiempo y exige revisiones periódicas?",
+                    "opciones": [
+                        "Rendimiento",
+                        "Escalabilidad",
+                        "Seguridad",
+                        "Portabilidad"
+                    ],
+                    "solucion": "Seguridad"
+                },
+                {
+                    "enunciado": "¿Qué nivel EAL de Common Criteria implica un diseño verificado y probado semi-formalmente?",
+                    "opciones": [
+                        "EAL4",
+                        "EAL5",
+                        "EAL6",
+                        "EAL7"
+                    ],
+                    "solucion": "EAL6"
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes debilidades corresponde al código CWE-120?",
+                    "opciones": [
+                        "Inyección SQL",
+                        "Desbordamiento de búfer",
+                        "Cross-site Scripting",
+                        "Falta de autenticación"
+                    ],
+                    "solucion": "Desbordamiento de búfer"
+                },
+                {
+                    "enunciado": "¿Qué tipo de auditoría permite simular un ataque utilizando información interna de la organización?",
+                    "opciones": [
+                        "Auditoría de caja negra",
+                        "Auditoría de caja blanca",
+                        "Auditoría de caja gris",
+                        "Pentesting externo"
+                    ],
+                    "solucion": "Auditoría de caja blanca"
+                },
+                {
+                    "enunciado": "¿Cuál de estas NO es una de las vistas que ofrece el catálogo CWE?",
+                    "opciones": [
+                        "Vista de diccionario",
+                        "Vista de árbol",
+                        "Vista de relaciones",
+                        "Vista de interfaz"
+                    ],
+                    "solucion": "Vista de interfaz"
+                },
+                {
+                    "enunciado": "¿Qué framework estandarizado usa XML para el intercambio de información sobre vulnerabilidades?",
+                    "opciones": [
+                        "CWSS",
+                        "CVSS",
+                        "CVRF",
+                        "CWRAF"
+                    ],
+                    "solucion": "CVRF"
+                },
+                {
+                    "enunciado": "¿Qué mecanismo de SQL Server permite cifrar columnas específicas de datos sensibles?",
+                    "opciones": [
+                        "Transparent Data Encryption",
+                        "Always Encrypted",
+                        "Dynamic Data Masking",
+                        "Row-Level Security"
+                    ],
+                    "solucion": "Always Encrypted"
+                },
+                {
+                    "enunciado": "Un atacante intenta inyectar un script en un campo de texto de usuario. ¿Qué control de seguridad previene este tipo de ataque?",
+                    "opciones": [
+                        "Autenticación multifactor",
+                        "Validación de entrada con lista blanca",
+                        "Cifrado de datos en reposo",
+                        "Registro de auditorías"
+                    ],
+                    "solucion": "Validación de entrada con lista blanca"
+                },
+                {
+                    "enunciado": "¿Cuál es la principal ventaja de usar DVWA para prácticas de seguridad?",
+                    "opciones": [
+                        "Ofrece cifrado de base de datos integrado",
+                        "Permite ajustar niveles de seguridad para cada vulnerabilidad",
+                        "Genera auditorías automáticas",
+                        "Incluye un entorno de producción real"
+                    ],
+                    "solucion": "Permite ajustar niveles de seguridad para cada vulnerabilidad"
+                },
+                {
+                    "enunciado": "¿Qué principio de diseño recomienda conceder solo los privilegios estrictamente necesarios a los procesos y usuarios?",
+                    "opciones": [
+                        "Fail-safe defaults",
+                        "Defense in depth",
+                        "Principio del menor privilegio",
+                        "Economía del mecanismo"
+                    ],
+                    "solucion": "Principio del menor privilegio"
+                },
+                {
+                    "enunciado": "¿A qué se refiere el concepto de Defense in Depth?",
+                    "opciones": [
+                        "Cifrado de datos en reposo y en tránsito",
+                        "Uso de múltiples capas de defensa",
+                        "Separación de datos e instrucciones",
+                        "Auditorías continuas"
+                    ],
+                    "solucion": "Uso de múltiples capas de defensa"
+                },
+                {
+                    "enunciado": "En el manejo de errores, ¿qué práctica es más segura?",
+                    "opciones": [
+                        "Mostrar el stack trace completo al usuario",
+                        "Registrar errores internamente y mostrar mensaje genérico",
+                        "Enviar detalles de la excepción al cliente",
+                        "Ignorar los errores"
+                    ],
+                    "solucion": "Registrar errores internamente y mostrar mensaje genérico"
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes NO forma parte del modelo STRIDE?",
+                    "opciones": [
+                        "Elevación de privilegios",
+                        "Revelación de información",
+                        "Inyección",
+                        "Denegación de servicio"
+                    ],
+                    "solucion": "Inyección"
+                },
+                {
+                    "enunciado": "¿Qué componente de seguridad se encarga de detectar actividades sospechosas en la red?",
+                    "opciones": [
+                        "Firewall",
+                        "IDS (Sistema de detección de intrusiones)",
+                        "IPS (Prevención de intrusiones)",
+                        "Antivirus"
+                    ],
+                    "solucion": "IDS (Sistema de detección de intrusiones)"
+                },
+                {
+                    "enunciado": "¿Qué técnica protege contra ataques CSRF?",
+                    "opciones": [
+                        "Sanitización de entrada",
+                        "Validación de tokens únicos en formularios",
+                        "Cifrado fuerte",
+                        "Autenticación multifactor"
+                    ],
+                    "solucion": "Validación de tokens únicos en formularios"
+                },
+                {
+                    "enunciado": "En OWASP Top 10, ¿qué vulnerabilidad se produce cuando un usuario accede a objetos sin verificar permisos?",
+                    "opciones": [
+                        "Inyección SQL",
+                        "Broken Access Control",
+                        "Security Misconfiguration",
+                        "Insecure Deserialization"
+                    ],
+                    "solucion": "Broken Access Control"
+                },
+                {
+                    "enunciado": "¿Qué metodología de modelado de amenazas emplea un enfoque de 7 fases para simular ataques y priorizar riesgos?",
+                    "opciones": [
+                        "STRIDE",
+                        "PASTA",
+                        "OCTAVE",
+                        "DREAD"
+                    ],
+                    "solucion": "PASTA"
+                },
+                {
+                    "enunciado": "¿Cuál es el objetivo principal de la técnica de fuzzing?",
+                    "opciones": [
+                        "Validar la arquitectura del sistema",
+                        "Medir el rendimiento bajo carga",
+                        "Encontrar fallas no contempladas mediante datos aleatorios",
+                        "Verificar cumplimiento de requisitos"
+                    ],
+                    "solucion": "Encontrar fallas no contempladas mediante datos aleatorios"
+                },
+                {
+                    "enunciado": "¿Qué patrón de seguridad implementa la división de funciones críticas entre diferentes procesos o servicios?",
+                    "opciones": [
+                        "Fail-safe defaults",
+                        "Separation of Duties",
+                        "Singleton",
+                        "Economía del mecanismo"
+                    ],
+                    "solucion": "Separation of Duties"
+                },
+                {
+                    "enunciado": "¿Qué técnica de codificación de salida debe aplicarse para prevenir ataques de cross-site scripting (XSS)?",
+                    "opciones": [
+                        "Almacenar datos en la base de datos",
+                        "Codificar datos al mostrarlos al usuario",
+                        "Validar datos en el servidor",
+                        "Encriptar datos en tránsito"
+                    ],
+                    "solucion": "Codificar datos al mostrarlos al usuario"
+                },
+                {
+                    "enunciado": "¿Qué ataque explota un manejo incorrecto de cadenas de formato en funciones como printf?",
+                    "opciones": [
+                        "Inyección SQL",
+                        "Ataque de cadena de formato",
+                        "Cross-site Request Forgery",
+                        "Buffer overflow"
+                    ],
+                    "solucion": "Ataque de cadena de formato"
+                },
+                {
+                    "enunciado": "En un pipeline de CI/CD, ¿qué práctica reduce el riesgo de dependencias comprometidas?",
+                    "opciones": [
+                        "Actualizar siempre a la última versión",
+                        "Usar versiones fijas y firmadas",
+                        "Evitar el uso de bibliotecas externas",
+                        "Integrar dependencias automáticamente"
+                    ],
+                    "solucion": "Usar versiones fijas y firmadas"
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes banderas de cookie ayuda a prevenir el secuestro de sesiones enviando las cookies solo por HTTPS?",
+                    "opciones": [
+                        "HttpOnly",
+                        "Secure",
+                        "SameSite=Lax",
+                        "Domain"
+                    ],
+                    "solucion": "Secure"
+                },
+                {
+                    "enunciado": "¿Qué tipo de ataque extrae secretos criptográficos analizando diferencias en tiempos de respuesta?",
+                    "opciones": [
+                        "Man-in-the-Middle",
+                        "Ataque de canal lateral por tiempo",
+                        "Inyección SQL",
+                        "Cross-site Scripting"
+                    ],
+                    "solucion": "Ataque de canal lateral por tiempo"
+                },
+                {
+                    "enunciado": "¿Cuál es el objetivo principal de la firma de código?",
+                    "opciones": [
+                        "Mejorar el rendimiento de la aplicación",
+                        "Verificar la integridad y autenticidad del binario",
+                        "Encriptar el código fuente",
+                        "Detectar vulnerabilidades en tiempo de ejecución"
+                    ],
+                    "solucion": "Verificar la integridad y autenticidad del binario"
+                },
+                {
+                    "enunciado": "¿Para qué sirve una Content Security Policy (CSP)?",
+                    "opciones": [
+                        "Balancear la carga entre servidores",
+                        "Controlar qué recursos puede cargar la aplicación",
+                        "Encriptar el tráfico HTTP",
+                        "Monitorizar la red en tiempo real"
+                    ],
+                    "solucion": "Controlar qué recursos puede cargar la aplicación"
+                },
+                {
+                    "enunciado": "Según el GDPR, ¿qué principio exige la recogida y tratamiento de datos mínimos necesarios?",
+                    "opciones": [
+                        "Artículo 5: minimización de datos",
+                        "Artículo 24: responsabilidad proactiva",
+                        "Artículo 32: seguridad del tratamiento",
+                        "Artículo 6: licitud del tratamiento"
+                    ],
+                    "solucion": "Artículo 5: minimización de datos"
+                },
+                {
+                    "enunciado": "¿Qué vulnerabilidad ocurre al acceder a un array fuera de los límites definidos?",
+                    "opciones": [
+                        "Desbordamiento de enteros",
+                        "Access out-of-bounds",
+                        "Race condition",
+                        "Inyección SQL"
+                    ],
+                    "solucion": "Access out-of-bounds"
+                },
+                {
+                    "enunciado": "En los registros de auditoría, ¿qué práctica evita la exposición de datos sensibles?",
+                    "opciones": [
+                        "Registrar contraseñas en texto claro",
+                        "Enmascarar o anonimizar datos sensibles",
+                        "Enviar logs al cliente final",
+                        "No rotar ni purgar registros"
+                    ],
+                    "solucion": "Enmascarar o anonimizar datos sensibles"
+                },
+                {
+                    "enunciado": "¿Qué técnica de protección rebaja la predictibilidad de las direcciones de memoria de un proceso?",
+                    "opciones": [
+                        "Data Execution Prevention (DEP)",
+                        "Address Space Layout Randomization (ASLR)",
+                        "Stack Canaries",
+                        "Control Flow Integrity"
+                    ],
+                    "solucion": "Address Space Layout Randomization (ASLR)"
+                },
+                {
+                    "enunciado": "¿Cuál es el objetivo de Data Execution Prevention (DEP)?",
+                    "opciones": [
+                        "Evitar la ejecución de código en regiones de memoria marcadas como datos",
+                        "Aleatorizar la disposición de la memoria",
+                        "Detectar intrusiones en tiempo real",
+                        "Firmar el código antes de la ejecución"
+                    ],
+                    "solucion": "Evitar la ejecución de código en regiones de memoria marcadas como datos"
+                },
+                {
+                    "enunciado": "¿Qué combinación de mecanismos mitiga eficazmente los desbordamientos de búfer en el stack?",
+                    "opciones": [
+                        "ASLR + DEP",
+                        "CSP + CORS",
+                        "Stack Canaries + ASLR",
+                        "TLS + HSTS"
+                    ],
+                    "solucion": "Stack Canaries + ASLR"
+                },
+                {
+                    "enunciado": "En una política de Content Security Policy (CSP), ¿qué directiva restringe la carga de scripts a orígenes de confianza?",
+                    "opciones": [
+                        "default-src",
+                        "script-src",
+                        "object-src",
+                        "frame-ancestors"
+                    ],
+                    "solucion": "script-src"
+                },
+                {
+                    "enunciado": "¿Qué encabezado HTTP se utiliza para impedir el renderizado de una página en un frame y prevenir clickjacking?",
+                    "opciones": [
+                        "X-Frame-Options: DENY",
+                        "X-Content-Type-Options: nosniff",
+                        "Strict-Transport-Security",
+                        "Referrer-Policy"
+                    ],
+                    "solucion": "X-Frame-Options: DENY"
+                },
+                {
+                    "enunciado": "¿Para qué sirve el encabezado X-Content-Type-Options con valor nosniff?",
+                    "opciones": [
+                        "Forzar HTTPS",
+                        "Impedir el análisis MIME no autorizado",
+                        "Restringir orígenes de iframe",
+                        "Controlar políticas de referrer"
+                    ],
+                    "solucion": "Impedir el análisis MIME no autorizado"
+                },
+                {
+                    "enunciado": "En el contexto de JWT, ¿qué parte garantiza la integridad y la autenticidad del token?",
+                    "opciones": [
+                        "Header",
+                        "Payload",
+                        "Signature",
+                        "Issuer"
+                    ],
+                    "solucion": "Signature"
+                },
+                {
+                    "enunciado": "¿Qué principio de diseño implica que el sistema debe comportarse de forma segura cuando falla?",
+                    "opciones": [
+                        "Least privilege",
+                        "Fail-safe defaults",
+                        "Economy of mechanism",
+                        "Complete mediation"
+                    ],
+                    "solucion": "Fail-safe defaults"
+                },
+                {
+                    "enunciado": "¿Qué métrica mide el tiempo medio que tarda en restaurarse un servicio tras un incidente de seguridad?",
+                    "opciones": [
+                        "MTTF (Mean Time To Failure)",
+                        "MTTR (Mean Time To Repair)",
+                        "MTBF (Mean Time Between Failures)",
+                        "MTTA (Mean Time To Acknowledge)"
+                    ],
+                    "solucion": "MTTR (Mean Time To Repair)"
+                },
+                {
+                    "enunciado": "¿Cuál de estas prácticas en un pipeline CI/CD ayuda a asegurar la integridad del código antes del despliegue?",
+                    "opciones": [
+                        "Ejecutar pruebas de carga",
+                        "Revisar manualmente cada commit",
+                        "Integrar análisis estático de seguridad (SAST)",
+                        "Desplegar directamente en producción"
+                    ],
+                    "solucion": "Integrar análisis estático de seguridad (SAST)"
+                },
+                {
+                    "enunciado": "¿Qué protocolo seguro reemplaza a SSL y es el estándar actual para comunicaciones HTTP seguras?",
+                    "opciones": [
+                        "SSL",
+                        "TLS",
+                        "SSH",
+                        "IPSec"
+                    ],
+                    "solucion": "TLS"
+                },
+                {
+                    "enunciado": "Dentro de la Infraestructura de Clave Pública (PKI), ¿qué entidad es responsable de emitir y firmar certificados digitales?",
+                    "opciones": [
+                        "RA (Registration Authority)",
+                        "CA (Certification Authority)",
+                        "OCSP Responder",
+                        "CRL Distribution Point"
+                    ],
+                    "solucion": "CA (Certification Authority)"
+                },
+                {
+                    "enunciado": "¿Qué mecanismo permite comprobar en tiempo real si un certificado digital ha sido revocado?",
+                    "opciones": [
+                        "CRL (Certificate Revocation List)",
+                        "OCSP (Online Certificate Status Protocol)",
+                        "OCSP Stapling",
+                        "Todos los anteriores"
+                    ],
+                    "solucion": "OCSP (Online Certificate Status Protocol)"
+                },
+                {
+                    "enunciado": "En OAuth 2.0, ¿qué flujo es el más adecuado para aplicaciones web que disponen de un servidor backend seguro?",
+                    "opciones": [
+                        "Authorization Code Grant",
+                        "Implicit Grant",
+                        "Client Credentials Grant",
+                        "Resource Owner Password Credentials Grant"
+                    ],
+                    "solucion": "Authorization Code Grant"
+                },
+                {
+                    "enunciado": "¿Qué herramienta centralizada permite gestionar eventos de seguridad y generar alertas en toda la infraestructura?",
+                    "opciones": [
+                        "WAF (Web Application Firewall)",
+                        "SIEM (Security Information and Event Management)",
+                        "IDS (Intrusion Detection System)",
+                        "IPS (Intrusion Prevention System)"
+                    ],
+                    "solucion": "SIEM (Security Information and Event Management)"
+                },
+                {
+                    "enunciado": "¿Cuál es la función principal de un WAF (Web Application Firewall)?",
+                    "opciones": [
+                        "Filtrar y monitorear tráfico HTTP hacia aplicaciones web",
+                        "Analizar logs del sistema operativo",
+                        "Cifrar datos en reposo",
+                        "Gestionar certificados TLS"
+                    ],
+                    "solucion": "Filtrar y monitorear tráfico HTTP hacia aplicaciones web"
+                },
+                {
+                    "enunciado": "¿Qué técnica de análisis de seguridad examina el comportamiento de la aplicación en tiempo de ejecución sin acceso al código fuente?",
+                    "opciones": [
+                        "SAST (Static Application Security Testing)",
+                        "DAST (Dynamic Application Security Testing)",
+                        "IAST (Interactive Application Security Testing)",
+                        "RASP (Runtime Application Self-Protection)"
+                    ],
+                    "solucion": "DAST (Dynamic Application Security Testing)"
+                },
+                {
+                    "enunciado": "¿Qué modelo de evaluación de madurez está diseñado específicamente para medir y mejorar la seguridad de las prácticas de desarrollo de software?",
+                    "opciones": [
+                        "CMMI",
+                        "TMMi",
+                        "OWASP SAMM",
+                        "ISO/IEC 27001"
+                    ],
+                    "solucion": "OWASP SAMM"
+                },
+                {
+                    "enunciado": "¿Qué norma internacional establece los requisitos para un sistema de gestión de la seguridad de la información?",
+                    "opciones": [
+                        "ISO/IEC 27001",
+                        "ISO 9001",
+                        "PCI DSS",
+                        "NIST SP 800-53"
+                    ],
+                    "solucion": "ISO/IEC 27001"
+                },
+                {
+                    "enunciado": "¿Qué tipo de prueba se centra en evaluar la resistencia de un sistema ante picos de carga y posibles ataques de denegación de servicio (DoS)?",
+                    "opciones": [
+                        "Pruebas de carga",
+                        "Pruebas de estrés",
+                        "Pruebas de penetración",
+                        "Fuzzing"
+                    ],
+                    "solucion": "Pruebas de estrés"
+                },
+                {
+                    "enunciado": "¿Qué método de cifrado utiliza la misma clave para cifrar y descifrar datos?",
+                    "opciones": [
+                        "Criptografía simétrica",
+                        "Criptografía asimétrica",
+                        "Hashing",
+                        "Criptografía cuántica"
+                    ],
+                    "solucion": "Criptografía simétrica"
+                },
+                {
+                    "enunciado": "¿Qué vulnerabilidad explota la falta de control de concurrencia en accesos a recursos compartidos?",
+                    "opciones": [
+                        "Desbordamiento de búfer",
+                        "Race condition",
+                        "Cross-site Scripting",
+                        "Inyección SQL"
+                    ],
+                    "solucion": "Race condition"
+                },
+                {
+                    "enunciado": "¿Cuál es la finalidad principal de la segmentación de red en una arquitectura segura?",
+                    "opciones": [
+                        "Limitar el movimiento lateral",
+                        "Aumentar el ancho de banda",
+                        "Reducir la latencia",
+                        "Facilitar la auditoría de logs"
+                    ],
+                    "solucion": "Limitar el movimiento lateral"
+                },
+                {
+                    "enunciado": "¿Qué técnica permite detectar automáticamente librerías vulnerables en las dependencias de un proyecto?",
+                    "opciones": [
+                        "SAST (Static Application Security Testing)",
+                        "DAST (Dynamic Application Security Testing)",
+                        "SCA (Software Composition Analysis)",
+                        "Fuzzing"
+                    ],
+                    "solucion": "SCA (Software Composition Analysis)"
+                },
+                {
+                    "enunciado": "¿Qué métrica mide el tiempo medio que tarda en reconocerse un incidente de seguridad tras su detección?",
+                    "opciones": [
+                        "MTTR (Mean Time To Repair)",
+                        "MTTA (Mean Time To Acknowledge)",
+                        "MTTF (Mean Time To Failure)",
+                        "MTBF (Mean Time Between Failures)"
+                    ],
+                    "solucion": "MTTA (Mean Time To Acknowledge)"
+                },
+                {
+                    "enunciado": "En el contexto de contenedores Docker, ¿qué práctica mejora la seguridad de las imágenes?",
+                    "opciones": [
+                        "Ejecutar siempre como root",
+                        "Usar imágenes base minimalistas",
+                        "Exponer todos los puertos",
+                        "Desactivar actualizaciones automáticas"
+                    ],
+                    "solucion": "Usar imágenes base minimalistas"
+                },
+                {
+                    "enunciado": "¿Qué técnica mitiga eficazmente la inyección SQL mediante el uso de parámetros precompilados?",
+                    "opciones": [
+                        "Consultas parametrizadas",
+                        "Escapar manual variables",
+                        "Validación en el cliente",
+                        "Cifrado de la base de datos"
+                    ],
+                    "solucion": "Consultas parametrizadas"
+                },
+                {
+                    "enunciado": "¿Qué modelo de control de acceso se basa en roles predefinidos para asignar permisos?",
+                    "opciones": [
+                        "MAC (Mandatory Access Control)",
+                        "DAC (Discretionary Access Control)",
+                        "RBAC (Role-Based Access Control)",
+                        "ABAC (Attribute-Based Access Control)"
+                    ],
+                    "solucion": "RBAC (Role-Based Access Control)"
+                },
+                {
+                    "enunciado": "¿Qué estándar proporciona recomendaciones para la configuración segura de sistemas y aplicaciones?",
+                    "opciones": [
+                        "CIS Benchmarks",
+                        "ISO 9001",
+                        "OWASP Top 10",
+                        "PCI DSS"
+                    ],
+                    "solucion": "CIS Benchmarks"
+                },
+                {
+                    "enunciado": "¿Qué factor de la autenticación multifactor corresponde a 'algo que el usuario es'?",
+                    "opciones": [
+                        "Contraseña",
+                        "Token SMS",
+                        "Biometría",
+                        "Certificado digital"
+                    ],
+                    "solucion": "Biometría"
+                },
+                {
+                    "enunciado": "¿Qué técnica de mitigación impide la reutilización de tokens de sesión antiguos?",
+                    "opciones": [
+                        "Time-based One-Time Password",
+                        "Token binding",
+                        "Session invalidation tras logout",
+                        "Refresh tokens"
+                    ],
+                    "solucion": "Session invalidation tras logout"
+                },
+                {
+                    "enunciado": "¿Qué característica define mejor una Content Delivery Network (CDN) en términos de seguridad?",
+                    "opciones": [
+                        "Balanceo de carga extremo",
+                        "Cifrado de extremo a extremo",
+                        "Filtrado de tráfico malicioso",
+                        "Almacenamiento en caché local"
+                    ],
+                    "solucion": "Filtrado de tráfico malicioso"
+                },
+                {
+                    "enunciado": "¿Cuál es la principal amenaza mitigada por el uso de honeypots?",
+                    "opciones": [
+                        "Ataques de phishing",
+                        "Reconocimiento y análisis de atacantes",
+                        "Denegación de servicio",
+                        "Vulnerabilidades de aplicaciones web"
+                    ],
+                    "solucion": "Reconocimiento y análisis de atacantes"
+                },
+                {
+                    "enunciado": "¿Qué herramienta permite gestionar secretos (como contraseñas y claves) de forma centralizada?",
+                    "opciones": [
+                        "Vault de HashiCorp",
+                        "Docker Hub",
+                        "GitHub Actions",
+                        "Kubernetes Dashboard"
+                    ],
+                    "solucion": "Vault de HashiCorp"
+                },
+                {
+                    "enunciado": "En el contexto de SSL/TLS, ¿qué problema resuelve OCSP Stapling?",
+                    "opciones": [
+                        "Revocación de certificados sin latencia en el cliente",
+                        "Aumento de la longitud de clave",
+                        "Mejora de la negociación de cifrado",
+                        "Compatibilidad con protocolos antiguos"
+                    ],
+                    "solucion": "Revocación de certificados sin latencia en el cliente"
+                },
+                {
+                    "enunciado": "¿Qué proceso consiste en revisar y aprobar cambios en el código antes de integrarlos al repositorio principal?",
+                    "opciones": [
+                        "Continuous Deployment",
+                        "Code review",
+                        "Branching",
+                        "Tagging"
+                    ],
+                    "solucion": "Code review"
+                },
+                {
+                    "enunciado": "¿Qué vulnerabilidad aprovecha un atacante que fuerza a una aplicación a ejecutar comandos del sistema operativo?",
+                    "opciones": [
+                        "Inyección de comandos del sistema",
+                        "Cross-site Scripting",
+                        "CSRF",
+                        "Directory traversal"
+                    ],
+                    "solucion": "Inyección de comandos del sistema"
+                },
+                {
+                    "enunciado": "¿Qué enfoque de aislamiento utiliza máquinas virtuales o contenedores sin compartir namespace?",
+                    "opciones": [
+                        "Sandboxing",
+                        "Namespace isolation",
+                        "Chroot jail",
+                        "Hypervisor-based virtualization"
+                    ],
+                    "solucion": "Hypervisor-based virtualization"
+                },
+                {
+                    "enunciado": "¿Qué herramienta de CI/CD incorpora análisis de seguridad en tiempo real dentro del pipeline?",
+                    "opciones": [
+                        "Jenkins SAST Plugin",
+                        "Docker Compose",
+                        "Terraform",
+                        "Ansible Playbooks"
+                    ],
+                    "solucion": "Jenkins SAST Plugin"
+                },
+                {
+                    "enunciado": "¿Qué métrica de seguridad mide el porcentaje de cambios de código que pasan sin errores críticos?",
+                    "opciones": [
+                        "Error rate",
+                        "Success rate",
+                        "Security posture score",
+                        "Deployment frequency"
+                    ],
+                    "solucion": "Success rate"
+                },
+                {
+                    "enunciado": "¿Qué métrica mide el tiempo medio que tarda un equipo de seguridad en detectar un incidente?",
+                    "opciones": [
+                        "MTTD (Mean Time To Detect)",
+                        "MTTR (Mean Time To Repair)",
+                        "MTTA (Mean Time To Acknowledge)",
+                        "MTBF (Mean Time Between Failures)"
+                    ],
+                    "solucion": "MTTD (Mean Time To Detect)"
+                },
+                {
+                    "enunciado": "¿Qué vulnerabilidad permite a un atacante hacer que el servidor realice solicitudes HTTP a servicios internos?",
+                    "opciones": [
+                        "SSRF (Server-Side Request Forgery)",
+                        "CSRF (Cross-Site Request Forgery)",
+                        "XSS (Cross-Site Scripting)",
+                        "Inyección SQL"
+                    ],
+                    "solucion": "SSRF (Server-Side Request Forgery)"
+                },
+                {
+                    "enunciado": "Señala la técnica más apropiada para proteger las contraseñas almacenadas en la base de datos:",
+                    "opciones": [
+                        "Cifrado reversible",
+                        "Almacenamiento en texto claro",
+                        "Hashing con sal",
+                        "Codificación Base64"
+                    ],
+                    "solucion": "Hashing con sal"
+                },
+                {
+                    "enunciado": "¿Qué estándar DNS protege contra la suplantación de información en la resolución de nombres?",
+                    "opciones": [
+                        "DNSSEC",
+                        "DoH (DNS over HTTPS)",
+                        "TLSA",
+                        "SPF"
+                    ],
+                    "solucion": "DNSSEC"
+                },
+                {
+                    "enunciado": "En una política de SameSite para cookies, ¿qué valor permite enviar cookies solo en solicitudes de primer partido?",
+                    "opciones": [
+                        "Strict",
+                        "Lax",
+                        "None",
+                        "Disabled"
+                    ],
+                    "solucion": "Strict"
+                },
+                {
+                    "enunciado": "¿Qué técnica se utiliza para mitigar ataques de fuerza bruta en la autenticación?",
+                    "opciones": [
+                        "Salting",
+                        "Rate limiting",
+                        "Tokenización",
+                        "Validación de entrada"
+                    ],
+                    "solucion": "Rate limiting"
+                },
+                {
+                    "enunciado": "¿Cuál es la función principal de un HSM (Hardware Security Module)?",
+                    "opciones": [
+                        "Ejecutar sandboxing",
+                        "Almacenar y gestionar claves criptográficas de forma segura",
+                        "Generar logs de seguridad",
+                        "Actuar como firewall de red"
+                    ],
+                    "solucion": "Almacenar y gestionar claves criptográficas de forma segura"
+                },
+                {
+                    "enunciado": "¿Qué vulnerabilidad se explota cuando una aplicación no filtra correctamente rutas de archivo y permite acceder a archivos arbitrarios?",
+                    "opciones": [
+                        "Directory traversal",
+                        "Path normalization",
+                        "File inclusion",
+                        "SSRF"
+                    ],
+                    "solucion": "Directory traversal"
+                },
+                {
+                    "enunciado": "¿Qué principio de seguridad afirma que cada acceso a un recurso debe verificarse cada vez?",
+                    "opciones": [
+                        "Complete mediation",
+                        "Least privilege",
+                        "Fail-safe defaults",
+                        "Defense in depth"
+                    ],
+                    "solucion": "Complete mediation"
+                },
+                {
+                    "enunciado": "En CORS, ¿qué cabecera indica al navegador que los recursos pueden compartirse desde determinados orígenes?",
+                    "opciones": [
+                        "Access-Control-Allow-Origin",
+                        "X-Frame-Options",
+                        "Content-Security-Policy",
+                        "Referrer-Policy"
+                    ],
+                    "solucion": "Access-Control-Allow-Origin"
+                },
+                {
+                    "enunciado": "¿Cuál es la principal ventaja de usar tablas temporales versionadas para auditoría de datos en SQL Server?",
+                    "opciones": [
+                        "Mejorar el rendimiento de las consultas",
+                        "Permitir restaurar estados anteriores y comparar cambios",
+                        "Simplificar la replicación de datos",
+                        "Reducir el espacio de almacenamiento"
+                    ],
+                    "solucion": "Permitir restaurar estados anteriores y comparar cambios"
+                },
+                {
+                    "enunciado": "En SQL Server Audit, ¿qué especificación define qué acciones y hacia qué objetos se auditan?",
+                    "opciones": [
+                        "Server Audit",
+                        "Database Audit Specification",
+                        "Audit Action Group",
+                        "Audit Filter"
+                    ],
+                    "solucion": "Database Audit Specification"
+                },
+                {
+                    "enunciado": "¿Qué componentes de SQL Server se combinan para enviar notificaciones de eventos críticos por correo electrónico?",
+                    "opciones": [
+                        "SQL Profiler y Database Mail",
+                        "SQL Server Agent Alerts y Database Mail",
+                        "Extended Events y SQL Server Agent Jobs",
+                        "SQL Server Audit y Database Mail"
+                    ],
+                    "solucion": "SQL Server Agent Alerts y Database Mail"
+                },
+                {
+                    "enunciado": "En el método de evaluación de seguridad propuesto, ¿qué fase implica comparar los resultados con criterios predefinidos y documentar hallazgos?",
+                    "opciones": [
+                        "Planificación",
+                        "Recolección de evidencias",
+                        "Análisis de hallazgos",
+                        "Elaboración de informe"
+                    ],
+                    "solucion": "Elaboración de informe"
+                },
+                {
+                    "enunciado": "¿Qué anotación de Spring Security permite habilitar la seguridad a nivel de método basada en expresiones?",
+                    "opciones": [
+                        "@EnableWebSecurity",
+                        "@EnableGlobalMethodSecurity(prePostEnabled = true)",
+                        "@Configuration",
+                        "@ComponentScan"
+                    ],
+                    "solucion": "@EnableGlobalMethodSecurity(prePostEnabled = true)"
+                },
+                {
+                    "enunciado": "En Spring ACL, ¿qué clase implementa PermissionEvaluator para resolver permisos basados en ACL en tiempo de ejecución?",
+                    "opciones": [
+                        "AclAuthorizationStrategyImpl",
+                        "AclPermissionEvaluator",
+                        "BasicLookupStrategy",
+                        "JdbcMutableAclService"
+                    ],
+                    "solucion": "AclPermissionEvaluator"
+                },
+                {
+                    "enunciado": "¿Qué tipo de información centraliza la base de datos CAPEC?",
+                    "opciones": [
+                        "Patrones y tácticas de ataques conocidos",
+                        "Puntuaciones de severidad de vulnerabilidades",
+                        "Listas de contramedidas específicas",
+                        "Firmas de detección para IDS"
+                    ],
+                    "solucion": "Patrones y tácticas de ataques conocidos"
+                },
+                {
+                    "enunciado": "¿Cuál es el propósito principal del formato CVRF en la gestión de vulnerabilidades?",
+                    "opciones": [
+                        "Estandarizar el intercambio de información sobre vulnerabilidades en XML",
+                        "Asignar puntuaciones de severidad CVSS",
+                        "Catalogar patrones de ataque",
+                        "Publicar listas de correo de notificaciones"
+                    ],
+                    "solucion": "Estandarizar el intercambio de información sobre vulnerabilidades en XML"
+                },
+                {
+                    "enunciado": "¿Qué organismo mantiene y publica la National Vulnerability Database (NVD)?",
+                    "opciones": [
+                        "MITRE Corporation",
+                        "NIST (National Institute of Standards and Technology)",
+                        "OWASP Foundation",
+                        "ISO"
+                    ],
+                    "solucion": "NIST (National Institute of Standards and Technology)"
+                },
+                {
+                    "enunciado": "¿Qué herramienta vulnerable ofrece más de 100 vulnerabilidades para prácticas de pentesting web?",
+                    "opciones": [
+                        "DVWA",
+                        "WebGoat",
+                        "BWAPP",
+                        "Metasploitable 2"
+                    ],
+                    "solucion": "BWAPP"
+                },
+                {
+                    "enunciado": "¿Cuántos niveles de seguridad ofrece DVWA y cuáles son?",
+                    "opciones": [
+                        "3: Low, Medium, High",
+                        "4: Low, Medium, High, Impossible",
+                        "5: Low, Medium, High, Impossible, Test",
+                        "2: Low, High"
+                    ],
+                    "solucion": "4: Low, Medium, High, Impossible"
+                },
+                {
+                    "enunciado": "¿Cuál es la contraseña por defecto del usuario 'admin' en DVWA?",
+                    "opciones": [
+                        "admin",
+                        "password",
+                        "dvwa",
+                        "123456"
+                    ],
+                    "solucion": "password"
+                },
+                {
+                    "enunciado": "¿En qué lenguaje está desarrollada la aplicación Gruyere para prácticas de seguridad?",
+                    "opciones": [
+                        "Python",
+                        "Java",
+                        "PHP",
+                        "Ruby"
+                    ],
+                    "solucion": "Python"
+                },
+                {
+                    "enunciado": "¿Qué tipo de vulnerabilidad explora el laboratorio de 'Reflected XSS' en Gruyere?",
+                    "opciones": [
+                        "Stored XSS",
+                        "Reflected XSS",
+                        "SQL Injection",
+                        "Command Injection"
+                    ],
+                    "solucion": "Reflected XSS"
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes módulos de WebGoat se centra en inyección SQL?",
+                    "opciones": [
+                        "SqlInjection",
+                        "CrossSite Scripting",
+                        "Authentication Flaws",
+                        "Insecure Deserialization"
+                    ],
+                    "solucion": "SqlInjection"
+                },
+                {
+                    "enunciado": "¿Qué sistema operativo utiliza Metasploitable 2 por defecto?",
+                    "opciones": [
+                        "Ubuntu",
+                        "Debian",
+                        "CentOS",
+                        "Windows XP"
+                    ],
+                    "solucion": "Ubuntu"
+                },
+                {
+                    "enunciado": "¿Qué framework o plataforma utiliza OWASP Mutillidae II?",
+                    "opciones": [
+                        "PHP sin framework",
+                        "Laravel",
+                        "Django",
+                        "Node.js"
+                    ],
+                    "solucion": "PHP sin framework"
+                },
+                {
+                    "enunciado": "¿Qué herramienta de virtualización utiliza Web Security Dojo para desplegar su entorno listo para prácticas?",
+                    "opciones": [
+                        "Docker",
+                        "Vagrant",
+                        "VMware",
+                        "Hyper-V"
+                    ],
+                    "solucion": "Vagrant"
+                },
+                {
+                    "enunciado": "¿Qué vulnerabilidad principal se practica en el módulo 'Brute Force' de DVWA?",
+                    "opciones": [
+                        "Cross-Site Scripting",
+                        "SQL Injection",
+                        "Brute Force",
+                        "Path Traversal"
+                    ],
+                    "solucion": "Brute Force"
+                },
+                {
+                    "enunciado": "¿Qué proyecto de aplicaciones vulnerables integra Web Security Dojo para centralizar múltiples entornos de práctica?",
+                    "opciones": [
+                        "OWASP Broken Web Applications Project",
+                        "OWASP Juice Shop",
+                        "OWASP SAMM",
+                        "OWASP Mobile Security Project"
+                    ],
+                    "solucion": "OWASP Broken Web Applications Project"
+                },
+                {
+                    "enunciado": "¿Qué procedimiento almacenado se utiliza para enviar correos en Database Mail de SQL Server?",
+                    "opciones": [
+                        "xp_sendmail",
+                        "sp_send_dbmail",
+                        "msdb.dbo.sp_sendmail",
+                        "sp_sendmail"
+                    ],
+                    "solucion": "sp_send_dbmail"
+                },
+                {
+                    "enunciado": "¿Qué tabla almacena las entradas de control de acceso (ACL) en la base de datos usada por Spring Security ACL?",
+                    "opciones": [
+                        "acl_object_identity",
+                        "acl_entry",
+                        "acl_class",
+                        "acl_sid"
+                    ],
+                    "solucion": "acl_entry"
+                },
+                {
+                    "enunciado": "¿Qué comando de Spring Security se usa típicamente en Java para restringir acceso a URLs bajo '/admin/**' al rol ADMIN?",
+                    "opciones": [
+                        "http.authorizeRequests().antMatchers(\"/admin/**\").permitAll()",
+                        "http.authorizeRequests().antMatchers(\"/admin/**\").hasRole(\"ADMIN\")",
+                        "http.authorizeRequests().anyRequest().authenticated()",
+                        "http.authorizeRequests().antMatchers(\"/admin/**\").hasAuthority(\"ROLE_USER\")"
+                    ],
+                    "solucion": "http.authorizeRequests().antMatchers(\"/admin/**\").hasRole(\"ADMIN\")"
+                },
+                {
+                    "enunciado": "Además de las entradas CVE, ¿qué otra información añade la National Vulnerability Database (NVD)?",
+                    "opciones": [
+                        "Firmas de IDS",
+                        "Scores CVSS y CPE afectados",
+                        "Patrones de ataque CAPEC",
+                        "Listas de correo de notificación"
+                    ],
+                    "solucion": "Scores CVSS y CPE afectados"
+                },
+                {
+                    "enunciado": "En el vector de métricas CVSS, ¿qué métrica mide el nivel de permisos requeridos para explotar una vulnerabilidad?",
+                    "opciones": [
+                        "Attack Vector",
+                        "Privileges Required",
+                        "User Interaction",
+                        "Attack Complexity"
+                    ],
+                    "solucion": "Privileges Required"
+                },
+                {
+                    "enunciado": "¿Qué servicio web permite comprobar si una cuenta de correo ha aparecido en filtraciones conocidas?",
+                    "opciones": [
+                        "Have I Been Pwned",
+                        "Dehashed",
+                        "WeLeakInfo",
+                        "GhostProject"
+                    ],
+                    "solucion": "Have I Been Pwned"
+                },
+                {
+                    "enunciado": "¿Qué anotación de Spring Security permite asegurar métodos con expresiones SpEL como @PreAuthorize?",
+                    "opciones": [
+                        "@EnableGlobalMethodSecurity(prePostEnabled = true)",
+                        "@PreAuthorize",
+                        "@Secured",
+                        "@RolesAllowed"
+                    ],
+                    "solucion": "@PreAuthorize"
+                },
+                {
+                    "enunciado": "¿En qué plataforma se practica la aplicación vulnerable DVIA (Damn Vulnerable iOS Application)?",
+                    "opciones": [
+                        "Android",
+                        "iOS",
+                        "Windows Mobile",
+                        "Cross-platform web"
+                    ],
+                    "solucion": "iOS"
+                },
+                {
+                    "enunciado": "¿En qué tecnología está desarrollada OWASP Juice Shop?",
+                    "opciones": [
+                        "PHP con Laravel",
+                        "Java con Spring Boot",
+                        "Node.js con Express",
+                        "Python con Django"
+                    ],
+                    "solucion": "Node.js con Express"
+                },
+                {
+                    "enunciado": "¿Qué proyecto agrupa múltiples aplicaciones vulnerables como DVWA, WebGoat y Mutillidae para prácticas centralizadas?",
+                    "opciones": [
+                        "OWASP Broken Web Applications Project",
+                        "OWASP Juice Shop",
+                        "OWASP Top 10",
+                        "OWASP Mobile Security Project"
+                    ],
+                    "solucion": "OWASP Broken Web Applications Project"
+                },
+                {
+                    "enunciado": "En SQL Server Audit, ¿qué componente define el destino y formato del log de auditoría?",
+                    "opciones": [
+                        "Server Audit",
+                        "Database Audit Specification",
+                        "Audit Action Group",
+                        "Audit Filter"
+                    ],
+                    "solucion": "Server Audit"
+                },
+                {
+                    "enunciado": "¿Qué mecanismo de SQL Server Agent alerta ante errores o condiciones predefinidas y puede ejecutar un job o enviar una notificación?",
+                    "opciones": [
+                        "SQL Server Audit",
+                        "SQL Server Agent Alert",
+                        "Performance Condition Alert",
+                        "SQL Event Notification"
+                    ],
+                    "solucion": "SQL Server Agent Alert"
+                },
+                {
+                    "enunciado": "En el método de evaluación de seguridad, ¿qué herramienta sistemática asegura que se revisan todos los aspectos de control?",
+                    "opciones": [
+                        "Matriz de riesgos",
+                        "Checklist",
+                        "Modelado de amenazas",
+                        "Informe ejecutivo"
+                    ],
+                    "solucion": "Checklist"
+                },
+                {
+                    "enunciado": "En Spring Security, ¿qué interfaz debe implementar una clase para proporcionar los datos de un usuario al framework?",
+                    "opciones": [
+                        "AuthenticationManager",
+                        "UserDetailsService",
+                        "PasswordEncoder",
+                        "GrantedAuthority"
+                    ],
+                    "solucion": "UserDetailsService"
+                },
+                {
+                    "enunciado": "¿Qué implementación de UserDetailsService permite cargar usuarios directamente desde una base de datos mediante JDBC?",
+                    "opciones": [
+                        "InMemoryUserDetailsManager",
+                        "LdapUserDetailsService",
+                        "JdbcDaoImpl",
+                        "AnonymousAuthenticationFilter"
+                    ],
+                    "solucion": "JdbcDaoImpl"
+                },
+                {
+                    "enunciado": "En Spring ACL, ¿qué tabla almacena las clases de objetos a proteger?",
+                    "opciones": [
+                        "acl_entry",
+                        "acl_sid",
+                        "acl_class",
+                        "acl_object_identity"
+                    ],
+                    "solucion": "acl_class"
+                },
+                {
+                    "enunciado": "¿Qué servicio permite buscar contraseñas expuestas en bases de datos filtradas conocidas?",
+                    "opciones": [
+                        "Have I Been Pwned",
+                        "Dehashed",
+                        "GhostProject",
+                        "WeLeakInfo"
+                    ],
+                    "solucion": "Dehashed"
+                },
+                {
+                    "enunciado": "¿Cuántas vulnerabilidades aproximadamente ofrece bWAPP para prácticas de seguridad?",
+                    "opciones": [
+                        "Más de 100",
+                        "Más de 300",
+                        "Más de 500",
+                        "Más de 1000"
+                    ],
+                    "solucion": "Más de 300"
+                },
+                {
+                    "enunciado": "¿En qué plataforma principal se practica la aplicación vulnerable DVIA?",
+                    "opciones": [
+                        "Android",
+                        "iOS",
+                        "Windows Mobile",
+                        "Cross-platform web"
+                    ],
+                    "solucion": "iOS"
+                },
+                {
+                    "enunciado": "¿Qué vulnerabilidad principal permite practicar DVIA (Damn Vulnerable iOS Application)?",
+                    "opciones": [
+                        "Insecure Data Storage",
+                        "Insecure Communication",
+                        "Insecure Authentication",
+                        "Code Injection"
+                    ],
+                    "solucion": "Insecure Data Storage"
+                },
+                {
+                    "enunciado": "¿Qué tabla almacena las identidades de seguridad (SID) en la base de datos de Spring ACL?",
+                    "opciones": [
+                        "acl_entry",
+                        "acl_object_identity",
+                        "acl_class",
+                        "acl_sid"
+                    ],
+                    "solucion": "acl_sid"
+                },
+                {
+                    "enunciado": "¿Qué tabla de Spring ACL almacena los objetos protegidos por ACL?",
+                    "opciones": [
+                        "acl_entry",
+                        "acl_object_identity",
+                        "acl_class",
+                        "acl_sid"
+                    ],
+                    "solucion": "acl_object_identity"
+                },
+                {
+                    "enunciado": "¿Qué nivel EAL de Common Criteria implica un diseño metódico, probado y revisado sistemáticamente?",
+                    "opciones": [
+                        "EAL3",
+                        "EAL4",
+                        "EAL5",
+                        "EAL6"
+                    ],
+                    "solucion": "EAL4"
+                },
+                {
+                    "enunciado": "¿Qué nivel EAL de Common Criteria requiere un diseño semiformal y pruebas semiformales?",
+                    "opciones": [
+                        "EAL4",
+                        "EAL5",
+                        "EAL6",
+                        "EAL7"
+                    ],
+                    "solucion": "EAL5"
+                },
+                {
+                    "enunciado": "¿Qué nivel EAL de Common Criteria exige un diseño y verificación formales?",
+                    "opciones": [
+                        "EAL5",
+                        "EAL6",
+                        "EAL7",
+                        "EAL4"
+                    ],
+                    "solucion": "EAL7"
+                },
+                {
+                    "enunciado": "¿Qué acrónimo se refiere al identificador estándar asignado a cada vulnerabilidad?",
+                    "opciones": [
+                        "CVE",
+                        "CAPEC",
+                        "CVSS",
+                        "CWE"
+                    ],
+                    "solucion": "CVE"
+                },
+                {
+                    "enunciado": "¿Qué significa la sigla CVSS?",
+                    "opciones": [
+                        "Common Vulnerability Scoring System",
+                        "Critical Vulnerability Severity Scale",
+                        "Common Vulnerability Severity Score",
+                        "Critical Vulnerability Scoring Standard"
+                    ],
+                    "solucion": "Common Vulnerability Scoring System"
+                },
+                {
+                    "enunciado": "¿Qué organización es responsable de mantener la lista CVE de vulnerabilidades?",
+                    "opciones": [
+                        "NIST",
+                        "MITRE",
+                        "OWASP",
+                        "ISO"
+                    ],
+                    "solucion": "MITRE"
+                },
+                {
+                    "enunciado": "¿Qué formato de feeds ofrece la National Vulnerability Database (NVD) para integración automática?",
+                    "opciones": [
+                        "XML feeds",
+                        "JSON feeds",
+                        "CSV exports",
+                        "RSS feeds"
+                    ],
+                    "solucion": "JSON feeds"
+                },
+                {
+                    "enunciado": "¿Qué aplicación vulnerable del OWASP Broken Web Applications Project se despliega sobre Tomcat y Java para practicar vulnerabilidades de OWASP Top 10?",
+                    "opciones": [
+                        "DVWA",
+                        "WebGoat",
+                        "Mutillidae II",
+                        "Gruyere"
+                    ],
+                    "solucion": "WebGoat"
+                }
+            ]
+        }
     }
 }
