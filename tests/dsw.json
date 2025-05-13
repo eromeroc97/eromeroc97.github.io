@@ -1492,7 +1492,7 @@
                     "opciones": [
                         "Los correos reales sin ninguna modificación",
                         "Todos los valores como NULL",
-                        "Los correoscon máscara aplicada según DDM",
+                        "Los correos con máscara aplicada según DDM",
                         "Un error de permiso denegado"
                     ],
                     "solucion": "Los correos con máscara aplicada según DDM"
