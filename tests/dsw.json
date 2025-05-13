@@ -1404,6 +1404,200 @@
                     "solucion": "WebGoat"
                 }
             ]
+        },
+        "Taller Seguridad - ROW-LEVEL SECURITY": {
+            "preguntas": [
+                {
+                    "enunciado": "Observa el siguiente fragmento de código:\n\n```sql\nCREATE USER SalesPerson1 WITHOUT LOGIN;\n```  \n¿Qué efecto tiene la cláusula `WITHOUT LOGIN` al crear un usuario en SQL Server?",
+                    "opciones": [
+                        "Impide que el usuario pueda conectarse al servidor con credenciales propias",
+                        "Asigna automáticamente una contraseña aleatoria al usuario",
+                        "Crea un usuario con permisos de solo lectura",
+                        "Genera un inicio de sesión asociado al usuario"
+                    ],
+                    "solucion": "Impide que el usuario pueda conectarse al servidor con credenciales propias"
+                },
+                {
+                    "enunciado": "La función inline de RLS se define así:\n\n```sql\nCREATE FUNCTION Security.fn_SalesPersonFilter(@SalesPersonID INT)\nRETURNS TABLE WITH SCHEMABINDING AS\nRETURN SELECT 1 AS result\nWHERE EXISTS (\n  SELECT 1 FROM Security.SalesPersonAccess AS spa\n  WHERE spa.SalesPersonID = @SalesPersonID\n    AND spa.UserName = USER_NAME()\n);\n```  \n¿Qué propósito cumple la cláusula `WITH SCHEMABINDING` en esta función?",
+                    "opciones": [
+                        "Obliga a recompilar la función en cada ejecución",
+                        "Impide la modificación de objetos referenciados en la función sin eliminarla primero",
+                        "Permite llamadas remotas a la función",
+                        "Habilita la ejecución de la función en contextos de auditoría"
+                    ],
+                    "solucion": "Impide la modificación de objetos referenciados en la función sin eliminarla primero"
+                },
+                {
+                    "enunciado": "Para aplicar la política de Row-Level Security se usa:\n\n```sql\nCREATE SECURITY POLICY Security.SalesOrderPolicy\n  ADD FILTER PREDICATE Security.fn_SalesPersonFilter(SalesPersonID)\n  ON Sales.SalesOrderHeader\n  WITH (STATE = ON);\n```  \n¿Qué hace el `FILTER PREDICATE` en esta instrucción?",
+                    "opciones": [
+                        "Define una restricción CHECK para la columna SalesPersonID",
+                        "Especifica la función que decide qué filas son visibles para cada usuario",
+                        "Crea un índice filtrado en la columna SalesPersonID",
+                        "Agrega una columna calculada en la tabla SalesOrderHeader"
+                    ],
+                    "solucion": "Especifica la función que decide qué filas son visibles para cada usuario"
+                },
+                {
+                    "enunciado": "En el script de detección de GDPR se ejecuta:\n\n```sql SELECT t.TABLE_SCHEMA, t.TABLE_NAME, c.COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS c JOIN INFORMATION_SCHEMA.TABLES t ON ... WHERE c.COLUMN_NAME LIKE '%email%' OR c.COLUMN_NAME LIKE '%phone%' ... ; ```  \n¿Por qué se utiliza la vista `INFORMATION_SCHEMA.COLUMNS` en lugar de consultar directamente las tablas de usuario?",
+                    "opciones": [
+                        "Porque solo lista columnas con restricciones de clave foránea",
+                        "Porque es una vista estándar que muestra metadatos de columnas de todas las tablas base",
+                        "Porque mejora el rendimiento al hacer JOIN con otras vistas",
+                        "Porque oculta las columnas en tablas temporales"
+                    ],
+                    "solucion": "Porque es una vista estándar que muestra metadatos de columnas de todas las tablas base"
+                },
+                {
+                    "enunciado": "Para anonimizar manualmente en desarrollo se usa:\n\n```sql UPDATE Person.EmailAddress SET EmailAddress = 'usuario' + CAST(BusinessEntityID AS NVARCHAR) + '@ejemplo.com'; ```  \n¿En qué scenario es preferible este enfoque sobre Dynamic Data Masking?",
+                    "opciones": [
+                        "En producción, para ocultar datos de usuarios finales",
+                        "En entornos de desarrollo o QA donde no hay riesgo de exponer datos reales",
+                        "Cuando se necesitan auditorías en tiempo real",
+                        "Cuando las tablas son de solo lectura"
+                    ],
+                    "solucion": "En entornos de desarrollo o QA donde no hay riesgo de exponer datos reales"
+                },
+                {
+                    "enunciado": "Para auditar con SQL Server Audit se crea primero:\n\n```sql CREATE SERVER AUDIT GDPR_Audit TO FILE (FILEPATH = 'C:\\SQLAudit\\', MAXSIZE = 1 GB)  WITH (ON_FAILURE = CONTINUE); ALTER SERVER AUDIT GDPR_Audit WITH (STATE = ON); ```  \n¿Qué diferencia principal existe entre `SERVER AUDIT` y `DATABASE AUDIT SPECIFICATION`?",
+                    "opciones": [
+                        "El primero define destino y formato de logs, el segundo qué acciones de base de datos auditar",
+                        "El primero solo funciona en edición Standard, el segundo en Enterprise",
+                        "El primero audita SELECT, el segundo audita UPDATE/DELETE",
+                        "No hay diferencia, son sinónimos"
+                    ],
+                    "solucion": "El primero define destino y formato de logs, el segundo qué acciones de base de datos auditar"
+                },
+                {
+                    "enunciado": "En la opción de trigger de auditoría se crea:\n\n```sql CREATE TABLE AuditLog(...); CREATE TRIGGER trg_AuditSelect_Person  ON Person.Person  AFTER SELECT AS BEGIN INSERT INTO AuditLog(UserName, TableName, Operation)  VALUES(SYSTEM_USER, 'Person.Person', 'SELECT'); END; ```  \n¿Cuál es una limitación de este enfoque basado en triggers frente a SQL Server Audit?",
+                    "opciones": [
+                        "No registra la hora de acceso",
+                        "Solo funciona en tablas FOR XML",
+                        "Genera sobrecarga en transacciones y no cubre SELECT INTO",
+                        "No permite distinguir usuarios"
+                    ],
+                    "solucion": "Genera sobrecarga en transacciones y no cubre SELECT INTO"
+                },
+                {
+                    "enunciado": "Para aplicar Dynamic Data Masking (DDM) al campo EmailAddress:\n\n```sql ALTER TABLE Person.EmailAddress  ALTER COLUMN EmailAddress  ADD MASKED WITH(FUNCTION = 'email()');```  \n¿Qué patrón de máscara aplica la función `email()`?",
+                    "opciones": [
+                        "Reemplaza todo dominio por '***.com'",
+                        "Muestra el primer y último caracter del usuario y oculta el resto con '****'",
+                        "Oculta el dominio y deja el usuario intacto",
+                        "Aplica máscara completa alfanumérica"
+                    ],
+                    "solucion": "Muestra el primer y último caracter del usuario y oculta el resto con '****'"
+                },
+                {
+                    "enunciado": "Tras crear un usuario TestUser y otorgarle SELECT:\n\n```sql EXECUTE AS USER = 'TestUser'; SELECT EmailAddressID, EmailAddress FROM Person.EmailAddress; REVERT; ```  \n¿Qué verán los resultados de EmailAddress al consultarlos como TestUser?",
+                    "opciones": [
+                        "Los correos reales sin ninguna modificación",
+                        "Todos los valores como NULL",
+                        "Los correoscon máscara aplicada según DDM",
+                        "Un error de permiso denegado"
+                    ],
+                    "solucion": "Los correos con máscara aplicada según DDM"
+                },
+                {
+                    "enunciado": "¿Qué hace el siguiente código?\n```sql\nCREATE FUNCTION Security.fn_BlockUserAccess(@UserName sysname) RETURNS TABLE WITH SCHEMABINDING AS RETURN SELECT 1 AS result WHERE USER_NAME() <> @UserName;\n``` ¿Para qué se usa un `BLOCK PREDICATE` en la política de seguridad?",
+                    "opciones": [
+                        "Bloquea toda conexión de usuarios no autorizados",
+                        "Impide operaciones INSERT/UPDATE/DELETE que no cumplan la condición",
+                        "Revoca permisos de lectura sobre la tabla",
+                        "Elimina filas que no cumplan la condición"
+                    ],
+                    "solucion": "Impide operaciones INSERT/UPDATE/DELETE que no cumplan la condición"
+                },
+                {
+                    "enunciado": "Para pasar el identificador de usuario al filtro de RLS se ejecuta:\n```sql\nEXEC sp_set_session_context @key=N'SalesPersonID',@value=42;\n``` ¿Cuál es el propósito de `sp_set_session_context`?",
+                    "opciones": [
+                        "Establecer una variable de sesión que puede usar la función de filtro",
+                        "Definir el contexto de seguridad del servidor",
+                        "Crear un login temporario para el usuario",
+                        "Iniciar una transacción con contexto de usuario"
+                    ],
+                    "solucion": "Establecer una variable de sesión que puede usar la función de filtro"
+                },
+                {
+                    "enunciado": "Al recuperar el contexto se usa:\n```sql\nSELECT SESSION_CONTEXT(N'SalesPersonID');\n``` ¿Qué devuelve `SESSION_CONTEXT`?",
+                    "opciones": [
+                        "El nombre del usuario conectado",
+                        "El valor previamente establecido con `sp_set_session_context`",
+                        "El ID de sesión de SQL Server",
+                        "Información del nivel de aislamiento de transacción"
+                    ],
+                    "solucion": "El valor previamente establecido con `sp_set_session_context`"
+                },
+                {
+                    "enunciado": "¿Cuál es la diferencia principal entre `FILTER PREDICATE` y `BLOCK PREDICATE` en una `SECURITY POLICY`?",
+                    "opciones": [
+                        "FILTER controla visibilidad, BLOCK impide modificaciones que no cumplan la condición",
+                        "FILTER impide modificaciones, BLOCK controla visibilidad",
+                        "FILTER solo funciona en SELECT, BLOCK solo en UPDATE",
+                        "No hay diferencia, son alias"
+                    ],
+                    "solucion": "FILTER controla visibilidad, BLOCK impide modificaciones que no cumplan la condición"
+                },
+                {
+                    "enunciado": "Considerando RLS, ¿qué permiso mínimo requiere un usuario para crear una `SECURITY POLICY`?",
+                    "opciones": [
+                        "ALTER ANY SECURITY POLICY",
+                        "CONTROL ON SCHEMA::Security",
+                        "IMPERSONATE ANY LOGIN",
+                        "VIEW DEFINITION"
+                    ],
+                    "solucion": "ALTER ANY SECURITY POLICY"
+                },
+                {
+                    "enunciado": "En un filtro de varias columnas ¿cómo se accede a más de un valor de contexto?\n```sql\nCREATE FUNCTION Security.fn_MultiFilter(@UserID int,@Region nvarchar(10)) RETURNS TABLE ...\n``` ¿Qué característica debe tener esta función?",
+                    "opciones": [
+                        "Ser función multisentencia para combinar lógica compleja",
+                        "Ser función escalar para devolver un solo valor",
+                        "No llevar cláusula WITH SCHEMABINDING",
+                        "Devolver siempre TRUE para cada fila"
+                    ],
+                    "solucion": "Ser función multisentencia para combinar lógica compleja"
+                },
+                {
+                    "enunciado": "¿Por qué las funciones de RLS deben marcarse con `WITH SCHEMABINDING`?",
+                    "opciones": [
+                        "Para que puedan usarse en índices",
+                        "Para evitar cambios a tablas o vistas referenciadas sin eliminar primero la función",
+                        "Para permitir transacciones distribuidas",
+                        "Para habilitar logging de auditoría"
+                    ],
+                    "solucion": "Para evitar cambios a tablas o vistas referenciadas sin eliminar primero la función"
+                },
+                {
+                    "enunciado": "¿Cómo se desactiva temporalmente una política de RLS?\n```sql\nALTER SECURITY POLICY Security.SalesOrderPolicy SET (STATE=OFF);\n``` ¿Qué efectos tiene esta instrucción?",
+                    "opciones": [
+                        "Elimina la política permanentemente",
+                        "Deshabilita el filtrado hasta volver a activar la política",
+                        "Elimina todas las funciones asociadas",
+                        "Bloquea el acceso a la tabla por completo"
+                    ],
+                    "solucion": "Deshabilita el filtrado hasta volver a activar la política"
+                },
+                {
+                    "enunciado": "Cuando una función RLS retorna múltiples filas ¿qué sucede al usarla como `FILTER PREDICATE`?",
+                    "opciones": [
+                        "La fila es visible si existe al menos un resultado",
+                        "La fila se duplica tantas veces como resultados devuelva",
+                        "La política falla con error",
+                        "Solo la primera fila se considera"
+                    ],
+                    "solucion": "La fila es visible si existe al menos un resultado"
+                },
+                {
+                    "enunciado": "¿Cuál es una buena práctica para probar una política RLS en un entorno de desarrollo?",
+                    "opciones": [
+                        "Usar usuarios con privilegios sysadmin",
+                        "Crear datos de prueba con distintos valores de contexto y verificar visibilidad",
+                        "Desactivar siempre las políticas antes de probar",
+                        "Ejecutar SELECT * FROM sys.security_policies para comprobar filas"
+                    ],
+                    "solucion": "Crear datos de prueba con distintos valores de contexto y verificar visibilidad"
+                }
+            ]
         }
     }
 }
