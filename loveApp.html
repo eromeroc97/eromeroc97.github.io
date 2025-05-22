@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LoveMatchGPT-3000 💘</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #ffe6f0;
+      color: #333;
+      padding: 20px;
+    }
+    h1 {
+      color: #d63384;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input[type="range"] {
+      width: 100%;
+    }
+    .slider-value {
+      font-weight: normal;
+      float: right;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #d63384;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #c21868;
+    }
+    .result {
+      margin-top: 30px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>💘 LoveMatchGPT-3000</h1>
+  <p>¿Tendrás pareja en 3 meses? ¡Descúbrelo con nuestro modelo predictivo 0% científico y 100% divertido!</p>
+
+  <form id="loveForm">
+    <label>Confianza personal: <span class="slider-value" id="val1">5</span></label>
+    <input type="range" min="0" max="10" value="5" id="confianza">
+
+    <label>Salidas sociales/semana: <span class="slider-value" id="val2">2</span></label>
+    <input type="range" min="0" max="7" value="2" id="salidas">
+
+    <label>Habilidad conversacional: <span class="slider-value" id="val3">5</span></label>
+    <input type="range" min="0" max="10" value="5" id="charla">
+
+    <label>Higiene personal: <span class="slider-value" id="val4">7</span></label>
+    <input type="range" min="0" max="10" value="7" id="higiene">
+
+    <label>Foto de perfil (calidad): <span class="slider-value" id="val5">6</span></label>
+    <input type="range" min="0" max="10" value="6" id="perfil">
+
+    <label>Uso de apps de citas (hrs/semana): <span class="slider-value" id="val6">4</span></label>
+    <input type="range" min="0" max="20" value="4" id="apps">
+
+    <label>Tasa de respuesta en chats (%): <span class="slider-value" id="val7">60</span></label>
+    <input type="range" min="0" max="100" value="60" id="respuesta">
+
+    <label>Frecuencia de ghosting recibido (%): <span class="slider-value" id="val8">30</span></label>
+    <input type="range" min="0" max="100" value="30" id="ghosting">
+
+    <label>Gusto por los memes: <span class="slider-value" id="val9">8</span></label>
+    <input type="range" min="0" max="10" value="8" id="memes">
+
+    <button type="button" onclick="predecir()">💘 Predecir mi destino amoroso</button>
+  </form>
+
+  <div class="result" id="resultado"></div>
+
+  <script>
+    const sliders = document.querySelectorAll("input[type=range]");
+    sliders.forEach(slider => {
+      slider.addEventListener("input", () => {
+        document.getElementById("val" + slider.id.replace(/\D/g, "")).textContent = slider.value;
+      });
+    });
+
+    function predecir() {
+      const confianza = parseFloat(document.getElementById("confianza").value);
+      const salidas = parseFloat(document.getElementById("salidas").value);
+      const charla = parseFloat(document.getElementById("charla").value);
+      const higiene = parseFloat(document.getElementById("higiene").value);
+      const perfil = parseFloat(document.getElementById("perfil").value);
+      const apps = parseFloat(document.getElementById("apps").value);
+      const respuesta = parseFloat(document.getElementById("respuesta").value);
+      const ghosting = parseFloat(document.getElementById("ghosting").value);
+      const memes = parseFloat(document.getElementById("memes").value);
+
+      const score = 
+        confianza * 0.2 +
+        salidas * 0.15 +
+        charla * 0.2 +
+        higiene * 0.1 +
+        perfil * 0.1 +
+        apps * 0.05 +
+        respuesta * 0.1 -
+        ghosting * 0.15 +
+        memes * 0.05;
+
+      const resultado = document.getElementById("resultado");
+      if (score >= 7) {
+        resultado.innerHTML = "❤️ ¡Sí! Prepárate para el romance. Tu match está más cerca de lo que piensas.";
+      } else {
+        resultado.innerHTML = "💔 Todavía no... pero sigue trabajando en ti. El amor llegará.";
+      }
+    }
+  </script>
+</body>
+</html>
