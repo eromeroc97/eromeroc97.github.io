@@ -6,25 +6,33 @@
   <title>LoveMatchGPT-3000 💘</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #ffe6f0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff0f5;
       color: #333;
-      padding: 20px;
+      margin: 0;
+      padding: 0 20px 40px;
     }
-    h1 {
+    h1, h2 {
       color: #d63384;
+    }
+    .section {
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     label {
       display: block;
-      margin-top: 15px;
+      margin-top: 10px;
       font-weight: bold;
+    }
+    .slider-value {
+      float: right;
+      font-weight: normal;
     }
     input[type="range"] {
       width: 100%;
-    }
-    .slider-value {
-      font-weight: normal;
-      float: right;
     }
     button {
       margin-top: 20px;
@@ -32,91 +40,107 @@
       background-color: #d63384;
       color: white;
       border: none;
+      border-radius: 5px;
       cursor: pointer;
       font-size: 16px;
     }
     button:hover {
-      background-color: #c21868;
+      background-color: #b0246a;
     }
     .result {
       margin-top: 30px;
       font-size: 18px;
       font-weight: bold;
+      background: #fff3f7;
+      padding: 15px;
+      border-left: 6px solid #d63384;
+      border-radius: 5px;
     }
   </style>
 </head>
 <body>
   <h1>💘 LoveMatchGPT-3000</h1>
-  <p>¿Tendrás pareja en 3 meses? ¡Descúbrelo con nuestro modelo predictivo 0% científico y 100% divertido!</p>
+  <p>¿Compatibilidad romántica basada en ciencia (más o menos)? ¡Descúbrelo!</p>
 
-  <form id="loveForm">
-    <label>Confianza personal: <span class="slider-value" id="val1">5</span></label>
-    <input type="range" min="0" max="10" value="5" id="confianza">
+  <div class="section">
+    <h2>🧍 Mis características</h2>
+    <div id="yo">
+      <!-- sliders personales -->
+    </div>
+  </div>
 
-    <label>Salidas sociales/semana: <span class="slider-value" id="val2">2</span></label>
-    <input type="range" min="0" max="7" value="2" id="salidas">
+  <div class="section">
+    <h2>💞 Mi pareja ideal</h2>
+    <div id="pareja">
+      <!-- sliders pareja ideal -->
+    </div>
+  </div>
 
-    <label>Habilidad conversacional: <span class="slider-value" id="val3">5</span></label>
-    <input type="range" min="0" max="10" value="5" id="charla">
-
-    <label>Higiene personal: <span class="slider-value" id="val4">7</span></label>
-    <input type="range" min="0" max="10" value="7" id="higiene">
-
-    <label>Foto de perfil (calidad): <span class="slider-value" id="val5">6</span></label>
-    <input type="range" min="0" max="10" value="6" id="perfil">
-
-    <label>Uso de apps de citas (hrs/semana): <span class="slider-value" id="val6">4</span></label>
-    <input type="range" min="0" max="20" value="4" id="apps">
-
-    <label>Tasa de respuesta en chats (%): <span class="slider-value" id="val7">60</span></label>
-    <input type="range" min="0" max="100" value="60" id="respuesta">
-
-    <label>Frecuencia de ghosting recibido (%): <span class="slider-value" id="val8">30</span></label>
-    <input type="range" min="0" max="100" value="30" id="ghosting">
-
-    <label>Gusto por los memes: <span class="slider-value" id="val9">8</span></label>
-    <input type="range" min="0" max="10" value="8" id="memes">
-
-    <button type="button" onclick="predecir()">💘 Predecir mi destino amoroso</button>
-  </form>
+  <button onclick="evaluarMatch()">💘 Evaluar compatibilidad</button>
 
   <div class="result" id="resultado"></div>
 
   <script>
-    const sliders = document.querySelectorAll("input[type=range]");
-    sliders.forEach(slider => {
-      slider.addEventListener("input", () => {
-        document.getElementById("val" + slider.id.replace(/\D/g, "")).textContent = slider.value;
+    const atributos = [
+      { id: 'confianza', label: 'Confianza personal' },
+      { id: 'salidas', label: 'Salidas sociales/semana' },
+      { id: 'charla', label: 'Habilidad conversacional' },
+      { id: 'higiene', label: 'Higiene personal' },
+      { id: 'perfil', label: 'Calidad de foto de perfil' },
+      { id: 'apps', label: 'Uso de apps de citas (hrs/semana)' },
+      { id: 'respuesta', label: 'Tasa de respuesta en chats (%)' },
+      { id: 'ghosting', label: 'Frecuencia de ghosting recibido (%)' },
+      { id: 'memes', label: 'Gusto por los memes' }
+    ];
+
+    function crearSliders(containerId, prefix) {
+      const container = document.getElementById(containerId);
+      atributos.forEach((attr, i) => {
+        const wrapper = document.createElement('div');
+        const label = document.createElement('label');
+        label.innerHTML = `${attr.label} <span class="slider-value" id="val-${prefix}${i}">5</span>`;
+        const input = document.createElement('input');
+        input.type = 'range';
+        input.id = `${prefix}${attr.id}`;
+        input.min = attr.id === 'respuesta' || attr.id === 'ghosting' ? 0 : 0;
+        input.max = attr.id === 'respuesta' || attr.id === 'ghosting' ? 100 : (attr.id === 'apps' ? 20 : 10);
+        input.value = 5;
+        input.oninput = () => {
+          document.getElementById(`val-${prefix}${i}`).textContent = input.value;
+        };
+        wrapper.appendChild(label);
+        wrapper.appendChild(input);
+        container.appendChild(wrapper);
       });
-    });
+    }
 
-    function predecir() {
-      const confianza = parseFloat(document.getElementById("confianza").value);
-      const salidas = parseFloat(document.getElementById("salidas").value);
-      const charla = parseFloat(document.getElementById("charla").value);
-      const higiene = parseFloat(document.getElementById("higiene").value);
-      const perfil = parseFloat(document.getElementById("perfil").value);
-      const apps = parseFloat(document.getElementById("apps").value);
-      const respuesta = parseFloat(document.getElementById("respuesta").value);
-      const ghosting = parseFloat(document.getElementById("ghosting").value);
-      const memes = parseFloat(document.getElementById("memes").value);
+    crearSliders('yo', 'yo-');
+    crearSliders('pareja', 'pareja-');
 
-      const score = 
-        confianza * 0.2 +
-        salidas * 0.15 +
-        charla * 0.2 +
-        higiene * 0.1 +
-        perfil * 0.1 +
-        apps * 0.05 +
-        respuesta * 0.1 -
-        ghosting * 0.15 +
-        memes * 0.05;
+    function evaluarMatch() {
+      const pesos = [0.2, 0.15, 0.2, 0.1, 0.1, 0.05, 0.1, -0.15, 0.05];
+      let score = 0;
+      let diferenciaTotal = 0;
+
+      atributos.forEach((attr, i) => {
+        const valYo = parseFloat(document.getElementById(`yo-${attr.id}`).value);
+        const valPareja = parseFloat(document.getElementById(`pareja-${attr.id}`).value);
+        const peso = pesos[i];
+        const similitud = 10 - Math.abs(valYo - valPareja); // entre 0 y 10
+        score += similitud * peso;
+        diferenciaTotal += Math.abs(valYo - valPareja);
+      });
 
       const resultado = document.getElementById("resultado");
-      if (score >= 7) {
-        resultado.innerHTML = "❤️ ¡Sí! Prepárate para el romance. Tu match está más cerca de lo que piensas.";
+      if (score >= 6.5) {
+        resultado.innerHTML = `💖 ¡Es un match casi perfecto! Puntaje de compatibilidad: ${score.toFixed(2)}<br>
+        <em>Diferencia total: ${diferenciaTotal} puntos.</em>`;
+      } else if (score >= 5) {
+        resultado.innerHTML = `😊 Hay potencial. Puntaje de compatibilidad: ${score.toFixed(2)}<br>
+        <em>Con algo de esfuerzo, podría funcionar.</em>`;
       } else {
-        resultado.innerHTML = "💔 Todavía no... pero sigue trabajando en ti. El amor llegará.";
+        resultado.innerHTML = `💔 Uff... el algoritmo dice que no hay química. Puntaje: ${score.toFixed(2)}<br>
+        <em>Pero quién necesita algoritmos cuando hay amor real, ¿verdad?</em>`;
       }
     }
   </script>
