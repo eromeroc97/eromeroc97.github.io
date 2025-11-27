@@ -1,0 +1,1388 @@
+{
+  "nombre": "SSOO",
+  "temas": {
+    "Comandos y Shell de UNIX/Linux": {
+      "preguntas": [
+        {
+          "enunciado": "Si el propietario del archivo ejemplo.tab quiere otorgarle los permisos r---w-rw- deberá ejecutar la llamada al sistema",
+          "opciones": [
+            "chmod(\"ejemplo.tab\", 246)",
+            "chmod(\"ejemplo.tab\", 624)",
+            "chmod(\"ejemplo.tab\", 426)",
+            "chmod(\"ejemplo.tab\", 278)",
+            "Ninguna de las otras respuestas es correcta"
+          ],
+          "solucion": "chmod(\"ejemplo.tab\", 278)"
+        },
+        {
+          "enunciado": "La orden gcc -Ipracticas fuente.c",
+          "opciones": [
+            "Buscará las bibliotecas necesarias en el directorio practicas",
+            "No generará un ejecutable porque no se ha indicado un nombre para él",
+            "Producirá exclusivamente un archivo preprocesado denominado practicas a partir del archivo fuente.c",
+            "Intentará generar un ejecutable tomando los archivos de cabecera necesarios preferentemente del directorio practicas",
+            "No se podrá ejecutar correctamente porque debe haber un espacio en blanco después del carácter 'I'"
+          ],
+          "solucion": "Intentará generar un ejecutable tomando los archivos de cabecera necesarios preferentemente del directorio practicas"
+        },
+        {
+          "enunciado": "El truncamiento de un archivo en UNIX es",
+          "opciones": [
+            "La escritura del valor 0 en todo el contenido del archivo",
+            "La división del contenido de un archivo en múltiples archivos",
+            "La eliminación incondicional de un archivo del sistema",
+            "El borrado del contenido de un archivo, manteniendo sus atributos excepto la longitud del archivo que pasa a ser 0",
+            "La compresión del contenido de un archivo para reducir su tamaño"
+          ],
+          "solucion": "El borrado del contenido de un archivo, manteniendo sus atributos excepto la longitud del archivo que pasa a ser 0"
+        },
+        {
+          "enunciado": "La orden del shell para obtener el nombre completo del directorio actual sería",
+          "opciones": [
+            "dir",
+            "ls",
+            "pwd",
+            "ls-d",
+            "passwd"
+          ],
+          "solucion": "pwd"
+        },
+        {
+          "enunciado": "Si necesitamos que se impriman en la salida estándar los 100 primeros caracteres del archivo ejemplo.txt presente en nuestro directorio de trabajo actual, la orden del shell que debemos usar es",
+          "opciones": [
+            "head -100 ejemplo.txt",
+            "cab -n100 ejemplo.txt",
+            "head -c100 ejemplo.txt",
+            "tail -c100 ejemplo.txt",
+            "head -n100 ejemplo.txt"
+          ],
+          "solucion": "head -c100 ejemplo.txt"
+        },
+        {
+          "enunciado": "Dado el programa Conpal y sus funciones main, procesar e imprimir, ¿con qué comando del gdb puedo establecer un punto de ruptura en la función procesar una vez iniciada la sesión del depurador?",
+          "opciones": [
+            "run procesar",
+            "br main:procesar",
+            "No se pueden establecer puntos de ruptura sobre funciones",
+            "br procesar",
+            "l procesar"
+          ],
+          "solucion": "br procesar"
+        },
+        {
+          "enunciado": "¿Cuál es la orden del shell que nos permite saber qué tipos de sistemas de archivos se están utilizando en el sistema?",
+          "opciones": [
+            "df -t",
+            "du -type",
+            "du -T",
+            "du -t",
+            "df -T"
+          ],
+          "solucion": "df -T"
+        },
+        {
+          "enunciado": "¿Qué orden debemos ejecutar para salir del gdb?",
+          "opciones": [
+            "-c",
+            "Ninguna de las otras respuestas es correcta",
+            "exit",
+            "quit",
+            "stop"
+          ],
+          "solucion": "quit"
+        },
+        {
+          "enunciado": "Queremos ver el índice del contenido de un fichero p1.tar creado mediante la utilidad tar sin deserializarlo. La orden que deberá usarse es",
+          "opciones": [
+            "tar -xv p1.tar",
+            "tar vf p1.tar",
+            "tarpf p1.tar",
+            "tart p1.tar",
+            "tar tf p1.tar"
+          ],
+          "solucion": "tar tf p1.tar"
+        },
+        {
+          "enunciado": "Una regla de un archivo makefile para la utilidad make",
+          "opciones": [
+            "No puede tener más de una acción asociada",
+            "No puede tener entre sus prerrequisitos a los objetivos de otras reglas",
+            "Puede no tener ningún objetivo",
+            "No necesariamente debe tener alguna acción asociada",
+            "Debe tener uno o varios prerrequisitos"
+          ],
+          "solucion": "No necesariamente debe tener alguna acción asociada"
+        },
+        {
+          "enunciado": "Cuando al compilar un programa con la opción -c se muestran solamente warnings pero ningún error",
+          "opciones": [
+            "Se genera el programa ejecutable, aunque se recomienda corregir los warnings",
+            "Se genera un archivo objeto, pero no un archivo ejecutable",
+            "Es un problema del compilador, nuestro programa está correcto",
+            "Se aborta la compilación y no se genera otra salida que el informe de errores/warnings",
+            "No se genera el ejecutable porque un warning es un error grave"
+          ],
+          "solucion": "Se genera un archivo objeto, pero no un archivo ejecutable"
+        },
+        {
+          "enunciado": "Para implementar un programa que muestre por la salida estándar los atributos de los archivos contenidos en un directorio ¿qué secuencia debería seguir?",
+          "opciones": [
+            "Ninguna de las otras respuestas es correcta",
+            "Abrir el directorio con opendir, utilizar la funciones seekdir y rewindir para posicionarnos y con stat mostrar los atributos",
+            "Abrir el directorio con fopen, pasarle el descriptor de archivo a fstat y mostrar los atributos de los archivos",
+            "Abrir el directorio con opendir, luego realizar la lectura de las entradas del directorio abierto con telldir y a cada lectura obtener el nombre del fichero y pasárselo a stat para obtener los atributos",
+            "Abrir el directorio con opendir, luego realizar la lectura de las entradas del directorio abierto con readdir y a cada lectura obtener el nombre del fichero y pasárselo a stat para obtener los atributos"
+          ],
+          "solucion": "Abrir el directorio con opendir, luego realizar la lectura de las entradas del directorio abierto con readdir y a cada lectura obtener el nombre del fichero y pasárselo a stat para obtener los atributos"
+        },
+        {
+          "enunciado": "La orden gcc -c fuente.c problema.c",
+          "opciones": [
+            "Generará, si no hay errores, un ejecutable y no emitirá ningún informe de los warnings encontrados",
+            "Generará, si no hay errores, como resultado un único archivo en ensamblador con el código correspondiente a los dos archivos fuente.c y problema.c",
+            "Generará, si no hay errores, los archivos objeto correspondientes a la compilación y ensamblaje posterior de los archivos fuente.c y problema.c",
+            "Generará, si no hay errores, un ejecutable conteniendo el código necesario para la depuración correspondiente",
+            "Generará, si no hay errores, un único archivo preprocesado con el código correspondiente a los archivos fuente.c y problema.c"
+          ],
+          "solucion": "Generará, si no hay errores, los archivos objeto correspondientes a la compilación y ensamblaje posterior de los archivos fuente.c y problema.c"
+        },
+        {
+          "enunciado": "La orden interna de shell bg",
+          "opciones": [
+            "Permite pasar un proceso suspendido al estado de ejecución en segundo plano",
+            "No afecta nunca a un proceso que está suspendido en segundo plano",
+            "Permite suspender un proceso que está ejecutando en primer plano y pasarlo al segundo plano",
+            "Permite pasar un proceso al segundo plano conservando su estado de ejecución",
+            "Permite pasar un proceso, que estaba ejecutándose en segundo plano, al primer plano"
+          ],
+          "solucion": "Permite pasar un proceso suspendido al estado de ejecución en segundo plano"
+        },
+        {
+          "enunciado": "La orden del shell adecuada para crear un archivo serializado y comprimido denominado etc.tgz en el directorio home del usuario, con el contenido del directorio /etc recorrido recursivamente es",
+          "opciones": [
+            "tar cvfz /etc $HOME/etc.tgz",
+            "tar xvfz /etc.tgz /etc",
+            "tar xvfz ./etc.tgz /etc",
+            "tar cvfz /etc.tgz /etc",
+            "tar cxfz ./etc.tgz /etc"
+          ],
+          "solucion": "tar cvfz /etc.tgz /etc"
+        },
+        {
+          "enunciado": "Necesitamos cambiar el propietario y el grupo del archivo ArchivoPrueba para que sean respectivamente alumno y users. Si hemos abierto la sesión como el usuario root, la orden del shell que debemos ejecutar es",
+          "opciones": [
+            "No puede hacerse ese trabajo mediante una sola orden. Se necesitan dos distintas",
+            "chown alumno, users ArchivoPrueba",
+            "chown alumno:users ArchivoPrueba",
+            "chprgr alumno users ArchivoPrueba",
+            "chmod alumno users ArchivoPrueba"
+          ],
+          "solucion": "chown alumno:users ArchivoPrueba"
+        },
+        {
+          "enunciado": "Si al utilizar el gestor de compilación gcc para procesar un archivo fuente ejemplo.c necesitamos obtener una salida que sea el código ensamblador equivalente pero no el archivo objeto, debemos usar la(s) opción (es)",
+          "opciones": [
+            "-g-o",
+            "-S",
+            "-I -1",
+            "-0",
+            "-std"
+          ],
+          "solucion": "-S"
+        },
+        {
+          "enunciado": "De un archivo de 780 líneas, numeradas de la 1 a la 780, denominado ejemplo, se desea obtener en un archivo denominado segmento las líneas del archivo ejemplo contenidas entre la nº 181 y la nº 300, ambas inclusive. La orden del shell adecuada sería",
+          "opciones": [
+            "tail -n121 ejemplo | head -n300 >> segmento",
+            "head -n300 ejemplo | tail -n121 >> segmento",
+            "head -n120 ejemplo | tail -n300 > segmento",
+            "head -n300 ejemplo | tail -n120 > segmento",
+            "head -n121 ejemplo | tail -n299 > segmento"
+          ],
+          "solucion": "head -n300 ejemplo | tail -n120 > segmento"
+        },
+        {
+          "enunciado": "Señale el comando que nos permite conocer el path de los comandos del shell",
+          "opciones": [
+            "which",
+            "who",
+            "pwd",
+            "who am i",
+            "cat"
+          ],
+          "solucion": "which"
+        },
+        {
+          "enunciado": "Se dispone de un enlace simbólico sym1 apuntando al archivo destino. Se desea crear un nuevo enlace simbólico sym2 que apunte a sym1. La orden adecuada del shell sería",
+          "opciones": [
+            "ln -s sym2 sym1",
+            "No se puede establecer un enlace simbólico apuntando a otro enlace simbólico",
+            "ls sym1 sym2",
+            "ln s sym1 sym2",
+            "ln -s sym1 sym2"
+          ],
+          "solucion": "ln -s sym1 sym2"
+        },
+        {
+          "enunciado": "Al ejecutar la orden gcc -E prueba.c",
+          "opciones": [
+            "Se realiza una compilación de prueba.c produciendo un archivo objeto si no hay errores",
+            "Se genera un archivo ejecutable a partir de prueba.c sin enlazar",
+            "Se produce (si no hay errores) un archivo de cabecera denominado prueba.h",
+            "Se produce (si no hay errores) a partir de un archivo fuente prueba.c un archivo preprocesado que se envía a la salida estándar",
+            "Se crea un archivo ensamblador con los módulos de la biblioteca estándar que sean necesarios ya incorporados"
+          ],
+          "solucion": "Se produce (si no hay errores) a partir de un archivo fuente prueba.c un archivo preprocesado que se envía a la salida estándar"
+        },
+        {
+          "enunciado": "Si al ejecutar el gestor de compilación gcc utilizamos la opción -std=c89",
+          "opciones": [
+            "Obtendremos un error si no usamos a la vez la opción -o",
+            "Tendremos que usar a la vez la opción -c",
+            "Tendremos que usar a la vez la opción -I",
+            "Obtendremos un error porque esa opción no existe",
+            "El efecto será el mismo que si usamos la opción -ansi"
+          ],
+          "solucion": "El efecto será el mismo que si usamos la opción -ansi"
+        },
+        {
+          "enunciado": "¿Para qué sirve la función telldir?",
+          "opciones": [
+            "No hace nada, porque no existe",
+            "Determina el tamaño total de un flujo de directorio",
+            "Ajusta la posición actual asociada a un flujo de directorio apuntando a la posición inicial",
+            "Ninguna de las otras respuestas es correcta",
+            "Devuelve la posición actual asociada a un flujo de directorio"
+          ],
+          "solucion": "Devuelve la posición actual asociada a un flujo de directorio"
+        },
+        {
+          "enunciado": "Se desea crear un archivo llamado cuenta en nuestro directorio de trabajo. El archivo cuenta debe contener el número de líneas del listado en formato largo del directorio /home incluyendo los nodos ocultos. La orden que debe usarse es",
+          "opciones": [
+            "ls -al | wc -1 /home >cuenta",
+            "ls -al /home | wc -1 >cuenta",
+            "ls | wc -1 >cuenta al /home",
+            "wc l ls -al /home cuenta",
+            "wc l cuenta ls -al /home"
+          ],
+          "solucion": "ls -al /home | wc -1 >cuenta"
+        },
+        {
+          "enunciado": "Para poder ejecutar una sesión de depuración de un programa ¿con qué opción debemos compilarlo y enlazarlo?",
+          "opciones": [
+            "-g",
+            "-o",
+            "-h",
+            "-c",
+            "-u"
+          ],
+          "solucion": "-g"
+        },
+        {
+          "enunciado": "Si en la línea de órdenes del shell ejecutamos find /usr -type f ! -user root obtendremos",
+          "opciones": [
+            "Un listado de los nombres de los archivos regulares del directorio /usr, recorrido recursivamente, que no son propiedad del administrador del sistema",
+            "Un listado de los nombres de todos los nodos del directorio /usr, pero no de sus subdirectorios, que no son propiedad del administrador del sistema",
+            "Un listado de los nombres de los archivos regulares del directorio /usr, pero no de sus subdirectorios, que no son propiedad del administrador del sistema",
+            "Un listado de los nombres de los nodos del directorio /usr, recorrido recursivamente, que o bien son archivos regulares o bien no son propiedad del administrador del sistema",
+            "Un listado de los nombres de los archivos regulares del directorio /usr, recorrido recursivamente, que son propiedad del administrador del sistema"
+          ],
+          "solucion": "Un listado de los nombres de los archivos regulares del directorio /usr, recorrido recursivamente, que no son propiedad del administrador del sistema"
+        },
+        {
+          "enunciado": "Si queremos crear un archivo nuevo con permisos r--r----- (supóngase que la máscara de creación de archivos lo permite) denominado Nuevo.txt en nuestro directorio de trabajo actual y obtener un descriptor de archivo a leer y escribir en él pero deseamos que no se haga nada si el archivo ya existe, debemos usar la llamada al sistema",
+          "opciones": [
+            "open(\"Nuevo.txt\", O_CREAT | O_EXCL | O_RDWR, 288)",
+            "open(\"Nuevo.txt\", O_CREAT | O_EXCL | O_RDONLY, S_IRUSR | S_IRGRP)",
+            "Esa operación no puede realizarse porque queremos escribir en el archivo pero no tenemos permisos para ello",
+            "open(\"Nuevo.txt\", O_EXCL | O_RDWR, 0440)",
+            "open(\"Nuevo.txt\", O_CREAT | O_WRONLY, 0440)"
+          ],
+          "solucion": "open(\"Nuevo.txt\", O_CREAT | O_EXCL | O_RDWR, 288)"
+        },
+        {
+          "enunciado": "Si se ejecuta en la línea de órdenes del shell UNIX el comando cp -r practicas temp donde practicas es un directorio y temp un archivo",
+          "opciones": [
+            "Se cambiará el nombre del directorio practicas por el nuevo nombre temp y el anterior archivo de ese nombre se perderá",
+            "Se copiará el directorio practicas y todo su contenido en un directorio con el nombre temp y el anterior archivo de ese nombre se perderá",
+            "Se copiará el listado del directorio practicas al archivo temp",
+            "Se indicará un error y el archivo temp no será modificado",
+            "El comando copiará el archivo temp en el directorio practicas"
+          ],
+          "solucion": "Se indicará un error y el archivo temp no será modificado"
+        },
+        {
+          "enunciado": "La orden gcc -o completo fuente.c problema.o",
+          "opciones": [
+            "Producirá, si no hay errores, un ejecutable denominado problema.o como resultado de la compilación del archivo fuente.c y su enlace con el archivo objeto completo",
+            "Compilará primero el archivo problema.o, y si no hay errores, lo enlazará con el archivo fuente.c para producir el archivo ejecutable completo",
+            "Permite obtener, si no hay errores, un ejecutable denominado completo a partir del archivo fuente.c y de la biblioteca problema.o",
+            "Producirá, si no hay errores, un archivo ejecutable con el nombre completo compilando fuente.c y enlazando el resultado con problema.o",
+            "Es incorrecta porque los archivos de entrada tienen que ser todos archivos fuente en lenguaje C, con extensión '.c'"
+          ],
+          "solucion": "Producirá, si no hay errores, un archivo ejecutable con el nombre completo compilando fuente.c y enlazando el resultado con problema.o"
+        },
+        {
+          "enunciado": "La orden del shell rmdir -p practicas/p3/source",
+          "opciones": [
+            "Intentará eliminar el subdirectorio del directorio actual denominado practicas/p3/source exclusivamente",
+            "Eliminará el subdirectorio del directorio actual denominado practicas/p3/source sólo si tiene permiso de escritura en él",
+            "Intentará eliminar los subdirectorios del directorio actual denominados practicas, practicas/p3 y practicas/p3/source",
+            "Eliminará el subdirectorio del directorio actual denominado practicas/p3/source aunque no esté vacío",
+            "Eliminará el subdirectorio del directorio actual denominado practicas/p3/source e imprimirá su contenido en la salida estándar"
+          ],
+          "solucion": "Intentará eliminar los subdirectorios del directorio actual denominados practicas, practicas/p3 y practicas/p3/source"
+        },
+        {
+          "enunciado": "La combinación de teclas que debemos pulsar en un terminal UNIX cuando queremos suspender un proceso que se está ejecutando en primer plano es",
+          "opciones": [
+            "CTRL-A",
+            "CTRL-M",
+            "CTRL-H",
+            "CTRL-Z",
+            "CTRL-C"
+          ],
+          "solucion": "CTRL-Z"
+        },
+        {
+          "enunciado": "¿Cuál es la orden del shell para obtener un listado en formato largo de los nodos descendientes recursivamente del directorio /var/log que sean archivos regulares con permisos de lectura y escritura para el propietario y de lectura solamente para todos los demás usuarios?",
+          "opciones": [
+            "find -type f -perm 422 /var/log -ls",
+            "find -type r -perm 644 -ls /var/log",
+            "find /var/log -type f -perm 644 -ls",
+            "ls -type f -perm 644 /var/log",
+            "find -type d -perm 766 /var/log -ls"
+          ],
+          "solucion": "find /var/log -type f -perm 644 -ls"
+        },
+        {
+          "enunciado": "¿Cuál es la orden del shell que nos permitiría obtener un archivo denominado cuenta.txt en el que aparezca el número de palabras del archivo Prueba junto al nombre de este último archivo?",
+          "opciones": [
+            "wc -w -name Prueba > cuenta.txt",
+            "wc -w Prueba < cuenta.txt",
+            "wc -w -n cuenta.txt | Prueba",
+            "wc -w Prueba > cuenta.txt",
+            "wc -w -name Prueba | cuenta.txt"
+          ],
+          "solucion": "wc -w Prueba > cuenta.txt"
+        },
+        {
+          "enunciado": "La orden interna de shell fg",
+          "opciones": [
+            "Permite pasar un proceso al segundo plano conservando su estado de ejecución",
+            "No afecta nunca a un proceso que está suspendido en segundo plano",
+            "Permite suspender un proceso que está ejecutando en primer plano y pasarlo al segundo plano",
+            "Permite pasar un proceso suspendido al estado de ejecución en segundo plano",
+            "Permite pasar un proceso, que estaba ejecutándose en segundo plano, al primer plano"
+          ],
+          "solucion": "Permite pasar un proceso, que estaba ejecutándose en segundo plano, al primer plano"
+        },
+        {
+          "enunciado": "Queremos establecer como argumentos para la ejecución del programa las cadenas '-m' y 'fichero.out'. Si ya hemos abierto una sesión con el depurador, deberemos introducir el siguiente comando antes comenzar a ejecutar el programa",
+          "opciones": [
+            "setargs -m fichero.out",
+            "No es posible establecer argumentos en una sesión de depuración",
+            "set args -m fichero.out",
+            "args set -m fichero.out",
+            "args -m fichero.out"
+          ],
+          "solucion": "set args -m fichero.out"
+        },
+        {
+          "enunciado": "Si necesitamos forzar la cancelación de un proceso de identificador PID utilizaríamos",
+          "opciones": [
+            "kill -9 PID",
+            "ps -u %1",
+            "kill -f PID",
+            "kill jobs PID",
+            "kill %1"
+          ],
+          "solucion": "kill -9 PID"
+        },
+        {
+          "enunciado": "Cuando queramos obtener información sobre los procesos dependientes de un shell, y en particular los números de trabajo, nombres de los ejecutables y estado en que se encuentra cada uno debemos usar la orden",
+          "opciones": [
+            "who",
+            "who am i",
+            "pwd",
+            "jobs",
+            "cat"
+          ],
+          "solucion": "jobs"
+        },
+        {
+          "enunciado": "Si queremos saber el valor de una variable del shell debemos usar la orden",
+          "opciones": [
+            "who",
+            "who am i",
+            "cat",
+            "echo",
+            "pwd"
+          ],
+          "solucion": "echo"
+        },
+        {
+          "enunciado": "La orden del shell chmod 440 ejemplo.txt && cat ejemplo.txt > salida.txt",
+          "opciones": [
+            "Fallará si el archivo salida.txt no existe",
+            "Cambiará los permisos del archivo ejemplo.txt si el archivo salida.txt no existe",
+            "Intentará cambiar los permisos del archivo ejemplo.txt, y si ello es posible, enviará el contenido de ese archivo al archivo salida.txt",
+            "Concatenará el archivo ejemplo.txt con el archivo salida.txt y luego cambiará los permisos de ejemplo.txt",
+            "Cambiará los permisos del archivo ejemplo.txt y enviará la salida de la orden chmod al archivo salida.txt"
+          ],
+          "solucion": "Intentará cambiar los permisos del archivo ejemplo.txt, y si ello es posible, enviará el contenido de ese archivo al archivo salida.txt"
+        },
+        {
+          "enunciado": "La llamada al sistema umask permite",
+          "opciones": [
+            "Cambiar el propietario y el grupo de un nodo del sistema de archivos indicando un descriptor de archivo válido",
+            "Cambiar el propietario y el grupo de un enlace simbólico (sin seguir el enlace) indicando el nombre del enlace",
+            "Cambiar la máscara de creación de archivos para el proceso solicitante",
+            "Cambiar los permisos de un nodo del sistema de archivos indicando el nombre del nodo",
+            "Cambiar el propietario y el grupo de un nodo del sistema de archivos indicando el nombre del nodo"
+          ],
+          "solucion": "Cambiar la máscara de creación de archivos para el proceso solicitante"
+        },
+        {
+          "enunciado": "Si al utilizar el gestor de compilación gcc para procesar un archivo fuente programa.c necesitamos especificar un directorio en el que buscar ciertas bibliotecas, debemos usar la(s) opción (es)",
+          "opciones": [
+            "-I",
+            "-c -I",
+            "-S",
+            "-l -o",
+            "-L"
+          ],
+          "solucion": "-L"
+        },
+        {
+          "enunciado": "Si queremos encontrar los archivos que contienen (en su interior) una frase determinada debemos utilizar la orden del shell",
+          "opciones": [
+            "locate",
+            "tee",
+            "find",
+            "which",
+            "grep"
+          ],
+          "solucion": "grep"
+        },
+        {
+          "enunciado": "Qué genera la orden gcc -O2 prueba.c",
+          "opciones": [
+            "El compilador pedirá que le demos el nombre del fichero objeto para poder compilar",
+            "Sólo se obtiene el fichero prueba.o pero no el ejecutable",
+            "Un fichero ejecutable a.out ignorando los errores de nivel 2",
+            "Nada. Se producirá un error de compilación",
+            "Un archivo ejecutable a.out con un nivel 2 de optimización"
+          ],
+          "solucion": "Un archivo ejecutable a.out con un nivel 2 de optimización"
+        },
+        {
+          "enunciado": "Si en la línea de órdenes del shell ejecutamos grep -n VBox /etc/[a-c]* obtendremos",
+          "opciones": [
+            "Un listado de los nombres de los archivos regulares del directorio /usr, recorrido recursivamente, que no son propiedad del administrador del sistema",
+            "Un error, porque el patrón de búsqueda VBox debería ir entre comillas simples",
+            "Las líneas (con su número de línea) de los archivos del directorio /etc cuyo nombre comienza por cualquiera de las letras 'a', 'b', o 'c' que contengan la palabra VBox",
+            "Las líneas (con su número de línea) de los archivos del directorio /etc cuyo nombre comienza por cualquiera de los caracteres 'a', '-', o 'c' que contengan la palabra VBox",
+            "Las líneas (con su número de línea) de los archivos del directorio /etc, recorrido recursivamente, cuyo nombre comienza por cualquiera de las letras 'a', 'b', o 'c' que contengan la palabra VBox"
+          ],
+          "solucion": "Las líneas (con su número de línea) de los archivos del directorio /etc cuyo nombre comienza por cualquiera de las letras 'a', 'b', o 'c' que contengan la palabra VBox"
+        },
+        {
+          "enunciado": "La orden del shell ps",
+          "opciones": [
+            "Permite obtener información del estado de todos los procesos si se usa con la opción -e",
+            "Permite al usuario obtener la misma información que la orden jobs pero con más opciones de formato",
+            "La utiliza el superusuario para cancelar los procesos que desea",
+            "Se usa para enviar una señal a un proceso",
+            "Sólo permite obtener información sobre el estado de los procesos de un usuario que dependan del terminal cuando se usa la opción -h"
+          ],
+          "solucion": "Permite obtener información del estado de todos los procesos si se usa con la opción -e"
+        },
+        {
+          "enunciado": "Cuando al utilizar make el destino está fuera de fecha con respecto a las partes de las que depende, ¿qué sucede?",
+          "opciones": [
+            "Se muestra una advertencia por pantalla y continúa la ejecucion sin modificar nada más",
+            "Se usan las reglas de construcción siguiendo las reglas de dependencia",
+            "No se utiliza ninguna de las reglas asociadas",
+            "Ninguna de las otras respuestas es correcta",
+            "Se para la ejecución de make y se crea un registro de error"
+          ],
+          "solucion": "Se usan las reglas de construcción siguiendo las reglas de dependencia"
+        },
+        {
+          "enunciado": "La primitiva dup2",
+          "opciones": [
+            "Permite duplicar el contenido de un archivo cuyo descriptor se pasa en el primer argumento",
+            "No permite especificar cuál es el descriptor que se quiere hacer equivalente al que se pasa como argumento",
+            "Sólo puede usarse cuando el primer argumento es uno de los descriptores 0, 1 ó 2",
+            "Informará de un error si el segundo argumento es un descriptor que está abierto",
+            "Permite especificar cuál es el descriptor que se quiere hacer equivalente al que se pasa como primer argumento"
+          ],
+          "solucion": "Permite especificar cuál es el descriptor que se quiere hacer equivalente al que se pasa como primer argumento"
+        },
+        {
+          "enunciado": "La primitiva lseek",
+          "opciones": [
+            "Necesita ser utilizada si se quiere realizar un proceso secuencial de un archivo completo",
+            "Permite determinar el carácter de un archivo que se encuentra en una determinada posición",
+            "No permite usar desplazamientos negativos del cursor de un archivo cuando se utiliza el argumento SEEK_CUR",
+            "Devuelve como resultado el número de bytes que hay en el archivo contados desde la posición actual del cursor hasta el final del archivo",
+            "Permite posicionarse en un archivo de modo que la siguiente escritura pueda tener lugar más allá del final actual del archivo"
+          ],
+          "solucion": "Permite posicionarse en un archivo de modo que la siguiente escritura pueda tener lugar más allá del final actual del archivo"
+        },
+        {
+          "enunciado": "En UNIX, la llamada al sistema operativo unlink elimina físicamente un archivo",
+          "opciones": [
+            "Cuando el archivo tiene un único enlace físico o un único enlace simbólico",
+            "Cuando el archivo tiene un único enlace físico en cada partición del sistema",
+            "Cuando el archivo tiene un único enlace simbólico",
+            "Cuando el archivo tiene un único enlace físico",
+            "Cuando el usuario del proceso solicitante es el propietario del archivo"
+          ],
+          "solucion": "Cuando el archivo tiene un único enlace físico"
+        },
+        {
+          "enunciado": "La primitiva mkfifo",
+          "opciones": [
+            "No permite especificar los permisos de uso de una tubería al crearla",
+            "Permite crear una tubería con nombre de forma análoga a como se crean archivos con creat",
+            "Permite crear una tubería que sólo podrán usar los procesos del usuario que la crea",
+            "Permite crear una tubería anónima",
+            "Crea un nodo del sistema de archivo que aparece en los listados de la orden ls -l etiquetado con el tipo t"
+          ],
+          "solucion": "Permite crear una tubería con nombre de forma análoga a como se crean archivos con creat"
+        },
+        {
+          "enunciado": "Si ejecutamos la orden gcc ejemplo.o -lm y no hay errores",
+          "opciones": [
+            "Se generará un ejecutable enlazando ejemplo.o con la biblioteca matemática estándar",
+            "Ninguna de las otras respuestas es correcta",
+            "Se actualizará la biblioteca libm.a con el contenido del archivo ejemplo.o",
+            "Se obtendrá un nuevo archivo objeto incorporando el módulo m al archivo ejemplo.o",
+            "Se generará un archivo ejecutable denominado ejemplo.exe sin usar la biblioteca estándar"
+          ],
+          "solucion": "Se generará un ejecutable enlazando ejemplo.o con la biblioteca matemática estándar"
+        },
+        {
+          "enunciado": "Si se desea obtener información sobre la cantidad de memoria física disponible, la orden del shell adecuada es",
+          "opciones": [
+            "head",
+            "tree",
+            "free",
+            "tar",
+            "env"
+          ],
+          "solucion": "free"
+        },
+        {
+          "enunciado": "La llamada pipe nos permite",
+          "opciones": [
+            "Tomar como argumento una matriz de enteros, asignando descriptores para la lectura, escritura y la salida de error",
+            "Crear una tubería que contiene dos descriptores, uno para la escritura y otro para la lectura",
+            "Configurar la entrada y la salida estándar de un proceso",
+            "Crear un canal para la duplicación del espacio de memoria del proceso padre, generando así un proceso hijo",
+            "Únicamente comunicar un proceso padre con un proceso hijo"
+          ],
+          "solucion": "Crear una tubería que contiene dos descriptores, uno para la escritura y otro para la lectura"
+        },
+        {
+          "enunciado": "La llamada al sistema wait sirve para",
+          "opciones": [
+            "Bloquear momentáneamente los procesos cuando el procesador se encuentre saturado",
+            "Que un proceso hijo pueda saber que su proceso padre ha terminado",
+            "Suspender la ejecución del proceso en curso hasta que cualquier hijo termina o una señal es recibida",
+            "Bloquear el flujo de ejecución de un proceso hijo hasta que el proceso padre o proceso responsable finaliza el envío de datos por el canal de comunicación",
+            "Que los procesos esperen su turno en el procesador, y evitar así que consuman más tiempo del que les corresponde"
+          ],
+          "solucion": "Suspender la ejecución del proceso en curso hasta que cualquier hijo termina o una señal es recibida"
+        },
+        {
+          "enunciado": "Supóngase que estamos ejecutando cierto programa en una sesión de depuración y la siguiente línea a ejecutar es una llamada a una función. Si quisiéramos entrar a depurar la función deberemos introducir el comando",
+          "opciones": [
+            "l",
+            "c",
+            "n",
+            "i",
+            "s"
+          ],
+          "solucion": "s"
+        },
+        {
+          "enunciado": "La macro S_ISDIR(m) se utiliza para",
+          "opciones": [
+            "Determinar si el nodo es un archivo",
+            "No representa una macro, ya que está mal escrita; su nombre correcto sería S_IMDIR",
+            "Averiguar si el nodo está protegido contra escritura",
+            "Determinar si el nodo es un directorio",
+            "No es una macro, es la máscara de un directorio"
+          ],
+          "solucion": "Determinar si el nodo es un directorio"
+        },
+        {
+          "enunciado": "La llamada al sistema link",
+          "opciones": [
+            "Crea un nuevo enlace físico para un archivo",
+            "Crea un enlace entre dos nombres de un mismo archivo",
+            "Devuelve el número de enlaces de un archivo",
+            "Crea un nuevo enlace físico o simbólico para un archivo según la opción elegida",
+            "Comprueba si existe un enlace físico para un archivo"
+          ],
+          "solucion": "Crea un nuevo enlace físico para un archivo"
+        },
+        {
+          "enunciado": "Para la función closedir() int closedir(DIR *dir); es falso que",
+          "opciones": [
+            "Cierra un directorio",
+            "La función devuelve 0 si tiene éxito",
+            "La función cierra el canal del directorio asociado con dir",
+            "La función devuelve 1 si falla",
+            "El descriptor del canal del directorio dir estará disponible después de esta llamada"
+          ],
+          "solucion": "El descriptor del canal del directorio dir estará disponible después de esta llamada"
+        },
+        {
+          "enunciado": "Considérese que la siguiente línea de órdenes se ejecuta desde el shell: ./ejemplo linea de ordenes. Suponiendo que argv es el segundo argumento recibido por la función main... el valor de la expresión *++argv",
+          "opciones": [
+            "No puede calcularse porque es una expresión sintácticamente incorrecta",
+            "Es la cadena de caracteres 'de'",
+            "Es el carácter contenido en la posición de memoria siguiente a la apuntada por argv[0]",
+            "Es el carácter 'i'",
+            "Es un puntero que apunta a una posición de memoria que contiene el carácter 'l'"
+          ],
+          "solucion": "Es un puntero que apunta a una posición de memoria que contiene el carácter 'l'"
+        },
+        {
+          "enunciado": "La orden del shell touch -c -a ../prueba.txt",
+          "opciones": [
+            "Permite actualizar la fecha y hora del último acceso y de la última modificación del archivo prueba.txt del directorio padre del actual, y creará el archivo con un contenido que es el nombre del propio archivo si éste no existe",
+            "Permite actualizar la fecha y hora de la última modificación del archivo prueba.txt del directorio padre del actual",
+            "Sirve para crear un archivo prueba.txt en el directorio padre del actual con un contenido que es el nombre del propio archivo",
+            "Permite actualizar la fecha y hora del último acceso al archivo prueba.txt del directorio padre del actual, pero no hace nada si el archivo no existe",
+            "Permite actualizar la fecha y hora del último acceso al archivo prueba.txt del directorio padre del actual, y creará el archivo con longitud 0 si no existe"
+          ],
+          "solucion": "Permite actualizar la fecha y hora del último acceso al archivo prueba.txt del directorio padre del actual, pero no hace nada si el archivo no existe"
+        },
+        {
+          "enunciado": "Si queremos saber el valor de una variable del shell debemos usar la orden",
+          "opciones": [
+            "who",
+            "tee",
+            "export",
+            "echo",
+            "which"
+          ],
+          "solucion": "echo"
+        },
+        {
+          "enunciado": "La primitiva execvp",
+          "opciones": [
+            "Ejecuta un programa sólo si el archivo ejecutable correspondiente está en el directorio de trabajo actual",
+            "Tiene que ejecutarse en la rama del proceso hijo cuando se ejecuta después de una llamada a fork",
+            "No permite cambiar los valores de las variables de entorno del proceso que la ejecuta",
+            "Devuelve un valor nulo si tiene éxito",
+            "Tiene al menos tres argumentos"
+          ],
+          "solucion": "No permite cambiar los valores de las variables de entorno del proceso que la ejecuta"
+        },
+        {
+          "enunciado": "La llamada al sistema write devuelve",
+          "opciones": [
+            "El desplazamiento actual del puntero de escritura contado desde el comienzo del archivo o -1 en caso de error",
+            "El número de bytes escritos o -1 en caso de error",
+            "Un puntero a la zona de memoria que se ha escrito en el archivo o el puntero nulo en caso de error",
+            "El valor 0 si se han escrito en el archivo correctamente todos los bytes o -1 en caso de error",
+            "Ninguna de las otras respuestas es correcta"
+          ],
+          "solucion": "El número de bytes escritos o -1 en caso de error"
+        },
+        {
+          "enunciado": "La llamada al sistema kill",
+          "opciones": [
+            "Solicita al sistema operativo la terminación del proceso solicitante",
+            "Termina el proceso solicitante con un código de terminación de error",
+            "Envía una señal a un proceso",
+            "Envía a un proceso la petición de terminar una tubería compartida",
+            "Solicita al sistema operativo la terminación del proceso indicado"
+          ],
+          "solucion": "Envía una señal a un proceso"
+        },
+        {
+          "enunciado": "En la estructura stat el campo st_atime indica",
+          "opciones": [
+            "Los permisos de protección",
+            "El i-nodo",
+            "La hora de la última modificación",
+            "La hora del último cambio de atributos",
+            "La hora del último acceso"
+          ],
+          "solucion": "La hora del último acceso"
+        },
+        {
+          "enunciado": "Supongamos que en la línea de órdenes del shell se ejecuta la orden ./programa argumento otro mas. Suponiendo que argv es el segundo argumento recibido por la función main del programa escrito en C y que su valor no ha sido modificado, el valor de la expresión **++argv",
+          "opciones": [
+            "Es un puntero que apunta a una posición de memoria que contiene el carácter 'a'",
+            "Depende del compilador utilizado porque se trata de una expresión ambigua",
+            "Es el carácter 'o'",
+            "Es el carácter 'a'",
+            "Es la cadena de caracteres 'otro'"
+          ],
+          "solucion": "Es el carácter 'a'"
+        },
+        {
+          "enunciado": "La llamada al sistema lchown permite",
+          "opciones": [
+            "Cambiar el usuario propietario y el grupo de un nodo del sistema de archivos indicando un descriptor de archivo válido",
+            "Cambiar los permisos de un nodo del sistema de archivos indicando el nombre del nodo",
+            "Cambiar la máscara de creación de archivos para el proceso solicitante",
+            "Cambiar el usuario propietario y el grupo de un enlace simbólico (sin seguir el enlace) indicando el nombre del enlace",
+            "Cambiar el usuario propietario y el grupo de cualquier nodo del sistema de archivos indicando el nombre del nodo"
+          ],
+          "solucion": "Cambiar el usuario propietario y el grupo de un enlace simbólico (sin seguir el enlace) indicando el nombre del enlace"
+        },
+        {
+          "enunciado": "La llamada al sistema read",
+          "opciones": [
+            "Devuelve un valor entero que es siempre menor o igual que el valor de su tercer argumento",
+            "Tiene como segundo argumento la dirección de un bloque cuya longitud en bytes debe ser idéntica a su tercer argumento",
+            "Fallará si el proceso que la ejecuta no pertenece al propietario del archivo",
+            "Causa, si no falla, que el puntero del archivo se incremente en el valor del tercer argumento",
+            "Necesita como primer argumento un puntero a un stream asociado a los datos del archivo"
+          ],
+          "solucion": "Devuelve un valor entero que es siempre menor o igual que el valor de su tercer argumento"
+        }
+      ]
+    },
+    "Gestión de Procesos y Planificación": {
+      "preguntas": [
+        {
+          "enunciado": "Sea un sistema de memoria paginada con direcciones físicas y lógicas de 8 bits. La máquina usa palabras de 1 byte y el tamaño de una página es de 16 palabras. En un momento dado, el contenido de una parte de la memoria principal corresponde a los valores de la siguiente tabla (ver imagen). ¿Cuál es la dirección física asociada a la dirección lógica 2A (hex) para el proceso actual? La tabla de páginas del proceso actual empieza en la dirección de memoria 08 (hex).",
+          "imagen": "img/ssoo/tabla_paginacion.png",
+          "opciones": [
+            "OA",
+            "3A",
+            "ED",
+            "34",
+            "2A"
+          ],
+          "solucion": "3A"
+        },
+        {
+          "enunciado": "Utilizando la misma tabla de memoria anterior: ¿Cuál es el contenido de la dirección lógica 2A para el proceso actual? La tabla de páginas del proceso actual empieza en la dirección de memoria 08 (hex).",
+          "imagen": "img/ssoo/tabla_paginacion.png",
+          "opciones": [
+            "Es una dirección lógica ilegal",
+            "01",
+            "87",
+            "B5",
+            "ED"
+          ],
+          "solucion": "ED"
+        },
+        {
+          "enunciado": "Considerar la siguiente tabla de segmentos (ver imagen). ¿Cuál es la dirección física correspondiente a la dirección lógica (2, 95) que tiene el formato (página, desplazamiento) con números en base decimal?",
+          "imagen": "img/ssoo/tabla_segmentacion_A.png",
+          "opciones": [
+            "285",
+            "95",
+            "195",
+            "185",
+            "Excepción"
+          ],
+          "solucion": "185"
+        },
+        {
+          "enunciado": "La traducción de direcciones de memoria en tiempo de ejecución:",
+          "opciones": [
+            "Implica utilizar lenguaje-máquina para la codificación de los programas",
+            "Implica que el cargador del sistema operativo debe generar código reubicable",
+            "Implica que el enlazador debe modificar el registro de reubicación de la unidad de gestión de memoria cuando se produce la compilación del programa",
+            "Implica tener una unidad de gestión de memoria",
+            "Implica que el compilador debe generar código reubicable"
+          ],
+          "solucion": "Implica tener una unidad de gestión de memoria"
+        },
+        {
+          "enunciado": "La fragmentación externa de memoria:",
+          "opciones": [
+            "Es la memoria no asignada a procesos que no puede ser utilizada porque está dispersa",
+            "Se reduce dividiendo los huecos libres de memoria",
+            "Disminuye utilizando un sistema de segmentación de memoria",
+            "Es la división interna de la memoria asignada a un proceso en las zonas de código, datos y pila",
+            "Es la memoria libre dentro de una partición asignada a un proceso"
+          ],
+          "solucion": "Es la memoria no asignada a procesos que no puede ser utilizada porque está dispersa"
+        },
+        {
+          "enunciado": "En un sistema paginado se quiere compartir una zona de memoria entre dos procesos. Esto implica:",
+          "opciones": [
+            "Que el cargador del sistema operativo debe reservar una zona contigua en memoria física para asignarlo a esa memoria compartida",
+            "Que el registro de reubicación de la unidad de gestión de memoria (MMU) tiene el mismo valor para los dos procesos",
+            "Que varias entradas de la tabla de páginas de cada proceso apuntan a los mismos marcos",
+            "Que el cargador del sistema operativo debe asignar el mismo espacio de direcciones lógico a la zona de memoria compartida",
+            "Que la tabla de páginas es compartida por los dos procesos"
+          ],
+          "solucion": "Que varias entradas de la tabla de páginas de cada proceso apuntan a los mismos marcos"
+        },
+        {
+          "enunciado": "La fragmentación interna:",
+          "opciones": [
+            "Es la memoria libre dentro de una partición asignada a un proceso",
+            "Es la memoria disponible no utilizada porque está dispersa",
+            "Es la división interna de la memoria asignada a un proceso en las zonas de código, datos y pila",
+            "Se reduce compactando los huecos libres",
+            "Aumenta utilizando un sistema de segmentación de memoria"
+          ],
+          "solucion": "Es la memoria libre dentro de una partición asignada a un proceso"
+        },
+        {
+          "enunciado": "Las técnicas de asignación contigua de memoria:",
+          "opciones": [
+            "Consisten en cargar un proceso en memoria en una única zona de memoria física",
+            "Tienen una fragmentación interna que disminuye de forma proporcional al número de particiones de la memoria",
+            "Permiten ejecutar simultáneamente más programas que los que cabrían en la memoria disponible",
+            "Sólo se pueden utilizar en sistemas operativos monoprogramados",
+            "Consisten en la asignación de tantos huecos libres de memoria como sean necesarios para satisfacer el tamaño solicitado"
+          ],
+          "solucion": "Consisten en cargar un proceso en memoria en una única zona de memoria física"
+        },
+        {
+          "enunciado": "En un sistema de segmentación con una tabla de segmentos de un sólo nivel almacenada en memoria, si una referencia a memoria física se efectúa en 40 nanosegundos, ¿en cuántos nanosegundos se realizará una referencia a memoria segmentada?",
+          "opciones": [
+            "40",
+            "20",
+            "120",
+            "10",
+            "80"
+          ],
+          "solucion": "80"
+        },
+        {
+          "enunciado": "La fragmentación externa de la memoria se reduce:",
+          "opciones": [
+            "Utilizando librerías de enlace dinámico",
+            "Utilizando un sistema de segmentación de memoria",
+            "Asignando menos memoria para la pila de los procesos",
+            "Compactando los huecos libres",
+            "Asignando más memoria a los procesos"
+          ],
+          "solucion": "Compactando los huecos libres"
+        },
+        {
+          "enunciado": "En un sistema de paginación con una tabla de páginas de dos niveles almacenada en memoria, si una referencia a memoria física se efectúa en 60 nanosegundos, ¿en cuántos nanosegundos se realizará una referencia a memoria paginada?",
+          "opciones": [
+            "30",
+            "60",
+            "120",
+            "180",
+            "20"
+          ],
+          "solucion": "180"
+        },
+        {
+          "enunciado": "La técnica de gestión de memoria basada en intercambios (swap-in swap-out):",
+          "opciones": [
+            "Consiste en código para localizar las funciones de la biblioteca en memoria que es sustituido por la dirección en memoria de la función",
+            "No necesita el soporte del sistema operativo para su implementación",
+            "Consiste en mantener en memoria sólo las instrucciones y datos que son necesarios en cada momento",
+            "Permite disminuir el grado de multiprogramación del sistema",
+            "Consiste en expulsar procesos a memoria secundaria para cargar nuevos procesos"
+          ],
+          "solucion": "Consiste en expulsar procesos a memoria secundaria para cargar nuevos procesos"
+        },
+        {
+          "enunciado": "En un proceso multihilo:",
+          "opciones": [
+            "Cada hilo usa una zona de código independiente de las de los otros hilos",
+            "Los diferentes hilos de control del proceso se ejecutan uno tras otro durante el tiempo en que el proceso tiene asignada la CPU",
+            "Cada hilo usa una pila de proceso independiente de las de los otros hilos",
+            "Cada hilo usa una zona de datos independiente de las de los otros hilos",
+            "Cada hilo usa los recursos solicitados al sistema operativo de forma exclusiva"
+          ],
+          "solucion": "Cada hilo usa una pila de proceso independiente de las de los otros hilos"
+        },
+        {
+          "enunciado": "¿Cuántos procesos de usuario pueden como máximo estar simultáneamente en el estado de preparado (ready)?",
+          "opciones": [
+            "Todos los procesos",
+            "Un solo proceso",
+            "El número de procesadores o núcleos de ejecución del sistema",
+            "Todos los procesos menos el número de procesadores o núcleos de ejecución del sistema",
+            "Todos los procesos menos el número de procesos expulsados temporalmente de memoria principal"
+          ],
+          "solucion": "Todos los procesos menos el número de procesadores o núcleos de ejecución del sistema"
+        },
+        {
+          "enunciado": "El dispatcher es:",
+          "opciones": [
+            "La parte del sistema operativo que se ocupa de pasar de un modo de ejecución usuario a supervisor",
+            "La parte del sistema operativo que se ocupa de la reactivación de los procesos cuando termina la operación de entrada/salida solicitada",
+            "El tiempo que se gasta para parar la ejecución de un proceso y reanudar la ejecución de otro",
+            "La parte del sistema operativo que se ocupa de seleccionar el proceso que debe pasar a usar el procesador",
+            "La parte del sistema operativo que se ocupa de realizar el cambio del proceso que usa el procesador por el determinado por el planificador"
+          ],
+          "solucion": "La parte del sistema operativo que se ocupa de realizar el cambio del proceso que usa el procesador por el determinado por el planificador"
+        },
+        {
+          "enunciado": "Una señal UNIX:",
+          "opciones": [
+            "Puede ser mandada a cualquier proceso del sistema",
+            "Provoca un cambio de estado en el proceso receptor",
+            "Provoca un cambio de estado en el proceso emisor",
+            "Puede ser bloqueada, ignorada o atendida por una función del proceso receptor de la señal (no en todos los casos se pueden realizar estas acciones)",
+            "Provoca un cambio de estado en el proceso emisor y receptor"
+          ],
+          "solucion": "Puede ser bloqueada, ignorada o atendida por una función del proceso receptor de la señal (no en todos los casos se pueden realizar estas acciones)"
+        },
+        {
+          "enunciado": "¿Cuántos procesos del usuario pueden como máximo estar simultáneamente en el estado de espera (bloqueado)?",
+          "opciones": [
+            "Todos los procesos",
+            "El nº de procesadores o núcleos de ejecución del sistema",
+            "El nº de procesadores del sistema",
+            "Un solo proceso",
+            "Todos los procesos menos el nº de dispositivos de entrada/salida"
+          ],
+          "solucion": "Todos los procesos"
+        },
+        {
+          "enunciado": "Dada la siguiente carga de trabajo y utilizando una planificación SJF no apropiativa. [Trabajo 1: Llegada 0, Rf.1 CPU 3, Rf. E/S 3, Rf.2 CPU 1] | [Trabajo 2: Llegada 1, Rf.1 CPU 1, Rf. E/S 3, Rf.2 CPU 1] | [Trabajo 3: Llegada 2, Rf.1 CPU 1, Rf. E/S 2, Rf.2 CPU 3]. ¿Cuál es el tiempo de espera del trabajo 2?",
+          "opciones": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "solucion": "2"
+        },
+        {
+          "enunciado": "Una diferencia entre una interrupción hardware y una excepción es:",
+          "opciones": [
+            "En una interrupción hardware se almacena el registro de estado del procesador en la pila y en una excepción no",
+            "En una excepción se aborta la instrucción-máquina en ejecución y en una interrupción no",
+            "En una interrupción se cambia automáticamente al modo supervisor de ejecución del procesador y en una excepción no",
+            "En una excepción se almacena el registro de estado del procesador en la pila y en una interrupción no",
+            "Ninguna de las otras respuestas es correcta"
+          ],
+          "solucion": "En una excepción se aborta la instrucción-máquina en ejecución y en una interrupción no"
+        },
+        {
+          "enunciado": "No se genera una excepción del procesador cuando:",
+          "opciones": [
+            "Se intentar dividir por cero",
+            "Se intenta ejecutar una instrucción-máquina privilegiada en el modo de ejecución usuario del procesador",
+            "La dirección de un operando de una instrucción-máquina es incorrecta",
+            "El código de operación de una instrucción-máquina es incorrecto",
+            "En una instrucción-máquina se realiza una llamada al sistema"
+          ],
+          "solucion": "En una instrucción-máquina se realiza una llamada al sistema"
+        },
+        {
+          "enunciado": "Un proceso es:",
+          "opciones": [
+            "Un programa en ejecución",
+            "El identificador de un programa para el sistema operativo",
+            "El formato del fichero que contiene un programa para ser cargado por el sistema operativo",
+            "La representación en memoria principal de un programa",
+            "La representación en código-máquina de un algoritmo"
+          ],
+          "solucion": "Un programa en ejecución"
+        },
+        {
+          "enunciado": "La llamada al sistema wait sirve para:",
+          "opciones": [
+            "Bloquear momentáneamente los procesos cuando el procesador se encuentre saturado",
+            "Que un proceso hijo pueda saber que su proceso padre ha terminado",
+            "Suspender la ejecución del proceso en curso hasta que cualquier hijo termina o una señal es recibida",
+            "Bloquear el flujo de ejecución de un proceso hijo hasta que el proceso padre o proceso responsable finaliza el envío de datos por el canal de comunicación",
+            "Que los procesos esperen su turno en el procesador, y evitar así que consuman más tiempo del que les corresponde"
+          ],
+          "solucion": "Suspender la ejecución del proceso en curso hasta que cualquier hijo termina o una señal es recibida"
+        },
+        {
+          "enunciado": "Un sistema operativo multiprogramado se caracteriza por:",
+          "opciones": [
+            "La división de la memoria en una zona para el sistema operativo y otra zona para la ejecución de programas de usuario",
+            "Soportar la independencia de dispositivos para las aplicaciones",
+            "La existencia de múltiples usuarios que ejecutan cada uno de ellos un programa potencialmente distinto",
+            "La ejecución simultánea de varios trabajos",
+            "Solapar el cálculo de varios trabajos que se mantienen en memoria de forma simultánea"
+          ],
+          "solucion": "Solapar el cálculo de varios trabajos que se mantienen en memoria de forma simultánea"
+        },
+        {
+          "enunciado": "Dada la siguiente carga de trabajo (ver imagen) y utilizando una planificación SJF no apropiativa. ¿Cuál es el tiempo de retorno del trabajo 1?",
+          "imagen": "img/ssoo/tabla_procesos.png",
+          "opciones": [
+            "1",
+            "4",
+            "6",
+            "5",
+            "7"
+          ],
+          "solucion": "7"
+        },
+        {
+          "enunciado": "Dada la siguiente carga de trabajo (ver imagen) y utilizando una planificación SJF no apropiativa. ¿Cuál es el tiempo de retorno del trabajo 2?",
+          "imagen": "img/ssoo/tabla_procesos.png",
+          "opciones": [
+            "2",
+            "6",
+            "7",
+            "8",
+            "4"
+          ],
+          "solucion": "7"
+        },
+        {
+          "enunciado": "Dada la siguiente carga de trabajo (ver imagen) y utilizando una planificación SJF no apropiativa. ¿Cuál es el tiempo de espera del trabajo 3?",
+          "imagen": "img/ssoo/tabla_procesos.png",
+          "opciones": [
+            "9",
+            "1",
+            "0",
+            "3",
+            "7"
+          ],
+          "solucion": "3"
+        },
+        {
+          "enunciado": "Dada la siguiente carga de trabajo (ver imagen) y utilizando una planificación SJF no apropiativa. ¿Cuál es el tiempo de espera del trabajo 1?",
+          "imagen": "img/ssoo/tabla_procesos.png",
+          "opciones": [
+            "0",
+            "3",
+            "2",
+            "4",
+            "1"
+          ],
+          "solucion": "0"
+        },
+        {
+          "enunciado": "Dada la siguiente carga de trabajo (ver imagen) y utilizando una planificación por turno rotatorio (valor del quantum de tiempo Q = 1). ¿Cuál es el tiempo de retorno del trabajo 1?",
+          "imagen": "img/ssoo/tabla_procesos.png",
+          "opciones": [
+            "6",
+            "9",
+            "5",
+            "8",
+            "7"
+          ],
+          "solucion": "9"
+        },
+        {
+          "enunciado": "Dada la siguiente carga de trabajo (ver imagen) y utilizando una planificación por turno rotatorio (valor del quantum de tiempo Q = 1). ¿Cuál es el tiempo de retorno del trabajo 3?",
+          "imagen": "img/ssoo/tabla_procesos.png",
+          "opciones": [
+            "10",
+            "8",
+            "6",
+            "7",
+            "9"
+          ],
+          "solucion": "8"
+        },
+        {
+          "enunciado": "Dada la siguiente carga de trabajo (ver imagen) y utilizando una planificación por turno rotatorio (valor del quantum de tiempo Q = 1). ¿Cuál es el tiempo de espera del trabajo 2?",
+          "imagen": "img/ssoo/tabla_procesos.png",
+          "opciones": [
+            "1",
+            "4",
+            "2",
+            "3",
+            "5"
+          ],
+          "solucion": "2"
+        },
+        {
+          "enunciado": "El monitor residente:",
+          "opciones": [
+            "Se carga automáticamente en memoria cuando finaliza un programa para poder iniciar la ejecución del siguiente programa",
+            "Comprueba permanentemente que el programa no realiza ninguna operación incorrecta",
+            "Es un programa cargado en la memoria interna del procesador para controlar la ejecución de los programas de usuario",
+            "Está cargado en memoria de forma permanente",
+            "Es una biblioteca de funciones para el programador"
+          ],
+          "solucion": "Está cargado en memoria de forma permanente"
+        },
+        {
+          "enunciado": "El hardware del computador genera una interrupción para llamar al sistema operativo cuando:",
+          "opciones": [
+            "Una aplicación realice una llamada al sistema operativo",
+            "Algún dispositivo de entrada/salida necesite atención o una aplicación realice una llamada al sistema operativo",
+            "Ninguna de las otras respuestas es correcta",
+            "Se produzca una situación de error al intentar ejecutar una instrucción-máquina",
+            "Algún dispositivo de entrada/salida necesite atención"
+          ],
+          "solucion": "Algún dispositivo de entrada/salida necesite atención"
+        },
+        {
+          "enunciado": "Una diferencia entre una instrucción de llamada a función y una de llamada al sistema es:",
+          "opciones": [
+            "Las instrucciones de llamada al sistema no conocen la dirección de la subrutina llamada",
+            "Las instrucciones de llamada a función son más lentas que las de llamada al sistema",
+            "Ninguna de las otras respuestas es correcta",
+            "Las instrucciones de llamada a función no alteran la pila",
+            "Las instrucciones de llamada al sistema alteran el contador de programa y las de llamada a función no"
+          ],
+          "solucion": "Las instrucciones de llamada al sistema no conocen la dirección de la subrutina llamada"
+        },
+        {
+          "enunciado": "¿Cuál es el objetivo principal de un temporizador hardware?",
+          "opciones": [
+            "Realizar comprobaciones periódicas del hardware del sistema",
+            "Contabilizar el tiempo de ejecución de los procesos",
+            "No existen temporizadores hardware, sólo temporizadores software",
+            "Impedir que un programa de usuario se esté ejecutando durante un tiempo excesivo",
+            "Mantener la fecha y hora del sistema"
+          ],
+          "solucion": "Impedir que un programa de usuario se esté ejecutando durante un tiempo excesivo"
+        },
+        {
+          "enunciado": "En UNIX, un proceso hijo hereda del proceso padre:",
+          "opciones": [
+            "Una copia del espacio de direcciones en memoria principal, los descriptores de archivo abiertos por el padre, las variables de entorno y una tubería de comunicación entre el proceso padre y el hijo",
+            "El uso compartido del espacio de direcciones en memoria principal",
+            "Aquellos recursos indicados por los flags que se pasan en la llamada de creación del proceso hijo",
+            "Una copia del espacio de direcciones en memoria principal, los descriptores de archivo abiertos por el padre y las variables de entorno",
+            "Una copia del espacio de direcciones en memoria principal y los descriptores de archivo abiertos por el padre"
+          ],
+          "solucion": "Una copia del espacio de direcciones en memoria principal, los descriptores de archivo abiertos por el padre y las variables de entorno"
+        }
+      ]
+    },
+    "Gestión de Memoria": {
+      "preguntas": [
+        {
+          "enunciado": "Sea un sistema de memoria paginada con direcciones físicas y lógicas de 8 bits. La máquina usa palabras de 1 byte y el tamaño de una página es de 16 palabras. En un momento dado, el contenido de una parte de la memoria principal corresponde a los valores de la siguiente tabla (ver imagen). ¿Cuál es la dirección física asociada a la dirección lógica 2A (hex) para el proceso actual? La tabla de páginas del proceso actual empieza en la dirección de memoria 08 (hex).",
+          "imagen": "img/ssoo/tabla_paginacion.png",
+          "opciones": [
+            "0A",
+            "3A",
+            "ED",
+            "34",
+            "2A"
+          ],
+          "solucion": "3A"
+        },
+        {
+          "enunciado": "Utilizando la misma tabla de memoria anterior (ver imagen): ¿Cuál es el contenido de la dirección lógica 2A para el proceso actual? La tabla de páginas del proceso actual empieza en la dirección de memoria 08 (hex).",
+          "imagen": "img/ssoo/tabla_paginacion.png",
+          "opciones": [
+            "Es una dirección lógica ilegal",
+            "01",
+            "87",
+            "B5",
+            "ED"
+          ],
+          "solucion": "ED"
+        },
+        {
+          "enunciado": "Utilizando la misma tabla de memoria anterior (ver imagen): ¿Cuál es la dirección lógica que corresponde a la dirección física 29 para el proceso actual? La tabla de páginas del proceso actual empieza en la dirección de memoria 08 (hex).",
+          "imagen": "img/ssoo/tabla_paginacion.png",
+          "opciones": [
+            "77",
+            "09",
+            "87",
+            "No existe una dirección lógica para esa dirección física para el proceso actual",
+            "00"
+          ],
+          "solucion": "09"
+        },
+        {
+          "enunciado": "Considerar la siguiente tabla de segmentos (ver imagen). ¿Cuál es la dirección física correspondiente a la dirección lógica (2, 95) que tiene el formato (página, desplazamiento) con números en base decimal?",
+          "imagen": "img/ssoo/tabla_segmentacion_A.png",
+          "opciones": [
+            "285",
+            "95",
+            "195",
+            "185",
+            "Excepción"
+          ],
+          "solucion": "185"
+        },
+        {
+          "enunciado": "Considerar la siguiente tabla de segmentos (ver imagen). ¿Cuál es la dirección física correspondiente a la dirección lógica (4, 305) que tiene el formato (página, desplazamiento) con números en base decimal?",
+          "imagen": "img/ssoo/tabla_segmentacion_B.png",
+          "opciones": [
+            "5980",
+            "315",
+            "305",
+            "615",
+            "Excepción"
+          ],
+          "solucion": "315"
+        },
+        {
+          "enunciado": "La traducción de direcciones de memoria en tiempo de ejecución:",
+          "opciones": [
+            "Implica utilizar lenguaje-máquina para la codificación de los programas",
+            "Implica que el cargador del sistema operativo debe generar código reubicable",
+            "Implica que el enlazador debe modificar el registro de reubicación de la unidad de gestión de memoria cuando se produce la compilación del programa",
+            "Implica tener una unidad de gestión de memoria",
+            "Implica que el compilador debe generar código reubicable"
+          ],
+          "solucion": "Implica tener una unidad de gestión de memoria"
+        },
+        {
+          "enunciado": "La fragmentación externa de memoria:",
+          "opciones": [
+            "Es la memoria no asignada a procesos que no puede ser utilizada porque está dispersa",
+            "Se reduce dividiendo los huecos libres de memoria",
+            "Disminuye utilizando un sistema de segmentación de memoria",
+            "Es la división interna de la memoria asignada a un proceso en las zonas de código, datos y pila",
+            "Es la memoria libre dentro de una partición asignada a un proceso"
+          ],
+          "solucion": "Es la memoria no asignada a procesos que no puede ser utilizada porque está dispersa"
+        },
+        {
+          "enunciado": "En un sistema paginado se quiere compartir una zona de memoria entre dos procesos. Esto implica:",
+          "opciones": [
+            "Que el cargador del sistema operativo debe reservar una zona contigua en memoria física para asignarlo a esa memoria compartida",
+            "Que el registro de reubicación de la unidad de gestión de memoria (MMU) tiene el mismo valor para los dos procesos",
+            "Que varias entradas de la tabla de páginas de cada proceso apuntan a los mismos marcos",
+            "Que el cargador del sistema operativo debe asignar el mismo espacio de direcciones lógico a la zona de memoria compartida",
+            "Que la tabla de páginas es compartida por los dos procesos"
+          ],
+          "solucion": "Que varias entradas de la tabla de páginas de cada proceso apuntan a los mismos marcos"
+        },
+        {
+          "enunciado": "La fragmentación interna:",
+          "opciones": [
+            "Es la memoria libre dentro de una partición asignada a un proceso",
+            "Es la memoria disponible no utilizada porque está dispersa",
+            "Es la división interna de la memoria asignada a un proceso en las zonas de código, datos y pila",
+            "Se reduce compactando los huecos libres",
+            "Aumenta utilizando un sistema de segmentación de memoria"
+          ],
+          "solucion": "Es la memoria libre dentro de una partición asignada a un proceso"
+        },
+        {
+          "enunciado": "Las técnicas de asignación contigua de memoria:",
+          "opciones": [
+            "Consisten en cargar un proceso en memoria en una única zona de memoria física",
+            "Tienen una fragmentación interna que disminuye de forma proporcional al número de particiones de la memoria",
+            "Permiten ejecutar simultáneamente más programas que los que cabrían en la memoria disponible",
+            "Sólo se pueden utilizar en sistemas operativos monoprogramados",
+            "Consisten en la asignación de tantos huecos libres de memoria como sean necesarios para satisfacer el tamaño solicitado"
+          ],
+          "solucion": "Consisten en cargar un proceso en memoria en una única zona de memoria física"
+        },
+        {
+          "enunciado": "En un sistema de segmentación con una tabla de segmentos de un sólo nivel almacenada en memoria, si una referencia a memoria física se efectúa en 40 nanosegundos, ¿en cuántos nanosegundos se realizará una referencia a memoria segmentada?",
+          "opciones": [
+            "40",
+            "20",
+            "120",
+            "10",
+            "80"
+          ],
+          "solucion": "80"
+        },
+        {
+          "enunciado": "La fragmentación externa de la memoria se reduce:",
+          "opciones": [
+            "Utilizando librerías de enlace dinámico",
+            "Utilizando un sistema de segmentación de memoria",
+            "Asignando menos memoria para la pila de los procesos",
+            "Compactando los huecos libres",
+            "Asignando más memoria a los procesos"
+          ],
+          "solucion": "Compactando los huecos libres"
+        },
+        {
+          "enunciado": "En un sistema de paginación con una tabla de páginas de dos niveles almacenada en memoria, si una referencia a memoria física se efectúa en 60 nanosegundos, ¿en cuántos nanosegundos se realizará una referencia a memoria paginada?",
+          "opciones": [
+            "30",
+            "60",
+            "120",
+            "180",
+            "20"
+          ],
+          "solucion": "180"
+        },
+        {
+          "enunciado": "La técnica de gestión de memoria basada en intercambios (swap-in swap-out):",
+          "opciones": [
+            "Consiste en código para localizar las funciones de la biblioteca en memoria que es sustituido por la dirección en memoria de la función",
+            "No necesita el soporte del sistema operativo para su implementación",
+            "Consiste en mantener en memoria sólo las instrucciones y datos que son necesarios en cada momento",
+            "Permite disminuir el grado de multiprogramación del sistema",
+            "Consiste en expulsar procesos a memoria secundaria para cargar nuevos procesos"
+          ],
+          "solucion": "Consiste en expulsar procesos a memoria secundaria para cargar nuevos procesos"
+        },
+        {
+          "enunciado": "El algoritmo de asignación de memoria de mejor ajuste (Best Fit):",
+          "opciones": [
+            "Asigna el menor hueco suficientemente grande",
+            "Es el algoritmo óptimo de los planificadores no apropiativos",
+            "Permite una planificación de procesos a medio plazo",
+            "Es utilizado en los sistemas de asignación no contigua de memoria",
+            "Minimiza la fragmentación interna de la memoria"
+          ],
+          "solucion": "Asigna el menor hueco suficientemente grande"
+        },
+        {
+          "enunciado": "El algoritmo de asignación de memoria del primer ajuste (First Fit):",
+          "opciones": [
+            "Asigna la primera partición libre que genere un hueco suficientemente grande para el tamaño solicitado",
+            "Asigna la primera partición libre suficientemente grande",
+            "Asigna la primera partición libre que genere un hueco menor que el tamaño solicitado",
+            "Asigna el mayor hueco suficientemente grande",
+            "Ninguna de las otras respuestas es correcta"
+          ],
+          "solucion": "Asigna la primera partición libre suficientemente grande"
+        },
+        {
+          "enunciado": "El algoritmo de asignación de memoria de peor ajuste (Worst Fit):",
+          "opciones": [
+            "Es utilizado en los sistemas de asignación no contigua de memoria",
+            "Asigna el mayor hueco suficientemente grande",
+            "Minimiza la fragmentación interna de la memoria",
+            "Permite una planificación de procesos a medio plazo",
+            "Es el algoritmo óptimo de los planificadores no apropiativos"
+          ],
+          "solucion": "Asigna el mayor hueco suficientemente grande"
+        },
+        {
+          "enunciado": "En un sistema de paginación con una tabla de páginas de tres niveles almacenada en memoria, si una referencia a memoria física se efectúa en 60 nanosegundos, ¿en cuántos nanosegundos se realizará una referencia a memoria paginada?",
+          "opciones": [
+            "240",
+            "30",
+            "180",
+            "20",
+            "120"
+          ],
+          "solucion": "240"
+        },
+        {
+          "enunciado": "Sea un espacio de direcciones lógicas de 32 páginas de 512 palabras cada una, traducidas a una memoria física de un tamaño máximo de 64 marcos. ¿Cuántos bits tiene una dirección del espacio lógico de direcciones?",
+          "opciones": [
+            "14",
+            "9",
+            "6",
+            "5",
+            "15"
+          ],
+          "solucion": "14"
+        },
+        {
+          "enunciado": "La técnica de gestión de memoria basada en superposiciones (Overlays):",
+          "opciones": [
+            "Es la técnica más fácil de implementar",
+            "Consiste en código para localizar las funciones de la biblioteca en memoria que es sustituido por la dirección en memoria de la función",
+            "Necesita, para su implementación, un soporte complejo por parte del sistema operativo",
+            "Consiste en mantener en memoria sólo las instrucciones y datos que son necesarios en cada momento",
+            "Consiste en expulsar procesos a memoria secundaria para cargar nuevos procesos"
+          ],
+          "solucion": "Consiste en mantener en memoria sólo las instrucciones y datos que son necesarios en cada momento"
+        }
+      ]
+    },
+    "Sistema de Archivos y E/S": {
+      "preguntas": []
+    }
+  }
+}

@@ -71,29 +71,22 @@ OUT = os.path.join(out_dir, f"{base}.duplicates.report.json")
 with open(OUT, 'w', encoding='utf-8') as f:
     json.dump(report, f, indent=2, ensure_ascii=False)
 
-# produce deduped JSON keeping first occurrence per canonical object
-seen = set()
-new_preguntas = []
-for p in preguntas:
-    key = canonicalize_question(p)
-    if key in seen:
-        continue
-    seen.add(key)
-    new_preguntas.append(p)
-
-# build new data structure preserving original 'nombre' and temas keys where possible
+# produce deduped JSON keeping first occurrence per canonical object within each tema
 new_data = {'nombre': data.get('nombre'), 'temas': {}}
 for tema_name, tema in data.get('temas', {}).items():
-    # only replace preguntas for this tema_name with the filtered list if it's the same tema where we extracted
-    # but keep existing structure for other metadata if present
+    preguntas = tema.get('preguntas', [])
+    seen = set()
+    new_preguntas = []
+    for p in preguntas:
+        key = canonicalize_question(p)
+        if key not in seen:
+            seen.add(key)
+            new_preguntas.append(p)
     new_tema = dict(tema)
-    # assume all preguntas originally came from temas; we will set preguntas to the dedup list for the first tema found
-    # If multiple temas exist, this keeps original preguntas only in the first matching tema and leaves others untouched
     new_tema['preguntas'] = new_preguntas
     new_data['temas'][tema_name] = new_tema
 
-OUT2 = os.path.join(os.path.dirname(__file__), '..', 'ssoo.dedup.json')
-OUT2 = os.path.normpath(OUT2)
+OUT2 = os.path.join(out_dir, f"{base}.dedup.json")
 with open(OUT2, 'w', encoding='utf-8') as f:
     json.dump(new_data, f, indent=2, ensure_ascii=False)
 
