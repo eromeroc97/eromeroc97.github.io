@@ -1378,6 +1378,140 @@
             "Consiste en expulsar procesos a memoria secundaria para cargar nuevos procesos"
           ],
           "solucion": "Consiste en mantener en memoria sólo las instrucciones y datos que son necesarios en cada momento"
+        },
+        {
+          "enunciado": "Considerar la siguiente tabla de segmentos (ver imagen). ¿Cuál es la dirección física correspondiente a la dirección lógica (4, 305) que tiene el formato (página, desplazamiento) con números en base decimal?",
+          "imagen": "img/ssoo/tabla_segmentacion_B.png",
+          "opciones": [
+            "5980",
+            "305",
+            "615",
+            "Excepción",
+            "315"
+          ],
+          "solucion": "315"
+        },
+        {
+          "enunciado": "Físicamente, ¿dónde reside la tabla de páginas asociada a cada proceso?",
+          "opciones": [
+            "En la memoria asociativa de la MMU",
+            "En la tabla de procesos",
+            "En el área de swapping",
+            "En la unidad de gestión de memoria",
+            "En la memoria principal"
+          ],
+          "solucion": "En la memoria principal"
+        },
+        {
+          "enunciado": "En un sistema de paginación con una tabla de páginas invertida:",
+          "opciones": [
+            "Se tiene una tabla de páginas por cada proceso del sistema",
+            "No es necesaria una unidad de gestión de memoria (MMU)",
+            "Se tiene una tabla de páginas con un número de entradas igual al número de marcos del sistema",
+            "Se acelera el proceso de traducción de direcciones lógicas a direcciones físicas",
+            "Se simplifica el proceso de compartir memoria entre varios procesos"
+          ],
+          "solucion": "Se tiene una tabla de páginas con un número de entradas igual al número de marcos del sistema"
+        },
+        {
+          "enunciado": "El registro de reubicación de una unidad de gestión de memoria principal (MMU) tiene un valor:",
+          "opciones": [
+            "Que es calculado por el compilador para el programa que se va a ejecutar",
+            "Que es cargado por la parte del código del sistema operativo que se ejecuta en la unidad de gestión de memoria principal (MMU), con un valor que depende del programa que se va a ejecutar",
+            "Que es cargado por el código del sistema operativo con un valor que depende del programa que se va a ejecutar",
+            "Que es calculado por el enlazador cuando se genera el archivo con el código reubicable del programa que se va a ejecutar",
+            "Que es fijo en un sistema operativo multiprogramado y sólo depende del tamaño del núcleo del sistema operativo"
+          ],
+          "solucion": "Que es cargado por el código del sistema operativo con un valor que depende del programa que se va a ejecutar"
+        },
+        {
+          "enunciado": "En un sistema de paginación con una tabla de páginas de un solo nivel almacenada en memoria, si una referencia a memoria física se efectúa en 80 nanosegundos, ¿en cuántos nanosegundos se realizará una referencia a memoria paginada?",
+          "opciones": [
+            "160",
+            "240",
+            "40",
+            "120",
+            "80"
+          ],
+          "solucion": "160"
+        },
+        {
+          "enunciado": "Sea un espacio de direcciones lógicas de 32 páginas de 512 palabras traducidas a una memoria física de un tamaño máximo de 64 marcos. ¿Cuántos bits tiene una dirección del espacio lógico de direcciones?",
+          "opciones": [
+            "14",
+            "6",
+            "9",
+            "15",
+            "5"
+          ],
+          "solucion": "14"
+        },
+        {
+          "enunciado": "Un sistema de gestión de memoria es más inflexible si la vinculación de direcciones físicas se realiza:",
+          "opciones": [
+            "En el momento de la compilación",
+            "En el momento de la compilación o en la carga del programa en memoria",
+            "En el momento de la carga del programa en memoria",
+            "En el momento de la ejecución de las instrucciones-máquina",
+            "Ninguna de las otras respuestas es correcta"
+          ],
+          "solucion": "En el momento de la compilación"
+        },
+        {
+          "enunciado": "La traducción de direcciones de memoria en tiempo de compilación:",
+          "opciones": [
+            "Implica conocer las direcciones físicas en el momento de la compilación",
+            "Implica tener una unidad de gestión de memoria",
+            "Implica que el cargador del sistema operativo debe conocer las direcciones físicas",
+            "Implica utilizar lenguaje-máquina para la codificación de los programas",
+            "Implica que el enlazador debe modificar el registro de reubicación de la unidad de gestión de memoria cuando se produce la compilación del programa"
+          ],
+          "solucion": "Implica conocer las direcciones físicas en el momento de la compilación"
+        },
+        {
+          "enunciado": "La carga dinámica en memoria:",
+          "opciones": [
+            "Consiste en código para localizar las funciones de la biblioteca en memoria que es sustituido por la dirección en memoria de la función",
+            "No necesita soporte del sistema operativo pues se implementa a través del diseño del programa",
+            "Permite disminuir el grado de multiprogramación del sistema",
+            "Aumenta la fragmentación externa del sistema",
+            "Consiste en mantener en memoria sólo las instrucciones y datos que son necesarios en cada momento"
+          ],
+          "solucion": "No necesita soporte del sistema operativo pues se implementa a través del diseño del programa"
+        },
+        {
+          "enunciado": "En un sistema de paginación con una tabla de páginas de tres niveles almacenada en memoria, si una referencia a memoria física se efectúa en 60 nanosegundos, ¿en cuántos nanosegundos se realizará una referencia a memoria paginada?",
+          "opciones": [
+            "240",
+            "20",
+            "120",
+            "180",
+            "30"
+          ],
+          "solucion": "240"
+        },
+        {
+          "enunciado": "Utilizando la tabla de memoria paginada (ver imagen): ¿Cuál es la dirección lógica que corresponde a la dirección física 29 para el proceso actual? La tabla de páginas del proceso actual empieza en la dirección de memoria 08 (hex).",
+          "imagen": "img/ssoo/tabla_paginacion.png",
+          "opciones": [
+            "87",
+            "09",
+            "77",
+            "No existe una dirección lógica para esa dirección física para el proceso actual",
+            "00"
+          ],
+          "solucion": "09"
+        },
+        {
+          "enunciado": "En un sistema de memoria segmentada con una tabla de segmentos de dos niveles almacenada en memoria, si una referencia a memoria física se efectúa en 75 nanosegundos, ¿en cuántos nanosegundos se realizará una referencia a memoria segmentada?",
+          "opciones": [
+            "50",
+            "25",
+            "225",
+            "75",
+            "150"
+          ],
+          "solucion": "225"
         }
       ]
     },
