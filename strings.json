@@ -1,0 +1,11 @@
+{
+    "es": {
+      "saludo": "¡Hola mundo!",
+      "despedida": "¡Hasta luego!"
+    },
+    "en": {
+      "saludo": "Hello world!",
+      "despedida": "Goodbye!"
+    }
+  }
+  

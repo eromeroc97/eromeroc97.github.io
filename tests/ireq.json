@@ -1,0 +1,1825 @@
+{
+    "nombre": "IREQ",
+    "temas": {
+        "Tema 1: Introducción a la ingeniería de requisitos": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Qué es la Ingeniería de Requisitos?",
+                    "opciones": [
+                        "Una disciplina que se enfoca únicamente en la codificación del software.",
+                        "La rama de la ingeniería del software relacionada con los objetivos del mundo real, funciones y restricciones de los sistemas software.",
+                        "Un proceso exclusivo del mantenimiento de sistemas legacy.",
+                        "La implementación técnica de algoritmos complejos."
+                    ],
+                    "solucion": "La rama de la ingeniería del software relacionada con los objetivos del mundo real, funciones y restricciones de los sistemas software."
+                },
+                {
+                    "enunciado": "Según el informe CHAOS, ¿cuál es una causa principal de fracaso en proyectos software relacionada con la Ingeniería de Requisitos?",
+                    "opciones": [
+                        "Uso excesivo de metodologías ágiles.",
+                        "Falta de recursos económicos.",
+                        "Requisitos incompletos o cambiantes.",
+                        "Sobrecarga de documentación técnica."
+                    ],
+                    "solucion": "Requisitos incompletos o cambiantes."
+                },
+                {
+                    "enunciado": "¿Qué ciclo de vida del software se caracteriza por iteraciones cortas y comunicación constante con el cliente?",
+                    "opciones": [
+                        "Ciclo de vida en cascada.",
+                        "Modelo en V.",
+                        "Ciclo de vida evolutivo (como PUD).",
+                        "Métodos ágiles."
+                    ],
+                    "solucion": "Métodos ágiles."
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes es un requisito no funcional?",
+                    "opciones": [
+                        "El sistema debe permitir guardar información de usuarios.",
+                        "El sistema debe estar disponible el 99.9% del tiempo.",
+                        "El sistema debe generar informes mensuales.",
+                        "El sistema debe integrarse con una API externa."
+                    ],
+                    "solucion": "El sistema debe estar disponible el 99.9% del tiempo."
+                },
+                {
+                    "enunciado": "¿Qué documento establece las bases técnicas en contratación pública?",
+                    "opciones": [
+                        "Request for Proposals (RFP).",
+                        "Pliego de prescripciones técnicas (PPT).",
+                        "Plan de proyecto.",
+                        "Especificación de requisitos."
+                    ],
+                    "solucion": "Pliego de prescripciones técnicas (PPT)."
+                },
+                {
+                    "enunciado": "¿Qué atributo NO es deseable en un requisito bien definido?",
+                    "opciones": [
+                        "Ambigüedad controlada.",
+                        "Rastreabilidad.",
+                        "Consistencia.",
+                        "Verificabilidad."
+                    ],
+                    "solucion": "Ambigüedad controlada."
+                },
+                {
+                    "enunciado": "¿qué rol es responsable de interactuar con clientes para obtener necesidades?",
+                    "opciones": [
+                        "Director de proyecto.",
+                        "Ingeniero de requisitos.",
+                        "Equipo de calidad.",
+                        "Responsable TIC del cliente."
+                    ],
+                    "solucion": "Ingeniero de requisitos."
+                },
+                {
+                    "enunciado": "¿Qué actividad de la Ingeniería de Requisitos implica resolver conflictos entre stakeholders?",
+                    "opciones": [
+                        "Elicitación.",
+                        "Negociación.",
+                        "Validación.",
+                        "Gestión de configuración."
+                    ],
+                    "solucion": "Negociación."
+                },
+                {
+                    "enunciado": "¿Qué describe un requisito derivado?",
+                    "opciones": [
+                        "Un requisito original proporcionado por el cliente.",
+                        "Un requisito técnico generado durante el diseño para satisfacer soluciones.",
+                        "Un requisito obsoleto eliminado en fases tempranas.",
+                        "Un requisito no vinculante sugerido por el equipo de desarrollo."
+                    ],
+                    "solucion": "Un requisito técnico generado durante el diseño para satisfacer soluciones."
+                },
+                {
+                    "enunciado": "¿Qué caracteriza al ciclo de vida en cascada?",
+                    "opciones": [
+                        "Flexibilidad para incorporar cambios durante el desarrollo.",
+                        "Fases secuenciales con revisión al final de cada etapa.",
+                        "Iteraciones rápidas y entregables parciales.",
+                        "Enfoque exclusivo en pruebas de integración."
+                    ],
+                    "solucion": "Fases secuenciales con revisión al final de cada etapa."
+                },
+                {
+                    "enunciado": "¿Qué objetivo principal tiene la gestión de requisitos?",
+                    "opciones": [
+                        "Automatizar la codificación del software.",
+                        "Controlar el proceso de IR, priorizar requisitos y gestionar cambios.",
+                        "Reducir el número de reuniones con stakeholders.",
+                        "Eliminar la necesidad de documentación técnica."
+                    ],
+                    "solucion": "Controlar el proceso de IR, priorizar requisitos y gestionar cambios."
+                },
+                {
+                    "enunciado": "¿Qué diferencia principal existe entre un sistema de información y un sistema informático según el tema?",
+                    "opciones": [
+                        "El sistema de información solo incluye hardware, mientras el informático abarca personas y procesos.",
+                        "El sistema informático se centra en tecnología, mientras el de información incluye personas, procesos y tecnología.",
+                        "El sistema de información es un subconjunto del sistema informático.",
+                        "No hay diferencia; son términos intercambiables."
+                    ],
+                    "solucion": "El sistema informático se centra en tecnología, mientras el de información incluye personas, procesos y tecnología."
+                },
+                {
+                    "enunciado": "¿qué caracteriza a los requisitos derivados?",
+                    "opciones": [
+                        "Son definidos directamente por el cliente sin intervención técnica.",
+                        "Surgen durante el diseño para satisfacer soluciones técnicas y pueden aumentar un 50% los requisitos originales.",
+                        "Son requisitos obsoletos descartados en fases iniciales.",
+                        "Se refieren exclusivamente a interfaces de usuario."
+                    ],
+                    "solucion": "Surgen durante el diseño para satisfacer soluciones técnicas y pueden aumentar un 50% los requisitos originales."
+                },
+                {
+                    "enunciado": "¿Cuál es la finalidad del documento base de requisitos (baseline)?",
+                    "opciones": [
+                        "Reemplazar la comunicación con los stakeholders.",
+                        "Servir como acuerdo inicial que solo puede modificarse sin consecuencias.",
+                        "Establecer una versión acordada de requisitos, donde cambios posteriores requieren revisión de costos y plazos.",
+                        "Limitar la creatividad del equipo de desarrollo."
+                    ],
+                    "solucion": "Establecer una versión acordada de requisitos, donde cambios posteriores requieren revisión de costos y plazos."
+                },
+                {
+                    "enunciado": "¿Qué se entiende por 'rastreabilidad' en los requisitos?",
+                    "opciones": [
+                        "La capacidad de eliminar requisitos redundantes.",
+                        "Seguir las dependencias de un requisito hacia atrás (origen) y hacia adelante (implementación).",
+                        "Traducir requisitos a múltiples idiomas.",
+                        "Priorizar requisitos por costo económico."
+                    ],
+                    "solucion": "Seguir las dependencias de un requisito hacia atrás (origen) y hacia adelante (implementación)."
+                },
+                {
+                    "enunciado": "Según el informe CHAOS, ¿qué porcentaje de proyectos software son cancelados?",
+                    "opciones": [
+                        "10%",
+                        "25%",
+                        "50%",
+                        "75%"
+                    ],
+                    "solucion": "25%"
+                },
+                {
+                    "enunciado": "¿Qué actividad de la Ingeniería de Requisitos asegura que el sistema cumple con el propósito previsto por el usuario?",
+                    "opciones": [
+                        "Verificación.",
+                        "Validación.",
+                        "Elicitación.",
+                        "Negociación."
+                    ],
+                    "solucion": "Validación."
+                },
+                {
+                    "enunciado": "¿Qué describe un requisito temporal?",
+                    "opciones": [
+                        "Duración o precedencia entre eventos en el sistema.",
+                        "Restricciones geográficas de implementación.",
+                        "Requisitos obsoletos por cambios tecnológicos.",
+                        "Funcionalidades opcionales pospuestas para versiones futuras."
+                    ],
+                    "solucion": "Duración o precedencia entre eventos en el sistema."
+                },
+                {
+                    "enunciado": "¿Qué rol es responsable del entorno tecnológico donde se integrará el software desarrollado?",
+                    "opciones": [
+                        "Usuario.",
+                        "Director de proyecto.",
+                        "Responsable TIC del cliente.",
+                        "Arquitecto software."
+                    ],
+                    "solucion": "Responsable TIC del cliente."
+                },
+                {
+                    "enunciado": "¿Cuál es un ejemplo de fuente de requisitos según el tema?",
+                    "opciones": [
+                        "Preferencias personales del equipo de desarrollo.",
+                        "Sistemas heredados o competidores con funciones similares.",
+                        "Tendencias en redes sociales no relacionadas con el proyecto.",
+                        "Especulaciones técnicas sin validación."
+                    ],
+                    "solucion": "Sistemas heredados o competidores con funciones similares."
+                },
+                {
+                    "enunciado": "¿Qué caracteriza a un requisito 'independiente del diseño y la implementación'?",
+                    "opciones": [
+                        "Limita las opciones técnicas del equipo de desarrollo.",
+                        "Evita complejidades innecesarias al no vincularse a soluciones técnicas específicas.",
+                        "Obliga a usar arquitecturas predefinidas.",
+                        "Prioriza detalles de codificación sobre funcionalidades."
+                    ],
+                    "solucion": "Evita complejidades innecesarias al no vincularse a soluciones técnicas específicas."
+                },
+                {
+                    "enunciado": "¿Qué implica la 'explosión de requisitos derivados' durante el diseño?",
+                    "opciones": [
+                        "Reducción de requisitos originales por falta de viabilidad.",
+                        "Generación de nuevos requisitos técnicos que amplían los originales en un 50% o más.",
+                        "Eliminación de requisitos no funcionales para simplificar el proyecto.",
+                        "Fusión de requisitos contradictorios en uno solo."
+                    ],
+                    "solucion": "Generación de nuevos requisitos técnicos que amplían los originales en un 50% o más."
+                },
+                {
+                    "enunciado": "¿Qué rol tiene una visión detallada pero potencialmente parcial del modelo de negocio?",
+                    "opciones": [
+                        "Cliente.",
+                        "Usuario.",
+                        "Director de proyecto.",
+                        "Ingeniero de requisitos."
+                    ],
+                    "solucion": "Usuario."
+                },
+                {
+                    "enunciado": "¿Cuál es el propósito principal de la especificación de requisitos del sistema (SRS)?",
+                    "opciones": [
+                        "Servir como manual de usuario final.",
+                        "Actuar como contrato formal entre cliente y desarrolladores.",
+                        "Detallar el código fuente del proyecto.",
+                        "Reemplazar la planificación del proyecto."
+                    ],
+                    "solucion": "Actuar como contrato formal entre cliente y desarrolladores."
+                },
+                {
+                    "enunciado": "¿Qué factor NO está asociado al éxito de proyectos según el informe CHAOS?",
+                    "opciones": [
+                        "Implicación activa de los usuarios.",
+                        "Hitos de proyecto pequeños y frecuentes.",
+                        "Uso exclusivo de metodologías en cascada.",
+                        "Expectativas realistas sobre alcance y plazos."
+                    ],
+                    "solucion": "Uso exclusivo de metodologías en cascada."
+                },
+                {
+                    "enunciado": "¿Qué tipo de requisito define restricciones sobre el uso de recursos hardware?",
+                    "opciones": [
+                        "Requisito de eficiencia.",
+                        "Requisito de interoperabilidad.",
+                        "Requisito funcional de almacenamiento.",
+                        "Requisito de portabilidad."
+                    ],
+                    "solucion": "Requisito de eficiencia."
+                },
+                {
+                    "enunciado": "¿Qué documento detalla cómo un proveedor cumplirá con los requisitos técnicos de una licitación?",
+                    "opciones": [
+                        "Plan de pruebas.",
+                        "Oferta técnica.",
+                        "Manual de usuario.",
+                        "Informe de seguimiento."
+                    ],
+                    "solucion": "Oferta técnica."
+                },
+                {
+                    "enunciado": "¿Qué actividad se enfoca en asegurar que los requisitos no contengan contradicciones?",
+                    "opciones": [
+                        "Validación.",
+                        "Gestión de configuración.",
+                        "Análisis de requisitos.",
+                        "Elicitación."
+                    ],
+                    "solucion": "Análisis de requisitos."
+                },
+                {
+                    "enunciado": "¿Qué dimensión de los requisitos se refiere al nivel de consenso entre stakeholders?",
+                    "opciones": [
+                        "Contenido.",
+                        "Documentación.",
+                        "Acuerdo.",
+                        "Rastreabilidad."
+                    ],
+                    "solucion": "Acuerdo."
+                },
+                {
+                    "enunciado": "¿Qué elemento NO forma parte de los entregables habituales de un proyecto software?",
+                    "opciones": [
+                        "Código fuente.",
+                        "Plan de proyecto.",
+                        "Especificaciones de marketing.",
+                        "Manuales de usuario."
+                    ],
+                    "solucion": "Especificaciones de marketing."
+                }
+            ]
+        },
+        "Tema 2: Elicitación de Requisitos": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Cuál es el objetivo principal de la elicitación de requisitos en un proyecto de software?",
+                    "opciones": [
+                        "Obtener información detallada de todos los requisitos necesarios para el sistema.",
+                        "Diseñar la arquitectura técnica del software.",
+                        "Implementar y probar funcionalidades específicas.",
+                        "Optimizar el rendimiento del producto final."
+                    ],
+                    "solucion": "Obtener información detallada de todos los requisitos necesarios para el sistema."
+                },
+                {
+                    "enunciado": "Entre los siguientes, ¿cuál no se considera un problema típico en la elicitación de requisitos?",
+                    "opciones": [
+                        "Dificultad para articular las necesidades.",
+                        "Diferencias culturales y de vocabulario entre stakeholders.",
+                        "Problemas de codificación en el software.",
+                        "Conflictos y ambigüedades en los roles de los participantes."
+                    ],
+                    "solucion": "Problemas de codificación en el software."
+                },
+                {
+                    "enunciado": "¿Cuál es la finalidad principal de utilizar goals y escenarios durante el proceso de elicitación?",
+                    "opciones": [
+                        "Definir la estructura de la base de datos del sistema.",
+                        "Descubrir nuevos requisitos y refinar los existentes a partir de interacciones.",
+                        "Establecer protocolos de seguridad en la aplicación.",
+                        "Realizar pruebas de rendimiento del software."
+                    ],
+                    "solucion": "Descubrir nuevos requisitos y refinar los existentes a partir de interacciones."
+                },
+                {
+                    "enunciado": "En una entrevista para la elicitación de requisitos, ¿qué actividad es esencial en la fase de seguimiento?",
+                    "opciones": [
+                        "Registrar y analizar las notas obtenidas durante la entrevista.",
+                        "Realizar únicamente preguntas cerradas para obtener respuestas precisas.",
+                        "Iniciar la sesión sin una introducción para ahorrar tiempo.",
+                        "Evitar retroalimentar al entrevistado para no influir en sus respuestas."
+                    ],
+                    "solucion": "Registrar y analizar las notas obtenidas durante la entrevista."
+                },
+                {
+                    "enunciado": "Dentro de la técnica de workshops, ¿cuál es un aspecto clave para asegurar el éxito de la sesión?",
+                    "opciones": [
+                        "Utilizar un facilitador experimentado y contar con una agenda definida.",
+                        "Realizar la sesión sin moderador para fomentar la espontaneidad.",
+                        "Limitar la participación a un solo stakeholder para agilizar el proceso.",
+                        "No documentar los acuerdos para evitar sesgos en la discusión."
+                    ],
+                    "solucion": "Utilizar un facilitador experimentado y contar con una agenda definida."
+                },
+                {
+                    "enunciado": "En la metodología de Focus Groups, ¿cuál es un elemento crítico para obtener resultados representativos?",
+                    "opciones": [
+                        "Seleccionar un grupo de entre 6 y 10 participantes representativos.",
+                        "Invitar a todos los empleados de la empresa sin ningún filtrado.",
+                        "Realizar la sesión sin un moderador para evitar influencias externas.",
+                        "Asegurar que la sesión dure más de 3 horas para profundizar en el tema."
+                    ],
+                    "solucion": "Seleccionar un grupo de entre 6 y 10 participantes representativos."
+                },
+                {
+                    "enunciado": "¿Qué ventaja principal ofrece la técnica de observación en la elicitación de requisitos?",
+                    "opciones": [
+                        "Proporciona datos objetivos sobre el comportamiento real de los usuarios.",
+                        "Reduce significativamente el tiempo dedicado al análisis posterior.",
+                        "Elimina la necesidad de interactuar directamente con los stakeholders.",
+                        "Permite obtener respuestas más detalladas que las entrevistas."
+                    ],
+                    "solucion": "Proporciona datos objetivos sobre el comportamiento real de los usuarios."
+                },
+                {
+                    "enunciado": "¿Cuál es una de las principales ventajas de utilizar cuestionarios en el proceso de elicitación de requisitos?",
+                    "opciones": [
+                        "Permiten alcanzar a una amplia audiencia de forma rápida y estandarizada.",
+                        "Garantizan respuestas más profundas que las entrevistas personales.",
+                        "Eliminan la necesidad de análisis posterior de los datos recopilados.",
+                        "Aseguran la participación activa y detallada de cada stakeholder."
+                    ],
+                    "solucion": "Permiten alcanzar a una amplia audiencia de forma rápida y estandarizada."
+                },
+                {
+                    "enunciado": "¿Cuál es la diferencia principal entre un prototipo horizontal y uno vertical en el proceso de elicitación de requisitos?",
+                    "opciones": [
+                        "El prototipo horizontal se centra en la interfaz de usuario, mientras que el vertical integra funcionalidades completas y gestión de datos.",
+                        "El horizontal es de alta fidelidad y el vertical de baja fidelidad.",
+                        "El vertical se utiliza para pruebas de usabilidad y el horizontal para validar el rendimiento.",
+                        "No existe diferencia, ambos muestran la totalidad de las funcionalidades del sistema."
+                    ],
+                    "solucion": "El prototipo horizontal se centra en la interfaz de usuario, mientras que el vertical integra funcionalidades completas y gestión de datos."
+                },
+                {
+                    "enunciado": "En la elaboración de historias de usuario, ¿cuál de los siguientes elementos NO forma parte del formato estándar?",
+                    "opciones": [
+                        "Como [rol]",
+                        "Quiero [funcionalidad]",
+                        "Para [beneficio]",
+                        "Porque [razón]"
+                    ],
+                    "solucion": "Porque [razón]"
+                },
+                {
+                    "enunciado": "¿Qué información se agrupa en el 'system context' durante el proceso de elicitación de requisitos?",
+                    "opciones": [
+                        "Faceta de tema/asunto, faceta de uso, faceta de sistema de TI y faceta de desarrollo.",
+                        "Plan de proyecto, cronograma, presupuesto y recursos humanos.",
+                        "Especificaciones técnicas, código fuente y modelos de datos.",
+                        "Interfaz gráfica, experiencia de usuario y feedback de clientes."
+                    ],
+                    "solucion": "Faceta de tema/asunto, faceta de uso, faceta de sistema de TI y faceta de desarrollo."
+                },
+                {
+                    "enunciado": "Según el tema, ¿cuál de las siguientes actividades NO forma parte de las core activities en Ingeniería de Requisitos?",
+                    "opciones": [
+                        "Elicitación.",
+                        "Documentación.",
+                        "Negociación.",
+                        "Codificación."
+                    ],
+                    "solucion": "Codificación."
+                },
+                {
+                    "enunciado": "En la subactividad de identificar fuentes de requisitos relevantes, ¿qué pasos son esenciales?",
+                    "opciones": [
+                        "Recopilar todas las fuentes sin realizar ningún filtrado.",
+                        "Identificar fuentes potenciales y seleccionar las más relevantes.",
+                        "Utilizar únicamente la documentación existente.",
+                        "Depender exclusivamente de entrevistas con los usuarios."
+                    ],
+                    "solucion": "Identificar fuentes potenciales y seleccionar las más relevantes."
+                },
+                {
+                    "enunciado": "En el estudio de documentación, uno de los principales desafíos a tener en cuenta es:",
+                    "opciones": [
+                        "Que la documentación siempre esté actualizada.",
+                        "Que la documentación pueda estar desactualizada o ser incompleta.",
+                        "Que la documentación reemplace la necesidad de entrevistas.",
+                        "Que la documentación valide únicamente el presupuesto del proyecto."
+                    ],
+                    "solucion": "Que la documentación pueda estar desactualizada o ser incompleta."
+                },
+                {
+                    "enunciado": "¿Qué característica distingue al brainstorming como técnica de elicitación de requisitos?",
+                    "opciones": [
+                        "Se realiza en solitario para evitar influencias externas.",
+                        "Fomenta la generación libre de ideas sin críticas iniciales.",
+                        "Se basa en el análisis cuantitativo de datos recopilados.",
+                        "Se centra exclusivamente en aspectos técnicos del sistema."
+                    ],
+                    "solucion": "Fomenta la generación libre de ideas sin críticas iniciales."
+                },
+                {
+                    "enunciado": "El método KJ se utiliza principalmente para:",
+                    "opciones": [
+                        "Realizar análisis estadístico de las respuestas de los stakeholders.",
+                        "Agrupar y organizar ideas a partir de información dispersa.",
+                        "Diseñar la interfaz de usuario del sistema.",
+                        "Implementar prototipos de alta fidelidad."
+                    ],
+                    "solucion": "Agrupar y organizar ideas a partir de información dispersa."
+                },
+                {
+                    "enunciado": "¿Cuál es la ventaja principal del mind mapping en el proceso de elicitación de requisitos?",
+                    "opciones": [
+                        "Permite identificar rápidamente relaciones entre conceptos de manera visual.",
+                        "Requiere menos recursos y tiempo que otras técnicas.",
+                        "Elimina la necesidad de reuniones presenciales.",
+                        "Se centra únicamente en la documentación técnica del proyecto."
+                    ],
+                    "solucion": "Permite identificar rápidamente relaciones entre conceptos de manera visual."
+                },
+                {
+                    "enunciado": "Una de las principales ventajas de utilizar checklists en la recolección de requisitos es:",
+                    "opciones": [
+                        "Asegurar que se abordan todos los aspectos relevantes del proyecto.",
+                        "Reducir el número de stakeholders involucrados en el proceso.",
+                        "Eliminar la necesidad de seguimiento posterior.",
+                        "Optimizar directamente el código fuente del sistema."
+                    ],
+                    "solucion": "Asegurar que se aborden todos los aspectos relevantes del proyecto."
+                },
+                {
+                    "enunciado": "Durante la fase de seguimiento en técnicas colaborativas, ¿cuál es uno de los objetivos principales?",
+                    "opciones": [
+                        "Ignorar las inconsistencias para evitar debates.",
+                        "Consolidar y validar la información recopilada.",
+                        "Reemplazar la documentación previa del proyecto.",
+                        "Implementar inmediatamente las ideas sin análisis previo."
+                    ],
+                    "solucion": "Consolidar y validar la información recopilada."
+                },
+                {
+                    "enunciado": "¿Por qué es fundamental combinar múltiples técnicas de elicitación de requisitos en un proyecto de software?",
+                    "opciones": [
+                        "Porque ninguna técnica por sí sola capta la totalidad de los requisitos.",
+                        "Para aumentar el tiempo invertido en el proceso.",
+                        "Para confundir a los stakeholders y obtener más ideas.",
+                        "Porque es un requisito obligatorio según las normas ISO."
+                    ],
+                    "solucion": "Porque ninguna técnica por sí sola capta la totalidad de los requisitos."
+                },
+                {
+                    "enunciado": "¿Cuál es la función principal de la negociación en el proceso de ingeniería de requisitos?",
+                    "opciones": [
+                        "Resolver conflictos y alinear las expectativas entre los stakeholders.",
+                        "Definir la arquitectura técnica del sistema.",
+                        "Determinar el presupuesto final del proyecto.",
+                        "Seleccionar las herramientas de desarrollo."
+                    ],
+                    "solucion": "Resolver conflictos y alinear las expectativas entre los stakeholders."
+                },
+                {
+                    "enunciado": "Una de las limitaciones cognitivas en la elicitación de requisitos es:",
+                    "opciones": [
+                        "La falta de recursos tecnológicos adecuados.",
+                        "No conocer a fondo el dominio del problema.",
+                        "La ausencia de documentación previa.",
+                        "La sobrecarga de información técnica."
+                    ],
+                    "solucion": "No conocer a fondo el dominio del problema."
+                },
+                {
+                    "enunciado": "¿Por qué es crucial la negociación durante la fase de elicitación de requisitos?",
+                    "opciones": [
+                        "Porque permite ajustar y consensuar los requisitos en medio de conflictos.",
+                        "Porque agiliza el proceso de codificación del software.",
+                        "Porque ayuda a establecer la infraestructura tecnológica.",
+                        "Porque elimina la necesidad de realizar entrevistas posteriores."
+                    ],
+                    "solucion": "Porque permite ajustar y consensuar los requisitos en medio de conflictos."
+                },
+                {
+                    "enunciado": "Al utilizar goals y escenarios, ¿qué artefactos se generan para documentar los requisitos?",
+                    "opciones": [
+                        "Esquemas de bases de datos y diagramas de flujo.",
+                        "Objetivos de alto nivel y escenarios de interacción.",
+                        "Planos de la interfaz gráfica y manuales técnicos.",
+                        "Modelos de datos y especificaciones de hardware."
+                    ],
+                    "solucion": "Objetivos de alto nivel y escenarios de interacción."
+                },
+                {
+                    "enunciado": "En la técnica de entrevistas, uno de los factores de éxito es:",
+                    "opciones": [
+                        "Contar con un entrevistador que domine habilidades de comunicación.",
+                        "Utilizar exclusivamente preguntas cerradas para mayor precisión.",
+                        "Realizar entrevistas sin preparación previa para obtener respuestas espontáneas.",
+                        "Limitar la entrevista a un solo stakeholder para evitar conflictos."
+                    ],
+                    "solucion": "Contar con un entrevistador que domine habilidades de comunicación."
+                },
+                {
+                    "enunciado": "¿Cuál es uno de los beneficios destacados de realizar workshops en el proceso de elicitación de requisitos?",
+                    "opciones": [
+                        "Acelerar la implementación del código fuente.",
+                        "Fomentar el consenso y la colaboración entre diversos stakeholders.",
+                        "Reducir la necesidad de documentación formal del proyecto.",
+                        "Minimizar la participación de usuarios para simplificar el proceso."
+                    ],
+                    "solucion": "Fomentar el consenso y la colaboración entre diversos stakeholders."
+                },
+                {
+                    "enunciado": "Una desventaja principal de la técnica de observación es que:",
+                    "opciones": [
+                        "No permite capturar datos objetivos del comportamiento real.",
+                        "Requiere mayor inversión de tiempo y habilidades interpretativas por parte del observador.",
+                        "Impide la recopilación de información no verbal de los usuarios.",
+                        "Sustituye la necesidad de aplicar otras técnicas de elicitación."
+                    ],
+                    "solucion": "Requiere mayor inversión de tiempo y habilidades interpretativas por parte del observador."
+                },
+                {
+                    "enunciado": "En el uso de cuestionarios para el proceso de elicitación, una limitación importante es:",
+                    "opciones": [
+                        "La dificultad para alcanzar a un gran número de participantes.",
+                        "Que la calidad de los datos depende fuertemente del diseño y la tasa de respuesta.",
+                        "La imposibilidad de recopilar información cuantitativa.",
+                        "El alto costo asociado a su distribución y análisis."
+                    ],
+                    "solucion": "Que la calidad de los datos depende fuertemente del diseño y la tasa de respuesta."
+                },
+                {
+                    "enunciado": "En la técnica de prototipado, uno de los principales retos es:",
+                    "opciones": [
+                        "Integrar todas las funcionalidades del sistema en el primer prototipo.",
+                        "Lograr un equilibrio entre la fidelidad del prototipo y la velocidad de desarrollo.",
+                        "Desarrollar un prototipo sin necesidad de feedback de los usuarios.",
+                        "Utilizar únicamente prototipos de baja fidelidad para ahorrar recursos."
+                    ],
+                    "solucion": "Lograr un equilibrio entre la fidelidad del prototipo y la velocidad de desarrollo."
+                },
+                {
+                    "enunciado": "Al redactar historias de usuario, es esencial que cumplan con los criterios INVEST, lo que implica que sean:",
+                    "opciones": [
+                        "Independientes, negociables, valiosas, estimables, pequeñas y testeables.",
+                        "Integradas, vinculantes, escalables, detalladas y fijas.",
+                        "Innovadoras, complejas, extensas, referenciadas y medibles.",
+                        "Incrementales, obligatorias, validadas, estructuradas y documentadas."
+                    ],
+                    "solucion": "Independientes, negociables, valiosas, estimables, pequeñas y testeables."
+                },
+                {
+                    "enunciado": "¿Cuál es el papel fundamental de la documentación en el proceso de Ingeniería de Requisitos?",
+                    "opciones": [
+                        "Registrar y comunicar de forma clara la información obtenida durante la elicitación.",
+                        "Definir la arquitectura técnica del sistema.",
+                        "Optimizar el rendimiento del software.",
+                        "Eliminar la necesidad de futuras reuniones con stakeholders."
+                    ],
+                    "solucion": "Registrar y comunicar de forma clara la información obtenida durante la elicitación."
+                },
+                {
+                    "enunciado": "¿Qué función cumple la matriz de trazabilidad en el contexto de entrevistas para la elicitación de requisitos?",
+                    "opciones": [
+                        "Relacionar cada requisito con su fuente y facilitar su seguimiento.",
+                        "Determinar el presupuesto asignado a cada funcionalidad.",
+                        "Establecer un cronograma de desarrollo del sistema.",
+                        "Optimizar la codificación de los módulos del software."
+                    ],
+                    "solucion": "Relacionar cada requisito con su fuente y facilitar su seguimiento."
+                },
+                {
+                    "enunciado": "¿Cómo se pueden descubrir requisitos que no eran inicialmente evidentes durante el proceso de IR?",
+                    "opciones": [
+                        "Mediante el análisis iterativo de escenarios y la interacción entre diversas técnicas.",
+                        "A través de la implementación inmediata del prototipo sin retroalimentación.",
+                        "Utilizando exclusivamente documentación preexistente.",
+                        "Dependiendo únicamente de cuestionarios estandarizados."
+                    ],
+                    "solucion": "Mediante el análisis iterativo de escenarios y la interacción entre diversas técnicas."
+                },
+                {
+                    "enunciado": "¿Qué consecuencia puede tener la falta de objetivos claros en la preparación de técnicas de elicitation?",
+                    "opciones": [
+                        "Generar información ambigua y dificultar la focalización de las preguntas.",
+                        "Acelerar el proceso de recolección de datos sin errores.",
+                        "Garantizar que solo se aborden temas técnicos.",
+                        "Eliminar la necesidad de análisis posterior de los resultados."
+                    ],
+                    "solucion": "Generar información ambigua y dificultar la focalización de las preguntas."
+                },
+                {
+                    "enunciado": "En el proceso de IR, ¿qué significa 'navegar entre actividades' de elicitar, documentar y negociar?",
+                    "opciones": [
+                        "Realizar estas actividades de forma interrelacionada y de manera iterativa durante el proyecto.",
+                        "Ejecutarlas de manera secuencial sin retroalimentación entre ellas.",
+                        "Concentrarse únicamente en la documentación una vez finalizadas las entrevistas.",
+                        "Realizar negociaciones únicamente al final del proceso de elicitation."
+                    ],
+                    "solucion": "Realizar estas actividades de forma interrelacionada y de manera iterativa durante el proyecto."
+                },
+                {
+                    "enunciado": "¿A qué se refieren los 'requisitos orientados a solución' dentro de los artefactos de requisitos?",
+                    "opciones": [
+                        "A requisitos que describen cómo se resolverán los problemas identificados.",
+                        "A especificaciones técnicas del hardware necesario.",
+                        "A criterios de rendimiento y escalabilidad del sistema.",
+                        "A las pruebas de aceptación del usuario final."
+                    ],
+                    "solucion": "A requisitos que describen cómo se resolverán los problemas identificados."
+                },
+                {
+                    "enunciado": "¿Por qué es esencial validar la información obtenida con los stakeholders durante la elicitación?",
+                    "opciones": [
+                        "Para asegurar que se ha interpretado correctamente y que refleja las necesidades reales.",
+                        "Para acelerar el proceso de codificación del software.",
+                        "Para reducir el número de técnicas de elicitation utilizadas.",
+                        "Para determinar el presupuesto final del proyecto."
+                    ],
+                    "solucion": "Para asegurar que se ha interpretado correctamente y que refleja las necesidades reales."
+                },
+                {
+                    "enunciado": "La 'pasividad de los clientes' en la elicitación de requisitos se traduce en:",
+                    "opciones": [
+                        "Una dificultad para obtener información espontánea y detallada de sus necesidades.",
+                        "Una mejora en la objetividad del análisis.",
+                        "Una mayor rapidez en la documentación de requisitos.",
+                        "Una reducción en la cantidad de reuniones necesarias."
+                    ],
+                    "solucion": "Una dificultad para obtener información espontánea y detallada de sus necesidades."
+                },
+                {
+                    "enunciado": "¿Qué riesgo implica una 'simplificación excesiva' al elicitar requisitos?",
+                    "opciones": [
+                        "Que se malinterpreten o pierdan matices importantes de las necesidades reales del usuario.",
+                        "Que se incremente el tiempo de preparación de las entrevistas.",
+                        "Que se sobrecargue el sistema con demasiadas funcionalidades.",
+                        "Que se convierta en un proceso excesivamente complejo y detallado."
+                    ],
+                    "solucion": "Que se malinterpreten o pierdan matices importantes de las necesidades reales del usuario."
+                },
+                {
+                    "enunciado": "¿Qué papel juega la retroalimentación en el proceso iterativo de la elicitation de requisitos?",
+                    "opciones": [
+                        "Permite refinar y mejorar continuamente la definición de los requisitos a partir de nuevas evidencias.",
+                        "Asegura que una vez definidos los requisitos, éstos no se modifiquen.",
+                        "Evita la necesidad de documentar los cambios durante el proceso.",
+                        "Garantiza que solo se utilice una única técnica de elicitation en el proyecto."
+                    ],
+                    "solucion": "Permite refinar y mejorar continuamente la definición de los requisitos a partir de nuevas evidencias."
+                }
+            ]
+        },
+        "Tema 3: Documentación de Requisitos": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Cuál de las siguientes ventajas NO se menciona como beneficio de la documentación de requisitos?",
+                    "opciones": [
+                        "Hace persistente la información elicitada.",
+                        "Actúa como referencia para los stakeholders.",
+                        "Optimiza el rendimiento del sistema en producción.",
+                        "Promueve la objetividad."
+                    ],
+                    "solucion": "Optimiza el rendimiento del sistema en producción."
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes criterios de calidad NO es mencionado en la documentación de requisitos?",
+                    "opciones": [
+                        "Completitud.",
+                        "Trazabilidad.",
+                        "Consistencia.",
+                        "Creatividad."
+                    ],
+                    "solucion": "Creatividad."
+                },
+                {
+                    "enunciado": "¿Qué ventaja tiene documentar requisitos utilizando lenguaje natural?",
+                    "opciones": [
+                        "Es una forma universal de comunicarse.",
+                        "Garantiza la ausencia de ambigüedad.",
+                        "Requiere entrenamiento especializado.",
+                        "Impone una organización rígida de ideas."
+                    ],
+                    "solucion": "Es una forma universal de comunicarse."
+                },
+                {
+                    "enunciado": "Una de las desventajas de utilizar lenguaje natural para la documentación de requisitos es:",
+                    "opciones": [
+                        "Su flexibilidad para permitir abstracciones.",
+                        "La comprensión por parte de todos los stakeholders.",
+                        "La dificultad en la trazabilidad.",
+                        "La posibilidad de refinamientos posteriores."
+                    ],
+                    "solucion": "La dificultad en la trazabilidad."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes técnicas se emplea para evitar la ambigüedad en los documentos de requisitos?",
+                    "opciones": [
+                        "Utilizar glosarios que incluyan definiciones, sinónimos, términos relacionados y ejemplos.",
+                        "Incrementar el uso de abreviaturas sin definición.",
+                        "Evitar el uso de patrones sintácticos.",
+                        "Emplear lenguaje natural sin restricciones."
+                    ],
+                    "solucion": "Utilizar glosarios que incluyan definiciones, sinónimos, términos relacionados y ejemplos."
+                },
+                {
+                    "enunciado": "En un documento de requisitos estructurado, ¿cuál es la ventaja de utilizar una plantilla predefinida?",
+                    "opciones": [
+                        "Permite personalizar totalmente la estructura para cada proyecto.",
+                        "Sirve de referencia para asegurar la completitud y organización de los requisitos.",
+                        "Elimina la necesidad de revisar los requisitos posteriormente.",
+                        "Facilita la implementación directa del software."
+                    ],
+                    "solucion": "Sirve de referencia para asegurar la completitud y organización de los requisitos."
+                },
+                {
+                    "enunciado": "Según el estándar IEEE 830-1998, ¿cuál de los siguientes elementos forma parte de la sección 'Introducción'?",
+                    "opciones": [
+                        "Definiciones, acrónimos y abreviaciones.",
+                        "Requisitos funcionales detallados.",
+                        "Restricciones de diseño.",
+                        "Datos de rendimiento del sistema."
+                    ],
+                    "solucion": "Definiciones, acrónimos y abreviaciones."
+                },
+                {
+                    "enunciado": "En las plantillas de requisitos, ¿cuál de los siguientes atributos NO se menciona como parte de su documentación?",
+                    "opciones": [
+                        "Autores.",
+                        "Versión.",
+                        "Coste hasta el momento.",
+                        "Nivel de seguridad del sistema."
+                    ],
+                    "solucion": "Nivel de seguridad del sistema."
+                },
+                {
+                    "enunciado": "¿Cuál es una de las principales ventajas de la documentación de requisitos basada en modelos?",
+                    "opciones": [
+                        "Permite reducir la ambigüedad al utilizar notaciones formales.",
+                        "Exige menos formación en técnicas de modelado.",
+                        "Elimina la necesidad de documentación textual.",
+                        "Aumenta la ambigüedad por la complejidad gráfica."
+                    ],
+                    "solucion": "Permite reducir la ambigüedad al utilizar notaciones formales."
+                },
+                {
+                    "enunciado": "¿Qué relación se establece entre los modelos y los requisitos textuales en la documentación de requisitos?",
+                    "opciones": [
+                        "Los modelos sustituyen al texto, eliminando la necesidad de trazabilidad.",
+                        "Se debe mantener la trazabilidad entre los modelos y los requisitos en lenguaje natural.",
+                        "Los requisitos textuales son irrelevantes si se disponen de modelos.",
+                        "Ambos se documentan de forma separada sin relación alguna."
+                    ],
+                    "solucion": "Se debe mantener la trazabilidad entre los modelos y los requisitos en lenguaje natural."
+                },
+                {
+                    "enunciado": "¿Cuál es una de las razones por las que la documentación de requisitos es esencial en proyectos de software?",
+                    "opciones": [
+                        "Preserva el conocimiento experto de los diferentes stakeholders.",
+                        "Permite omitir la validación de requisitos.",
+                        "Sustituye la necesidad de reuniones con los stakeholders.",
+                        "Reduce la necesidad de pruebas en el sistema final."
+                    ],
+                    "solucion": "Preserva el conocimiento experto de los diferentes stakeholders."
+                },
+                {
+                    "enunciado": "¿Por qué la trazabilidad es un criterio clave en la documentación de requisitos?",
+                    "opciones": [
+                        "Permite identificar la fuente, evolución, impacto y uso de los requisitos en etapas posteriores.",
+                        "Facilita la implementación del código sin revisiones.",
+                        "Elimina la necesidad de documentar cambios en los requisitos.",
+                        "Permite modificar los requisitos sin consultar a los stakeholders."
+                    ],
+                    "solucion": "Permite identificar la fuente, evolución, impacto y uso de los requisitos en etapas posteriores."
+                },
+                {
+                    "enunciado": "En el estándar IEEE 830-1998, ¿qué información se incluye en la sección 'Requisitos específicos'?",
+                    "opciones": [
+                        "Interfaces externas, requisitos funcionales y restricciones de diseño.",
+                        "Objetivos estratégicos de la empresa.",
+                        "Descripción detallada de la arquitectura del software.",
+                        "Estadísticas de uso del sistema."
+                    ],
+                    "solucion": "Interfaces externas, requisitos funcionales y restricciones de diseño."
+                },
+                {
+                    "enunciado": "¿Cómo pueden ayudar los lenguajes restringidos en la documentación de requisitos?",
+                    "opciones": [
+                        "Reducen la ambigüedad al definir una gramática formal y un conjunto de términos predefinidos.",
+                        "Aumentan la flexibilidad del lenguaje, permitiendo más interpretaciones.",
+                        "Eliminan la necesidad de validar los requisitos con los stakeholders.",
+                        "Facilitan la inclusión de requisitos subjetivos en el documento."
+                    ],
+                    "solucion": "Reducen la ambigüedad al definir una gramática formal y un conjunto de términos predefinidos."
+                },
+                {
+                    "enunciado": "¿Cuál es una desventaja del uso de modelos en la documentación de requisitos?",
+                    "opciones": [
+                        "Requieren un dominio específico de técnicas de modelado.",
+                        "No permiten representar relaciones complejas entre requisitos.",
+                        "Sustituyen por completo la documentación en lenguaje natural.",
+                        "Generan mayor ambigüedad en la especificación de requisitos."
+                    ],
+                    "solucion": "Requieren un dominio específico de técnicas de modelado."
+                },
+                {
+                    "enunciado": "¿Qué técnica se utiliza para asegurar la no ambigüedad en la documentación de requisitos?",
+                    "opciones": [
+                        "Uso de patrones sintácticos para estructurar las frases.",
+                        "Permitir la interpretación libre de los términos utilizados.",
+                        "Evitar la validación con los stakeholders.",
+                        "Eliminar las definiciones de términos técnicos para reducir la complejidad."
+                    ],
+                    "solucion": "Uso de patrones sintácticos para estructurar las frases."
+                },
+                {
+                    "enunciado": "¿Cuál es una ventaja clave de los documentos de requisitos estructurados?",
+                    "opciones": [
+                        "Permiten organizar y clasificar los requisitos en categorías para facilitar su análisis.",
+                        "Eliminan la necesidad de herramientas de gestión de requisitos.",
+                        "Sustituyen las entrevistas con stakeholders.",
+                        "Permiten cambiar los requisitos sin necesidad de justificación."
+                    ],
+                    "solucion": "Permiten organizar y clasificar los requisitos en categorías para facilitar su análisis."
+                },
+                {
+                    "enunciado": "¿Por qué es importante mantener actualizados los documentos de requisitos?",
+                    "opciones": [
+                        "Para reflejar el estado actual del sistema y su contexto.",
+                        "Para descartar requisitos antiguos sin justificación.",
+                        "Para evitar que los stakeholders revisen los documentos.",
+                        "Para reemplazar el análisis de impacto de los cambios."
+                    ],
+                    "solucion": "Para reflejar el estado actual del sistema y su contexto."
+                },
+                {
+                    "enunciado": "En la documentación basada en modelos, ¿qué beneficio se obtiene al complementar los modelos con requisitos textuales?",
+                    "opciones": [
+                        "Mejora la trazabilidad y comprensión de los requisitos.",
+                        "Permite prescindir de validaciones con stakeholders.",
+                        "Evita la necesidad de documentar cambios futuros.",
+                        "Elimina la ambigüedad de los requisitos de manera absoluta."
+                    ],
+                    "solucion": "Mejora la trazabilidad y comprensión de los requisitos."
+                },
+                {
+                    "enunciado": "¿Cómo ayuda la documentación de requisitos en el entrenamiento de nuevos empleados?",
+                    "opciones": [
+                        "Proporciona una referencia clara sobre el sistema y sus funcionalidades.",
+                        "Elimina la necesidad de reuniones de formación.",
+                        "Sustituye la experiencia práctica en el sistema.",
+                        "Permite que los empleados interpreten los requisitos de manera libre."
+                    ],
+                    "solucion": "Proporciona una referencia clara sobre el sistema y sus funcionalidades."
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes problemas puede surgir si la documentación de requisitos no es verificable?",
+                    "opciones": [
+                        "No se podrá comprobar si la implementación satisface los requisitos.",
+                        "Se eliminará la necesidad de realizar pruebas funcionales.",
+                        "Los requisitos no necesitarán trazabilidad.",
+                        "El sistema podrá ser desarrollado sin restricciones."
+                    ],
+                    "solucion": "No se podrá comprobar si la implementación satisface los requisitos."
+                },
+                {
+                    "enunciado": "¿Qué aspecto es clave para garantizar la comprensión de los documentos de requisitos?",
+                    "opciones": [
+                        "Que sean fáciles de entender para los stakeholders clave.",
+                        "Que contengan la menor cantidad de texto posible.",
+                        "Que utilicen un lenguaje técnico sin explicaciones adicionales.",
+                        "Que no requieran validación con los usuarios finales."
+                    ],
+                    "solucion": "Que sean fáciles de entender para los stakeholders clave."
+                },
+                {
+                    "enunciado": "En un documento de requisitos, ¿qué información se encuentra en la sección de 'Visión general' según IEEE 830-1998?",
+                    "opciones": [
+                        "Resumen del contenido y la estructura del documento.",
+                        "Lista detallada de todos los requisitos funcionales.",
+                        "Descripciones técnicas de la arquitectura del sistema.",
+                        "Resultados esperados de las pruebas de software."
+                    ],
+                    "solucion": "Resumen del contenido y la estructura del documento."
+                },
+                {
+                    "enunciado": "¿Cuál es la principal diferencia entre los requisitos de calidad y los requisitos de rendimiento?",
+                    "opciones": [
+                        "Los requisitos de calidad abarcan aspectos no funcionales, mientras que los de rendimiento se centran en la carga soportada por el sistema.",
+                        "Los requisitos de rendimiento son subjetivos, mientras que los de calidad son medibles.",
+                        "Los requisitos de calidad se enfocan en la interfaz de usuario, mientras que los de rendimiento en la base de datos.",
+                        "No hay diferencia, ambos términos se refieren a lo mismo."
+                    ],
+                    "solucion": "Los requisitos de calidad abarcan aspectos no funcionales, mientras que los de rendimiento se centran en la carga soportada por el sistema."
+                },
+                {
+                    "enunciado": "¿Qué beneficio aporta la documentación estructurada en la gestión de cambios de requisitos?",
+                    "opciones": [
+                        "Facilita el seguimiento de la evolución de los requisitos y su impacto en el sistema.",
+                        "Elimina la necesidad de modificar requisitos una vez documentados.",
+                        "Permite evitar validaciones con los stakeholders.",
+                        "Reduce la importancia de la trazabilidad en el proyecto."
+                    ],
+                    "solucion": "Facilita el seguimiento de la evolución de los requisitos y su impacto en el sistema."
+                },
+                {
+                    "enunciado": "En el IEEE 830-1998, ¿qué tipo de información se incluye en la sección de 'Restricciones'?",
+                    "opciones": [
+                        "Limitaciones regulatorias, de hardware, de interfaces y de seguridad.",
+                        "Lista de stakeholders involucrados en el proyecto.",
+                        "Casos de prueba para la validación del sistema.",
+                        "Estrategias de marketing para la distribución del software."
+                    ],
+                    "solucion": "Limitaciones regulatorias, de hardware, de interfaces y de seguridad."
+                },
+                {
+                    "enunciado": "¿Por qué es importante la trazabilidad en la relación entre requisitos textuales y modelos gráficos?",
+                    "opciones": [
+                        "Para asegurar que los modelos representan correctamente los requisitos documentados.",
+                        "Para reemplazar completamente la documentación en lenguaje natural.",
+                        "Para evitar la validación de requisitos con los stakeholders.",
+                        "Para reducir la importancia de la documentación textual en el proyecto."
+                    ],
+                    "solucion": "Para asegurar que los modelos representan correctamente los requisitos documentados."
+                },
+                {
+                    "enunciado": "¿Qué técnica de documentación ayuda a identificar posibles contradicciones en los requisitos?",
+                    "opciones": [
+                        "Revisión cruzada entre requisitos y su trazabilidad.",
+                        "Uso exclusivo de lenguaje natural sin estructuras definidas.",
+                        "Eliminación de las definiciones en los documentos de requisitos.",
+                        "Reducción de la documentación al mínimo para evitar inconsistencias."
+                    ],
+                    "solucion": "Revisión cruzada entre requisitos y su trazabilidad."
+                },
+                {
+                    "enunciado": "En la documentación basada en modelos, ¿qué ventaja proporciona el uso de diagramas sobre la documentación en texto?",
+                    "opciones": [
+                        "Permiten representar visualmente relaciones complejas entre requisitos.",
+                        "Eliminan la necesidad de documentar los requisitos en lenguaje natural.",
+                        "Sustituyen por completo las entrevistas con stakeholders.",
+                        "Aumentan la ambigüedad al representar gráficamente los requisitos."
+                    ],
+                    "solucion": "Permiten representar visualmente relaciones complejas entre requisitos."
+                },
+                {
+                    "enunciado": "¿Por qué es recomendable emplear herramientas para la gestión de requisitos documentados?",
+                    "opciones": [
+                        "Facilitan la trazabilidad, el control de cambios y la colaboración entre equipos.",
+                        "Reducen la necesidad de estructurar la documentación.",
+                        "Permiten que los requisitos sean interpretados libremente por cada stakeholder.",
+                        "Hacen innecesario el uso de plantillas o estándares en la documentación."
+                    ],
+                    "solucion": "Facilitan la trazabilidad, el control de cambios y la colaboración entre equipos."
+                }
+            ]
+        },
+        "Tema 4: Negociación de Requisitos": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Cuál es el objetivo principal de la negociación de requisitos en el desarrollo de sistemas?",
+                    "opciones": [
+                        "Resolver los conflictos entre las necesidades de las diferentes partes interesadas.",
+                        "Definir la arquitectura técnica del sistema.",
+                        "Documentar todos los requisitos sin considerar las discrepancias.",
+                        "Optimizar el rendimiento del software sin tomar en cuenta a los stakeholders."
+                    ],
+                    "solucion": "Resolver los conflictos entre las necesidades de las diferentes partes interesadas."
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes pasos NO forma parte del proceso de negociación de requisitos según la definición presentada?",
+                    "opciones": [
+                        "Identificación de conflictos.",
+                        "Análisis de la causa del conflicto.",
+                        "Resolución mediante estrategias adecuadas.",
+                        "Implementación directa del sistema."
+                    ],
+                    "solucion": "Implementación directa del sistema."
+                },
+                {
+                    "enunciado": "¿Cómo contribuyen los goals y escenarios en la negociación de requisitos?",
+                    "opciones": [
+                        "Facilitan la identificación y resolución de conflictos al clarificar los objetivos subyacentes.",
+                        "Aumentan la complejidad del proceso al añadir más variables.",
+                        "Sustituyen la necesidad de gestionar conflictos de datos.",
+                        "Definen únicamente los detalles técnicos sin influir en la negociación."
+                    ],
+                    "solucion": "Facilitan la identificación y resolución de conflictos al clarificar los objetivos subyacentes."
+                },
+                {
+                    "enunciado": "¿Qué tipo de conflicto se produce cuando existen interpretaciones divergentes de un requisito debido a información incompleta o errónea?",
+                    "opciones": [
+                        "Conflicto de datos.",
+                        "Conflicto de intereses.",
+                        "Conflicto de valores.",
+                        "Conflicto de prioridades."
+                    ],
+                    "solucion": "Conflicto de datos."
+                },
+                {
+                    "enunciado": "En un conflicto de intereses, ¿cuál sería un ejemplo representativo según el tema?",
+                    "opciones": [
+                        "Un equipo de diseño quiere una interfaz rica mientras el equipo de rendimiento busca minimizar el uso de recursos.",
+                        "Un usuario malinterpreta un requisito técnico.",
+                        "Los desarrolladores confunden los tiempos de respuesta esperados.",
+                        "La documentación es ambigua y da lugar a múltiples interpretaciones."
+                    ],
+                    "solucion": "Un equipo de diseño quiere una interfaz rica mientras el equipo de rendimiento busca minimizar el uso de recursos."
+                },
+                {
+                    "enunciado": "¿Qué estrategia de resolución de conflictos implica que una autoridad superior tome la decisión final cuando no se llega a un acuerdo?",
+                    "opciones": [
+                        "Negociación colaborativa.",
+                        "Solución creativa.",
+                        "Decisión (desautorización).",
+                        "Acuerdo mutuo."
+                    ],
+                    "solucion": "Decisión (desautorización)."
+                },
+                {
+                    "enunciado": "Dentro de la estrategia Win-Win, ¿cuál es una de las claves para alcanzar el éxito en la negociación?",
+                    "opciones": [
+                        "Adoptar una postura competitiva para imponer la propia visión.",
+                        "Analizar y comprender los intereses y prioridades de todas las partes involucradas.",
+                        "Establecer expectativas irreales para presionar a ceder a los otros.",
+                        "Ignorar los argumentos de las partes con menor influencia."
+                    ],
+                    "solucion": "Analizar y comprender los intereses y prioridades de todas las partes involucradas."
+                },
+                {
+                    "enunciado": "¿Qué técnica de negociación se utiliza cuando se recurre a la votación para elegir entre varias alternativas viables?",
+                    "opciones": [
+                        "Estrategia de compromiso.",
+                        "Estrategia de votación.",
+                        "Estrategia de matriz de decisión.",
+                        "Estrategia de definición de variantes."
+                    ],
+                    "solucion": "Estrategia de votación."
+                },
+                {
+                    "enunciado": "¿Cuál es la diferencia fundamental entre la estrategia de Acuerdo Mutuo y la estrategia de Compromiso en la negociación de requisitos?",
+                    "opciones": [
+                        "El Acuerdo Mutuo se basa en la comunicación efectiva para encontrar un punto medio, mientras que la estrategia de Compromiso fomenta soluciones creativas que combinan ideas diferentes.",
+                        "Ambas se basan en la imposición de la decisión de una autoridad superior.",
+                        "La estrategia de Compromiso elimina la necesidad de negociar, mientras que el Acuerdo Mutuo depende únicamente de la votación.",
+                        "No existe diferencia; son enfoques sinónimos."
+                    ],
+                    "solucion": "El Acuerdo Mutuo se basa en la comunicación efectiva para encontrar un punto medio, mientras que la estrategia de Compromiso fomenta soluciones creativas que combinan ideas diferentes."
+                },
+                {
+                    "enunciado": "¿Qué técnica de negociación clasifica los requisitos o características del sistema en 'plus', 'minus' e 'interesting' para facilitar su priorización?",
+                    "opciones": [
+                        "Estrategia de matriz de decisión.",
+                        "Estrategia Plus-Minus Interesting.",
+                        "Estrategia de definición de variantes.",
+                        "Estrategia Win-Win."
+                    ],
+                    "solucion": "Estrategia Plus-Minus Interesting."
+                },
+                {
+                    "enunciado": "¿Por qué es fundamental documentar las resoluciones alcanzadas durante la negociación de requisitos?",
+                    "opciones": [
+                        "Para evitar la recurrencia de conflictos y facilitar el seguimiento de las decisiones tomadas.",
+                        "Para acelerar la implementación sin revisar los acuerdos.",
+                        "Porque la documentación de resoluciones no es relevante en proyectos ágiles.",
+                        "Para reducir la cantidad de reuniones con stakeholders."
+                    ],
+                    "solucion": "Para evitar la recurrencia de conflictos y facilitar el seguimiento de las decisiones tomadas."
+                },
+                {
+                    "enunciado": "¿Cuál es el propósito del método KJ en la identificación de conflictos de requisitos?",
+                    "opciones": [
+                        "Organizar sistemáticamente los conflictos detectados y consolidar los similares.",
+                        "Eliminar la necesidad de documentar los conflictos.",
+                        "Reducir el número de stakeholders involucrados en el proceso.",
+                        "Priorizar el desarrollo de funcionalidades sobre la resolución de conflictos."
+                    ],
+                    "solucion": "Organizar sistemáticamente los conflictos detectados y consolidar los similares."
+                },
+                {
+                    "enunciado": "En el análisis de conflictos, ¿cuáles son las tres categorías principales de conflictos que se pueden identificar?",
+                    "opciones": [
+                        "Conflictos de datos, conflictos de intereses y conflictos de valores.",
+                        "Conflictos técnicos, operativos y estratégicos.",
+                        "Conflictos de rendimiento, usabilidad y seguridad.",
+                        "Conflictos económicos, legales y culturales."
+                    ],
+                    "solucion": "Conflictos de datos, conflictos de intereses y conflictos de valores."
+                },
+                {
+                    "enunciado": "Según la heurística presentada para analizar conflictos, ¿cuál es el primer paso a realizar?",
+                    "opciones": [
+                        "Comprobar si existe un conflicto de datos a través de la verificación de la información.",
+                        "Evaluar los intereses de las partes involucradas.",
+                        "Analizar los valores y antecedentes culturales de los stakeholders.",
+                        "Revisar la documentación existente sin consultar a los involucrados."
+                    ],
+                    "solucion": "Comprobar si existe un conflicto de datos a través de la verificación de la información."
+                },
+                {
+                    "enunciado": "¿Cuáles son las fases del proceso en la estrategia de Acuerdo Mutuo?",
+                    "opciones": [
+                        "Identificación de intereses comunes, generación de opciones, negociación y ajuste, formalización del acuerdo y seguimiento.",
+                        "Identificación de conflictos, análisis, resolución y documentación.",
+                        "Presentación de propuestas, votación y decisión unánime.",
+                        "Revisión, aprobación y ejecución sin retroalimentación."
+                    ],
+                    "solucion": "Identificación de intereses comunes, generación de opciones, negociación y ajuste, formalización del acuerdo y seguimiento."
+                },
+                {
+                    "enunciado": "En la estrategia de votación, ¿cuáles son las etapas principales del proceso?",
+                    "opciones": [
+                        "Identificación y presentación de opciones, votación, y conteo y análisis de resultados.",
+                        "Discusión abierta, consenso forzado y documentación final.",
+                        "Propuesta, eliminación y decisión unilateral.",
+                        "Revisión, ajuste y re-votación hasta alcanzar el 100% de acuerdo."
+                    ],
+                    "solucion": "Identificación y presentación de opciones, votación, y conteo y análisis de resultados."
+                },
+                {
+                    "enunciado": "¿Qué criterios se pueden incluir en la estrategia de Matriz de Decisión para evaluar las alternativas de negociación?",
+                    "opciones": [
+                        "Costos, esfuerzos, complejidad y riesgos.",
+                        "Solo el costo y la viabilidad técnica.",
+                        "Únicamente la experiencia del equipo de desarrollo.",
+                        "Exclusivamente el tiempo de implementación."
+                    ],
+                    "solucion": "Costos, esfuerzos, complejidad y riesgos."
+                },
+                {
+                    "enunciado": "¿Qué caracteriza a la estrategia de Definición de Variantes en la negociación de requisitos?",
+                    "opciones": [
+                        "Ofrece diferentes versiones del sistema para adaptarse a las necesidades específicas de los interesados.",
+                        "Impone una única solución sin opciones alternativas.",
+                        "Elimina la negociación al definir variantes preestablecidas.",
+                        "Se basa únicamente en la votación para seleccionar una opción."
+                    ],
+                    "solucion": "Ofrece diferentes versiones del sistema para adaptarse a las necesidades específicas de los interesados."
+                },
+                {
+                    "enunciado": "¿Qué se entiende por 'solución creativa' en la resolución de conflictos de requisitos?",
+                    "opciones": [
+                        "Descartar las posturas iniciales para desarrollar una solución innovadora e independiente que satisfaga a todas las partes.",
+                        "Delegar la decisión a una autoridad superior sin considerar las propuestas iniciales.",
+                        "Aplicar la técnica de votación para imponer la opción más popular.",
+                        "Adoptar la solución propuesta por el stakeholder con mayor influencia."
+                    ],
+                    "solucion": "Descartar las posturas iniciales para desarrollar una solución innovadora e independiente que satisfaga a todas las partes."
+                },
+                {
+                    "enunciado": "¿Por qué se considera la negociación de requisitos un proceso iterativo y continuo?",
+                    "opciones": [
+                        "Porque a medida que el proyecto avanza pueden surgir nuevos conflictos o cambios en las prioridades que requieren re-negociación.",
+                        "Porque una vez negociados, los requisitos quedan fijos y no requieren revisión.",
+                        "Porque la documentación final elimina cualquier posibilidad de conflicto futuro.",
+                        "Porque el proceso se realiza una única vez al inicio del proyecto."
+                    ],
+                    "solucion": "Porque a medida que el proyecto avanza pueden surgir nuevos conflictos o cambios en las prioridades que requieren re-negociación."
+                },
+                {
+                    "enunciado": "En el ejemplo práctico del sistema de comercio electrónico, ¿qué solución se propone para conciliar el conflicto entre seguridad y experiencia de usuario?",
+                    "opciones": [
+                        "Implementar una autenticación en dos pasos opcional o integrar biometría.",
+                        "Eliminar la autenticación para mejorar la usabilidad.",
+                        "Obligar a todos los usuarios a utilizar autenticación en dos pasos.",
+                        "Ignorar las necesidades del equipo de seguridad."
+                    ],
+                    "solucion": "Implementar una autenticación en dos pasos opcional o integrar biometría."
+                },
+                {
+                    "enunciado": "¿Qué consecuencia puede derivarse de no identificar los conflictos latentes durante la negociación de requisitos?",
+                    "opciones": [
+                        "Los conflictos pueden resurgir repetidamente, afectando la aceptación del sistema.",
+                        "Se acelera el proceso de desarrollo sin inconvenientes.",
+                        "El sistema se implementa sin necesidad de ajustes posteriores.",
+                        "Los requisitos se documentan de forma automática y correcta."
+                    ],
+                    "solucion": "Los conflictos pueden resurgir repetidamente, afectando la aceptación del sistema."
+                },
+                {
+                    "enunciado": "¿Qué beneficio aporta consolidar los conflictos similares durante la identificación en la negociación de requisitos?",
+                    "opciones": [
+                        "Facilita un análisis más eficiente y evita esfuerzos duplicados en la resolución.",
+                        "Permite ignorar los conflictos menores sin impacto en el sistema.",
+                        "Aumenta el número total de conflictos a resolver.",
+                        "Impide la identificación de conflictos individuales."
+                    ],
+                    "solucion": "Facilita un análisis más eficiente y evita esfuerzos duplicados en la resolución."
+                },
+                {
+                    "enunciado": "En el análisis de conflictos, ¿qué se busca al examinar los objetivos de las partes involucradas?",
+                    "opciones": [
+                        "Identificar discrepancias y comprender los intereses subyacentes para orientar la negociación.",
+                        "Establecer un único objetivo que prevalezca sin discusión.",
+                        "Determinar quién tiene mayor autoridad en el proyecto.",
+                        "Ignorar las diferencias y fusionar todos los objetivos en uno general."
+                    ],
+                    "solucion": "Identificar discrepancias y comprender los intereses subyacentes para orientar la negociación."
+                },
+                {
+                    "enunciado": "En la estrategia Win-Win, ¿qué elemento es crucial para que todas las partes se sientan beneficiadas?",
+                    "opciones": [
+                        "La equidad en la distribución de beneficios y la consideración de todas las necesidades.",
+                        "La imposición de la solución por la parte más influyente.",
+                        "La eliminación de todos los requisitos menos importantes.",
+                        "La decisión unánime sin discusión previa."
+                    ],
+                    "solucion": "La equidad en la distribución de beneficios y la consideración de todas las necesidades."
+                },
+                {
+                    "enunciado": "¿Qué ventaja ofrece la estrategia de Acuerdo Mutuo en la negociación de requisitos?",
+                    "opciones": [
+                        "Permite llegar a un compromiso satisfactorio mediante el intercambio de información y la identificación de intereses comunes.",
+                        "Garantiza que siempre se logre la solución perfecta para todos.",
+                        "Elimina la necesidad de evaluar opciones alternativas.",
+                        "Se basa en la decisión unilateral de una autoridad superior."
+                    ],
+                    "solucion": "Permite llegar a un compromiso satisfactorio mediante el intercambio de información y la identificación de intereses comunes."
+                },
+                {
+                    "enunciado": "¿Qué criterio se utiliza en la estrategia de Matriz de Decisión para evaluar las alternativas de negociación?",
+                    "opciones": [
+                        "Criterios como costos, esfuerzos, complejidad y riesgos.",
+                        "Solo el costo económico del proyecto.",
+                        "Únicamente la preferencia de la parte con mayor autoridad.",
+                        "El tiempo de implementación sin considerar otros factores."
+                    ],
+                    "solucion": "Criterios como costos, esfuerzos, complejidad y riesgos."
+                },
+                {
+                    "enunciado": "¿Qué se evalúa en la categoría 'Interesting' de la estrategia Plus-Minus Interesting?",
+                    "opciones": [
+                        "Requisitos cuya influencia es incierta y merecen evaluación adicional antes de decidir.",
+                        "Requisitos que deben ser eliminados inmediatamente.",
+                        "Solo aquellos requisitos que tienen un alto costo de implementación.",
+                        "Requisitos que ya han sido completamente validados y aceptados."
+                    ],
+                    "solucion": "Requisitos cuya influencia es incierta y merecen evaluación adicional antes de decidir."
+                },
+                {
+                    "enunciado": "¿Qué papel juega la comunicación continua en el proceso iterativo de negociación de requisitos?",
+                    "opciones": [
+                        "Permite ajustar los acuerdos conforme surgen nuevos conflictos o cambios en las prioridades.",
+                        "Asegura que los acuerdos iniciales se mantengan sin cambios a lo largo del proyecto.",
+                        "Reduce la necesidad de revisar los requisitos documentados.",
+                        "Elimina la importancia de la participación de nuevos stakeholders."
+                    ],
+                    "solucion": "Permite ajustar los acuerdos conforme surgen nuevos conflictos o cambios en las prioridades."
+                },
+                {
+                    "enunciado": "Según la conclusión del tema, ¿qué impacto tiene una negociación exitosa en el desarrollo del sistema?",
+                    "opciones": [
+                        "Mejora la calidad del producto final y reduce el riesgo de fracaso del proyecto.",
+                        "Acelera la codificación sin necesidad de validación posterior.",
+                        "Elimina la necesidad de involucrar a todas las partes interesadas en futuras negociaciones.",
+                        "Garantiza que no se presenten conflictos en etapas posteriores del desarrollo."
+                    ],
+                    "solucion": "Mejora la calidad del producto final y reduce el riesgo de fracaso del proyecto."
+                },
+                {
+                    "enunciado": "En un entorno con conflictos de requisitos altamente polarizados, ¿cuándo es justificable optar por la estrategia de Desautorización en lugar de una estrategia de Compromiso?",
+                    "opciones": [
+                        "Cuando las diferencias son irreconciliables y la intervención de una autoridad superior garantiza la aplicación de criterios objetivos.",
+                        "Cuando todas las partes han mostrado disposición a ceder en alguna medida.",
+                        "Cuando se busca priorizar la rapidez en la implementación del sistema sin considerar los desacuerdos.",
+                        "Cuando la estrategia Win-Win ha demostrado ser ineficaz en proyectos pequeños."
+                    ],
+                    "solucion": "Cuando las diferencias son irreconciliables y la intervención de una autoridad superior garantiza la aplicación de criterios objetivos."
+                },
+                {
+                    "enunciado": "La heurística de análisis de conflictos propone tres pasos (datos, intereses y valores). ¿Qué limitación presenta este enfoque en entornos de alta complejidad de stakeholders?",
+                    "opciones": [
+                        "Que simplifica en exceso las interrelaciones, requiriendo complementarse con análisis cualitativos profundos para capturar complejidades no lineales.",
+                        "Que elimina la necesidad de validar la información con los stakeholders.",
+                        "Que obliga a clasificar todos los conflictos únicamente como conflictos de datos.",
+                        "Que impide el uso de estrategias de negociación colaborativas."
+                    ],
+                    "solucion": "Que simplifica en exceso las interrelaciones, requiriendo complementarse con análisis cualitativos profundos para capturar complejidades no lineales."
+                },
+                {
+                    "enunciado": "En la estrategia Win-Win, ¿cuál es la limitación inherente al aplicar este enfoque en proyectos donde los intereses de las partes están extremadamente polarizados?",
+                    "opciones": [
+                        "Que puede resultar en acuerdos superficiales que no abordan satisfactoriamente las verdaderas necesidades subyacentes de las partes involucradas.",
+                        "Que garantiza siempre la solución óptima para ambas partes sin inconvenientes.",
+                        "Que elimina cualquier posibilidad de conflicto futuro, independientemente de la polarización.",
+                        "Que obliga a aplicar estrategias unilaterales sin negociación."
+                    ],
+                    "solucion": "Que puede resultar en acuerdos superficiales que no abordan satisfactoriamente las verdaderas necesidades subyacentes de las partes involucradas."
+                },
+                {
+                    "enunciado": "En el uso de escenarios para la negociación de requisitos, ¿cómo puede la elección de escenarios extremos influir en la identificación de soluciones innovadoras?",
+                    "opciones": [
+                        "Al simular condiciones límite, se revelan oportunidades para innovar y se identifican prioridades críticas que pueden pasar desapercibidas en escenarios convencionales.",
+                        "Porque los escenarios extremos tienden a simplificar excesivamente los problemas y no aportan valor.",
+                        "Dado que los escenarios extremos sólo reflejan casos atípicos, son irrelevantes para la negociación.",
+                        "Porque solo permiten validar soluciones ya propuestas sin explorar alternativas nuevas."
+                    ],
+                    "solucion": "Al simular condiciones límite, se revelan oportunidades para innovar y se identifican prioridades críticas que pueden pasar desapercibidas en escenarios convencionales."
+                },
+                {
+                    "enunciado": "Considerando la estrategia de Matriz de Decisión, ¿cómo puede una ponderación inadecuada de criterios (como costo, esfuerzo, complejidad y riesgo) afectar la validez de la decisión final en la negociación de requisitos?",
+                    "opciones": [
+                        "Puede distorsionar la evaluación de las alternativas, llevando a decisiones subóptimas que no reflejen las verdaderas prioridades del proyecto.",
+                        "Asegura que la alternativa más barata siempre se seleccione, independientemente de otros factores.",
+                        "Garantiza la objetividad del proceso sin necesidad de revisiones posteriores.",
+                        "Elimina la necesidad de análisis cualitativos complementarios en el proceso de negociación."
+                    ],
+                    "solucion": "Puede distorsionar la evaluación de las alternativas, llevando a decisiones subóptimas que no reflejen las verdaderas prioridades del proyecto."
+                },
+                {
+                    "enunciado": "En la estrategia Plus-Minus Interesting, ¿cuál es el mayor desafío al clasificar requisitos en un entorno con cambios rápidos en prioridades?",
+                    "opciones": [
+                        "Mantener la consistencia y actualización de la clasificación, ya que los requisitos pueden evolucionar y cambiar de categoría rápidamente, generando ambigüedad en la toma de decisiones.",
+                        "Que la clasificación elimina cualquier posibilidad de análisis posterior.",
+                        "Que permite una actualización automática sin intervención humana.",
+                        "Que la categoría 'Interesting' se vuelva irrelevante en entornos dinámicos."
+                    ],
+                    "solucion": "Mantener la consistencia y actualización de la clasificación, ya que los requisitos pueden evolucionar y cambiar de categoría rápidamente, generando ambigüedad en la toma de decisiones."
+                },
+                {
+                    "enunciado": "Para asegurar una trazabilidad completa en la documentación de resoluciones de conflictos, ¿qué elementos críticos deben incluirse en dicha documentación?",
+                    "opciones": [
+                        "La justificación detallada, el consenso alcanzado, los criterios objetivos utilizados y la identificación de las partes involucradas junto con el contexto del conflicto.",
+                        "Solo el resultado final del conflicto sin detalles del proceso.",
+                        "Un resumen breve sin mencionar a los stakeholders para simplificar la documentación.",
+                        "Únicamente la decisión de la autoridad superior, sin análisis previo."
+                    ],
+                    "solucion": "La justificación detallada, el consenso alcanzado, los criterios objetivos utilizados y la identificación de las partes involucradas junto con el contexto del conflicto."
+                },
+                {
+                    "enunciado": "En la resolución de conflictos mediante soluciones creativas, ¿cuál es el principal riesgo de descartar las posturas iniciales sin un análisis exhaustivo?",
+                    "opciones": [
+                        "Se puede perder información valiosa sobre las necesidades reales de los stakeholders, resultando en soluciones que no aborden todas las implicaciones del conflicto.",
+                        "Se garantiza siempre una solución innovadora sin riesgos asociados.",
+                        "Se elimina la posibilidad de aplicar estrategias Win-Win.",
+                        "Se simplifica el proceso de documentación sin afectar la calidad del acuerdo."
+                    ],
+                    "solucion": "Se puede perder información valiosa sobre las necesidades reales de los stakeholders, resultando en soluciones que no aborden todas las implicaciones del conflicto."
+                },
+                {
+                    "enunciado": "Dentro de la estrategia de Acuerdo Mutuo, ¿qué mecanismos pueden implementarse para contrarrestar la asimetría de poder entre stakeholders?",
+                    "opciones": [
+                        "La implementación de facilitadores imparciales y la garantía de transparencia en el intercambio de información para asegurar que todos los intereses sean equitativamente considerados.",
+                        "Permitir que el stakeholder con mayor poder decida sin consulta.",
+                        "Ignorar las discrepancias de poder para evitar complicaciones.",
+                        "Basarse únicamente en votaciones para resolver cualquier desigualdad."
+                    ],
+                    "solucion": "La implementación de facilitadores imparciales y la garantía de transparencia en el intercambio de información para asegurar que todos los intereses sean equitativamente considerados."
+                },
+                {
+                    "enunciado": "En la estrategia de Votación para la negociación de requisitos, ¿cuáles son las limitaciones inherentes de este método y cómo se pueden mitigar en contextos críticos?",
+                    "opciones": [
+                        "La votación puede favorecer decisiones mayoritarias que ignoren necesidades críticas de minorías; esto se puede mitigar combinándola con análisis cualitativos y revisiones adicionales para asegurar un consenso robusto.",
+                        "La votación siempre produce resultados perfectos sin necesidad de revisión.",
+                        "El método de votación elimina cualquier riesgo de conflicto futuro.",
+                        "Se puede mitigar utilizando únicamente el recuento automático sin intervención humana."
+                    ],
+                    "solucion": "La votación puede favorecer decisiones mayoritarias que ignoren necesidades críticas de minorías; esto se puede mitigar combinándola con análisis cualitativos y revisiones adicionales para asegurar un consenso robusto."
+                }
+            ]
+        },
+        "Tema 5: Validación de Requisitos": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor la diferencia entre verificación y validación en la Ingeniería de Requisitos?",
+                    "opciones": [
+                        "La verificación evalúa si el sistema cumple con los requisitos del usuario, mientras que la validación revisa si se han seguido correctamente los procesos de desarrollo.",
+                        "La verificación se centra en comprobar que el producto se ha desarrollado correctamente según las especificaciones, mientras que la validación evalúa si el producto final cumple con los requisitos del usuario.",
+                        "Verificación y validación son procesos equivalentes y pueden usarse indistintamente.",
+                        "La validación solo se realiza cuando el producto ya ha sido desplegado, mientras que la verificación se hace en fases tempranas del desarrollo."
+                    ],
+                    "solucion": "La verificación se centra en comprobar que el producto se ha desarrollado correctamente según las especificaciones, mientras que la validación evalúa si el producto final cumple con los requisitos del usuario."
+                },
+                {
+                    "enunciado": "¿Cuál es un riesgo clave de no realizar una validación adecuada en la Ingeniería de Requisitos?",
+                    "opciones": [
+                        "Los requisitos podrían ser demasiado específicos y limitar la flexibilidad del sistema.",
+                        "Los defectos pueden propagarse a lo largo del desarrollo, generando altos costos de corrección en etapas posteriores.",
+                        "Se necesitarán más reuniones de stakeholders para discutir los requisitos.",
+                        "Se incrementará el tiempo de entrega del proyecto sin afectar su calidad."
+                    ],
+                    "solucion": "Los defectos pueden propagarse a lo largo del desarrollo, generando altos costos de corrección en etapas posteriores."
+                },
+                {
+                    "enunciado": "Dentro de la validación de artefactos, la 'dimensión de contenido' se enfoca en:",
+                    "opciones": [
+                        "Comprobar que los artefactos cumplen con criterios como completitud, consistencia y trazabilidad.",
+                        "Revisar que los documentos de requisitos sean entendibles para los desarrolladores.",
+                        "Asegurar que los stakeholders han firmado los documentos de requisitos.",
+                        "Garantizar que los artefactos sean revisados por expertos externos a la organización."
+                    ],
+                    "solucion": "Comprobar que los artefactos cumplen con criterios como completitud, consistencia y trazabilidad."
+                },
+                {
+                    "enunciado": "En la validación del contexto del sistema, la 'IT Facet' se refiere a:",
+                    "opciones": [
+                        "Garantizar que los requisitos sean compatibles con la infraestructura tecnológica existente.",
+                        "Validar que los usuarios puedan interactuar con el sistema sin errores de usabilidad.",
+                        "Determinar si los requisitos documentados han sido aprobados por la alta dirección.",
+                        "Asegurar que los requisitos son suficientemente abstractos para adaptarse a múltiples tecnologías."
+                    ],
+                    "solucion": "Garantizar que los requisitos sean compatibles con la infraestructura tecnológica existente."
+                },
+                {
+                    "enunciado": "Uno de los principios clave de la validación es la independencia de los revisores. ¿Por qué es importante?",
+                    "opciones": [
+                        "Porque los revisores ajenos al desarrollo pueden detectar deficiencias que quienes participaron en su creación podrían pasar por alto.",
+                        "Porque permite a los desarrolladores centrarse únicamente en la implementación del sistema.",
+                        "Porque evita la necesidad de realizar múltiples revisiones a lo largo del desarrollo.",
+                        "Porque garantiza que los requisitos sean comprensibles para los usuarios finales."
+                    ],
+                    "solucion": "Porque los revisores ajenos al desarrollo pueden detectar deficiencias que quienes participaron en su creación podrían pasar por alto."
+                },
+                {
+                    "enunciado": "El principio de 'Separar la detección de defectos de la corrección' en la validación implica que:",
+                    "opciones": [
+                        "Los revisores deben centrarse en identificar defectos sin preocuparse por proponer soluciones en la fase de revisión.",
+                        "La corrección de los defectos debe realizarse inmediatamente después de su detección.",
+                        "Solo los desarrolladores pueden detectar defectos en los requisitos.",
+                        "Las pruebas de validación deben realizarse sin intervención de los stakeholders."
+                    ],
+                    "solucion": "Los revisores deben centrarse en identificar defectos sin preocuparse por proponer soluciones en la fase de revisión."
+                },
+                {
+                    "enunciado": "Según el principio de 'Validación repetida', ¿en qué casos es especialmente importante aplicar revisiones continuas de los requisitos?",
+                    "opciones": [
+                        "En proyectos a largo plazo o con un alto nivel de innovación.",
+                        "En proyectos donde los requisitos están completamente definidos desde el inicio.",
+                        "En sistemas pequeños con pocos stakeholders involucrados.",
+                        "Cuando los requisitos han sido aprobados por la dirección y no se prevén cambios."
+                    ],
+                    "solucion": "En proyectos a largo plazo o con un alto nivel de innovación."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes técnicas de validación es la más estructurada y formal para detectar defectos en los artefactos de requisitos?",
+                    "opciones": [
+                        "Inspecciones.",
+                        "Walkthroughs.",
+                        "Validación con prototipos.",
+                        "Desk-checks."
+                    ],
+                    "solucion": "Inspecciones."
+                },
+                {
+                    "enunciado": "¿En qué situación sería más recomendable utilizar un 'Desk-Check' en lugar de una 'Inspección'?",
+                    "opciones": [
+                        "Cuando se requiere una validación rápida e individual sin una reunión formal.",
+                        "Cuando el sistema debe cumplir con normativas estrictas y se necesita una revisión detallada.",
+                        "Cuando los requisitos están en una fase avanzada y se requiere un análisis estructurado.",
+                        "Cuando los defectos ya han sido corregidos y solo se necesita documentar la solución."
+                    ],
+                    "solucion": "Cuando se requiere una validación rápida e individual sin una reunión formal."
+                },
+                {
+                    "enunciado": "¿Cuál es la principal ventaja de utilizar la validación con prototipos?",
+                    "opciones": [
+                        "Permite detectar problemas de usabilidad y requisitos difíciles de identificar en documentación escrita.",
+                        "Elimina la necesidad de revisar la documentación de requisitos.",
+                        "Reduce el tiempo de desarrollo, ya que evita la necesidad de realizar validaciones adicionales.",
+                        "Garantiza que los requisitos sean completamente correctos sin necesidad de validaciones posteriores."
+                    ],
+                    "solucion": "Permite detectar problemas de usabilidad y requisitos difíciles de identificar en documentación escrita."
+                },
+                {
+                    "enunciado": "¿Cuál de las siguientes afirmaciones describe de forma más precisa la validación del contexto del sistema en relación con sus cuatro facetas?",
+                    "opciones": [
+                        "Se centra exclusivamente en la compatibilidad tecnológica, ignorando escenarios de uso y viabilidad de recursos.",
+                        "Abarca la verificación del alcance, la inclusión de escenarios normales y excepcionales, la compatibilidad tecnológica y la viabilidad del desarrollo.",
+                        "Solo valida el alcance del sistema y la infraestructura tecnológica, sin considerar los escenarios de uso.",
+                        "Se limita a evaluar la viabilidad de los recursos disponibles para el desarrollo."
+                    ],
+                    "solucion": "Abarca la verificación del alcance, la inclusión de escenarios normales y excepcionales, la compatibilidad tecnológica y la viabilidad del desarrollo."
+                },
+                {
+                    "enunciado": "¿Qué ventaja y limitación potencial se derivan del uso de múltiples perspectivas independientes durante la validación de requisitos?",
+                    "opciones": [
+                        "Aumenta la detección de defectos, pero puede generar hallazgos redundantes que compliquen la priorización.",
+                        "Garantiza la corrección inmediata de errores, aunque reduce la diversidad de opiniones.",
+                        "Facilita la validación sin necesidad de reuniones adicionales, pero limita el análisis de la trazabilidad.",
+                        "Elimina la necesidad de validación externa, aunque incrementa los costos de revisión."
+                    ],
+                    "solucion": "Aumenta la detección de defectos, pero puede generar hallazgos redundantes que compliquen la priorización."
+                },
+                {
+                    "enunciado": "¿Cuál es la justificación principal para separar la detección de defectos de la corrección en el proceso de validación?",
+                    "opciones": [
+                        "Permite que los revisores se concentren exclusivamente en identificar errores sin influir en las soluciones, garantizando objetividad en la revisión.",
+                        "Facilita la corrección inmediata por parte de los desarrolladores durante la misma sesión de validación.",
+                        "Reduce la necesidad de involucrar a stakeholders externos en la revisión de los artefactos.",
+                        "Asegura que los defectos detectados se corrijan automáticamente sin intervención humana."
+                    ],
+                    "solucion": "Permite que los revisores se concentren exclusivamente en identificar errores sin influir en las soluciones, garantizando objetividad en la revisión."
+                },
+                {
+                    "enunciado": "¿En qué situación sería más adecuado utilizar una inspección formal en lugar de un walkthrough durante la validación de requisitos?",
+                    "opciones": [
+                        "Cuando se requiere una revisión rápida y la obtención de retroalimentación informal.",
+                        "Cuando el artefacto es crítico y necesita una revisión exhaustiva utilizando checklists estructurados y roles definidos.",
+                        "Cuando el equipo dispone de poco tiempo y se busca feedback individual sin formalidades.",
+                        "Cuando se desea explorar nuevas ideas sin un procedimiento predefinido."
+                    ],
+                    "solucion": "Cuando el artefacto es crítico y necesita una revisión exhaustiva utilizando checklists estructurados y roles definidos."
+                },
+                {
+                    "enunciado": "¿Qué factor es determinante para que la validación con prototipos sea eficaz en la detección de defectos en los requisitos?",
+                    "opciones": [
+                        "La participación activa de los ingenieros de requisitos durante la prueba del prototipo para corregir errores en tiempo real.",
+                        "La correcta selección de un conjunto significativo de requisitos basado en objetivos y escenarios, y la limitación adecuada del alcance de la validación.",
+                        "El uso exclusivo de prototipos de alta fidelidad en todas las fases del proyecto sin adaptarse al entorno.",
+                        "La ausencia de soporte técnico durante el uso del prototipo para forzar a los usuarios a descubrir errores."
+                    ],
+                    "solucion": "La correcta selección de un conjunto significativo de requisitos basado en objetivos y escenarios, y la limitación adecuada del alcance de la validación."
+                },
+                {
+                    "enunciado": "¿Cómo influye el cambio de formato en la detección de errores durante la validación de requisitos?",
+                    "opciones": [
+                        "El cambio de formato siempre aumenta la ambigüedad y dificulta la revisión de los artefactos.",
+                        "La modificación del formato puede facilitar la detección de errores al adaptarse a las preferencias de los stakeholders, aunque puede requerir capacitación adicional.",
+                        "El formato de documentación no tiene impacto en la identificación de defectos, ya que esto depende únicamente del contenido.",
+                        "Solo es relevante para los artefactos basados en modelos y no afecta a los requisitos en lenguaje natural."
+                    ],
+                    "solucion": "La modificación del formato puede facilitar la detección de errores al adaptarse a las preferencias de los stakeholders, aunque puede requerir capacitación adicional."
+                },
+                {
+                    "enunciado": "¿Por qué es especialmente importante realizar validación repetida en proyectos con alto nivel de innovación y cambios frecuentes en los requisitos?",
+                    "opciones": [
+                        "Porque permite fijar los requisitos desde el inicio y evitar revisiones posteriores.",
+                        "Porque los stakeholders externos pueden validar los requisitos sin necesidad de revisión interna.",
+                        "Porque el conocimiento y las condiciones del proyecto evolucionan, lo que exige revisiones continuas para mantener la validez de los requisitos.",
+                        "Porque reduce significativamente el esfuerzo de documentación y seguimiento en fases avanzadas."
+                    ],
+                    "solucion": "Porque el conocimiento y las condiciones del proyecto evolucionan, lo que exige revisiones continuas para mantener la validez de los requisitos."
+                },
+                {
+                    "enunciado": "En la validación de la ejecución de las actividades de Ingeniería de Requisitos, ¿cuál de los siguientes aspectos es crítico para garantizar la calidad del proceso?",
+                    "opciones": [
+                        "Que se hayan seguido las guías y reglas establecidas, y que se hayan documentado adecuadamente todas las actividades e inputs relevantes.",
+                        "Que solo se validen los artefactos finales sin considerar el proceso completo de IR.",
+                        "Que se priorice la rapidez en la validación sobre la exhaustividad del proceso.",
+                        "Que únicamente participen los desarrolladores en la revisión para agilizar la ejecución."
+                    ],
+                    "solucion": "Que se hayan seguido las guías y reglas establecidas, y que se hayan documentado adecuadamente todas las actividades e inputs relevantes."
+                },
+                {
+                    "enunciado": "¿Cómo se relaciona la 'dimensión de acuerdo' en la validación de artefactos con la consistencia de los requisitos?",
+                    "opciones": [
+                        "Verifica que los stakeholders estén de acuerdo con cada requisito, lo que refuerza la coherencia y la alineación de los artefactos con las expectativas del proyecto.",
+                        "Se centra únicamente en la aprobación de la documentación sin evaluar la consistencia interna de los requisitos.",
+                        "Es irrelevante si los requisitos ya cumplen con criterios de completitud y correctitud.",
+                        "Solo se aplica en validaciones internas y no tiene impacto en proyectos que requieren validación externa."
+                    ],
+                    "solucion": "Verifica que los stakeholders estén de acuerdo con cada requisito, lo que refuerza la coherencia y la alineación de los artefactos con las expectativas del proyecto."
+                },
+                {
+                    "enunciado": "En la tabla comparativa de técnicas de validación, ¿qué aspecto distingue a la validación con prototipos respecto a las inspecciones formales?",
+                    "opciones": [
+                        "La validación con prototipos se centra en la detección de defectos de usabilidad y funcionales mediante la interacción directa de los usuarios, mientras que las inspecciones se enfocan en la revisión estructurada de la documentación.",
+                        "Las inspecciones requieren menos esfuerzo que la validación con prototipos en términos de recursos y tiempo.",
+                        "Ambas técnicas son equivalentes en su capacidad para detectar defectos, sin diferencias significativas.",
+                        "La validación con prototipos se utiliza únicamente para proyectos de baja criticidad, mientras que las inspecciones son obligatorias en todos los proyectos."
+                    ],
+                    "solucion": "La validación con prototipos se centra en la detección de defectos de usabilidad y funcionales mediante la interacción directa de los usuarios, mientras que las inspecciones se enfocan en la revisión estructurada de la documentación."
+                },
+                {
+                    "enunciado": "En el principio de 'Validación repetida', ¿por qué es crucial realizar múltiples rondas de validación en proyectos con alta ganancia de conocimiento?",
+                    "opciones": [
+                        "Porque los requisitos y el conocimiento de los stakeholders evolucionan con el tiempo, asegurando que los artefactos sigan siendo válidos.",
+                        "Porque permite corregir todos los defectos en una única revisión inicial.",
+                        "Porque reduce el esfuerzo total invertido en la documentación de requisitos.",
+                        "Porque una validación única es suficiente para sistemas de bajo riesgo."
+                    ],
+                    "solucion": "Porque los requisitos y el conocimiento de los stakeholders evolucionan con el tiempo, asegurando que los artefactos sigan siendo válidos."
+                },
+                {
+                    "enunciado": "¿Qué implicaciones prácticas tiene separar la detección de defectos de la corrección durante la validación de requisitos?",
+                    "opciones": [
+                        "Permite que los revisores se enfoquen exclusivamente en identificar errores sin sugerir soluciones, lo que garantiza una evaluación objetiva.",
+                        "Facilita la corrección inmediata durante la misma sesión, acelerando el proceso de validación.",
+                        "Elimina la necesidad de documentar los defectos encontrados.",
+                        "Permite que los desarrolladores corrijan errores sin consultar a los revisores."
+                    ],
+                    "solucion": "Permite que los revisores se enfoquen exclusivamente en identificar errores sin sugerir soluciones, lo que garantiza una evaluación objetiva."
+                },
+                {
+                    "enunciado": "Entre las cuatro facetas del contexto del sistema, ¿cuál resulta más determinante para validar la viabilidad técnica del sistema y por qué?",
+                    "opciones": [
+                        "La IT Facet, porque verifica que los requisitos sean compatibles con la infraestructura tecnológica existente.",
+                        "La Subject Facet, ya que define el alcance del sistema sin importar la tecnología.",
+                        "La Usage Facet, por que se centra en los escenarios de uso sin considerar la viabilidad técnica.",
+                        "La Development Facet, ya que solo evalúa los recursos disponibles sin analizar la compatibilidad tecnológica."
+                    ],
+                    "solucion": "La IT Facet, porque verifica que los requisitos sean compatibles con la infraestructura tecnológica existente."
+                },
+                {
+                    "enunciado": "¿En qué situación es preferible utilizar un walkthrough en lugar de una inspección formal durante la validación de requisitos?",
+                    "opciones": [
+                        "Cuando se requiere una revisión rápida e informal en etapas tempranas para obtener retroalimentación general.",
+                        "Cuando el artefacto es crítico y requiere una revisión exhaustiva con roles y checklists formales.",
+                        "Cuando no se dispone de ningún checklist de validación.",
+                        "Cuando se desea documentar detalladamente cada defecto sin interacción directa de los stakeholders."
+                    ],
+                    "solucion": "Cuando se requiere una revisión rápida e informal en etapas tempranas para obtener retroalimentación general."
+                },
+                {
+                    "enunciado": "¿Cómo contribuye la 'dimensión de acuerdo' en la validación de artefactos a la confiabilidad de los requisitos?",
+                    "opciones": [
+                        "Al asegurar que todos los stakeholders están de acuerdo con cada requisito, lo que refuerza la consistencia y alineación de los artefactos.",
+                        "Al permitir que solo los desarrolladores aprueben los requisitos sin intervención externa.",
+                        "Al eliminar la necesidad de validar el contenido técnico de los artefactos.",
+                        "Al centrarse exclusivamente en la completitud de la documentación sin involucrar a los stakeholders."
+                    ],
+                    "solucion": "Al asegurar que todos los stakeholders están de acuerdo con cada requisito, lo que refuerza la consistencia y alineación de los artefactos."
+                },
+                {
+                    "enunciado": "La validación con prototipos es intensiva en recursos. ¿Qué estrategia se puede aplicar para mitigar su alto esfuerzo sin comprometer la detección de defectos críticos?",
+                    "opciones": [
+                        "Limitar el alcance de la validación a un subconjunto representativo de requisitos basado en objetivos y escenarios.",
+                        "Utilizar prototipos de alta fidelidad para todo el sistema, independientemente del alcance.",
+                        "Realizar validaciones con prototipos únicamente en fases finales del proyecto.",
+                        "Reemplazar la validación con prototipos por inspecciones formales en todos los casos."
+                    ],
+                    "solucion": "Limitar el alcance de la validación a un subconjunto representativo de requisitos basado en objetivos y escenarios."
+                },
+                {
+                    "enunciado": "En la gestión de riesgos de insuficiente validación, ¿cuál es la consecuencia más crítica de no validar adecuadamente los inputs de las actividades de Ingeniería de Requisitos?",
+                    "opciones": [
+                        "Que se pasen por alto aspectos críticos, lo que puede derivar en fallos costosos y propagación de errores durante el desarrollo.",
+                        "Que se reduzca el esfuerzo necesario para documentar los requisitos.",
+                        "Que se acelere el proceso de validación sin afectar la calidad del sistema.",
+                        "Que se genere un exceso de documentación sin impacto en el desarrollo."
+                    ],
+                    "solucion": "Que se pasen por alto aspectos críticos, lo que puede derivar en fallos costosos y propagación de errores durante el desarrollo."
+                },
+                {
+                    "enunciado": "¿Qué papel desempeña la independencia de los revisores en una inspección formal, y qué riesgo se asume si se compromete este principio?",
+                    "opciones": [
+                        "Garantiza una evaluación objetiva de los artefactos; si se viola, puede introducirse sesgo y pasar por alto errores importantes.",
+                        "Permite que los desarrolladores identifiquen errores sin necesidad de feedback externo.",
+                        "Acelera la corrección de defectos, aunque pueda generar conflictos entre revisores.",
+                        "Reduce la necesidad de múltiples rondas de validación sin afectar la calidad del proceso."
+                    ],
+                    "solucion": "Garantiza una evaluación objetiva de los artefactos; si se viola, puede introducirse sesgo y pasar por alto errores importantes."
+                },
+                {
+                    "enunciado": "Dentro del principio de aprovechar múltiples perspectivas independientes, ¿qué mecanismo es fundamental para evitar la redundancia excesiva en los hallazgos?",
+                    "opciones": [
+                        "Integrar los resultados mediante un análisis comparativo y consenso que filtre redundancias y priorice los defectos críticos.",
+                        "Sumar todas las opiniones sin un método de análisis, lo que permite obtener un mayor número de defectos.",
+                        "Delegar la consolidación de hallazgos a un único stakeholder con mayor experiencia en el área.",
+                        "Ignorar las opiniones redundantes y enfocarse únicamente en la primera validación realizada."
+                    ],
+                    "solucion": "Integrar los resultados mediante un análisis comparativo y consenso que filtre redundancias y priorice los defectos críticos."
+                },
+                {
+                    "enunciado": "En la dimensión de documentación de la validación, ¿qué beneficio se obtiene al adaptar el formato de los artefactos a las preferencias de los stakeholders, y qué riesgo puede acarrear?",
+                    "opciones": [
+                        "Facilita la detección de errores y mejora la comprensión, pero si no se gestiona adecuadamente, puede introducir inconsistencias en la documentación.",
+                        "Reduce la claridad del documento, eliminando la necesidad de validación externa.",
+                        "Permite una revisión más rápida sin ningún riesgo asociado, ya que los formatos son irrelevantes.",
+                        "Garantiza que todos los artefactos sean idénticos, eliminando cualquier posibilidad de ambigüedad."
+                    ],
+                    "solucion": "Facilita la detección de errores y mejora la comprensión, pero si no se gestiona adecuadamente, puede introducir inconsistencias en la documentación."
+                },
+                {
+                    "enunciado": "Una compañía de salud desarrolla un sistema de gestión de pacientes. Durante una inspección formal del documento de requisitos, se detecta que varios requisitos no especifican las medidas necesarias para cumplir las normativas de privacidad de datos. ¿Cuál es la principal ventaja de haber realizado esta inspección formal en este ejemplo?",
+                    "opciones": [
+                        "Permite detectar de manera exhaustiva defectos críticos que podrían tener implicaciones legales y de seguridad.",
+                        "Acelera el proceso de desarrollo al eliminar la necesidad de futuras revisiones.",
+                        "Reduce la documentación necesaria al simplificar los requisitos.",
+                        "Facilita la implementación inmediata del sistema sin modificaciones posteriores."
+                    ],
+                    "solucion": "Permite detectar de manera exhaustiva defectos críticos que podrían tener implicaciones legales y de seguridad."
+                },
+                {
+                    "enunciado": "En un proyecto de desarrollo de una aplicación móvil para banca, tres analistas independientes realizan un desk-check del documento de requisitos. Durante la revisión, cada analista identifica inconsistencias en la descripción de los tiempos de transacción y en la implementación de medidas de seguridad. ¿Cuál es la principal ventaja de utilizar desk-checks en este escenario?",
+                    "opciones": [
+                        "Ofrece retroalimentación individual que ayuda a identificar detalles específicos que podrían pasarse por alto en una revisión grupal.",
+                        "Permite aprobar rápidamente todos los requisitos sin discusión.",
+                        "Reduce la necesidad de validación formal mediante la eliminación de discrepancias.",
+                        "Sustituye completamente la revisión formal del documento."
+                    ],
+                    "solucion": "Ofrece retroalimentación individual que ayuda a identificar detalles específicos que podrían pasarse por alto en una revisión grupal."
+                },
+                {
+                    "enunciado": "Una startup de comercio electrónico crea un prototipo interactivo para su motor de búsqueda de productos. Durante las pruebas, varios usuarios indican que el sistema de filtrado es confuso y poco intuitivo. ¿Cuál es la principal ventaja de utilizar validación con prototipos en este ejemplo?",
+                    "opciones": [
+                        "Permite detectar problemas de usabilidad y obtener feedback directo que posibilita mejorar la experiencia del usuario.",
+                        "Garantiza que el prototipo cumpla con todas las especificaciones técnicas sin necesidad de ajustes.",
+                        "Elimina la necesidad de documentar los requisitos de la interfaz.",
+                        "Acelera el proceso de desarrollo al omitir pruebas adicionales."
+                    ],
+                    "solucion": "Permite detectar problemas de usabilidad y obtener feedback directo que posibilita mejorar la experiencia del usuario."
+                },
+                {
+                    "enunciado": "En el desarrollo de un software de gestión de inventarios para una empresa manufacturera, el equipo organiza un walkthrough en el que el autor presenta el documento de requisitos a un grupo mixto de ingenieros y operarios. Durante la sesión, se discute la viabilidad del requisito que propone la integración en tiempo real con el sistema ERP existente. ¿Qué beneficio aporta este walkthrough en el ejemplo presentado?",
+                    "opciones": [
+                        "Facilita la discusión y la identificación de ajustes necesarios mediante la interacción directa de diversos stakeholders.",
+                        "Permite la aprobación inmediata de todos los requisitos sin necesidad de seguimiento.",
+                        "Elimina la necesidad de utilizar otras técnicas de validación más formales.",
+                        "Reduce el tiempo de desarrollo al omitir reuniones adicionales."
+                    ],
+                    "solucion": "Facilita la discusión y la identificación de ajustes necesarios mediante la interacción directa de diversos stakeholders."
+                },
+                {
+                    "enunciado": "Una empresa de servicios financieros lleva a cabo una inspección formal de los requisitos para su nuevo sistema de pagos. Durante la revisión, se identifica que el documento no incluye medidas para prevenir fraudes, lo cual es crítico para evitar riesgos legales y financieros. ¿Qué aspecto crítico se logra detectar mediante esta técnica?",
+                    "opciones": [
+                        "La omisión de requisitos esenciales de seguridad que pueden tener consecuencias legales y operativas.",
+                        "La redundancia de la documentación en ciertos apartados del sistema.",
+                        "La excesiva formalidad de los procedimientos internos.",
+                        "La falta de claridad en la descripción de funciones menores."
+                    ],
+                    "solucion": "La omisión de requisitos esenciales de seguridad que pueden tener consecuencias legales y operativas."
+                },
+                {
+                    "enunciado": "En el desarrollo de una aplicación educativa, se utiliza validación con prototipos. Durante las pruebas, los estudiantes y profesores reportan que la interfaz es poco intuitiva para los usuarios jóvenes, afectando la experiencia educativa. ¿Cómo beneficia la validación con prototipos a la mejora del producto en este caso?",
+                    "opciones": [
+                        "Permite ajustar la interfaz en función de la retroalimentación directa de los usuarios finales, mejorando la usabilidad y accesibilidad.",
+                        "Garantiza que la funcionalidad se implemente sin modificaciones posteriores.",
+                        "Elimina la necesidad de realizar pruebas adicionales con otros grupos de usuarios.",
+                        "Acelera el desarrollo al omitir la fase de análisis de usabilidad."
+                    ],
+                    "solucion": "Permite ajustar la interfaz en función de la retroalimentación directa de los usuarios finales, mejorando la usabilidad y accesibilidad."
+                },
+                {
+                    "enunciado": "Una compañía de logística está desarrollando un sistema de seguimiento de envíos. Organizan un desk-check donde varios gerentes revisan el documento de requisitos y detectan discrepancias en la descripción de los tiempos de actualización de los datos. ¿Qué ventaja proporciona esta revisión individualizada en este ejemplo?",
+                    "opciones": [
+                        "Permite identificar y corregir detalles específicos en la documentación que pueden afectar la precisión del sistema.",
+                        "Acelera la aprobación del documento al omitir detalles menores.",
+                        "Elimina la necesidad de una revisión grupal posterior.",
+                        "Reduce la carga de trabajo del equipo de desarrollo sin comprometer la calidad."
+                    ],
+                    "solucion": "Permite identificar y corregir detalles específicos en la documentación que pueden afectar la precisión del sistema."
+                },
+                {
+                    "enunciado": "Una plataforma de telemedicina está en desarrollo y se organiza un walkthrough en el que participan médicos, enfermeros y personal administrativo. Durante la sesión, se discute la viabilidad del requisito que permite el acceso en tiempo real a los historiales médicos. ¿Qué valor aporta este walkthrough en el ejemplo descrito?",
+                    "opciones": [
+                        "Facilita la identificación de conflictos y permite ajustar el requisito basándose en las necesidades clínicas y operativas de los diferentes usuarios.",
+                        "Garantiza que el requisito se apruebe sin necesidad de validación externa.",
+                        "Elimina la necesidad de documentar el proceso de validación.",
+                        "Reduce el tiempo de desarrollo al evitar discusiones prolongadas."
+                    ],
+                    "solucion": "Facilita la identificación de conflictos y permite ajustar el requisito basándose en las necesidades clínicas y operativas de los diferentes usuarios."
+                },
+                {
+                    "enunciado": "En una fábrica que desarrolla un sistema de control de calidad, se realiza una inspección formal utilizando un checklist. Durante la revisión, se detecta que varios requisitos no contemplan la normativa de seguridad industrial. ¿Cuál es el principal riesgo si estos defectos no se corrigen en este contexto?",
+                    "opciones": [
+                        "Se arriesga a enfrentar sanciones legales y poner en riesgo la seguridad de los trabajadores.",
+                        "El sistema podría implementar funciones redundantes que afecten su eficiencia.",
+                        "La documentación del sistema se volverá demasiado compleja para su mantenimiento.",
+                        "Se incrementarán los costos de desarrollo sin impacto en la seguridad."
+                    ],
+                    "solucion": "Se arriesga a enfrentar sanciones legales y poner en riesgo la seguridad de los trabajadores."
+                },
+                {
+                    "enunciado": "Una empresa de desarrollo de software lanza una nueva aplicación de gestión de proyectos y utiliza validación con prototipos. Durante las pruebas, los usuarios indican que la funcionalidad de colaboración en tiempo real es confusa y poco intuitiva. ¿Qué oportunidad brinda esta validación con prototipos en el ejemplo proporcionado?",
+                    "opciones": [
+                        "Permite identificar y ajustar funcionalidades críticas basándose en la retroalimentación directa de los usuarios, mejorando la experiencia final.",
+                        "Elimina la necesidad de otras técnicas de validación una vez que el prototipo ha sido probado.",
+                        "Garantiza que la funcionalidad se mantenga inalterada en las fases finales del desarrollo.",
+                        "Reduce el costo total del proyecto al omitir revisiones posteriores."
+                    ],
+                    "solucion": "Permite identificar y ajustar funcionalidades críticas basándose en la retroalimentación directa de los usuarios, mejorando la experiencia final."
+                }
+            ]
+        }
+    }
+}

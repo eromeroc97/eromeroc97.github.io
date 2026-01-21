@@ -1,0 +1,259 @@
+{
+    "nombre": "SIE",
+    "temas": {
+        "Tema 3: Selección e implantación de ERPs": {
+            "preguntas": [
+                {
+                    "enunciado": "¿Cuál es la principal diferencia entre un ERP a medida y un ERP paquetizado?",
+                    "opciones": [
+                        "Un ERP a medida se desarrolla para ajustarse de forma óptima a las necesidades específicas de la empresa, mientras que un ERP paquetizado es una solución ya existente en el mercado que se adapta a necesidades generales.",
+                        "Un ERP a medida requiere menos inversión inicial que un ERP paquetizado.",
+                        "Un ERP a medida se implementa más rápidamente que un ERP paquetizado.",
+                        "Un ERP paquetizado siempre ofrece mayor flexibilidad que uno desarrollado a medida."
+                    ],
+                    "solucion": "Un ERP a medida se desarrolla para ajustarse de forma óptima a las necesidades específicas de la empresa, mientras que un ERP paquetizado es una solución ya existente en el mercado que se adapta a necesidades generales."
+                },
+                {
+                    "enunciado": "En la comparación entre un ERP generalista y uno verticalizado, ¿cuál es la característica distintiva del ERP verticalizado?",
+                    "opciones": [
+                        "Está diseñado para integrarse en cualquier tipo de empresa sin ajustes adicionales.",
+                        "Ofrece funcionalidades generales combinadas con herramientas especializadas para un sector determinado.",
+                        "Requiere una alta personalización para adaptarse a procesos específicos de la empresa.",
+                        "Tiene una implantación más lenta debido a su extenso proceso de adaptación."
+                    ],
+                    "solucion": "Ofrece funcionalidades generales combinadas con herramientas especializadas para un sector determinado."
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes NO es uno de los motivos principales que llevan a una empresa a implantar un ERP?",
+                    "opciones": [
+                        "Integración unificada de información para facilitar la toma de decisiones.",
+                        "Optimización operativa y mejora general en la gestión del negocio.",
+                        "Mejora en la imagen corporativa del negocio.",
+                        "Aprovechamiento de ventajas tecnológicas y competitividad en el mercado."
+                    ],
+                    "solucion": "Mejora en la imagen corporativa del negocio."
+                },
+                {
+                    "enunciado": "Respecto a los costes externos en la implantación de un ERP, ¿cuál de los siguientes porcentajes corresponde al gasto en servicios de consultoría, desarrollo, implantación y mantenimiento?",
+                    "opciones": [
+                        "Aproximadamente 10%",
+                        "Cerca del 30%",
+                        "Alrededor del 60%",
+                        "Cercano al 80%"
+                    ],
+                    "solucion": "Alrededor del 60%"
+                },
+                {
+                    "enunciado": "Dentro de los errores comunes en el proceso de selección de un ERP, ¿cuál de los siguientes NO se menciona en el temario?",
+                    "opciones": [
+                        "Imitación.",
+                        "Delegación.",
+                        "Subjetivismo.",
+                        "Inversión."
+                    ],
+                    "solucion": "Inversión."
+                },
+                {
+                    "enunciado": "¿Cuál es la primera fase en el proceso de selección de un ERP según el temario?",
+                    "opciones": [
+                        "Recopilación de información.",
+                        "Solicitud de propuestas y presupuestos.",
+                        "Creación de un comité de selección.",
+                        "Valoración de las soluciones disponibles."
+                    ],
+                    "solucion": "Creación de un comité de selección."
+                },
+                {
+                    "enunciado": "Para elegir un proveedor de ERP adecuado, ¿cuál de los siguientes criterios no se considera relevante según el temario?",
+                    "opciones": [
+                        "Trayectoria y experiencia en el mercado.",
+                        "Proximidad geográfica de distribuidores y consultores.",
+                        "Proceso de implantación planificado y claro.",
+                        "Diseño gráfico y color corporativo del proveedor."
+                    ],
+                    "solucion": "Diseño gráfico y color corporativo del proveedor."
+                },
+                {
+                    "enunciado": "¿Qué atributo se clasifica como tecnológico y no funcional en la selección de un ERP?",
+                    "opciones": [
+                        "Flexibilidad para reflejar la estructura organizativa de la empresa.",
+                        "Escalabilidad para crecer junto con el negocio.",
+                        "Arquitectura multicapa que facilita actualizaciones y ampliaciones.",
+                        "Facilidad de uso a través de una interfaz intuitiva."
+                    ],
+                    "solucion": "Arquitectura multicapa que facilita actualizaciones y ampliaciones."
+                },
+                {
+                    "enunciado": "En el proceso de implantación de un ERP, ¿cuál es la fase que sigue inmediatamente después del análisis de necesidades?",
+                    "opciones": [
+                        "Desarrollo del ERP para adaptar la solución a la operativa de la empresa.",
+                        "Implantación del software en la infraestructura de la compañía.",
+                        "Mantenimiento y evaluación post-implantación.",
+                        "Recopilación de información adicional para ajustes futuros."
+                    ],
+                    "solucion": "Desarrollo del ERP para adaptar la solución a la operativa de la empresa."
+                },
+                {
+                    "enunciado": "Según el temario, ¿qué tipo de ERP presenta el plazo de implantación más corto?",
+                    "opciones": [
+                        "ERP a medida.",
+                        "ERP paquetizado y generalista.",
+                        "ERP paquetizado y verticalizado.",
+                        "ERP mediante modelos híbridos de implantación."
+                    ],
+                    "solucion": "ERP paquetizado y verticalizado."
+                },
+                {
+                    "enunciado": "En términos de mantenimiento y ampliación de un ERP, ¿cuál de los siguientes aspectos no se destaca como fundamental en el temario?",
+                    "opciones": [
+                        "Contrato de mantenimiento adecuado que garantice la rápida resolución de incidencias.",
+                        "Actualizaciones periódicas para incorporar nuevas funcionalidades y adaptarse a cambios legales.",
+                        "Estrategia de marketing digital del proveedor para mejorar la imagen del software.",
+                        "Adaptación del ERP al crecimiento empresarial mediante nuevas versiones y módulos."
+                    ],
+                    "solucion": "Estrategia de marketing digital del proveedor para mejorar la imagen del software."
+                },
+                {
+                    "enunciado": "Al negociar un contrato ERP, ¿cuál de estas consideraciones es esencial para proteger los intereses de la empresa cliente?",
+                    "opciones": [
+                        "Fijar un precio sin revisar cláusulas técnicas o de servicio.",
+                        "Exigir acceso al código fuente del ERP para facilitar adaptaciones futuras.",
+                        "Confiar únicamente en la reputación del proveedor sin solicitar documentación detallada.",
+                        "Postergar la definición de objetivos medibles hasta después de la implantación."
+                    ],
+                    "solucion": "Exigir acceso al código fuente del ERP para facilitar adaptaciones futuras."
+                },
+                {
+                    "enunciado": "Sobre el modelo SAAS aplicado a ERP, ¿cuál de las siguientes afirmaciones es correcta según el temario?",
+                    "opciones": [
+                        "Requiere que el ERP se instale localmente en la infraestructura de la empresa.",
+                        "Permite el acceso remoto a través de Internet y se actualiza de forma automática, reduciendo la complejidad de la implantación.",
+                        "Implica una implantación prolongada y procesos de configuración complejos desde cero.",
+                        "El coste mensual supera significativamente al de la compra de licencias tradicionales."
+                    ],
+                    "solucion": "Permite el acceso remoto a través de Internet y se actualiza de forma automática, reduciendo la complejidad de la implantación."
+                },
+                {
+                    "enunciado": "Dentro de las 12 Reglas de Oro del ERP mencionadas en el temario, ¿cuál de las siguientes opciones no forma parte de dichas reglas?",
+                    "opciones": [
+                        "No espere demasiado para implantar el ERP.",
+                        "Defina claramente sus objetivos.",
+                        "Implante un ERP a medida sin contemplar soluciones paquetizadas.",
+                        "Involucre al personal en todo el proceso de implantación."
+                    ],
+                    "solucion": "Implante un ERP a medida sin contemplar soluciones paquetizadas."
+                },
+                {
+                    "enunciado": "Respecto a los costes internos de la implantación de un ERP, ¿cuál es la afirmación correcta según el temario?",
+                    "opciones": [
+                        "La dedicación de los empleados representa aproximadamente el 20% de los costes internos.",
+                        "La formación y adaptación del ERP en la empresa supone alrededor del 20% de los costes internos, mientras que la dedicación del personal se sitúa en torno al 80%.",
+                        "Los costes internos son menores que los externos y se pueden despreciar en el cálculo total.",
+                        "La inversión en infraestructura interna es el principal coste interno en la implantación de un ERP."
+                    ],
+                    "solucion": "La formación y adaptación del ERP en la empresa supone alrededor del 20% de los costes internos, mientras que la dedicación del personal se sitúa en torno al 80%."
+                },
+                {
+                    "enunciado": "De los errores comunes en el proceso de selección de un ERP, ¿cuál se refiere a delegar la decisión en el proveedor sin evaluar otras alternativas?",
+                    "opciones": [
+                        "Delegación.",
+                        "Imitación.",
+                        "Subjetivismo.",
+                        "Postergación."
+                    ],
+                    "solucion": "Delegación."
+                },
+                {
+                    "enunciado": "Durante la fase de recopilación de información en la selección de un ERP, ¿qué actividad es fundamental según el temario?",
+                    "opciones": [
+                        "Consultar al proveedor habitual y revisar publicaciones especializadas.",
+                        "Realizar pruebas piloto sin consultar a proveedores.",
+                        "Elegir el ERP más popular sin investigar.",
+                        "Decidir basándose únicamente en el precio."
+                    ],
+                    "solucion": "Consultar al proveedor habitual y revisar publicaciones especializadas."
+                },
+                {
+                    "enunciado": "Al evaluar a un proveedor de ERP, ¿cuál de los siguientes elementos se relaciona con su evolución tecnológica y financiera?",
+                    "opciones": [
+                        "La existencia de un departamento de I+D+i, solidez financiera y planes futuros de evolución.",
+                        "La ubicación de la sede del proveedor.",
+                        "El diseño de su logotipo y campañas publicitarias.",
+                        "El número de empleados en marketing."
+                    ],
+                    "solucion": "La existencia de un departamento de I+D+i, solidez financiera y planes futuros de evolución."
+                },
+                {
+                    "enunciado": "¿Cuál de los siguientes atributos funcionales es esencial para asegurar que un ERP se adapte a la estructura y procesos de una empresa?",
+                    "opciones": [
+                        "La capacidad de ser personalizable y flexible.",
+                        "El uso exclusivo de tecnologías de última generación sin personalización.",
+                        "Una interfaz gráfica decorativa, sin énfasis en la adaptabilidad.",
+                        "La integración de funciones de redes sociales en cada módulo."
+                    ],
+                    "solucion": "La capacidad de ser personalizable y flexible."
+                },
+                {
+                    "enunciado": "Según el temario, ¿cuál de las siguientes es una clave principal para el éxito en la implantación de un ERP?",
+                    "opciones": [
+                        "Implicar al personal y asegurar una formación adecuada.",
+                        "Reducir la inversión en consultoría para ahorrar costes.",
+                        "Seleccionar el ERP basándose únicamente en su popularidad.",
+                        "Optar por una solución sin personalización para acelerar la implementación."
+                    ],
+                    "solucion": "Implicar al personal y asegurar una formación adecuada."
+                },
+                {
+                    "enunciado": "En el proceso de implantación de un ERP, ¿qué fase se encarga de ajustar la solución a las necesidades específicas de la empresa a través de personalizaciones o integraciones?",
+                    "opciones": [
+                        "Desarrollo.",
+                        "Implantación.",
+                        "Análisis.",
+                        "Mantenimiento."
+                    ],
+                    "solucion": "Desarrollo."
+                },
+                {
+                    "enunciado": "Durante la fase de implantación de un ERP, ¿por qué es crucial la formación del personal según el temario?",
+                    "opciones": [
+                        "Para garantizar el correcto uso del sistema y facilitar la adaptación a nuevos procesos.",
+                        "Para reducir el coste inicial del software.",
+                        "Para minimizar la necesidad de actualizaciones futuras.",
+                        "Para evitar la fase de desarrollo del ERP."
+                    ],
+                    "solucion": "Para garantizar el correcto uso del sistema y facilitar la adaptación a nuevos procesos."
+                },
+                {
+                    "enunciado": "En la negociación de un contrato ERP, ¿cuál de estas recomendaciones es esencial para proteger los intereses de la empresa?",
+                    "opciones": [
+                        "Revisar el contrato con asesoramiento jurídico y negociar cláusulas de servicio y objetivos medibles.",
+                        "Firmar el contrato de inmediato sin consultar a expertos.",
+                        "Enfocarse únicamente en el precio del software.",
+                        "Renunciar a negociar plazos de instalación para acelerar el proceso."
+                    ],
+                    "solucion": "Revisar el contrato con asesoramiento jurídico y negociar cláusulas de servicio y objetivos medibles."
+                },
+                {
+                    "enunciado": "Al comparar el modelo SAAS con la compra tradicional de ERP, ¿cuál es una ventaja determinante del modelo SAAS?",
+                    "opciones": [
+                        "La posibilidad de acceder al ERP desde cualquier lugar a través de Internet.",
+                        "La eliminación total de costes mensuales.",
+                        "La dependencia de una infraestructura interna compleja.",
+                        "La ausencia de actualizaciones automáticas."
+                    ],
+                    "solucion": "La posibilidad de acceder al ERP desde cualquier lugar a través de Internet."
+                },
+                {
+                    "enunciado": "Respecto a la selección e implantación de un ERP, ¿cuál es el enfoque recomendado para garantizar el éxito según el temario?",
+                    "opciones": [
+                        "Adoptar un enfoque integral que combine una correcta selección, adaptación, formación continua y un contrato bien negociado.",
+                        "Elegir la opción más popular sin realizar análisis previo.",
+                        "Reducir al mínimo la personalización para disminuir tiempos de implantación.",
+                        "Priorizar únicamente el coste inicial sobre la calidad del ERP."
+                    ],
+                    "solucion": "Adoptar un enfoque integral que combine una correcta selección, adaptación, formación continua y un contrato bien negociado."
+                }
+            ]
+        }
+    }
+}
